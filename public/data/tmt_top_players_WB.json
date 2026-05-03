@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Mighty Mutanimals",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/d/5dd5369c-174c-450b-b776-553866787f8f.jpg?1771502533",
+    "avg_pick": 2.69,
+    "win_rate": 0.6602
+  },
+  {
+    "name": "Lita, Little Orphan Amphibian",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/f/9fbaabb5-e981-4cbf-888c-46449412711f.jpg?1771424706",
+    "avg_pick": 3.28,
+    "win_rate": 0.6374
+  },
+  {
+    "name": "Dream Beavers",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/0/600e3bc1-9777-4057-a11e-4f61582636c6.jpg?1771586853",
+    "avg_pick": 3.42,
+    "win_rate": 0.6589
+  },
+  {
+    "name": "Dimensional Exile",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/e/be8d96fb-a1be-4fff-b844-e38d185884e1.jpg?1771342164",
+    "avg_pick": 3.45,
+    "win_rate": 0.6298
+  },
+  {
+    "name": "Shredder's Technique",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/9/99a24349-7d11-421b-a161-c1edbb8f53b1.jpg?1771342367",
+    "avg_pick": 3.56,
+    "win_rate": 0.6276
+  },
+  {
+    "name": "The Last Ronin's Technique",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/f/dfb18239-d373-4795-8598-c82abae2cb62.jpg?1771342217",
+    "avg_pick": 3.78,
+    "win_rate": 0.6378
+  },
+  {
+    "name": "Death in the Family",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/e/2e4f2148-d398-4f3d-9c59-81c87b6a4588.jpg?1771586845",
+    "avg_pick": 3.98,
+    "win_rate": 0.6297
+  },
+  {
+    "name": "Karai, Future of the Foot",
+    "color": "WB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/d/0dded2d4-1640-4431-809e-403b51b27db6.jpg?1771342417",
+    "avg_pick": 3.99,
+    "win_rate": 0.6339
+  },
+  {
+    "name": "Tainted Treats",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/a/fa684608-ecd3-43e2-99a1-71318f133e29.jpg?1771587064",
+    "avg_pick": 3.99,
+    "win_rate": null
+  },
+  {
+    "name": "Leonardo, Leader in Blue",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/6/d6eaae35-d513-43d8-be2d-b97c15e25937.jpg?1771502519",
+    "avg_pick": 4.0,
+    "win_rate": 0.652
+  },
+  {
+    "name": "Splinter, Hamato Yoshi",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/e/9ea9d072-aa98-405e-a475-26f93cc37e53.jpg?1771586909",
+    "avg_pick": 4.14,
+    "win_rate": 0.6388
+  },
+  {
+    "name": "Koya, Death from Above",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/a/7a4f1ccc-2225-4cd0-abef-0eb7a8eae9cf.jpg?1771586885",
+    "avg_pick": 4.15,
+    "win_rate": 0.6351
+  },
+  {
+    "name": "Anchovy & Banana Pizza",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/4/44443ad2-ef8c-4106-ba1b-ee3fb6fd8b17.jpg?1771586832",
+    "avg_pick": 4.47,
+    "win_rate": 0.6239
+  },
+  {
+    "name": "Pizza Face, Gastromancer",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/0/b03cf0bb-3207-4e8e-bb3f-e3e4367aa86e.jpg?1771599896",
+    "avg_pick": 4.48,
+    "win_rate": null
+  },
+  {
+    "name": "Karai's Technique",
+    "color": "WB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/3/037fe188-3355-4724-b2eb-e2448fc55607.jpg?1771587021",
+    "avg_pick": 4.52,
+    "win_rate": 0.633
+  },
+  {
+    "name": "Lord Dregg, Insect Invader",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/d/8d1a9c8a-d0b6-4d83-a168-8078de4b14c7.jpg?1771586872",
+    "avg_pick": 4.82,
+    "win_rate": 0.6321
+  },
+  {
+    "name": "Everything Pizza",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/f/df2cdaa5-9ea0-4aa5-89d3-9edf40fa2a39.jpg?1771476702",
+    "avg_pick": 4.94,
+    "win_rate": null
+  },
+  {
+    "name": "Mechanized Ninja Cavalry",
+    "color": "WR",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/c/2cb65388-dc6c-4e2a-93ac-49ea484849e9.jpg?1771502774",
+    "avg_pick": 5.36,
+    "win_rate": 0.6386
+  },
+  {
+    "name": "Shredder, Unrelenting",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/8/88a48867-5c65-483c-92b0-f70c53ea2a9e.jpg?1771502616",
+    "avg_pick": 5.42,
+    "win_rate": 0.6281
+  },
+  {
+    "name": "Featherbrained Filcher",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/8/78c55706-4d00-4b97-965c-0b2d0963e59d.jpg?1771513766",
+    "avg_pick": 5.8,
+    "win_rate": 0.63
+  },
+  {
+    "name": "Quintessential Katana",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/f/ef9e227e-c581-479c-a962-2f191352b07f.jpg?1771502541",
+    "avg_pick": 5.92,
+    "win_rate": 0.6302
+  },
+  {
+    "name": "Stomped by the Foot",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/f/3fdec16f-77f5-4792-9698-b9099a204028.jpg?1771586922",
+    "avg_pick": 5.94,
+    "win_rate": 0.6237
+  },
+  {
+    "name": "April O'Neil, Kunoichi Trainee",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/b/8b1982ea-686b-4acd-b677-47571430efb0.jpg?1771586740",
+    "avg_pick": 5.99,
+    "win_rate": 0.633
+  },
+  {
+    "name": "Uneasy Alliance",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/d/5d9a4f9a-1e3a-4de8-a7c0-7158c6703b4e.jpg?1771586776",
+    "avg_pick": 6.0,
+    "win_rate": 0.6337
+  },
+  {
+    "name": "Turtle Blimp",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/e/6e118fc5-b0ae-4592-8292-d611856ae203.jpg?1771587078",
+    "avg_pick": 6.16,
+    "win_rate": 0.6436
+  },
+  {
+    "name": "The Neutrinos",
+    "color": "WR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/3/1308dadc-08a9-40bd-98a4-fb66d792e27d.jpg?1771587028",
+    "avg_pick": 6.26,
+    "win_rate": null
+  },
+  {
+    "name": "Oroku Saki, Shredder Rising",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/6/e65ff1f4-a061-4c31-a78e-92af6e7bc56f.jpg?1771586878",
+    "avg_pick": 6.38,
+    "win_rate": 0.6345
+  },
+  {
+    "name": "Escape Tunnel",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/d/5df90940-15ea-418c-8547-6c75d69ec6d3.jpg?1771424732",
+    "avg_pick": 6.92,
+    "win_rate": 0.6195
+  },
+  {
+    "name": "Squirrelanoids",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/e/be08d2b0-375b-434f-9e6d-060809e0ed34.jpg?1771586916",
+    "avg_pick": 6.96,
+    "win_rate": 0.6296
+  },
+  {
+    "name": "Henchbots",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/7/d77aa46e-fa57-4427-b0a3-0a957dc994dc.jpg?1771502803",
+    "avg_pick": 7.17,
+    "win_rate": null
+  },
+  {
+    "name": "Leonardo, Big Brother",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/8/e802838f-cc8c-4313-8c3b-32a6a7248e64.jpg?1771502512",
+    "avg_pick": 7.32,
+    "win_rate": 0.6221
+  },
+  {
+    "name": "Grounded for Life",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/2/72388199-85fa-4eba-9a9c-c2904e6da9ed.jpg?1771502482",
+    "avg_pick": 7.72,
+    "win_rate": 0.6269
+  },
+  {
+    "name": "Omni-Cheese Pizza",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/2/f2c8397c-2014-4a43-9ed7-41795880011f.jpg?1771587071",
+    "avg_pick": 7.76,
+    "win_rate": 0.5799
+  },
+  {
+    "name": "Turtle Lair",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/5/c50c4580-979b-4863-86b9-16e258198972.jpg?1771424738",
+    "avg_pick": 7.89,
+    "win_rate": 0.6306
+  },
+  {
+    "name": "Illegitimate Business",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/1/71597acf-1ce6-46a8-b6c0-88755c8a377c.jpg?1771587098",
+    "avg_pick": 7.97,
+    "win_rate": null
+  },
+  {
+    "name": "Foot Ninjas",
+    "color": "WB",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/b/abb1ab9c-b067-4b75-8e5b-a893b7948df1.jpg?1771503783",
+    "avg_pick": 8.05,
+    "win_rate": 0.6178
+  },
+  {
+    "name": "Ice Cream Kitty",
+    "color": "BG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/66081fd3-2457-4602-96c4-3075ddfec1c2.jpg?1771587014",
+    "avg_pick": 8.37,
+    "win_rate": 0.592
+  },
+  {
+    "name": "Foot Headquarters",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/5/45e68113-3f05-4547-947d-4cb9ebfa73c7.jpg?1771587092",
+    "avg_pick": 8.4,
+    "win_rate": 0.634
+  },
+  {
+    "name": "Jennika, Bad Apple Big Sister",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a5b83101-e3ef-4ffe-a886-4fc2b57a0947.jpg?1771502505",
+    "avg_pick": 8.76,
+    "win_rate": 0.6244
+  },
+  {
+    "name": "Action News Crew",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/c/bc0f5ca8-47bd-4451-8fd1-a312ff7d31ec.jpg?1771342158",
+    "avg_pick": 8.82,
+    "win_rate": 0.6178
+  },
+  {
+    "name": "Paramecia Coloniex",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/5/654e2646-78ac-4b08-bed1-3c71355d55fc.jpg?1771586897",
+    "avg_pick": 8.9,
+    "win_rate": 0.599
+  },
+  {
+    "name": "EPF Point Squad",
+    "color": "WR",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/a/faab52c0-ce79-40af-a156-b193a62d439e.jpg?1771502756",
+    "avg_pick": 9.21,
+    "win_rate": 0.6063
+  },
+  {
+    "name": "Foot Elite",
+    "color": "WB",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/4/24bd571e-652a-4e7c-afc6-a45f0ccf62f6.jpg?1771342404",
+    "avg_pick": 9.24,
+    "win_rate": 0.6038
+  },
+  {
+    "name": "Dimension X",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1c244fc2-70f0-4149-b0d2-d49fc6bac2b0.jpg?1771587085",
+    "avg_pick": 9.25,
+    "win_rate": null
+  },
+  {
+    "name": "High-Flying Ace",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e927eb0b-1c69-421a-8acd-01e92f729ffb.jpg?1771502498",
+    "avg_pick": 9.37,
+    "win_rate": 0.6176
+  },
+  {
+    "name": "Make Your Move",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/d/ed8bdd98-6377-40cf-b381-cee38b1bda2a.jpg?1771502526",
+    "avg_pick": 9.46,
+    "win_rate": 0.6262
+  },
+  {
+    "name": "Skateboard",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/e/deadb6d8-3eea-4261-a07c-8536df89e85c.jpg?1771502813",
+    "avg_pick": 9.75,
+    "win_rate": null
+  },
+  {
+    "name": "Tunnel Rats",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/70faf7d8-008a-454a-a21b-702aa661b8f9.jpg?1771586928",
+    "avg_pick": 10.22,
+    "win_rate": 0.5964
+  },
+  {
+    "name": "East Wind Avatar",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c9d5b56c-ad2a-4958-8783-4eceb8733610.jpg?1771502461",
+    "avg_pick": 10.41,
+    "win_rate": 0.6182
+  },
+  {
+    "name": "Shredder's Revenge",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/2/72fadf47-2e0b-4b24-b1bc-7c86780716b6.jpg?1771342364",
+    "avg_pick": 10.67,
+    "win_rate": 0.6116
+  },
+  {
+    "name": "Bebop, Warthog Warrior",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/7/371ba16d-73f7-450c-8b1f-c05012a4ca93.jpg?1771586838",
+    "avg_pick": 10.93,
+    "win_rate": 0.5661
+  },
+  {
+    "name": "Putrid Pals",
+    "color": "BG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/2/42cdb88d-675a-43bb-b85c-51c4cc526315.jpg?1771587057",
+    "avg_pick": 10.97,
+    "win_rate": null
+  },
+  {
+    "name": "Pain 101",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/1/a1c70bf2-b2bd-4585-ba50-304f4dad8e62.jpg?1771586891",
+    "avg_pick": 11.05,
+    "win_rate": 0.6218
+  },
+  {
+    "name": "Insectoid Exterminator",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/f/ff26f7ff-7f70-4204-9b48-de9e21dc89ec.jpg?1771586866",
+    "avg_pick": 11.13,
+    "win_rate": 0.6019
+  },
+  {
+    "name": "Hamato Guardian Stance",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/735b540b-b472-46fa-a232-d444cabf6c4c.jpg?1771502490",
+    "avg_pick": 11.18,
+    "win_rate": 0.621
+  },
+  {
+    "name": "Shredder's Armor",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/2/d2cbe512-725f-4884-ac49-a98a78e7d14e.jpg?1771586903",
+    "avg_pick": 11.18,
+    "win_rate": null
+  },
+  {
+    "name": "Foot Mystic",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/1/61e40a18-6cc8-436d-826b-1cf8cd037df3.jpg?1771586860",
+    "avg_pick": 11.29,
+    "win_rate": 0.5626
+  }
+]

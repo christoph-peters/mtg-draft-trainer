@@ -13,7 +13,7 @@ const LivesCounter = ({ lives }) => {
             filter: heart <= lives ? 'drop-shadow(0 0 5px rgba(239,68,68,0.5))' : 'none'
           }}
         >
-          ❤️
+          🎲
         </span>
       ))}
     </div>

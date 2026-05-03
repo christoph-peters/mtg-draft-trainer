@@ -40,22 +40,68 @@ const GameScreen = () => {
   useEffect(() => {
     setGameState('loading');
     const mode = getGuildFromColors(selectedColors);
-    const filename = mode === 'Overall' ? `${activeSet.toLowerCase()}_top_players.json` : `${activeSet.toLowerCase()}_top_players_${mode}.json`;
     const baseUrl = import.meta.env.BASE_URL || '/';
     
-    fetch(`${baseUrl}data/${filename}`)
-      .then(res => res.json())
-      .then(data => {
-        setCards(data);
-        setScore(0);
-        setLives(3);
-        pickNewPair(data, selectedColors);
-        setGameState('playing');
-      })
-      .catch(err => {
-        console.error("Failed to load card data", err);
-        setGameState('error');
+    if (selectedColors.length >= 3) {
+      // For 3+ colors, load multiple 2-color guild files
+      const colorCombos = [];
+      for (let i = 0; i < selectedColors.length; i++) {
+        for (let j = i + 1; j < selectedColors.length; j++) {
+          colorCombos.push(selectedColors[i] + selectedColors[j]);
+        }
+      }
+      
+      const fetchPromises = colorCombos.map(combo => {
+        const filename = `${activeSet.toLowerCase()}_top_players_${combo}.json`;
+        return fetch(`${baseUrl}data/${filename}`)
+          .then(res => res.json())
+          .catch(err => {
+            console.warn(`Failed to load ${filename}, skipping`, err);
+            return [];
+          });
       });
+      
+      Promise.all(fetchPromises)
+        .then(dataArrays => {
+          // Combine all data and deduplicate by card name
+          const combinedData = [];
+          const seenNames = new Set();
+          
+          dataArrays.flat().forEach(card => {
+            if (!seenNames.has(card.name)) {
+              seenNames.add(card.name);
+              combinedData.push(card);
+            }
+          });
+          
+          setCards(combinedData);
+          setScore(0);
+          setLives(3);
+          pickNewPair(combinedData, selectedColors);
+          setGameState('playing');
+        })
+        .catch(err => {
+          console.error("Failed to load multi-color data", err);
+          setGameState('error');
+        });
+    } else {
+      // For 0-2 colors, use existing logic
+      const filename = mode === 'Overall' ? `${activeSet.toLowerCase()}_top_players.json` : `${activeSet.toLowerCase()}_top_players_${mode}.json`;
+      
+      fetch(`${baseUrl}data/${filename}`)
+        .then(res => res.json())
+        .then(data => {
+          setCards(data);
+          setScore(0);
+          setLives(3);
+          pickNewPair(data, selectedColors);
+          setGameState('playing');
+        })
+        .catch(err => {
+          console.error("Failed to load card data", err);
+          setGameState('error');
+        });
+    }
   }, [activeSet, selectedColors]);
 
   const pickNewPair = (cardData, currentColors) => {
@@ -179,7 +225,7 @@ const GameScreen = () => {
         />
         
         <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-          Data Source: <strong>{currentMode === 'Overall' ? 'Overall' : currentMode}</strong>
+          Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? selectedColors.sort().join('') : currentMode}</strong>
         </div>
 
       </div>

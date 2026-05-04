@@ -15,7 +15,6 @@ const SETS = [
   { id: 'FIN', name: 'Final Fantasy (2025)' },
   { id: 'TDM', name: 'Tarkir: Dragonstorm (2025)' },
   { id: 'DFT', name: 'Aetherdrift (2025)' },
-  { id: 'INR', name: 'Innistrad Remastered (2025)' },
   { id: 'FDN', name: 'Foundations (2024)' },
   { id: 'DSK', name: 'Duskmourn: House of Horror (2024)' },
   { id: 'BLB', name: 'Bloomburrow (2024)' },

@@ -145,7 +145,8 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
     }
 
     // Filter cards to only include on-color and colorless cards for the selected colors
-    const validCards = cardData.filter(card => {
+    let validCards = cardData.filter(card => {
+      // 1. Basic Land Filter
       if (!card.color || card.color === "") return true;
       if (currentColors.length === 0) return true;
       for (let i = 0; i < card.color.length; i++) {
@@ -153,6 +154,18 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
       }
       return true;
     });
+
+    // 2. Value Mode Filters (Commons/Uncommons)
+    if (gameMode === 'value') {
+      validCards = validCards.filter(card => {
+        const rarity = (card.rarity || '').toLowerCase();
+        const price = card.price || 0;
+        
+        if (rarity === 'common') return false; // Hide all commons
+        if (rarity === 'uncommon' && price < 1.00) return false; // Hide cheap uncommons
+        return true; // Keep everything else (rares, mythics, etc)
+      });
+    }
 
     if (validCards.length < 2) {
       setGameState('error');

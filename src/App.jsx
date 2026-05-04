@@ -31,7 +31,7 @@ function App() {
     localStorage.setItem('mtg_game_mode', next);
   };
 
-  const currentLayout = LAYOUTS.find(l => l.id === layout);
+  const currentLayout = LAYOUTS.find(l => l.id === layout) || LAYOUTS[0];
 
   return (
     <div className="app-container">
@@ -60,7 +60,7 @@ function App() {
         <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
         <button
           onClick={cycleLayout}
-          title={`Layout: ${currentLayout.desc}. Click to switch.`}
+          title={`Layout: ${currentLayout?.desc || 'Select layout'}. Click to switch.`}
           style={{
             position: 'absolute',
             right: 0,

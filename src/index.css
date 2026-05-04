@@ -190,7 +190,7 @@ h1 {
   padding: 4px 0;
 }
 
-/* On wider screens: side-by-side */
+/* On wider screens: side-by-side (default "stack" mode) */
 @media (min-width: 600px) {
   .card-pair {
     flex-direction: row;
@@ -207,4 +207,56 @@ h1 {
     align-items: center;
     padding: 0;
   }
+}
+
+/* ── Layout modifier: SIDE ──────────────────────────────
+   Always side-by-side, even on mobile. Cards are smaller
+   but both visible without scrolling. */
+.card-pair--side {
+  flex-direction: row !important;
+  align-items: stretch;
+}
+
+.card-pair--side .card-wrapper {
+  flex: 1;
+  max-width: none;
+}
+
+.card-pair--side .vs-divider {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+/* ── Layout modifier: SPLIT ─────────────────────────────
+   Each card occupies half the viewport height — both
+   cards visible at once, no scrolling, full width. */
+.card-pair--split {
+  flex-direction: column !important;
+  align-items: stretch;
+  height: calc(100svh - 320px); /* subtract header + controls */
+  min-height: 400px;
+}
+
+.card-pair--split .card-wrapper {
+  flex: 1;
+  width: 100%;
+  max-width: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-pair--split .card-wrapper img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-pair--split .vs-divider {
+  flex: 0 0 auto;
+  padding: 2px 0;
+  font-size: 14px;
 }

@@ -36,7 +36,7 @@ const getGuildFromColors = (colors) => {
   return 'Overall';
 };
 
-const GameScreen = () => {
+const GameScreen = ({ layout = 'stack' }) => {
   const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   
@@ -310,7 +310,7 @@ const GameScreen = () => {
             <LivesCounter lives={lives} />
           </div>
           
-          <div className="card-pair">
+          <div className={`card-pair card-pair--${layout}`}>
             <div className="card-wrapper">
               <CardButton 
                 card={currentPair[0]} 

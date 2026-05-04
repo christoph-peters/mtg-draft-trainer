@@ -7,6 +7,12 @@ const LAYOUTS = [
   { id: 'wide',  label: 'Wide',  icon: '↔', desc: 'Side-by-side (max width)' },
 ];
 
+const MODES = [
+  { id: 'draft', label: 'Draft', icon: '🏆', subtitle: 'Pick the card drafted earlier by Top Players' },
+  { id: 'value', label: 'Value', icon: '💰', subtitle: 'Pick the card with higher market value (>$1)' },
+  { id: 'winrate', label: 'Win Rate', icon: '📈', subtitle: 'Pick the card with higher Games-In-Hand Win Rate' },
+];
+
 function App() {
   const [layout, setLayout] = useState(
     () => {
@@ -25,20 +31,22 @@ function App() {
     localStorage.setItem('mtg_layout', next.id);
   };
 
-  const toggleGameMode = () => {
-    const next = gameMode === 'draft' ? 'value' : 'draft';
-    setGameMode(next);
-    localStorage.setItem('mtg_game_mode', next);
+  const cycleGameMode = () => {
+    const idx = MODES.findIndex(m => m.id === gameMode);
+    const next = MODES[(idx + 1) % MODES.length];
+    setGameMode(next.id);
+    localStorage.setItem('mtg_game_mode', next.id);
   };
 
   const currentLayout = LAYOUTS.find(l => l.id === layout) || LAYOUTS[0];
+  const currentMode = MODES.find(m => m.id === gameMode) || MODES[0];
 
   return (
     <div className="app-container">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', marginBottom: '4px' }}>
         <button
-          onClick={toggleGameMode}
-          title={`Switch to ${gameMode === 'draft' ? 'Value' : 'Draft'} mode`}
+          onClick={cycleGameMode}
+          title={`Mode: ${currentMode.label}. Click to switch.`}
           style={{
             position: 'absolute',
             left: 0,
@@ -51,10 +59,14 @@ function App() {
             fontWeight: 700,
             padding: '6px 10px',
             textTransform: 'uppercase',
-            letterSpacing: '0.5px'
+            letterSpacing: '0.5px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '6px'
           }}
         >
-          {gameMode === 'draft' ? '🏆 Draft' : '💰 Value'}
+          <span>{currentMode.icon}</span>
+          <span className="hide-mobile">{currentMode.label}</span>
         </button>
 
         <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
@@ -87,11 +99,7 @@ function App() {
           <span>{currentLayout.label}</span>
         </button>
       </div>
-      <p className="subtitle">
-        {gameMode === 'draft' 
-          ? 'Pick the card drafted earlier by Top Players' 
-          : 'Pick the card with higher secondary market value'}
-      </p>
+      <p className="subtitle">{currentMode.subtitle}</p>
       <GameScreen layout={layout} gameMode={gameMode} />
     </div>
   );

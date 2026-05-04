@@ -31,6 +31,16 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType
           </span>
         </>
       );
+    } else if (resultType === 'winrate') {
+      const wr = (card.win_rate || 0) * 100;
+      return (
+        <>
+          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>WR:</span>
+          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
+            {wr.toFixed(1)}%
+          </span>
+        </>
+      );
     } else {
       const price = card.price || 0;
       const isBulk = price < 1.00;

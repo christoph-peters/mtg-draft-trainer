@@ -273,6 +273,24 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
         success = false;
         setResultMsg('Incorrect! Worth less.');
       }
+    } else if (gameMode === 'winrate') {
+      // Win Rate Logic
+      const wr1 = selectedCard.win_rate || 0;
+      const wr2 = otherCard.win_rate || 0;
+      
+      const diff = wr1 - wr2;
+      const isTie = Math.abs(diff) <= 0.005; // 0.5% tie threshold
+      
+      if (isTie) {
+        success = true;
+        setResultMsg('Close enough! (Tie)');
+      } else if (wr1 >= wr2) {
+        success = true;
+        setResultMsg('Correct! Higher win rate.');
+      } else {
+        success = false;
+        setResultMsg('Incorrect! Lower win rate.');
+      }
     }
     
     setTimeout(() => {
@@ -321,7 +339,7 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
           </select>
         </div>
 
-        {gameMode === 'draft' && (
+        {(gameMode === 'draft' || gameMode === 'winrate') && (
           <>
             <ManaSelector 
               selectedColors={selectedColors} 
@@ -373,10 +391,12 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
                 isCorrect={
                   gameMode === 'draft' 
                     ? (Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 || currentPair[0].avg_pick <= currentPair[1].avg_pick)
+                    : gameMode === 'winrate'
+                    ? (Math.abs((currentPair[0].win_rate || 0) - (currentPair[1].win_rate || 0)) <= 0.005 || (currentPair[0].win_rate || 0) >= (currentPair[1].win_rate || 0))
                     : (currentPair[0].price >= 1.0 || currentPair[1].price < 1.0) && (currentPair[0].price >= currentPair[1].price || (currentPair[0].price < 1 && currentPair[1].price < 1))
                 }
                 showResult={gameState === 'result'}
-                resultType={gameMode === 'draft' ? 'ata' : 'price'}
+                resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}
               />
             </div>
             
@@ -390,10 +410,12 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
                 isCorrect={
                   gameMode === 'draft'
                     ? (Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 || currentPair[1].avg_pick <= currentPair[0].avg_pick)
+                    : gameMode === 'winrate'
+                    ? (Math.abs((currentPair[1].win_rate || 0) - (currentPair[0].win_rate || 0)) <= 0.005 || (currentPair[1].win_rate || 0) >= (currentPair[0].win_rate || 0))
                     : (currentPair[1].price >= 1.0 || currentPair[0].price < 1.0) && (currentPair[1].price >= currentPair[0].price || (currentPair[1].price < 1 && currentPair[0].price < 1))
                 }
                 showResult={gameState === 'result'}
-                resultType={gameMode === 'draft' ? 'ata' : 'price'}
+                resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}
               />
             </div>
           </div>

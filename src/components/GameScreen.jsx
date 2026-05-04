@@ -4,6 +4,8 @@ import LivesCounter from './LivesCounter';
 import GameOverScreen from './GameOverScreen';
 import ManaSelector from './ManaSelector';
 
+const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest", "Snow-Covered Plains", "Snow-Covered Island", "Snow-Covered Swamp", "Snow-Covered Mountain", "Snow-Covered Forest", "Wastes"]);
+
 // Ordered by release date, newest first
 const SETS = [
   { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },

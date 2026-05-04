@@ -4,13 +4,15 @@ import './index.css';
 
 const LAYOUTS = [
   { id: 'stack', label: 'Stack', icon: '☰', desc: 'Cards stacked vertically' },
-  { id: 'side',  label: 'Side',  icon: '⧉', desc: 'Cards side-by-side' },
   { id: 'wide',  label: 'Wide',  icon: '↔', desc: 'Side-by-side (max width)' },
 ];
 
 function App() {
   const [layout, setLayout] = useState(
-    () => localStorage.getItem('mtg_layout') || 'stack'
+    () => {
+      const saved = localStorage.getItem('mtg_layout');
+      return saved === 'side' ? 'wide' : (saved || 'stack');
+    }
   );
   const [gameMode, setGameMode] = useState(
     () => localStorage.getItem('mtg_game_mode') || 'draft'

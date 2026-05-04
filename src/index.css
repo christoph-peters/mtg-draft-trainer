@@ -62,10 +62,16 @@ h1 {
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--card-radius);
-  padding: 24px;
+  padding: 16px 12px; /* tighter on mobile */
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 600px) {
+  .glass-panel {
+    padding: 24px;
+  }
 }
 
 .btn-primary {
@@ -161,4 +167,44 @@ h1 {
   border-color: var(--mana-color);
   box-shadow: 0 0 10px var(--mana-color);
   transform: scale(1.1);
+}
+
+/* Card Pair Layout — mobile first: stacked vertically */
+.card-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  align-items: center;
+}
+
+.card-pair .card-wrapper {
+  width: 100%;
+  max-width: 340px; /* cap so it doesn't stretch huge on desktop vertical */
+}
+
+.vs-divider {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text-muted);
+  padding: 4px 0;
+}
+
+/* On wider screens: side-by-side */
+@media (min-width: 600px) {
+  .card-pair {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .card-pair .card-wrapper {
+    flex: 1;
+    max-width: none;
+  }
+
+  .vs-divider {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
 }

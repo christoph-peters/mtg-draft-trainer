@@ -310,26 +310,28 @@ const GameScreen = () => {
             <LivesCounter lives={lives} />
           </div>
           
-          <div style={{ display: 'flex', gap: '16px', width: '100%', alignItems: 'stretch' }}>
-            <CardButton 
-              card={currentPair[0]} 
-              onClick={() => handleCardClick(0)}
-              disabled={gameState !== 'playing'}
-              isCorrect={Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 ? true : currentPair[0].avg_pick <= currentPair[1].avg_pick}
-              showResult={gameState === 'result'}
-            />
-            
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', color: 'var(--text-muted)' }}>
-              VS
+          <div className="card-pair">
+            <div className="card-wrapper">
+              <CardButton 
+                card={currentPair[0]} 
+                onClick={() => handleCardClick(0)}
+                disabled={gameState !== 'playing'}
+                isCorrect={Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 ? true : currentPair[0].avg_pick <= currentPair[1].avg_pick}
+                showResult={gameState === 'result'}
+              />
             </div>
+            
+            <div className="vs-divider">VS</div>
 
-            <CardButton 
-              card={currentPair[1]} 
-              onClick={() => handleCardClick(1)}
-              disabled={gameState !== 'playing'}
-              isCorrect={Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 ? true : currentPair[1].avg_pick <= currentPair[0].avg_pick}
-              showResult={gameState === 'result'}
-            />
+            <div className="card-wrapper">
+              <CardButton 
+                card={currentPair[1]} 
+                onClick={() => handleCardClick(1)}
+                disabled={gameState !== 'playing'}
+                isCorrect={Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 ? true : currentPair[1].avg_pick <= currentPair[0].avg_pick}
+                showResult={gameState === 'result'}
+              />
+            </div>
           </div>
           
           {gameState === 'result' && (

@@ -37,7 +37,8 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
         height: '100%',
         maxHeight: '100%',
         outline: 'none',
-        WebkitTapHighlightColor: 'transparent'
+        WebkitTapHighlightColor: 'transparent',
+        position: 'relative'
       }}
     >
       <img 
@@ -59,9 +60,21 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
         }}
       />
       {showResult && (
-        <div className="fade-in" style={{ marginTop: '12px', textAlign: 'center', background: 'rgba(0,0,0,0.5)', padding: '4px 8px', borderRadius: '4px' }}>
-          <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>ATA:</span>
-          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)' }}>
+        <div className="fade-in" style={{ 
+          position: 'absolute',
+          bottom: '-30px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          textAlign: 'center', 
+          background: 'rgba(0,0,0,0.6)', 
+          padding: '4px 10px', 
+          borderRadius: '4px',
+          whiteSpace: 'nowrap',
+          zIndex: 5,
+          border: '1px solid rgba(255,255,255,0.1)'
+        }}>
+          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>ATA:</span>
+          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
             {card.avg_pick.toFixed(2)}
           </span>
         </div>

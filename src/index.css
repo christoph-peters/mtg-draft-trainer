@@ -195,7 +195,7 @@ h1 {
 @media (min-width: 600px) {
   .card-pair {
     flex-direction: row;
-    align-items: stretch;
+    align-items: flex-start;
   }
 
   .card-pair .card-wrapper {
@@ -215,7 +215,7 @@ h1 {
    but both visible without scrolling. */
 .card-pair--side {
   flex-direction: row !important;
-  align-items: stretch;
+  align-items: flex-start !important;
 }
 
 .card-pair--side .card-wrapper {

@@ -36,7 +36,7 @@ body {
   max-width: 600px; /* Mobile first, capped width on desktop */
   margin: 0 auto;
   width: 100%;
-  padding: 8px; /* reduced from 16px */
+  padding: 8px 0; /* zero side padding */
 }
 
 /* Typography */
@@ -62,7 +62,7 @@ h1 {
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--card-radius);
-  padding: 12px 6px; /* further reduced for max width */
+  padding: 12px 0; /* zero side padding */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,8 +234,8 @@ h1 {
    Maximizes card size on small screens. */
 .card-pair--wide {
   flex-direction: row !important;
-  align-items: center;
-  gap: 2px !important; /* tiny gap */
+  align-items: flex-start !important;
+  gap: 0 !important; /* absolute zero gap */
   position: relative;
   width: 100% !important;
   margin: 0 !important;
@@ -243,7 +243,7 @@ h1 {
 
 .card-pair--wide .card-wrapper {
   flex: 1;
-  max-width: calc(50% - 1px);
+  max-width: 50%;
 }
 
 .card-pair--wide .vs-divider {

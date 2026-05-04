@@ -31,21 +31,26 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        flex: 1,
-        maxWidth: '100%'
+        width: '100%',
+        height: '100%',
+        maxHeight: '100%'
       }}
     >
       <img 
         src={card.image_url} 
         alt={card.name} 
         style={{
-          width: '100%',
-          borderRadius: '4.75% / 3.5%', // Typical MTG card corner radius ratio
+          width: 'auto',
+          height: 'auto',
+          maxWidth: '100%',
+          maxHeight: '100%',
+          borderRadius: '4.75% / 3.5%',
           border: borderStyle,
           filter: filterStyle,
           transition: 'all 0.3s ease',
           boxShadow: '0 4px 6px rgba(0,0,0,0.3)',
-          display: 'block'
+          display: 'block',
+          objectFit: 'contain'
         }}
       />
       {showResult && (

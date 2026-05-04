@@ -4,11 +4,23 @@ import LivesCounter from './LivesCounter';
 import GameOverScreen from './GameOverScreen';
 import ManaSelector from './ManaSelector';
 
+// Ordered by release date, newest first
 const SETS = [
-  { id: 'OTJ', name: 'Outlaws of Thunder Junction' },
-  { id: 'SOS', name: 'Secrets of Strixhaven' },
-  { id: 'TMT', name: 'TMNT' },
-  { id: 'ECL', name: 'Lorwyn Eclipsed' }
+  { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
+  { id: 'TMT', name: 'TMNT (2026)' },
+  { id: 'ECL', name: 'Lorwyn Eclipsed (2026)' },
+  { id: 'TLA', name: 'Avatar: The Last Airbender (2025)' },
+  { id: 'SPM', name: "Marvel's Spider-Man (2025)" },
+  { id: 'EOE', name: 'Edge of Eternities (2025)' },
+  { id: 'FIN', name: 'Final Fantasy (2025)' },
+  { id: 'TDM', name: 'Tarkir: Dragonstorm (2025)' },
+  { id: 'DFT', name: 'Aetherdrift (2025)' },
+  { id: 'INR', name: 'Innistrad Remastered (2025)' },
+  { id: 'FDN', name: 'Foundations (2024)' },
+  { id: 'DSK', name: 'Duskmourn: House of Horror (2024)' },
+  { id: 'BLB', name: 'Bloomburrow (2024)' },
+  { id: 'MH3', name: 'Modern Horizons 3 (2024)' },
+  { id: 'OTJ', name: 'Outlaws of Thunder Junction (2024)' }
 ];
 
 const getGuildFromColors = (colors) => {
@@ -25,7 +37,7 @@ const getGuildFromColors = (colors) => {
 };
 
 const GameScreen = () => {
-  const [activeSet, setActiveSet] = useState('OTJ');
+  const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   
   const [cards, setCards] = useState([]);
@@ -35,73 +47,96 @@ const GameScreen = () => {
   const [gameState, setGameState] = useState('loading'); // loading, playing, result, gameover
   const [selectedCardIdx, setSelectedCardIdx] = useState(null);
   const [resultMsg, setResultMsg] = useState('');
+  const [loadWarning, setLoadWarning] = useState('');
+  // Track recently seen card names to avoid immediate repeats
+  const recentlySeenRef = React.useRef(new Set());
 
   // Load data when set or selectedColors (meaning mode) changes
   useEffect(() => {
     setGameState('loading');
+    setLoadWarning('');
     const mode = getGuildFromColors(selectedColors);
     const baseUrl = import.meta.env.BASE_URL || '/';
-    
-    if (selectedColors.length >= 3) {
-      // For 3+ colors, load multiple 2-color guild files
+    const overallFilename = `${activeSet.toLowerCase()}_top_players.json`;
+
+    const fetchJson = async (url) => {
+      const res = await fetch(url);
+      if (!res.ok) {
+        throw new Error(`Failed to fetch ${url}: ${res.status}`);
+      }
+      return res.json();
+    };
+
+    const loadOverall = async () => {
+      const overallUrl = `${baseUrl}data/${overallFilename}`;
+      const data = await fetchJson(overallUrl);
+      setLoadWarning(`Using overall ${activeSet} data because set-specific data was unavailable.`);
+      return data;
+    };
+
+    const loadSingleMode = async () => {
+      const filename = mode === 'Overall' ? overallFilename : `${activeSet.toLowerCase()}_top_players_${mode}.json`;
+      const url = `${baseUrl}data/${filename}`;
+      try {
+        return await fetchJson(url);
+      } catch (err) {
+        console.warn(`Could not load ${filename}; falling back to overall data.`, err);
+        return await loadOverall();
+      }
+    };
+
+    const loadMulticolor = async () => {
       const colorCombos = [];
       for (let i = 0; i < selectedColors.length; i++) {
         for (let j = i + 1; j < selectedColors.length; j++) {
           colorCombos.push(selectedColors[i] + selectedColors[j]);
         }
       }
-      
-      const fetchPromises = colorCombos.map(combo => {
-        const filename = `${activeSet.toLowerCase()}_top_players_${combo}.json`;
-        return fetch(`${baseUrl}data/${filename}`)
-          .then(res => res.json())
-          .catch(err => {
-            console.warn(`Failed to load ${filename}, skipping`, err);
+
+      const dataArrays = await Promise.all(
+        colorCombos.map(async (combo) => {
+          const filename = `${activeSet.toLowerCase()}_top_players_${combo}.json`;
+          const url = `${baseUrl}data/${filename}`;
+          try {
+            return await fetchJson(url);
+          } catch (err) {
+            console.warn(`Failed to load ${filename}; skipping`, err);
             return [];
-          });
+          }
+        })
+      );
+
+      const combinedData = [];
+      const seenNames = new Set();
+      dataArrays.flat().forEach((card) => {
+        if (!card || !card.name) return;
+        if (!seenNames.has(card.name)) {
+          seenNames.add(card.name);
+          combinedData.push(card);
+        }
       });
-      
-      Promise.all(fetchPromises)
-        .then(dataArrays => {
-          // Combine all data and deduplicate by card name
-          const combinedData = [];
-          const seenNames = new Set();
-          
-          dataArrays.flat().forEach(card => {
-            if (!seenNames.has(card.name)) {
-              seenNames.add(card.name);
-              combinedData.push(card);
-            }
-          });
-          
-          setCards(combinedData);
-          setScore(0);
-          setLives(3);
-          pickNewPair(combinedData, selectedColors);
-          setGameState('playing');
-        })
-        .catch(err => {
-          console.error("Failed to load multi-color data", err);
-          setGameState('error');
-        });
-    } else {
-      // For 0-2 colors, use existing logic
-      const filename = mode === 'Overall' ? `${activeSet.toLowerCase()}_top_players.json` : `${activeSet.toLowerCase()}_top_players_${mode}.json`;
-      
-      fetch(`${baseUrl}data/${filename}`)
-        .then(res => res.json())
-        .then(data => {
-          setCards(data);
-          setScore(0);
-          setLives(3);
-          pickNewPair(data, selectedColors);
-          setGameState('playing');
-        })
-        .catch(err => {
-          console.error("Failed to load card data", err);
-          setGameState('error');
-        });
-    }
+
+      if (combinedData.length >= 2) {
+        return combinedData;
+      }
+
+      console.warn('No multi-color archetype files available; falling back to overall data.');
+      return await loadOverall();
+    };
+
+    (async () => {
+      try {
+        const data = selectedColors.length >= 3 ? await loadMulticolor() : await loadSingleMode();
+        setCards(data);
+        setScore(0);
+        setLives(3);
+        pickNewPair(data, selectedColors);
+        setGameState('playing');
+      } catch (err) {
+        console.error('Failed to load card data', err);
+        setGameState('error');
+      }
+    })();
   }, [activeSet, selectedColors]);
 
   const pickNewPair = (cardData, currentColors) => {
@@ -112,17 +147,10 @@ const GameScreen = () => {
 
     // Filter cards to only include on-color and colorless cards for the selected colors
     const validCards = cardData.filter(card => {
-      // Colorless is always allowed
       if (!card.color || card.color === "") return true;
-      
-      // If no colors selected, allow all
       if (currentColors.length === 0) return true;
-      
-      // Every character in card.color must exist in currentColors
       for (let i = 0; i < card.color.length; i++) {
-        if (!currentColors.includes(card.color[i])) {
-          return false;
-        }
+        if (!currentColors.includes(card.color[i])) return false;
       }
       return true;
     });
@@ -131,13 +159,46 @@ const GameScreen = () => {
       setGameState('error');
       return;
     }
-    
-    let idx1 = Math.floor(Math.random() * validCards.length);
-    let idx2 = Math.floor(Math.random() * validCards.length);
-    while (idx1 === idx2) {
-      idx2 = Math.floor(Math.random() * validCards.length);
+
+    // --- Weighted random selection ---
+    // Prefer cards not recently seen, and apply a weight so mid-pack cards
+    // appear more often than the same top-5 bombs every round.
+    // Cards are sorted by avg_pick asc; idx 0 = best. We weight by position
+    // so that every card has a reasonable chance while still being seen.
+    const n = validCards.length;
+    const COOLDOWN = Math.min(10, Math.floor(n / 3)); // how many to cool down
+    const recentlySeen = recentlySeenRef.current;
+
+    const weights = validCards.map((card, i) => {
+      if (recentlySeen.has(card.name)) return 0.05; // heavily de-prioritise recent
+      // Mild ramp: cards in the middle of the list get a small boost
+      const midBonus = 1 + 0.5 * Math.sin((i / n) * Math.PI);
+      return midBonus;
+    });
+
+    const pickWeighted = (excludeIdx = -1) => {
+      const w = weights.map((wt, i) => (i === excludeIdx ? 0 : wt));
+      const total = w.reduce((a, b) => a + b, 0);
+      let rand = Math.random() * total;
+      for (let i = 0; i < w.length; i++) {
+        rand -= w[i];
+        if (rand <= 0) return i;
+      }
+      return w.length - 1;
+    };
+
+    const idx1 = pickWeighted();
+    const idx2 = pickWeighted(idx1);
+
+    // Update cooldown set
+    recentlySeen.add(validCards[idx1].name);
+    recentlySeen.add(validCards[idx2].name);
+    if (recentlySeen.size > COOLDOWN * 2) {
+      // Remove oldest entries by recreating the set from the tail
+      const entries = Array.from(recentlySeen);
+      recentlySeenRef.current = new Set(entries.slice(entries.length - COOLDOWN));
     }
-    
+
     const pair = [validCards[idx1], validCards[idx2]];
     if (Math.random() > 0.5) pair.reverse();
     
@@ -225,8 +286,13 @@ const GameScreen = () => {
         />
         
         <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-          Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? selectedColors.sort().join('') : currentMode}</strong>
+          Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? [...selectedColors].sort().join('') : currentMode}</strong>
         </div>
+        {loadWarning && (
+          <div style={{ fontSize: '12px', color: '#f59e0b', marginTop: '4px' }}>
+            {loadWarning}
+          </div>
+        )}
 
       </div>
 

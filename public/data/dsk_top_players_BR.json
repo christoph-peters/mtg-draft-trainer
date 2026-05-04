@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "Overlord of the Boilerbilges",
+    "color": "R",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/d/5/d58d3545-043a-457a-8324-facc3c2363ec.jpg?1726286391",
+    "avg_pick": 1.34,
+    "win_rate": 0.6068
+  },
+  {
+    "name": "Valgavoth's Onslaught",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/d/7d4ba274-3c6f-4e12-ba2c-a81c3da3f7e2.jpg?1726286630",
+    "avg_pick": 1.39,
+    "win_rate": 0.5891
+  },
+  {
+    "name": "Dissection Tools",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/4/048bb2c6-91bd-4d6a-a070-c73d8277c264.jpg?1726301876",
+    "avg_pick": 1.43,
+    "win_rate": 0.6261
+  },
+  {
+    "name": "Abhorrent Oculus",
+    "color": "U",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/d/2/d2705b43-a94a-44c0-8740-82e0b296820c.jpg?1726286015",
+    "avg_pick": 1.46,
+    "win_rate": null
+  },
+  {
+    "name": "Unstoppable Slasher",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/7/c78da035-6b5b-4136-9ab6-f622b64fdc54.jpg?1726286292",
+    "avg_pick": 1.47,
+    "win_rate": 0.6272
+  },
+  {
+    "name": "Overlord of the Balemurk",
+    "color": "B",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/9/b/9b911653-7b96-4cf3-a907-13c5c53a14f7.jpg?1726286269",
+    "avg_pick": 1.54,
+    "win_rate": 0.6214
+  },
+  {
+    "name": "Unholy Annex // Ritual Chamber",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/f/0fb4c734-c698-46f2-bc78-5f036f472e5b.jpg?1726867681",
+    "avg_pick": 1.64,
+    "win_rate": 0.6197
+  },
+  {
+    "name": "The Rollercrusher Ride",
+    "color": "R",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/70019956-fca1-4090-b3b6-6a963528e05b.jpg?1726286431",
+    "avg_pick": 1.64,
+    "win_rate": 0.5744
+  },
+  {
+    "name": "Screaming Nemesis",
+    "color": "R",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/c/e/ce35e6fb-ff54-44c4-a216-7ddd37f46882.jpg?1726286439",
+    "avg_pick": 1.69,
+    "win_rate": 0.6162
+  },
+  {
+    "name": "Silent Hallcreeper",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/a/aac4f0cc-63be-4f08-956e-39839c9735ba.jpg?1726286122",
+    "avg_pick": 1.71,
+    "win_rate": null
+  },
+  {
+    "name": "Omnivorous Flytrap",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/4/3/4370a197-68cc-46dd-bf0a-e9dab4ff6638.jpg?1726286582",
+    "avg_pick": 1.73,
+    "win_rate": null
+  },
+  {
+    "name": "Chainsaw",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/4/54e0c2cd-fa5f-427d-8e15-6066f002a8e3.jpg?1726286325",
+    "avg_pick": 1.83,
+    "win_rate": 0.5945
+  },
+  {
+    "name": "Entity Tracker",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/e/ae54d697-6d06-4af1-a617-8a47a6ab9c01.jpg?1726286051",
+    "avg_pick": 1.87,
+    "win_rate": null
+  },
+  {
+    "name": "Toby, Beastie Befriender",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/3/f33d3948-fe7b-4c3b-ab67-1022623fbb2b.jpg?1726285986",
+    "avg_pick": 1.88,
+    "win_rate": null
+  },
+  {
+    "name": "The Swarmweaver",
+    "color": "BG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/c/dcf3b17b-f2f6-4702-864d-8c96100b0563.jpg?1726286750",
+    "avg_pick": 1.89,
+    "win_rate": 0.6071
+  },
+  {
+    "name": "Kaito, Bane of Nightmares",
+    "color": "UB",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/5/5/55a14f30-4ff9-4472-90a6-c3139f1c18e5.jpg?1726286689",
+    "avg_pick": 1.93,
+    "win_rate": null
+  },
+  {
+    "name": "Valgavoth, Terror Eater",
+    "color": "B",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1726286296",
+    "avg_pick": 1.94,
+    "win_rate": null
+  },
+  {
+    "name": "Fear of Missing Out",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/d/9d48aaff-46ab-411b-9456-171d4709f951.jpg?1726286354",
+    "avg_pick": 2.0,
+    "win_rate": 0.5989
+  },
+  {
+    "name": "Enduring Courage",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/4/f46ac55f-d68e-4d5d-af0a-3879f97f705e.jpg?1726286344",
+    "avg_pick": 2.01,
+    "win_rate": 0.5745
+  },
+  {
+    "name": "Sheltered by Ghosts",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/8/389f3f7b-be40-4a2d-b5cc-28471a577981.jpg?1726285971",
+    "avg_pick": 2.23,
+    "win_rate": null
+  },
+  {
+    "name": "Funeral Room // Awakening Hall",
+    "color": "B",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/4/8/48237c98-5067-47a8-af74-7b9bce57c6a4.jpg?1726867790",
+    "avg_pick": 2.28,
+    "win_rate": 0.5741
+  },
+  {
+    "name": "Ghost Vacuum",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/a/8ac39c01-127f-4471-bc74-11a90c48e306.jpg?1726286797",
+    "avg_pick": 2.48,
+    "win_rate": 0.6047
+  },
+  {
+    "name": "Come Back Wrong",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/2/72ee3b45-aa4e-4c5b-a9e6-608bfbd93f8b.jpg?1726286171",
+    "avg_pick": 2.63,
+    "win_rate": 0.5955
+  },
+  {
+    "name": "Roaring Furnace // Steaming Sauna",
+    "color": "UR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/4/94352ffb-d716-484d-b018-4e1c033ef2f3.jpg?1726867698",
+    "avg_pick": 3.05,
+    "win_rate": 0.5888
+  },
+  {
+    "name": "Under the Skin",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/a/0aaf1ad3-00ad-48ec-a71f-812649d55e14.jpg?1726286622",
+    "avg_pick": 3.12,
+    "win_rate": null
+  },
+  {
+    "name": "Nowhere to Run",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/e/fee60e9d-9ee7-444a-88f3-c1929e1888fb.jpg?1726286262",
+    "avg_pick": 3.18,
+    "win_rate": 0.5973
+  },
+  {
+    "name": "Surgical Suite // Hospital Room",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/6/96b2dc14-4477-4444-a9eb-4fa4c02dfbde.jpg?1726780782",
+    "avg_pick": 3.24,
+    "win_rate": null
+  },
+  {
+    "name": "Unnerving Grasp",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/6/5602756d-76d2-4502-965f-36fc44596123.jpg?1726286150",
+    "avg_pick": 3.25,
+    "win_rate": null
+  },
+  {
+    "name": "Razorkin Needlehead",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/c/bc73b963-23c0-46d2-853a-34a8b463994e.jpg?1726286422",
+    "avg_pick": 3.26,
+    "win_rate": 0.5943
+  },
+  {
+    "name": "Fear of Isolation",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/9/69aa6054-8c59-4bbc-a283-adb453639786.jpg?1726286073",
+    "avg_pick": 3.27,
+    "win_rate": null
+  },
+  {
+    "name": "Waltz of Rage",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/b/abf17d8b-12bc-4122-865d-50cf91f04f67.jpg?1726286472",
+    "avg_pick": 3.39,
+    "win_rate": 0.5799
+  },
+  {
+    "name": "The Jolly Balloon Man",
+    "color": "WR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/3/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad.jpg?1726286682",
+    "avg_pick": 3.41,
+    "win_rate": null
+  },
+  {
+    "name": "Trapped in the Screen",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/f/1fe95bfb-8ca7-434f-a2e7-a6b2e699584e.jpg?1726285993",
+    "avg_pick": 3.5,
+    "win_rate": null
+  },
+  {
+    "name": "Osseous Sticktwister",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4f43473e-1302-4543-b331-1a86cfbc3ced.jpg?1726286266",
+    "avg_pick": 3.63,
+    "win_rate": 0.5903
+  },
+  {
+    "name": "Wickerfolk Thresher",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b3a74892-20cd-47f7-b514-a4c7f14cca8b.jpg?1726286638",
+    "avg_pick": 3.63,
+    "win_rate": null
+  },
+  {
+    "name": "Charred Foyer // Warped Space",
+    "color": "R",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/a/1/a128e6d1-b90f-45a1-b587-f8c29bd0ec8c.jpg?1726867813",
+    "avg_pick": 3.64,
+    "win_rate": 0.5835
+  },
+  {
+    "name": "Razorkin Hordecaller",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/7/f7fb0f11-d1d0-4941-a1a7-a2db88f30394.jpg?1726286414",
+    "avg_pick": 3.71,
+    "win_rate": 0.602
+  },
+  {
+    "name": "Betrayer's Bargain",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/9/7956ae00-8f0c-48f0-8110-19ff53863876.jpg?1726286318",
+    "avg_pick": 3.79,
+    "win_rate": 0.5989
+  },
+  {
+    "name": "Fear of Burning Alive",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/2/b282f8e3-8b79-47e9-8c18-62284211442b.jpg?1726286352",
+    "avg_pick": 3.82,
+    "win_rate": 0.5913
+  },
+  {
+    "name": "Scorching Dragonfire",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a55f4f37-796a-4b18-a5ee-1d4f711f19b8.jpg?1726286431",
+    "avg_pick": 3.9,
+    "win_rate": 0.5925
+  },
+  {
+    "name": "Piggy Bank",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/5/55d35442-5ca0-4fd7-8ff1-b7347b3e6690.jpg?1726286398",
+    "avg_pick": 3.91,
+    "win_rate": 0.5985
+  },
+  {
+    "name": "Withering Torment",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/8/38048d14-3463-4157-951f-1d68ec78a64e.jpg?1726286310",
+    "avg_pick": 4.03,
+    "win_rate": 0.5627
+  },
+  {
+    "name": "Irreverent Gremlin",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/d/8da254f5-53f2-41d2-a4f0-a90b3dd6209c.jpg?1726286376",
+    "avg_pick": 4.1,
+    "win_rate": 0.5998
+  },
+  {
+    "name": "Undead Sprinter",
+    "color": "BR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/6/c6b96951-4884-4df7-bdf0-94be2bc044f0.jpg?1726286754",
+    "avg_pick": 4.12,
+    "win_rate": 0.6015
+  },
+  {
+    "name": "Valgavoth's Lair",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/5/65ff914e-3f3e-4b7a-b69d-73575b68fb8e.jpg?1726286886",
+    "avg_pick": 4.19,
+    "win_rate": 0.5886
+  },
+  {
+    "name": "Broodspinner",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/c/dcdd2622-ab7a-4990-b026-3667cac42894.jpg?1726286653",
+    "avg_pick": 4.24,
+    "win_rate": 0.5607
+  },
+  {
+    "name": "Arabella, Abandoned Doll",
+    "color": "WR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/6/f683d5a1-b8bf-446f-9fe3-88a4398bf3cf.jpg?1726286645",
+    "avg_pick": 4.34,
+    "win_rate": null
+  },
+  {
+    "name": "Painter's Studio // Defaced Gallery",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e96901eb-5b57-43f4-a7b1-ae3b809bc36e.jpg?1726780710",
+    "avg_pick": 4.48,
+    "win_rate": 0.5846
+  },
+  {
+    "name": "Enduring Tenacity",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/5/d5756d4b-3068-412c-8643-880d3459151e.jpg?1726286203",
+    "avg_pick": 4.52,
+    "win_rate": 0.583
+  },
+  {
+    "name": "Live or Die",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/d/cd81e438-e38f-42a1-b677-202dbcb3837c.jpg?1726286247",
+    "avg_pick": 4.55,
+    "win_rate": 0.5678
+  },
+  {
+    "name": "Glassworks // Shattered Yard",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/e/fe32f667-8d9f-4414-913e-256cbc2fbc45.jpg?1726780646",
+    "avg_pick": 4.58,
+    "win_rate": 0.5902
+  },
+  {
+    "name": "Fear of Being Hunted",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/0/a0a5e716-68c1-4fa0-aa08-5b08114e08d8.jpg?1726286347",
+    "avg_pick": 4.6,
+    "win_rate": 0.5848
+  },
+  {
+    "name": "Midnight Mayhem",
+    "color": "WR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4fc0b94f-08b3-4fb6-9b09-2f3a215203ca.jpg?1726286697",
+    "avg_pick": 4.78,
+    "win_rate": 0.5696
+  },
+  {
+    "name": "Spineseeker Centipede",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/5/b50d697c-8358-429b-8f79-7ad9d01a5edd.jpg?1726286608",
+    "avg_pick": 5.03,
+    "win_rate": null
+  },
+  {
+    "name": "Wildfire Wickerfolk",
+    "color": "RG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/c/7c7fbc6e-09c6-4f0e-92e2-766aae950b3d.jpg?1726286766",
+    "avg_pick": 5.07,
+    "win_rate": null
+  },
+  {
+    "name": "Sporogenic Infection",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/a/eaae086e-0781-4f4d-bc9c-a98228bc380c.jpg?1726286285",
+    "avg_pick": 5.21,
+    "win_rate": 0.5865
+  },
+  {
+    "name": "Drag to the Roots",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/6/46f46095-6479-46b0-9e59-194d83f86a46.jpg?1726286661",
+    "avg_pick": 5.23,
+    "win_rate": null
+  },
+  {
+    "name": "Conductive Machete",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1cf37c1a-096b-4306-97cf-bc4d4c47d4a1.jpg?1726286782",
+    "avg_pick": 5.45,
+    "win_rate": 0.5751
+  },
+  {
+    "name": "Defiled Crypt // Cadaver Lab",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/9/d94fb4da-0d3f-4d84-966b-914b84b23289.jpg?1726780590",
+    "avg_pick": 5.46,
+    "win_rate": 0.5664
+  },
+  {
+    "name": "Vile Mutilator",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/8/383fe040-98bb-40f3-b809-48c429b83f47.jpg?1726286303",
+    "avg_pick": 5.46,
+    "win_rate": 0.5722
+  },
+  {
+    "name": "Beastie Beatdown",
+    "color": "RG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/f/5f889c95-46af-4fd9-aff2-573d5384fd58.jpg?1726286652",
+    "avg_pick": 5.53,
+    "win_rate": null
+  },
+  {
+    "name": "Disturbing Mirth",
+    "color": "BR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/7/f79b0c5d-6823-439c-a011-8b9bf424bdad.jpg?1726286660",
+    "avg_pick": 5.74,
+    "win_rate": 0.6096
+  },
+  {
+    "name": "Terramorphic Expanse",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b379c8f1-817c-4f18-8f58-45c40504433e.jpg?1726286878",
+    "avg_pick": 5.95,
+    "win_rate": 0.5946
+  },
+  {
+    "name": "Murder",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/c/2c249609-9cf7-46f1-b94c-9329add966bb.jpg?1726286259",
+    "avg_pick": 5.96,
+    "win_rate": 0.5753
+  },
+  {
+    "name": "Valgavoth's Faithful",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/9/995194a0-ceb7-48c2-be5d-a208b3971e77.jpg?1726286299",
+    "avg_pick": 6.11,
+    "win_rate": 0.5616
+  },
+  {
+    "name": "Sawblade Skinripper",
+    "color": "BR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/b/cbe51964-50d2-49b0-9c3c-81751dcbeade.jpg?1726286730",
+    "avg_pick": 6.31,
+    "win_rate": 0.5927
+  },
+  {
+    "name": "Thornspire Verge",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/e/7e1cdc03-6faa-4138-9a52-caafbe34fb59.jpg?1726286882",
+    "avg_pick": 6.34,
+    "win_rate": null
+  },
+  {
+    "name": "Blazemire Verge",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/1/d151c8e2-d715-470d-868a-f45191db9fa0.jpg?1726286828",
+    "avg_pick": 6.38,
+    "win_rate": 0.5857
+  },
+  {
+    "name": "Gloomlake Verge",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/3/83f510b7-4cbd-4883-9c26-c8824bc668ac.jpg?1726286844",
+    "avg_pick": 6.38,
+    "win_rate": null
+  },
+  {
+    "name": "Clockwork Percussionist",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/0/10986e5a-9fc6-41e2-8352-289328245171.jpg?1726286332",
+    "avg_pick": 6.54,
+    "win_rate": 0.5989
+  },
+  {
+    "name": "Glimmerburst",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/e/fe1ab8db-3994-4b6d-9eaf-75243a78b715.jpg?1726286087",
+    "avg_pick": 6.66,
+    "win_rate": null
+  },
+  {
+    "name": "Shroudstomper",
+    "color": "WB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/3/53f746bf-0642-48db-835e-27a7fe369fef.jpg?1726286739",
+    "avg_pick": 6.73,
+    "win_rate": null
+  },
+  {
+    "name": "Glimmerlight",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/0/1071691c-5c65-42d4-ac96-d302185ca678.jpg?1726286804",
+    "avg_pick": 6.76,
+    "win_rate": 0.5926
+  },
+  {
+    "name": "Cynical Loner",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/c/cc93bcb8-778d-491e-877b-e6ad432764cb.jpg?1726286181",
+    "avg_pick": 6.77,
+    "win_rate": 0.5751
+  },
+  {
+    "name": "Rite of the Moth",
+    "color": "WB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0e79123f-accd-4193-8c72-b750e0d6f3fa.jpg?1726286722",
+    "avg_pick": 6.93,
+    "win_rate": null
+  },
+  {
+    "name": "Fear of Infinity",
+    "color": "UB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/1/81756844-c642-406f-842d-35c1e404fec0.jpg?1726286668",
+    "avg_pick": 6.94,
+    "win_rate": null
+  },
+  {
+    "name": "Popular Egotist",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/5/35e64605-8edb-4def-9522-765e90d1f0f3.jpg?1726286273",
+    "avg_pick": 7.02,
+    "win_rate": 0.5813
+  },
+  {
+    "name": "Final Vengeance",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/648da934-71f6-4945-a08f-09698414417b.jpg?1726286218",
+    "avg_pick": 7.05,
+    "win_rate": 0.5971
+  },
+  {
+    "name": "Peer Past the Veil",
+    "color": "RG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/7/874eadb6-602e-47dc-8094-82e37ac89c94.jpg?1726286712",
+    "avg_pick": 7.09,
+    "win_rate": null
+  },
+  {
+    "name": "Smoky Lounge // Misty Salon",
+    "color": "UR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/7/4700987d-fc55-44eb-bc9f-0e0316ca65e2.jpg?1726780766",
+    "avg_pick": 7.18,
+    "win_rate": null
+  },
+  {
+    "name": "Vengeful Possession",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/6/d6918d50-a4c3-40d8-9480-343f14773a69.jpg?1726286456",
+    "avg_pick": 7.23,
+    "win_rate": 0.6005
+  },
+  {
+    "name": "Most Valuable Slayer",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/2/c2b7b635-4c72-4129-bf95-1eef05cce3d3.jpg?1726286383",
+    "avg_pick": 7.27,
+    "win_rate": 0.5797
+  },
+  {
+    "name": "Miasma Demon",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/d/6d167c00-75ff-4301-855a-8319b89e3689.jpg?1726286255",
+    "avg_pick": 7.36,
+    "win_rate": 0.567
+  },
+  {
+    "name": "Commune with Evil",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/a/9ab94ebe-b51b-4c6f-af43-0ed80e2808a3.jpg?1726286174",
+    "avg_pick": 7.42,
+    "win_rate": 0.5826
+  },
+  {
+    "name": "Diversion Specialist",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/c/acc9b17c-4210-49f4-a920-b1dc9dfa950f.jpg?1726286339",
+    "avg_pick": 7.42,
+    "win_rate": 0.5862
+  },
+  {
+    "name": "Trial of Agony",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/a/fa62f67a-d20f-4d99-b0a2-327634299c9f.jpg?1726286448",
+    "avg_pick": 7.47,
+    "win_rate": 0.5473
+  },
+  {
+    "name": "Norin, Swift Survivalist",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/49f0fdf4-3881-4327-924f-2c1b67ccda93.jpg?1726286390",
+    "avg_pick": 7.49,
+    "win_rate": 0.5672
+  },
+  {
+    "name": "Infernal Phantom",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/0/f0c5999f-a185-4fc7-86fa-c4e5b091e768.jpg?1726286374",
+    "avg_pick": 7.62,
+    "win_rate": 0.5733
+  },
+  {
+    "name": "Turn Inside Out",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/7/57e2a92c-06d3-4cb5-883d-cba428a7e98e.jpg?1726286448",
+    "avg_pick": 7.62,
+    "win_rate": 0.5916
+  },
+  {
+    "name": "Cursed Recording",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/1/d13a247c-c941-488a-b13b-bffb1f1f368a.jpg?1726286337",
+    "avg_pick": 7.66,
+    "win_rate": 0.5399
+  },
+  {
+    "name": "Innocuous Rat",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/4/94edbbc5-5673-4753-bfad-4432c4b7dca4.jpg?1726286232",
+    "avg_pick": 7.81,
+    "win_rate": 0.5895
+  },
+  {
+    "name": "Let's Play a Game",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/645911b4-7728-4380-9097-e4139b986423.jpg?1726286240",
+    "avg_pick": 7.98,
+    "win_rate": 0.5857
+  },
+  {
+    "name": "Marvin, Murderous Mimic",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/66898970-b99b-48f2-9240-68c301c95500.jpg?1726286819",
+    "avg_pick": 7.98,
+    "win_rate": null
+  },
+  {
+    "name": "Doomsday Excruciator",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/4/542c89b6-48c6-4fcb-8a4c-b5ed2fa1d384.jpg?1726286201",
+    "avg_pick": 8.12,
+    "win_rate": null
+  },
+  {
+    "name": "Dashing Bloodsucker",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/9/790a90cc-d36f-43b5-8423-89e30bdf7b9f.jpg?1726286186",
+    "avg_pick": 8.13,
+    "win_rate": 0.57
+  },
+  {
+    "name": "Ticket Booth // Tunnel of Hate",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/5/058ffe36-ed2d-4b67-83cd-162db8383a32.jpg?1726780790",
+    "avg_pick": 8.13,
+    "win_rate": 0.5869
+  },
+  {
+    "name": "Hand That Feeds",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/9/297c2860-5a68-4a18-a23a-ca5cfdfbcac8.jpg?1726286367",
+    "avg_pick": 8.19,
+    "win_rate": 0.5776
+  },
+  {
+    "name": "Winter's Intervention",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b33d38fa-bbcf-4bcc-93a8-adbfd9c93faa.jpg?1726286306",
+    "avg_pick": 8.34,
+    "win_rate": 0.5709
+  },
+  {
+    "name": "Violent Urge",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/4/a47c968b-1edd-45ac-a67c-311647e7e2fc.jpg?1726286465",
+    "avg_pick": 8.56,
+    "win_rate": 0.5465
+  },
+  {
+    "name": "Strangled Cemetery",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/1/c1ce9250-bdbe-4c77-9243-6db9ffffe69b.jpg?1726286874",
+    "avg_pick": 8.6,
+    "win_rate": 0.6072
+  },
+  {
+    "name": "Winter, Misanthropic Guide",
+    "color": "BRG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e9b81421-44cb-440f-a6ac-3ddf620f1989.jpg?1726286766",
+    "avg_pick": 8.63,
+    "win_rate": null
+  },
+  {
+    "name": "Pyroclasm",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/3/4391b0af-2f26-4a45-9e2a-5bd8e9838107.jpg?1726286406",
+    "avg_pick": 8.66,
+    "win_rate": 0.5438
+  },
+  {
+    "name": "Ragged Playmate",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/000499a4-3f39-4d25-a2a2-b2f014e30754.jpg?1726286406",
+    "avg_pick": 8.88,
+    "win_rate": 0.5822
+  },
+  {
+    "name": "Bleeding Woods",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/b/cb224874-aff5-461f-82ee-89b06663231a.jpg?1726286833",
+    "avg_pick": 8.92,
+    "win_rate": 0.5732
+  },
+  {
+    "name": "Murky Sewer",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/0/6098d8be-4e3f-455d-8799-91435bf45a1c.jpg?1726286856",
+    "avg_pick": 9.03,
+    "win_rate": 0.5329
+  },
+  {
+    "name": "Haunted Screen",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/e/5e7d552f-a7ac-4a49-a582-9d378137005f.jpg?1726286805",
+    "avg_pick": 9.06,
+    "win_rate": null
+  },
+  {
+    "name": "Fear of Lost Teeth",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/5/259045fe-f349-4be1-bf29-465d084ed35e.jpg?1726286211",
+    "avg_pick": 9.09,
+    "win_rate": 0.5906
+  },
+  {
+    "name": "Keys to the House",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/c/8c11a413-7f33-4b63-bdd9-e143e529f56d.jpg?1726286811",
+    "avg_pick": 9.13,
+    "win_rate": 0.5755
+  },
+  {
+    "name": "Razortrap Gorge",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/8/98d0d067-b52d-47ec-ba7b-8cfcd716c0e5.jpg?1726286871",
+    "avg_pick": 9.21,
+    "win_rate": 0.5906
+  },
+  {
+    "name": "Raucous Carnival",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/6/3604a211-9bf7-474e-bd78-32a862f4259c.jpg?1726286867",
+    "avg_pick": 9.22,
+    "win_rate": 0.5374
+  },
+  {
+    "name": "Neglected Manor",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/1/11cf1531-8a3c-4e28-a114-d3a342b33bb6.jpg?1726286859",
+    "avg_pick": 9.28,
+    "win_rate": 0.5337
+  },
+  {
+    "name": "Grievous Wound",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/e/6ed3dd5e-cd27-4b18-ad60-f5c4d9a811b9.jpg?1726286230",
+    "avg_pick": 9.34,
+    "win_rate": null
+  },
+  {
+    "name": "Peculiar Lighthouse",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/a/3a6e40c0-e70e-4353-a920-9851cfac71dd.jpg?1726286864",
+    "avg_pick": 9.48,
+    "win_rate": 0.5584
+  },
+  {
+    "name": "Spectral Snatcher",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/8/68f90f57-94a0-4ee1-9383-093e8fca52ea.jpg?1726286280",
+    "avg_pick": 9.49,
+    "win_rate": 0.5588
+  },
+  {
+    "name": "Emerge from the Cocoon",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/b/3ba16fbf-2d44-4337-87cb-6ff6b84a258a.jpg?1726285873",
+    "avg_pick": 9.57,
+    "win_rate": null
+  },
+  {
+    "name": "Killer's Mask",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/1/f1fc02ae-77b8-4e5e-94b4-22ecf7ae40ae.jpg?1726286237",
+    "avg_pick": 9.67,
+    "win_rate": 0.5609
+  },
+  {
+    "name": "Impossible Inferno",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/3/a35248f9-9a4e-4758-a4c1-0e0c83e3fd75.jpg?1726286368",
+    "avg_pick": 9.71,
+    "win_rate": 0.5641
+  },
+  {
+    "name": "Untimely Malfunction",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/5/857bfb0e-17dc-4dda-bc37-3df927a9eae6.jpg?1726286456",
+    "avg_pick": 9.86,
+    "win_rate": null
+  },
+  {
+    "name": "Derelict Attic // Widow's Walk",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/c/2cae24c1-53f1-4f3f-8795-b634c46a17c4.jpg?1726780598",
+    "avg_pick": 9.9,
+    "win_rate": 0.5736
+  },
+  {
+    "name": "Vicious Clown",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/2/12649f73-9d29-4eed-bc89-cc0d1a8969e3.jpg?1726286464",
+    "avg_pick": 9.96,
+    "win_rate": 0.5613
+  },
+  {
+    "name": "Fanatic of the Harrowing",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/a/2a0acb05-91e0-4f7c-b48b-99e1068fad16.jpg?1726286207",
+    "avg_pick": 10.17,
+    "win_rate": 0.5548
+  },
+  {
+    "name": "Appendage Amalgam",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/1/d16b3cf3-7b85-4153-b25a-e6b5fce725cf.jpg?1726286159",
+    "avg_pick": 10.27,
+    "win_rate": 0.56
+  },
+  {
+    "name": "Balemurk Leech",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/0/f0621b32-95c5-4f70-96cf-d46d20efc85d.jpg?1726286164",
+    "avg_pick": 10.46,
+    "win_rate": 0.5736
+  },
+  {
+    "name": "Saw",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/0/603c3ef4-4ef1-4db8-9ed2-e2b0926269d5.jpg?1726286820",
+    "avg_pick": 10.46,
+    "win_rate": 0.5866
+  },
+  {
+    "name": "Resurrected Cultist",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/4/e41bd259-e81f-432a-bebf-4c6534f23db7.jpg?1726286277",
+    "avg_pick": 10.59,
+    "win_rate": 0.5694
+  },
+  {
+    "name": "Attack-in-the-Box",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/4/a477dc3e-0fa1-4ce4-b3de-8cae0d1a0763.jpg?1726286774",
+    "avg_pick": 10.87,
+    "win_rate": null
+  },
+  {
+    "name": "Bedhead Beastie",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/77c72b5b-dd81-4eb4-80d9-a0124e27e1dc.jpg?1726286314",
+    "avg_pick": 10.88,
+    "win_rate": 0.5754
+  },
+  {
+    "name": "Grab the Prize",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/50895202-f1a1-4840-a11a-55b78b8b5929.jpg?1726286361",
+    "avg_pick": 11.01,
+    "win_rate": 0.5561
+  },
+  {
+    "name": "Friendly Teddy",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/2/82b142be-4586-487a-8dd8-a55eff776458.jpg?1726286797",
+    "avg_pick": 11.04,
+    "win_rate": 0.5721
+  },
+  {
+    "name": "Boilerbilges Ripper",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/a/1a68009c-83cd-455f-81e9-bdd720d23a43.jpg?1726286321",
+    "avg_pick": 11.14,
+    "win_rate": 0.5779
+  },
+  {
+    "name": "Fear of the Dark",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/7/8700eb8d-1cc0-45ff-b769-c875ee6500ea.jpg?1726286215",
+    "avg_pick": 11.22,
+    "win_rate": 0.5547
+  },
+  {
+    "name": "Cracked Skull",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/6/7616ad5e-ed30-4876-8743-6f0f9f143ea1.jpg?1726286178",
+    "avg_pick": 11.23,
+    "win_rate": 0.5904
+  },
+  {
+    "name": "Ripchain Razorkin",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/f/effad662-3309-434c-addc-4394db1f359c.jpg?1726286423",
+    "avg_pick": 11.23,
+    "win_rate": 0.5778
+  },
+  {
+    "name": "Malevolent Chandelier",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/f/ef09d296-4493-47f7-ad76-ad76c747df78.jpg?1726286812",
+    "avg_pick": 11.53,
+    "win_rate": null
+  },
+  {
+    "name": "Found Footage",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/1/b12eb087-762e-4e7d-a6e0-f48df603b7c7.jpg?1726286790",
+    "avg_pick": 11.63,
+    "win_rate": 0.5769
+  },
+  {
+    "name": "Rampaging Soulrager",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/6/569c914b-95af-428f-a142-6f20e418bc59.jpg?1726286414",
+    "avg_pick": 11.72,
+    "win_rate": null
+  },
+  {
+    "name": "Bear Trap",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/2/e27c27d6-dc3a-4420-bb35-d97dc216e002.jpg?1726286782",
+    "avg_pick": 11.8,
+    "win_rate": null
+  },
+  {
+    "name": "Give In to Violence",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/00ac1759-d4cc-41d5-a9b7-a89b80d2190c.jpg?1726286225",
+    "avg_pick": 12.21,
+    "win_rate": 0.5111
+  },
+  {
+    "name": "Cackling Slasher",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/1/b1269ccf-febf-42b0-8c20-21ccb731a3ec.jpg?1726286167",
+    "avg_pick": 12.54,
+    "win_rate": null
+  }
+]

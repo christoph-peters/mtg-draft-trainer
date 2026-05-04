@@ -1,0 +1,1098 @@
+[
+  {
+    "name": "Warren Warleader",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/eb5237a0-5ac3-4ded-9f92-5f782a7bbbd7.jpg?1721425996",
+    "avg_pick": 1.33,
+    "win_rate": 0.6249
+  },
+  {
+    "name": "Beza, the Bounding Spring",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/f/c/fc310a26-b6a0-4e42-98ab-bdfd7b06cb63.jpg?1721425768",
+    "avg_pick": 1.41,
+    "win_rate": 0.6029
+  },
+  {
+    "name": "Rottenmouth Viper",
+    "color": "B",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/735e79b1-a3a9-4ddf-8bbc-f756c8a0452b.jpg?1721426484",
+    "avg_pick": 1.42,
+    "win_rate": null
+  },
+  {
+    "name": "Innkeeper's Talent",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/4/941b0afc-0e8f-45f2-ae7f-07595e164611.jpg?1721814343",
+    "avg_pick": 1.42,
+    "win_rate": 0.6112
+  },
+  {
+    "name": "Season of the Burrow",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/3/3/33bf9c60-4e58-48a4-8e53-abef7ab3b671.jpg?1721425932",
+    "avg_pick": 1.47,
+    "win_rate": 0.6127
+  },
+  {
+    "name": "Lumra, Bellow of the Woods",
+    "color": "G",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1721426865",
+    "avg_pick": 1.47,
+    "win_rate": 0.5976
+  },
+  {
+    "name": "Valley Questcaller",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/a/ba629ca8-a368-4282-8a61-9bf6a5c217f0.jpg?1721639461",
+    "avg_pick": 1.56,
+    "win_rate": 0.6208
+  },
+  {
+    "name": "Season of Gathering",
+    "color": "G",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/1/71dd3c27-e0d5-434e-a0f3-4a95245e21c2.jpg?1721426924",
+    "avg_pick": 1.57,
+    "win_rate": 0.6117
+  },
+  {
+    "name": "Fecund Greenshell",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/0/80b3e815-0e2e-4325-b1d5-5531b7b92da6.jpg?1721426804",
+    "avg_pick": 1.61,
+    "win_rate": 0.6162
+  },
+  {
+    "name": "Ygra, Eater of All",
+    "color": "BG",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
+    "avg_pick": 1.61,
+    "win_rate": null
+  },
+  {
+    "name": "Tender Wildguide",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/b/6b8bfa91-adb0-4596-8c16-d8bb64fdb26d.jpg?1721426949",
+    "avg_pick": 1.66,
+    "win_rate": 0.5899
+  },
+  {
+    "name": "Pawpatch Recruit",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/d/7d4d88ba-0ee4-4f66-995b-2e50614f50ee.jpg?1721426891",
+    "avg_pick": 1.75,
+    "win_rate": 0.597
+  },
+  {
+    "name": "Valley Mightcaller",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/2/7256451f-0122-452a-88e8-0fb0f6bea3f3.jpg?1721639437",
+    "avg_pick": 1.78,
+    "win_rate": 0.6302
+  },
+  {
+    "name": "Salvation Swan",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/2/b2656160-d319-4530-a6e5-c418596c3f12.jpg?1721425931",
+    "avg_pick": 1.96,
+    "win_rate": 0.5906
+  },
+  {
+    "name": "Keen-Eyed Curator",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/c/8cf33d80-0704-4dc4-8e8d-1dcbcbc35add.jpg?1721426856",
+    "avg_pick": 2.02,
+    "win_rate": 0.5831
+  },
+  {
+    "name": "Whiskervale Forerunner",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/0/60a78d59-af31-4af9-95aa-2573fe553925.jpg?1721426007",
+    "avg_pick": 2.08,
+    "win_rate": 0.5986
+  },
+  {
+    "name": "Thornvault Forager",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/c/8c2d6b02-a453-40f9-992a-5c5542987cfb.jpg?1721933896",
+    "avg_pick": 2.09,
+    "win_rate": 0.6039
+  },
+  {
+    "name": "Scrapshooter",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/4/c42ab407-e72d-4c48-9a9e-2055b5e71c69.jpg?1721426916",
+    "avg_pick": 2.11,
+    "win_rate": 0.5828
+  },
+  {
+    "name": "Osteomancer Adept",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/d/7d8238dd-858f-466c-96de-986bd66861d7.jpg?1721426463",
+    "avg_pick": 2.14,
+    "win_rate": null
+  },
+  {
+    "name": "Starfall Invocation",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/2/a/2aea38e6-ec58-4091-b27c-2761bdd12b13.jpg?1721425972",
+    "avg_pick": 2.18,
+    "win_rate": 0.5776
+  },
+  {
+    "name": "Hunter's Talent",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e9a31863-9649-4a4f-99e4-c93729938bd7.jpg?1721426846",
+    "avg_pick": 2.2,
+    "win_rate": 0.6128
+  },
+  {
+    "name": "Darkstar Augur",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1c603751-1e2b-4c8e-a8d2-5c0876e7254f.jpg?1721426387",
+    "avg_pick": 2.21,
+    "win_rate": null
+  },
+  {
+    "name": "Zoraline, Cosmos Caller",
+    "color": "WB",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/7/b7f99fd5-5298-4b27-923d-9d31203c931a.jpg?1721427252",
+    "avg_pick": 2.23,
+    "win_rate": null
+  },
+  {
+    "name": "Jackdaw Savior",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/2/121af600-6143-450a-9f87-12ce4833f1ec.jpg?1721425865",
+    "avg_pick": 2.31,
+    "win_rate": 0.5958
+  },
+  {
+    "name": "Essence Channeler",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/a/5aaf7e4c-4d5d-4acc-a834-e6c4a7629408.jpg?1724003311",
+    "avg_pick": 2.34,
+    "win_rate": 0.5878
+  },
+  {
+    "name": "Mabel, Heir to Cragflame",
+    "color": "WR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/e/be6627fd-729d-44f2-b6bf-5299f49d1e3d.jpg?1721427144",
+    "avg_pick": 2.37,
+    "win_rate": null
+  },
+  {
+    "name": "Fell",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c96ac326-de44-470b-a592-a4c2a052c091.jpg?1721426418",
+    "avg_pick": 2.58,
+    "win_rate": null
+  },
+  {
+    "name": "Mistbreath Elder",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/5/e5246540-5a84-41d8-9e30-8e7a6c0e84e1.jpg?1721426876",
+    "avg_pick": 2.64,
+    "win_rate": 0.593
+  },
+  {
+    "name": "Caretaker's Talent",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/d/ad5ea98a-e36e-4ab9-b4da-cc572f3777db.jpg?1721425789",
+    "avg_pick": 2.67,
+    "win_rate": 0.6065
+  },
+  {
+    "name": "Camellia, the Seedmiser",
+    "color": "BG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/2/c/2c16eaec-924c-42f6-9fea-07edd7ed93b9.jpg?1721933903",
+    "avg_pick": 2.68,
+    "win_rate": null
+  },
+  {
+    "name": "Finneas, Ace Archer",
+    "color": "WG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/d/0dee197d-c313-4364-b52c-f83d5f579bc3.jpg?1721427047",
+    "avg_pick": 2.7,
+    "win_rate": 0.6128
+  },
+  {
+    "name": "Dreamdew Entrancer",
+    "color": "UG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/2/6/26bd6b0d-8606-4a37-8be3-a852f1a8e99c.jpg?1721427040",
+    "avg_pick": 2.77,
+    "win_rate": 0.5845
+  },
+  {
+    "name": "Feed the Cycle",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/e/7e017ff8-2936-4a1b-bece-00004cfbad06.jpg?1721426413",
+    "avg_pick": 3.03,
+    "win_rate": null
+  },
+  {
+    "name": "Thought-Stalker Warlock",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/2/42e80284-d489-493b-ae92-95b742d07cb3.jpg?1721426544",
+    "avg_pick": 3.03,
+    "win_rate": null
+  },
+  {
+    "name": "Kastral, the Windcrested",
+    "color": "WU",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/ebf68793-22a2-4a59-9d37-6791584edca1.jpg?1721427101",
+    "avg_pick": 3.14,
+    "win_rate": 0.5467
+  },
+  {
+    "name": "Galewind Moose",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/8/58706bd8-558a-43b9-9f1e-c1ff0044203b.jpg?1721426814",
+    "avg_pick": 3.23,
+    "win_rate": 0.5801
+  },
+  {
+    "name": "Brightblade Stoat",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/f/df7fea2e-7414-4bc8-adb0-9342e174c009.jpg?1721425778",
+    "avg_pick": 3.29,
+    "win_rate": 0.5916
+  },
+  {
+    "name": "Patchwork Banner",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/8/a8a982c8-bc08-44ba-b3ed-9e4b124615d6.jpg?1721427285",
+    "avg_pick": 3.49,
+    "win_rate": 0.6214
+  },
+  {
+    "name": "Clement, the Worrywort",
+    "color": "UG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/7028130c-c91d-4bf7-b0b0-450f71107d7a.jpg?1721427029",
+    "avg_pick": 3.55,
+    "win_rate": null
+  },
+  {
+    "name": "Driftgloom Coyote",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/7/d7ab2de3-3aea-461a-a74f-fb742cf8a198.jpg?1721425819",
+    "avg_pick": 3.59,
+    "win_rate": 0.5976
+  },
+  {
+    "name": "Scavenger's Talent",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/a/9a52b7fe-87ae-425b-85fd-b24e6e0395f1.jpg?1721814345",
+    "avg_pick": 3.63,
+    "win_rate": null
+  },
+  {
+    "name": "Harvestrite Host",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/1/41762689-0c13-4d45-9d81-ba2afad980f8.jpg?1721425845",
+    "avg_pick": 3.78,
+    "win_rate": 0.6119
+  },
+  {
+    "name": "Hivespine Wolverine",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/2/821970a3-a291-4fe9-bb13-dfc54f9c3caf.jpg?1721426835",
+    "avg_pick": 3.78,
+    "win_rate": 0.5834
+  },
+  {
+    "name": "Rabid Gnaw",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/f/2f815bae-820a-49f6-8eed-46f658e7b6ff.jpg?1721426681",
+    "avg_pick": 3.81,
+    "win_rate": null
+  },
+  {
+    "name": "Fabled Passage",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/8/8809830f-d8e1-4603-9652-0ad8b00234e9.jpg?1721427315",
+    "avg_pick": 3.81,
+    "win_rate": 0.5788
+  },
+  {
+    "name": "Muerra, Trash Tactician",
+    "color": "RG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/4/b40e4658-fd68-46d0-9a89-25570a023d19.jpg?1721427159",
+    "avg_pick": 3.83,
+    "win_rate": null
+  },
+  {
+    "name": "Downwind Ambusher",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/5/55cfd628-933a-4d3d-b2e5-70bc86960d1c.jpg?1721426398",
+    "avg_pick": 4.03,
+    "win_rate": null
+  },
+  {
+    "name": "Banishing Light",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/5/25a06f82-ebdb-4dd6-bfe8-958018ce557c.jpg?1721425761",
+    "avg_pick": 4.05,
+    "win_rate": 0.5997
+  },
+  {
+    "name": "Hop to It",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/e/ee7207f8-5daa-42af-aeea-7a489047110b.jpg?1721425854",
+    "avg_pick": 4.06,
+    "win_rate": 0.6095
+  },
+  {
+    "name": "Fountainport",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/5/658cfcb7-81b7-48c6-9dd2-1663d06108cf.jpg?1721427323",
+    "avg_pick": 4.1,
+    "win_rate": 0.5865
+  },
+  {
+    "name": "Savor",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/3/1397f689-dca1-4d35-864b-92c5606afb9a.jpg?1721426493",
+    "avg_pick": 4.25,
+    "win_rate": null
+  },
+  {
+    "name": "Overprotect",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/7/079e979f-b618-4625-989c-e0ea5b61ed8a.jpg?1721426880",
+    "avg_pick": 4.26,
+    "win_rate": 0.5991
+  },
+  {
+    "name": "Nocturnal Hunger",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/4/742c0409-9abd-4559-b52e-932cc90c531a.jpg?1721426459",
+    "avg_pick": 4.3,
+    "win_rate": null
+  },
+  {
+    "name": "Shoreline Looter",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/5/d5bf8cf0-419a-4dc9-9342-aad55c1af05a.jpg?1721426251",
+    "avg_pick": 4.32,
+    "win_rate": null
+  },
+  {
+    "name": "Intrepid Rabbit",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/d/4d70b99d-c8bf-4a56-8957-cf587fe60b81.jpg?1721425856",
+    "avg_pick": 4.35,
+    "win_rate": 0.6053
+  },
+  {
+    "name": "Burrowguard Mentor",
+    "color": "WG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/7/87138ace-3594-499e-bad5-ec76148613ea.jpg?1721427007",
+    "avg_pick": 4.51,
+    "win_rate": 0.604
+  },
+  {
+    "name": "Vinereap Mentor",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/9/29b615ba-45c4-42a1-8525-1535f0b55300.jpg?1721427225",
+    "avg_pick": 4.62,
+    "win_rate": null
+  },
+  {
+    "name": "Bushy Bodyguard",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/d/0de60cf7-fa82-4b6f-9f88-6590fba5c863.jpg?1721426775",
+    "avg_pick": 4.64,
+    "win_rate": 0.5974
+  },
+  {
+    "name": "Repel Calamity",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/0/d068192a-6270-4981-819d-4945fa4a2b83.jpg?1721425920",
+    "avg_pick": 4.73,
+    "win_rate": 0.5963
+  },
+  {
+    "name": "Take Out the Trash",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/a/7a1c6f00-af4c-4d35-b682-6c0e759df9a5.jpg?1721426722",
+    "avg_pick": 4.87,
+    "win_rate": null
+  },
+  {
+    "name": "Bakersbane Duo",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/3/5309354f-1ff4-4fa9-9141-01ea2f7588ab.jpg?1721426764",
+    "avg_pick": 4.88,
+    "win_rate": 0.6029
+  },
+  {
+    "name": "Curious Forager",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/64653b4a-e139-45f9-a915-ab49afb6b795.jpg?1721426795",
+    "avg_pick": 4.88,
+    "win_rate": 0.5868
+  },
+  {
+    "name": "Carrot Cake",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/eb03bb4f-8b4b-417e-bfc6-294cd2186b2e.jpg?1721425791",
+    "avg_pick": 5.02,
+    "win_rate": 0.6052
+  },
+  {
+    "name": "Shrike Force",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/0/306fec2c-d8b7-4f4b-8f58-10e3b9f3158f.jpg?1721425946",
+    "avg_pick": 5.1,
+    "win_rate": 0.608
+  },
+  {
+    "name": "Lilysplash Mentor",
+    "color": "UG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/64de7b1f-a03e-4407-91f1-e108a2f26735.jpg?1721427132",
+    "avg_pick": 5.1,
+    "win_rate": null
+  },
+  {
+    "name": "Bark-Knuckle Boxer",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/8/582637a9-6aa0-4824-bed7-d5fc91bda35e.jpg?1721426764",
+    "avg_pick": 5.11,
+    "win_rate": 0.5917
+  },
+  {
+    "name": "Brambleguard Veteran",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/a/bac9f6f8-6797-4580-9fc4-9a825872e017.jpg?1721426774",
+    "avg_pick": 5.12,
+    "win_rate": 0.5758
+  },
+  {
+    "name": "Three Tree Scribe",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/a/ea2ca1b3-4c1a-4be5-b321-f57db5ff0528.jpg?1721426968",
+    "avg_pick": 5.17,
+    "win_rate": 0.5757
+  },
+  {
+    "name": "Longstalk Brawl",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/7/c7ef748c-b5e5-4e7d-bf2e-d3e6c08edb42.jpg?1721426861",
+    "avg_pick": 5.2,
+    "win_rate": 0.5875
+  },
+  {
+    "name": "Polliwallop",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/b/6bc4963c-d90b-4588-bdb7-85956e42a623.jpg?1721426903",
+    "avg_pick": 5.47,
+    "win_rate": 0.5895
+  },
+  {
+    "name": "Treeguard Duo",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/9/89c8456e-c971-42b7-abf3-ff5ae1320abe.jpg?1721426977",
+    "avg_pick": 5.59,
+    "win_rate": 0.5908
+  },
+  {
+    "name": "Clifftop Lookout",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/662d3bcc-65f3-4c69-8ea1-446870a1193d.jpg?1721426786",
+    "avg_pick": 5.6,
+    "win_rate": 0.5709
+  },
+  {
+    "name": "Starseer Mentor",
+    "color": "WB",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/b/6b2f6dc5-9fe8-49c1-b24c-1d99ce1da619.jpg?1721427196",
+    "avg_pick": 5.69,
+    "win_rate": null
+  },
+  {
+    "name": "Star Charter",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0e209237-00f7-4bf0-8287-ccde02ce8e8d.jpg?1721425964",
+    "avg_pick": 5.76,
+    "win_rate": 0.6114
+  },
+  {
+    "name": "Head of the Homestead",
+    "color": "WG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/f/2fc20157-edd3-484d-8864-925c071c0551.jpg?1721427071",
+    "avg_pick": 5.81,
+    "win_rate": 0.5951
+  },
+  {
+    "name": "Warren Elder",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/b/4bf20069-5a20-4f95-976b-6af2b69f3ad0.jpg?1721425988",
+    "avg_pick": 5.88,
+    "win_rate": 0.5946
+  },
+  {
+    "name": "Pond Prophet",
+    "color": "UG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/b/fb959e74-61ea-453d-bb9f-ad0183c0e1b1.jpg?1721427169",
+    "avg_pick": 5.92,
+    "win_rate": 0.5784
+  },
+  {
+    "name": "Flowerfoot Swordmaster",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/7/97ff118f-9c3c-43a2-8085-980c7fe7d227.jpg?1721425843",
+    "avg_pick": 6.0,
+    "win_rate": 0.575
+  },
+  {
+    "name": "Three Tree Rootweaver",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/1/d1ab6e14-26e0-4174-b5c6-bc0f5c26b177.jpg?1721426963",
+    "avg_pick": 6.05,
+    "win_rate": 0.59
+  },
+  {
+    "name": "Feather of Flight",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/f/9fb41503-8632-4bf1-9bfe-6d9b9993c337.jpg?1721425833",
+    "avg_pick": 6.07,
+    "win_rate": 0.6025
+  },
+  {
+    "name": "Parting Gust",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/0/1086e826-94b8-4398-8a38-d8eacca56a43.jpg?1721425901",
+    "avg_pick": 6.09,
+    "win_rate": 0.5649
+  },
+  {
+    "name": "Lifecreed Duo",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/a/ca543405-5e12-48a0-9a77-082ac9bcb2f2.jpg?1721425877",
+    "avg_pick": 6.11,
+    "win_rate": 0.5836
+  },
+  {
+    "name": "Seedglaive Mentor",
+    "color": "WR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/2/d21c3e41-0636-49a3-8c9c-384c5e5c9c3e.jpg?1721427185",
+    "avg_pick": 6.17,
+    "win_rate": null
+  },
+  {
+    "name": "Baylen, the Haymaker",
+    "color": "WRG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/00e93be2-e06b-4774-8ba5-ccf82a6da1d8.jpg?1721427006",
+    "avg_pick": 6.24,
+    "win_rate": 0.5948
+  },
+  {
+    "name": "Jolly Gerbils",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0eab51d6-ba17-4a8c-8834-25db363f2b6b.jpg?1721425868",
+    "avg_pick": 6.28,
+    "win_rate": 0.6
+  },
+  {
+    "name": "Honored Dreyleader",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/c/bc5ee537-52e1-474a-9326-dfacc2a758ab.jpg?1721426839",
+    "avg_pick": 6.36,
+    "win_rate": 0.5284
+  },
+  {
+    "name": "Agate Assault",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/d/7dd9946b-515e-4e0d-9da2-711e126e9fa6.jpg?1721426563",
+    "avg_pick": 6.42,
+    "win_rate": null
+  },
+  {
+    "name": "Sonar Strike",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a50da179-751f-47a8-a547-8c4a291ed381.jpg?1721425953",
+    "avg_pick": 6.44,
+    "win_rate": 0.5866
+  },
+  {
+    "name": "Mabel's Mettle",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/c/5cfcf83f-089c-4e35-855e-b61b98bb1cd8.jpg?1721425880",
+    "avg_pick": 6.51,
+    "win_rate": 0.5802
+  },
+  {
+    "name": "Builder's Talent",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/5/15fa581a-724e-4196-a9a3-ff84c54bdb7d.jpg?1721814341",
+    "avg_pick": 6.55,
+    "win_rate": 0.5891
+  },
+  {
+    "name": "Stickytongue Sentinel",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/5/b5fa9651-b217-4f93-9c46-9bdb11feedcb.jpg?1721426926",
+    "avg_pick": 6.62,
+    "win_rate": 0.5893
+  },
+  {
+    "name": "Cache Grab",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/f/dfd977dc-a7c3-4d0a-aca7-b25bd154e963.jpg?1721426785",
+    "avg_pick": 6.83,
+    "win_rate": 0.5843
+  },
+  {
+    "name": "Moonrise Cleric",
+    "color": "WB",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/5/35f2a71f-31e8-4b51-9dd4-51a5336b3b86.jpg?1721427155",
+    "avg_pick": 6.86,
+    "win_rate": 0.5814
+  },
+  {
+    "name": "Seasoned Warrenguard",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/0/90873995-876f-4e89-8bc7-41a74f4d931f.jpg?1721425942",
+    "avg_pick": 6.87,
+    "win_rate": 0.606
+  },
+  {
+    "name": "Pawpatch Formation",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/8/b82c20ad-0f69-4822-ae76-770832cccdf7.jpg?1721426886",
+    "avg_pick": 6.94,
+    "win_rate": 0.5813
+  },
+  {
+    "name": "Crumb and Get It",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/c/3c7b3b25-d4b3-4451-9f5c-6eb369541175.jpg?1721429540",
+    "avg_pick": 6.95,
+    "win_rate": 0.5977
+  },
+  {
+    "name": "Glidedive Duo",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/8/4831e7ae-54e3-4bd9-b5af-52dc29f81715.jpg?1721426425",
+    "avg_pick": 7.0,
+    "win_rate": null
+  },
+  {
+    "name": "Nettle Guard",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/c/8c9c3cc3-2aa2-453e-a17c-2baeeaabe0a9.jpg?1721425890",
+    "avg_pick": 7.05,
+    "win_rate": 0.5838
+  },
+  {
+    "name": "Mouse Trapper",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/b/8ba1bc5a-03e7-44ec-893e-44042cbc02ef.jpg?1721425888",
+    "avg_pick": 7.13,
+    "win_rate": 0.5689
+  },
+  {
+    "name": "Oakhollow Village",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/d/0d49b016-b02b-459f-85e9-c04f6bdcb94e.jpg?1721639587",
+    "avg_pick": 7.43,
+    "win_rate": 0.5959
+  },
+  {
+    "name": "Uncharted Haven",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/8/68b90f54-d629-4126-82cc-13b51d6c1c3e.jpg?1722073883",
+    "avg_pick": 7.45,
+    "win_rate": 0.583
+  },
+  {
+    "name": "Short Bow",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/1/51d8b72b-fa8f-48d3-bddc-d3ce9b8ba2ea.jpg?1721427294",
+    "avg_pick": 7.49,
+    "win_rate": 0.5474
+  },
+  {
+    "name": "Three Tree City",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/6/56f88a48-cced-4a9d-8c19-e4f105f0d8a2.jpg?1721427358",
+    "avg_pick": 7.65,
+    "win_rate": null
+  },
+  {
+    "name": "Corpseberry Cultivator",
+    "color": "BG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c911a759-ed7b-452b-88a3-663478357610.jpg?1721427036",
+    "avg_pick": 7.67,
+    "win_rate": 0.5907
+  },
+  {
+    "name": "Plumecreed Mentor",
+    "color": "WU",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/1/b1aa988f-547e-449a-9f1a-296c01d68d96.jpg?1721427166",
+    "avg_pick": 7.72,
+    "win_rate": null
+  },
+  {
+    "name": "Dawn's Truce",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/f/8f72bfa0-efef-48ce-aff8-d5818ed71ba6.jpg?1721425804",
+    "avg_pick": 7.89,
+    "win_rate": null
+  },
+  {
+    "name": "Heaped Harvest",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/b/3b5349db-0e0a-4b15-886e-0db403ef49cb.jpg?1721426825",
+    "avg_pick": 7.98,
+    "win_rate": 0.5286
+  },
+  {
+    "name": "Treetop Sentries",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/1/e16d4d6e-1fe5-4ff6-9877-8c849a24f5e0.jpg?1721426978",
+    "avg_pick": 8.01,
+    "win_rate": 0.5622
+  },
+  {
+    "name": "Sunshower Druid",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/7740abc5-54e1-478d-966e-0fa64e727995.jpg?1721426936",
+    "avg_pick": 8.03,
+    "win_rate": 0.5833
+  },
+  {
+    "name": "Rust-Shield Rampager",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c96b01f5-83de-4237-a68d-f946c53e31a6.jpg?1721426907",
+    "avg_pick": 8.14,
+    "win_rate": 0.5746
+  },
+  {
+    "name": "Hazardroot Herbalist",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/2/e2882982-b3a3-4762-a550-6b82db1038e8.jpg?1721426818",
+    "avg_pick": 8.19,
+    "win_rate": 0.5677
+  },
+  {
+    "name": "Lupinflower Village",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/a/8ab9d56f-9178-4ec9-a5f6-b934f50d8d9d.jpg?1721639625",
+    "avg_pick": 8.28,
+    "win_rate": 0.6086
+  },
+  {
+    "name": "For the Common Good",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/e/3ec72a27-b622-47d7-bdf3-970ccaef0d2a.jpg?1721426807",
+    "avg_pick": 8.37,
+    "win_rate": null
+  },
+  {
+    "name": "Fountainport Bell",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a5c94bc0-a49d-451b-8e8d-64d46b8b8603.jpg?1721427270",
+    "avg_pick": 8.43,
+    "win_rate": 0.5849
+  },
+  {
+    "name": "Hidden Grotto",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/b/4ba8f2e7-8357-4862-97dc-1942d066023a.jpg?1721427326",
+    "avg_pick": 8.51,
+    "win_rate": 0.5913
+  },
+  {
+    "name": "Rabbit Response",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/4/c4ded450-346d-4917-917a-b62bc0267509.jpg?1721425917",
+    "avg_pick": 8.7,
+    "win_rate": 0.5893
+  },
+  {
+    "name": "Brave-Kin Duo",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/8/b8dd4693-424d-4d6e-86cf-24401a23d6b1.jpg?1721425770",
+    "avg_pick": 8.85,
+    "win_rate": 0.5801
+  },
+  {
+    "name": "Early Winter",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/5030e6ac-211d-4145-8c87-998a8351a467.jpg?1721426407",
+    "avg_pick": 8.95,
+    "win_rate": null
+  },
+  {
+    "name": "Peerless Recycling",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/f/5f72466c-505b-4371-9366-0fde525a37e6.jpg?1721426897",
+    "avg_pick": 8.99,
+    "win_rate": 0.5871
+  },
+  {
+    "name": "Wax-Wane Witness",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/9/d90ea719-5320-46c6-a347-161853a14776.jpg?1721426005",
+    "avg_pick": 9.01,
+    "win_rate": 0.5729
+  },
+  {
+    "name": "Thistledown Players",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/f/afa8d83f-8586-4127-8b55-9715e9547488.jpg?1721425974",
+    "avg_pick": 9.05,
+    "win_rate": 0.5599
+  },
+  {
+    "name": "Druid of the Spade",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/b/6b485cf7-bad0-4824-9ba7-cb112ce4769f.jpg?1721426796",
+    "avg_pick": 9.13,
+    "win_rate": 0.5964
+  },
+  {
+    "name": "Tangle Tumbler",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/5/258ef349-5042-4992-bae9-9f8f54b55db0.jpg?1721427304",
+    "avg_pick": 9.13,
+    "win_rate": 0.6019
+  },
+  {
+    "name": "Seedpod Squire",
+    "color": "WU",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/3/f3684577-51ce-490e-9b59-b19c733be466.jpg?1721427187",
+    "avg_pick": 9.25,
+    "win_rate": 0.572
+  },
+  {
+    "name": "Junkblade Bruiser",
+    "color": "RG",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/1/918fd89b-5ab7-4ae2-920c-faca5e9da7b9.jpg?1721427100",
+    "avg_pick": 9.4,
+    "win_rate": 0.5324
+  },
+  {
+    "name": "Pileated Provisioner",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/e/ae442cd6-c4df-4aad-9b1d-ccd936c5ec96.jpg?1721425901",
+    "avg_pick": 9.46,
+    "win_rate": 0.5769
+  },
+  {
+    "name": "Valley Rally",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/6/b6178258-1ad6-4122-a56f-6eb7d0611e84.jpg?1721426740",
+    "avg_pick": 9.47,
+    "win_rate": null
+  },
+  {
+    "name": "Three Tree Mascot",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/a/aaced75b-6e07-457c-8ea2-f74d99710d15.jpg?1721427313",
+    "avg_pick": 9.51,
+    "win_rate": 0.5669
+  },
+  {
+    "name": "Veteran Guardmouse",
+    "color": "WR",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/d/3db43c46-b616-4ef8-80ed-0fab345ab3d0.jpg?1721427216",
+    "avg_pick": 9.57,
+    "win_rate": 0.5652
+  },
+  {
+    "name": "Dewdrop Cure",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/666aefc2-44e0-4c27-88d5-7906f245a71f.jpg?1721425815",
+    "avg_pick": 9.66,
+    "win_rate": 0.5769
+  },
+  {
+    "name": "Bumbleflower's Sharepot",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/f/5f0affd5-5dcd-4dd1-a694-37a9aedf4084.jpg?1721427267",
+    "avg_pick": 9.73,
+    "win_rate": 0.5685
+  },
+  {
+    "name": "Heirloom Epic",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/8/7839ce48-0175-494a-ab89-9bdfb7a50cb1.jpg?1721427279",
+    "avg_pick": 9.77,
+    "win_rate": 0.5986
+  },
+  {
+    "name": "Stocking the Pantry",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/50e95c7b-f0b2-4276-8c5e-4191b7ba35d1.jpg?1727185660",
+    "avg_pick": 9.95,
+    "win_rate": 0.5417
+  },
+  {
+    "name": "High Stride",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/9/09c8cf4b-8e65-4a1c-b458-28b5ab56b390.jpg?1721426829",
+    "avg_pick": 10.02,
+    "win_rate": 0.5752
+  },
+  {
+    "name": "Starforged Sword",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/2/c23d8e96-b972-4c6c-b0c4-b6627621f048.jpg?1721427296",
+    "avg_pick": 10.22,
+    "win_rate": 0.5648
+  },
+  {
+    "name": "Mind Spiral",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/e/7e24fe6a-607b-49b8-9fca-cecb1e40de7f.jpg?1721426147",
+    "avg_pick": 10.42,
+    "win_rate": null
+  },
+  {
+    "name": "Barkform Harvester",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/7/f77049a6-0f22-415b-bc89-20bcb32accf6.jpg?1721427262",
+    "avg_pick": 10.44,
+    "win_rate": 0.5877
+  }
+]

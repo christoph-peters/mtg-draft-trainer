@@ -1,0 +1,634 @@
+[
+  {
+    "name": "Elspeth, Storm Slayer",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/73a065e3-b530-4e62-ab3c-4f6f908184ec.jpg?1743203994",
+    "avg_pick": 1.1,
+    "win_rate": null
+  },
+  {
+    "name": "Marang River Regent",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/8/f890bdc7-32e6-4492-bac7-7cabf54a8bfd.jpg?1744554271",
+    "avg_pick": 1.42,
+    "win_rate": null
+  },
+  {
+    "name": "Sage of the Skies",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/a/6ade6918-6d1d-448d-ab56-93996051e9a9.jpg?1743204040",
+    "avg_pick": 1.47,
+    "win_rate": null
+  },
+  {
+    "name": "Voice of Victory",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/c/ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb.jpg?1743204090",
+    "avg_pick": 1.74,
+    "win_rate": null
+  },
+  {
+    "name": "Anafenza, Unyielding Lineage",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/2/9/29957f49-9a6b-42f6-b2fb-b48f653ab725.jpg?1743203958",
+    "avg_pick": 1.83,
+    "win_rate": null
+  },
+  {
+    "name": "Taigam, Master Opportunist",
+    "color": "U",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/8/6/8693d631-05f6-414d-9e49-6385746e8960.jpg?1743204200",
+    "avg_pick": 2.05,
+    "win_rate": null
+  },
+  {
+    "name": "Twinmaw Stormbrood",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/9/2999e3b1-6510-42b2-9429-28c07a64a44f.jpg?1743204919",
+    "avg_pick": 2.11,
+    "win_rate": null
+  },
+  {
+    "name": "Ambling Stormshell",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/7/c74d4a57-0f66-4965-9ed7-f88a08aa1d15.jpg?1743204109",
+    "avg_pick": 2.15,
+    "win_rate": null
+  },
+  {
+    "name": "Naga Fleshcrafter",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/d/5df17423-9fdd-4432-8660-1d267c685595.jpg?1743204171",
+    "avg_pick": 2.26,
+    "win_rate": null
+  },
+  {
+    "name": "Winternight Stories",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/64d9367c-f50c-4568-aa63-6760c44ecaeb.jpg?1743204229",
+    "avg_pick": 2.48,
+    "win_rate": null
+  },
+  {
+    "name": "Clarion Conqueror",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/8/f892d156-371c-4391-8ae6-25513c5032b0.jpg?1743203973",
+    "avg_pick": 2.65,
+    "win_rate": null
+  },
+  {
+    "name": "Dragonologist",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/8/8810ebb4-9e51-46f0-a54a-a0b4d77b762a.jpg?1743204126",
+    "avg_pick": 2.66,
+    "win_rate": null
+  },
+  {
+    "name": "Static Snare",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1ce50932-03a6-48bc-8aee-bc8defd896cf.jpg?1743204059",
+    "avg_pick": 3.03,
+    "win_rate": null
+  },
+  {
+    "name": "Teeming Dragonstorm",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/b/3b9d771f-24dc-4ed6-8051-62df576a2ba5.jpg?1743204080",
+    "avg_pick": 3.3,
+    "win_rate": null
+  },
+  {
+    "name": "Rally the Monastery",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/5/b56e0037-8143-4c13-83e1-0c3f44e685ea.jpg?1743204029",
+    "avg_pick": 3.38,
+    "win_rate": null
+  },
+  {
+    "name": "Dalkovan Packbeasts",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/d/4df7b253-6107-47d6-b650-cb4d3e0aec6b.jpg?1743203980",
+    "avg_pick": 3.67,
+    "win_rate": null
+  },
+  {
+    "name": "Purging Stormbrood",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/9/3988dc76-072c-4f43-849d-2e73c6f6ff58.jpg?1743204843",
+    "avg_pick": 3.68,
+    "win_rate": null
+  },
+  {
+    "name": "Roiling Dragonstorm",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/5/455f4c96-684b-4b14-bd21-6799da2e1fa7.jpg?1743204180",
+    "avg_pick": 3.81,
+    "win_rate": null
+  },
+  {
+    "name": "Sunpearl Kirin",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/8/18292b9c-0f42-4ce2-8b85-35d06cf45a63.jpg?1743204071",
+    "avg_pick": 3.84,
+    "win_rate": null
+  },
+  {
+    "name": "Descendant of Storms",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/6/f632be90-9e7f-41f8-a52e-a2952354d730.jpg?1743203984",
+    "avg_pick": 3.85,
+    "win_rate": null
+  },
+  {
+    "name": "Wingblade Disciple",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/1/71de7dca-0231-4407-86a0-c7fc95f5aaa0.jpg?1743204222",
+    "avg_pick": 3.94,
+    "win_rate": null
+  },
+  {
+    "name": "Rediscover the Way",
+    "color": "WUR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/9/79d6decf-afd5-4e96-b87e-fd7ab7e3c068.jpg?1743204851",
+    "avg_pick": 3.94,
+    "win_rate": null
+  },
+  {
+    "name": "Jeskai Shrinekeeper",
+    "color": "WUR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/e/6ec8fa0b-c695-4326-aebd-042cb1974925.jpg?1743204771",
+    "avg_pick": 4.11,
+    "win_rate": null
+  },
+  {
+    "name": "Stormplain Detainment",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/9/39f3aab5-7b54-4b55-8114-c6f9f79c255d.jpg?1743204069",
+    "avg_pick": 4.55,
+    "win_rate": null
+  },
+  {
+    "name": "Sibsig Appraiser",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/7/670c5b96-bac6-449b-a2bd-cb43750d3911.jpg?1743204185",
+    "avg_pick": 4.59,
+    "win_rate": 0.5646
+  },
+  {
+    "name": "Frontier Bivouac",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/7/679fff07-4796-4d91-8dd6-4e294383ce88.jpg?1743205011",
+    "avg_pick": 4.68,
+    "win_rate": null
+  },
+  {
+    "name": "Mystic Monastery",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/7/c7b8a01c-c400-47c7-8270-78902efe850e.jpg?1743205034",
+    "avg_pick": 4.94,
+    "win_rate": null
+  },
+  {
+    "name": "Salt Road Packbeast",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/8/98d548c9-42bc-4155-8211-0aea801c3724.jpg?1763487067",
+    "avg_pick": 5.0,
+    "win_rate": 0.6111
+  },
+  {
+    "name": "Kishla Trawlers",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/9/190fbc55-e8e9-4077-9532-1de7406baabf.jpg?1743204163",
+    "avg_pick": 5.07,
+    "win_rate": null
+  },
+  {
+    "name": "Fresh Start",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/6/96f7af08-ac05-45d0-979f-282943130c61.jpg?1743204145",
+    "avg_pick": 5.12,
+    "win_rate": null
+  },
+  {
+    "name": "Dragonstorm Globe",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/f/7f50aa6e-ce6a-4479-9725-202926245f2c.jpg?1743204954",
+    "avg_pick": 5.45,
+    "win_rate": null
+  },
+  {
+    "name": "Duty Beyond Death",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/e/2e92640d-768b-4357-905f-bea017d351cc.jpg?1743203993",
+    "avg_pick": 5.74,
+    "win_rate": null
+  },
+  {
+    "name": "Furious Forebear",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/4/a4f247b6-8212-4e78-a452-d2d3be228d8e.jpg?1743204001",
+    "avg_pick": 5.78,
+    "win_rate": null
+  },
+  {
+    "name": "Starry-Eyed Skyrider",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/b/4b3cc15e-1c82-454e-b541-4ab47c44814e.jpg?1743204050",
+    "avg_pick": 5.86,
+    "win_rate": null
+  },
+  {
+    "name": "Evolving Wilds",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/2/62209251-4118-4843-895b-46afb7284c75.jpg?1743205007",
+    "avg_pick": 5.94,
+    "win_rate": null
+  },
+  {
+    "name": "Mardu Devotee",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/a/da45e9b0-a4f6-413b-9e62-666c511eb5b0.jpg?1743204014",
+    "avg_pick": 6.05,
+    "win_rate": null
+  },
+  {
+    "name": "Bewildering Blizzard",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/1/91b25843-1aa0-484a-b6c7-0c284fe7214a.jpg?1743204112",
+    "avg_pick": 6.1,
+    "win_rate": null
+  },
+  {
+    "name": "Riling Dawnbreaker",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/1/312f7072-3bf8-449f-bfb7-93727ef26c66.jpg?1743204036",
+    "avg_pick": 6.13,
+    "win_rate": null
+  },
+  {
+    "name": "Ureni's Rebuff",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/2/722716df-9cea-40a7-924b-c28497e227e6.jpg?1743204214",
+    "avg_pick": 6.15,
+    "win_rate": null
+  },
+  {
+    "name": "Jeskai Monument",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/0/d0193ad6-39b7-4558-bd3e-36f809332ea2.jpg?1743204966",
+    "avg_pick": 6.21,
+    "win_rate": null
+  },
+  {
+    "name": "Dispelling Exhale",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1c9af3f1-711e-42ae-803a-1100eba3fb13.jpg?1743204126",
+    "avg_pick": 6.29,
+    "win_rate": 0.5742
+  },
+  {
+    "name": "Osseous Exhale",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/3/2300da2f-2297-4c2f-90c1-11ce2b42d91f.jpg?1743204021",
+    "avg_pick": 6.41,
+    "win_rate": 0.6138
+  },
+  {
+    "name": "Fortress Kin-Guard",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/6/b647a018-1d70-43a1-a265-928bcd863689.jpg?1743204000",
+    "avg_pick": 6.47,
+    "win_rate": 0.5675
+  },
+  {
+    "name": "Wayspeaker Bodyguard",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/e/5e5b2324-69fe-4105-b6f8-14dfbe359d59.jpg?1743204097",
+    "avg_pick": 6.55,
+    "win_rate": null
+  },
+  {
+    "name": "Riverwheel Sweep",
+    "color": "WUR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/8/686fe623-ee50-407d-87c9-664fb039f4d9.jpg?1743204865",
+    "avg_pick": 6.62,
+    "win_rate": null
+  },
+  {
+    "name": "Dirgur Island Dragon",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/1/b1d21a9a-6b0c-4fbc-a427-81be885d326b.jpg?1743204119",
+    "avg_pick": 6.7,
+    "win_rate": null
+  },
+  {
+    "name": "Constrictor Sage",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/2/b2f160d7-c832-4b83-8f2e-aaeb190add3f.jpg?1743233749",
+    "avg_pick": 6.76,
+    "win_rate": null
+  },
+  {
+    "name": "Thornwood Falls",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/ebb502c2-5fd0-46a9-b77d-010f4a942056.jpg?1743205064",
+    "avg_pick": 6.76,
+    "win_rate": null
+  },
+  {
+    "name": "Swiftwater Cliffs",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/a/ca53fb19-b8ca-485b-af1a-5117ae54bfe3.jpg?1743205059",
+    "avg_pick": 6.88,
+    "win_rate": null
+  },
+  {
+    "name": "Wind-Scarred Crag",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/4912e4d0-b16a-4aa6-a583-3430d26bd591.jpg?1743205070",
+    "avg_pick": 6.93,
+    "win_rate": null
+  },
+  {
+    "name": "Bearer of Glory",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/6/d6d91e42-43db-428d-a4dd-ef9d40306314.jpg?1743203967",
+    "avg_pick": 7.22,
+    "win_rate": 0.5675
+  },
+  {
+    "name": "Spectral Denial",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/e/ee4e732a-1ffd-463d-92c2-26187659cfc3.jpg?1743204193",
+    "avg_pick": 7.38,
+    "win_rate": null
+  },
+  {
+    "name": "Dragonstorm Forecaster",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/5/75ec7a31-1893-493c-926b-dc3a8a770e72.jpg?1743204133",
+    "avg_pick": 7.39,
+    "win_rate": null
+  },
+  {
+    "name": "Loxodon Battle Priest",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a527cdb0-f54a-4b53-83a0-6b3e8cafa45e.jpg?1743204012",
+    "avg_pick": 7.49,
+    "win_rate": null
+  },
+  {
+    "name": "Coordinated Maneuver",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/6/c6569487-53c5-4b91-877d-e4e31bfa90c0.jpg?1743203976",
+    "avg_pick": 7.7,
+    "win_rate": null
+  },
+  {
+    "name": "Veteran Ice Climber",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/c/bcccfd7b-2846-4552-a89a-2b868bc9ab20.jpg?1743204215",
+    "avg_pick": 7.97,
+    "win_rate": null
+  },
+  {
+    "name": "Dismal Backwater",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/8/082b52c9-c46e-44d3-b723-546ba528e07b.jpg?1743697562",
+    "avg_pick": 8.07,
+    "win_rate": null
+  },
+  {
+    "name": "Tranquil Cove",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1c4efa6c-4f29-41cd-a728-bf0e479ace05.jpg?1743205066",
+    "avg_pick": 8.23,
+    "win_rate": null
+  },
+  {
+    "name": "Narset's Rebuke",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/5098bd73-d51c-4db4-bf06-fd4854089d37.jpg?1743204422",
+    "avg_pick": 8.31,
+    "win_rate": null
+  },
+  {
+    "name": "Unending Whisper",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/c/fc48180a-ccac-469f-938d-c050821d0160.jpg?1743204207",
+    "avg_pick": 8.68,
+    "win_rate": null
+  },
+  {
+    "name": "Focus the Mind",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/b/abb0ba34-6904-4c17-a04d-ea4f12c7cf21.jpg?1743204141",
+    "avg_pick": 8.74,
+    "win_rate": null
+  },
+  {
+    "name": "Riverwalk Technique",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/4/043c25d5-13ee-4cab-98d5-fb89db9cf6e3.jpg?1743204178",
+    "avg_pick": 9.15,
+    "win_rate": 0.583
+  },
+  {
+    "name": "Stormbeacon Blade",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/2/f2f12684-c80a-422b-9c3f-ed4f31742b9d.jpg?1743204061",
+    "avg_pick": 9.39,
+    "win_rate": null
+  },
+  {
+    "name": "Temur Devotee",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/2/a2ef698e-5466-43bd-985d-020f2e5d8205.jpg?1743204205",
+    "avg_pick": 9.57,
+    "win_rate": null
+  },
+  {
+    "name": "Rebellious Strike",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c9bafe19-3bd6-4da0-b3e5-e0b89262504c.jpg?1743204030",
+    "avg_pick": 9.89,
+    "win_rate": null
+  },
+  {
+    "name": "Embermouth Sentinel",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/8/485f75d5-da5b-4605-885a-561ccd999cc6.jpg?1743204957",
+    "avg_pick": 10.06,
+    "win_rate": null
+  },
+  {
+    "name": "Dragonback Lancer",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/2/0200a8c5-3293-48d0-a523-ba148680f588.jpg?1743203987",
+    "avg_pick": 10.12,
+    "win_rate": null
+  },
+  {
+    "name": "Iceridge Serpent",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/1/d13f117b-b8e4-48db-8ce9-5da9c7ce23a5.jpg?1743204156",
+    "avg_pick": 10.33,
+    "win_rate": null
+  },
+  {
+    "name": "Tempest Hawk",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/2/422f9453-ab12-4e3c-8c51-be87391395a1.jpg?1743204081",
+    "avg_pick": 10.43,
+    "win_rate": null
+  },
+  {
+    "name": "Poised Practitioner",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/b/bb25366d-a647-4c5e-bcc7-7e54659aacbd.jpg?1743204021",
+    "avg_pick": 10.45,
+    "win_rate": null
+  },
+  {
+    "name": "Boulderborn Dragon",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/50c6e815-bfe7-4599-9227-d36504a3640f.jpg?1743204948",
+    "avg_pick": 10.51,
+    "win_rate": null
+  },
+  {
+    "name": "Monastery Messenger",
+    "color": "WUR",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/c/0c9eeced-6464-41f0-bbea-05b3af4cc005.jpg?1743204819",
+    "avg_pick": 10.68,
+    "win_rate": null
+  },
+  {
+    "name": "Agent of Kotis",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/1/812d0462-0158-467f-951d-a7a121188a10.jpg?1743204105",
+    "avg_pick": 10.97,
+    "win_rate": null
+  },
+  {
+    "name": "Lightfoot Technique",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/a/baac1a41-d44d-4184-9147-b4233e73de65.jpg?1743204007",
+    "avg_pick": 11.0,
+    "win_rate": null
+  },
+  {
+    "name": "Humbling Elder",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/a/3a84c3f8-0030-4653-880e-b2d19272f5fa.jpg?1743697602",
+    "avg_pick": 11.48,
+    "win_rate": null
+  },
+  {
+    "name": "Arashin Sunshield",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/d/dd7102d8-90b3-45a1-b66d-dcca469b1fb6.jpg?1743697519",
+    "avg_pick": 11.75,
+    "win_rate": null
+  },
+  {
+    "name": "Ringing Strike Mastery",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/f/ff4fc7ec-05f5-479a-8fbb-31e12a67b57e.jpg?1743204172",
+    "avg_pick": 11.9,
+    "win_rate": null
+  },
+  {
+    "name": "Highspire Bell-Ringer",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/7/e75dccf7-2894-4c4a-b516-3eee73acddd3.jpg?1743204148",
+    "avg_pick": 11.94,
+    "win_rate": null
+  },
+  {
+    "name": "Snowmelt Stag",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/6/a6b3b131-704a-4586-84f8-db465cd4a277.jpg?1743204189",
+    "avg_pick": 11.96,
+    "win_rate": null
+  }
+]

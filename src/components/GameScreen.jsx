@@ -35,7 +35,7 @@ const getGuildFromColors = (colors) => {
   return 'Overall';
 };
 
-const GameScreen = ({ layout = 'stack' }) => {
+const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
   const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   
@@ -215,22 +215,43 @@ const GameScreen = ({ layout = 'stack' }) => {
     const selectedCard = currentPair[idx];
     const otherCard = currentPair[idx === 0 ? 1 : 0];
     
-    const diff = selectedCard.avg_pick - otherCard.avg_pick;
-    const isTie = Math.abs(diff) <= 0.20;
-    
-    // Lower avg_pick is better. If diff is negative, selected card was drafted earlier.
-    const isCorrect = diff <= 0;
-    
     let success = false;
-    if (isTie) {
-      success = true;
-      setResultMsg('Close enough! (Tie)');
-    } else if (isCorrect) {
-      success = true;
-      setResultMsg('Correct!');
+    
+    if (gameMode === 'draft') {
+      const diff = selectedCard.avg_pick - otherCard.avg_pick;
+      const isTie = Math.abs(diff) <= 0.20;
+      const isCorrect = diff <= 0;
+      
+      if (isTie) {
+        success = true;
+        setResultMsg('Close enough! (Tie)');
+      } else if (isCorrect) {
+        success = true;
+        setResultMsg('Correct!');
+      } else {
+        success = false;
+        setResultMsg('Incorrect!');
+      }
     } else {
-      success = false;
-      setResultMsg('Incorrect!');
+      // Value Mode Logic
+      const p1 = selectedCard.price || 0;
+      const p2 = otherCard.price || 0;
+      
+      // Threshold for "Bulk"
+      const BULK_THRESHOLD = 1.00;
+      const isP1Bulk = p1 < BULK_THRESHOLD;
+      const isP2Bulk = p2 < BULK_THRESHOLD;
+      
+      if (isP1Bulk && isP2Bulk) {
+        success = true;
+        setResultMsg('Both are bulk! (Tie)');
+      } else if (p1 >= p2) {
+        success = true;
+        setResultMsg('Correct! Worth more.');
+      } else {
+        success = false;
+        setResultMsg('Incorrect! Worth less.');
+      }
     }
     
     setTimeout(() => {
@@ -315,8 +336,13 @@ const GameScreen = ({ layout = 'stack' }) => {
                 card={currentPair[0]} 
                 onClick={() => handleCardClick(0)}
                 disabled={gameState !== 'playing'}
-                isCorrect={Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 ? true : currentPair[0].avg_pick <= currentPair[1].avg_pick}
+                isCorrect={
+                  gameMode === 'draft' 
+                    ? (Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 || currentPair[0].avg_pick <= currentPair[1].avg_pick)
+                    : (currentPair[0].price >= 1.0 || currentPair[1].price < 1.0) && (currentPair[0].price >= currentPair[1].price || (currentPair[0].price < 1 && currentPair[1].price < 1))
+                }
                 showResult={gameState === 'result'}
+                resultType={gameMode === 'draft' ? 'ata' : 'price'}
               />
             </div>
             
@@ -327,8 +353,13 @@ const GameScreen = ({ layout = 'stack' }) => {
                 card={currentPair[1]} 
                 onClick={() => handleCardClick(1)}
                 disabled={gameState !== 'playing'}
-                isCorrect={Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 ? true : currentPair[1].avg_pick <= currentPair[0].avg_pick}
+                isCorrect={
+                  gameMode === 'draft'
+                    ? (Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 || currentPair[1].avg_pick <= currentPair[0].avg_pick)
+                    : (currentPair[1].price >= 1.0 || currentPair[0].price < 1.0) && (currentPair[1].price >= currentPair[0].price || (currentPair[1].price < 1 && currentPair[0].price < 1))
+                }
                 showResult={gameState === 'result'}
+                resultType={gameMode === 'draft' ? 'ata' : 'price'}
               />
             </div>
           </div>

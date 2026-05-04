@@ -12,6 +12,9 @@ function App() {
   const [layout, setLayout] = useState(
     () => localStorage.getItem('mtg_layout') || 'stack'
   );
+  const [gameMode, setGameMode] = useState(
+    () => localStorage.getItem('mtg_game_mode') || 'draft'
+  );
 
   const cycleLayout = () => {
     const idx = LAYOUTS.findIndex(l => l.id === layout);
@@ -20,12 +23,39 @@ function App() {
     localStorage.setItem('mtg_layout', next.id);
   };
 
+  const toggleGameMode = () => {
+    const next = gameMode === 'draft' ? 'value' : 'draft';
+    setGameMode(next);
+    localStorage.setItem('mtg_game_mode', next);
+  };
+
   const currentLayout = LAYOUTS.find(l => l.id === layout);
 
   return (
     <div className="app-container">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', marginBottom: '4px' }}>
-        <h1 style={{ margin: 0 }}>MTG Draft Trainer</h1>
+        <button
+          onClick={toggleGameMode}
+          title={`Switch to ${gameMode === 'draft' ? 'Value' : 'Draft'} mode`}
+          style={{
+            position: 'absolute',
+            left: 0,
+            background: 'rgba(255,255,255,0.05)',
+            border: '1px solid rgba(255,255,255,0.15)',
+            borderRadius: '8px',
+            color: 'var(--text-main)',
+            cursor: 'pointer',
+            fontSize: '11px',
+            fontWeight: 700,
+            padding: '6px 10px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.5px'
+          }}
+        >
+          {gameMode === 'draft' ? '🏆 Draft' : '💰 Value'}
+        </button>
+
+        <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
         <button
           onClick={cycleLayout}
           title={`Layout: ${currentLayout.desc}. Click to switch.`}
@@ -55,8 +85,12 @@ function App() {
           <span>{currentLayout.label}</span>
         </button>
       </div>
-      <p className="subtitle">Pick the card drafted earlier by Top Players</p>
-      <GameScreen layout={layout} />
+      <p className="subtitle">
+        {gameMode === 'draft' 
+          ? 'Pick the card drafted earlier by Top Players' 
+          : 'Pick the card with higher secondary market value'}
+      </p>
+      <GameScreen layout={layout} gameMode={gameMode} />
     </div>
   );
 }

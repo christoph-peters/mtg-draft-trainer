@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
+const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType = 'ata' }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   // Use a transparent border by default to prevent layout shift
@@ -20,6 +20,35 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
     borderStyle = '2px solid var(--accent)';
     filterStyle = 'drop-shadow(0 4px 12px rgba(0, 229, 255, 0.3))';
   }
+
+  const renderResult = () => {
+    if (resultType === 'ata') {
+      return (
+        <>
+          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>ATA:</span>
+          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
+            {card.avg_pick.toFixed(2)}
+          </span>
+        </>
+      );
+    } else {
+      const price = card.price || 0;
+      const isBulk = price < 1.00;
+      return (
+        <>
+          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>USD:</span>
+          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
+            {isBulk ? 'Bulk' : `$${price.toFixed(2)}`}
+          </span>
+          {!isBulk && price > 0 && (
+            <div style={{ fontSize: '9px', color: 'var(--text-muted)', marginTop: '-2px' }}>
+              ${price.toFixed(2)}
+            </div>
+          )}
+        </>
+      );
+    }
+  };
 
   return (
     <div 
@@ -71,12 +100,12 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
           borderRadius: '4px',
           whiteSpace: 'nowrap',
           zIndex: 5,
-          border: '1px solid rgba(255,255,255,0.1)'
+          border: '1px solid rgba(255,255,255,0.1)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center'
         }}>
-          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>ATA:</span>
-          <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
-            {card.avg_pick.toFixed(2)}
-          </span>
+          {renderResult()}
         </div>
       )}
     </div>

@@ -262,7 +262,7 @@ const GameScreen = ({ layout = 'stack' }) => {
 
   return (
     <div className="glass-panel fade-in">
-      <div style={{ width: '100%', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
+      <div style={{ width: '100%', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center', padding: '0 12px' }}>
         
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
           <label htmlFor="set-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>SET</label>
@@ -302,7 +302,7 @@ const GameScreen = ({ layout = 'stack' }) => {
 
       {(gameState === 'playing' || gameState === 'result') && (
         <>
-          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '16px', alignItems: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '16px', alignItems: 'center', padding: '0 12px' }}>
             <div style={{ fontSize: '18px', fontWeight: 'bold' }}>
               Score: <span style={{ color: 'var(--accent)' }}>{score}</span>
             </div>

@@ -174,8 +174,9 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
     console.log(`Mode: ${gameMode}, Valid Cards Found: ${validCards.length}`);
 
     if (validCards.length < 2) {
-      console.error("Not enough valid cards for this mode/color combination.");
+      console.warn("Not enough valid cards for this mode/color combination.");
       setGameState('error');
+      setCurrentPair([]); // Clear pair to avoid trying to render undefined
       return;
     }
 
@@ -340,8 +341,17 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
 
       </div>
 
-      {gameState === 'loading' && <div className="subtitle">Loading card data...</div>}
-      {gameState === 'error' && <div className="subtitle" style={{ color: 'var(--incorrect)' }}>Error loading data. Not enough valid cards.</div>}
+      {gameState === 'error' && (
+        <div style={{ textAlign: 'center', padding: '40px 20px' }}>
+          <div style={{ fontSize: '48px', marginBottom: '16px' }}>🔍</div>
+          <h2 style={{ fontSize: '18px', marginBottom: '12px' }}>No Cards Found</h2>
+          <p style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: '1.6' }}>
+            {gameMode === 'value' 
+              ? "This set doesn't have enough cards worth > $1.00 for this mode yet. Try a different set like MH3 or BLB!"
+              : "Not enough valid cards found for these colors in this set."}
+          </p>
+        </div>
+      )}
       
       {gameState === 'gameover' && <GameOverScreen score={score} onRestart={handleRestart} />}
 

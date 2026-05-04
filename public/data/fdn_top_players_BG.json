@@ -5,6 +5,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/8/d/8d8432a7-1c8a-4cfb-947c-ecf9791063eb.jpg?1730657490",
     "avg_pick": 1.11,
+    "price": 17.1,
     "win_rate": null
   },
   {
@@ -13,6 +14,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/c/b/cb28d217-795e-4320-a032-cd713f7ecc8a.jpg?1732102737",
     "avg_pick": 1.3,
+    "price": 8.84,
     "win_rate": null
   },
   {
@@ -21,6 +23,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/c/e/ce860ed4-a5bd-4347-9eab-dd716ea84db1.jpg?1730488798",
     "avg_pick": 1.31,
+    "price": 33.15,
     "win_rate": null
   },
   {
@@ -29,6 +32,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/3/8/38769247-42a1-4571-9071-6d59fe28650a.jpg?1730489472",
     "avg_pick": 1.59,
+    "price": 0.41,
     "win_rate": 0.5981
   },
   {
@@ -37,6 +41,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/2/0/20ccbfdd-ddae-440c-9bc0-38b15a56fdd1.jpg?1730489069",
     "avg_pick": 1.71,
+    "price": 3.36,
     "win_rate": null
   },
   {
@@ -45,6 +50,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/8/0/809ee8ad-1573-49e5-9e84-b7cdd29efcae.jpg?1730488607",
     "avg_pick": 1.73,
+    "price": 0.37,
     "win_rate": null
   },
   {
@@ -53,6 +59,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.jpg?1730488812",
     "avg_pick": 1.73,
+    "price": 0.37,
     "win_rate": 0.5904
   },
   {
@@ -61,6 +68,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/f/5/f50a8dec-b079-4192-9098-6cdc1026c693.jpg?1730489015",
     "avg_pick": 1.77,
+    "price": 0.44,
     "win_rate": 0.5611
   },
   {
@@ -69,6 +77,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/b/9/b9c03336-a321-4c06-94d1-809f328fabd8.jpg?1730489083",
     "avg_pick": 1.78,
+    "price": 1.3,
     "win_rate": 0.6084
   },
   {
@@ -77,6 +86,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/c/3/c35b683c-d3b2-46a1-876a-81b34e8ba2fc.jpg?1730489018",
     "avg_pick": 1.82,
+    "price": 0.2,
     "win_rate": 0.5893
   },
   {
@@ -85,6 +95,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/8/3/83f20a32-9f5d-4a68-8995-549e57554da2.jpg?1730488754",
     "avg_pick": 1.83,
+    "price": 0.4,
     "win_rate": null
   },
   {
@@ -93,6 +104,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/5/3/5383f45e-3da2-40fb-beee-801448bbb60f.jpg?1730489562",
     "avg_pick": 1.85,
+    "price": 0.33,
     "win_rate": 0.5538
   },
   {
@@ -101,6 +113,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/9/f/9ff79da7-c3f7-4541-87a0-503544c699b5.jpg?1730488713",
     "avg_pick": 1.97,
+    "price": 0.14,
     "win_rate": null
   },
   {
@@ -109,6 +122,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/8/c/8c504c23-1e9a-411b-9cfe-4180d0c744f6.jpg?1730489464",
     "avg_pick": 2.01,
+    "price": 0.3,
     "win_rate": 0.5831
   },
   {
@@ -117,6 +131,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/2/4/24955f5f-093c-4d33-b0c1-911cd36032ce.jpg?1730489042",
     "avg_pick": 2.03,
+    "price": 0.37,
     "win_rate": null
   },
   {
@@ -125,6 +140,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/a/1/a1176dcf-40ee-4342-aa74-791b8352e99a.jpg?1730489093",
     "avg_pick": 2.13,
+    "price": 5.81,
     "win_rate": null
   },
   {
@@ -133,6 +149,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/f/2/f2e0f538-5825-47e9-883c-3ec6fd5b25ea.jpg?1730488783",
     "avg_pick": 2.23,
+    "price": 0.38,
     "win_rate": 0.558
   },
   {
@@ -141,6 +158,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/7/0/7054a0d7-396f-40b4-ab24-db591c3b08f0.jpg?1730488992",
     "avg_pick": 2.25,
+    "price": 12.06,
     "win_rate": 0.5277
   },
   {
@@ -149,6 +167,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/a/9/a93e3406-4e29-4bc0-ae52-cbd2ac1f99a4.jpg?1730489026",
     "avg_pick": 2.38,
+    "price": 1.21,
     "win_rate": null
   },
   {
@@ -157,6 +176,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/1/1/11040ecd-3153-4029-b42b-1441bc51ec34.jpg?1730488798",
     "avg_pick": 2.39,
+    "price": 3.56,
     "win_rate": 0.586
   },
   {
@@ -165,6 +185,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/0/9/09980ce6-425b-4e03-94d0-0f02043cb361.jpg?1730488991",
     "avg_pick": 2.48,
+    "price": 2.26,
     "win_rate": 0.5438
   },
   {
@@ -173,6 +194,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1730489423",
     "avg_pick": 2.53,
+    "price": 0.84,
     "win_rate": 0.5118
   },
   {
@@ -181,6 +203,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/0/a/0a1934ab-3171-4fc6-8033-ad998899ba73.jpg?1730489287",
     "avg_pick": 2.59,
+    "price": 0.0,
     "win_rate": 0.5598
   },
   {
@@ -189,6 +212,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/f/f/ff3d85bc-ef2d-4251-baf4-a14bd0cee61e.jpg?1730488853",
     "avg_pick": 2.63,
+    "price": 0.68,
     "win_rate": 0.5498
   },
   {
@@ -197,6 +221,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/c/3/c3b92caa-3401-4b11-9515-152f3e057c05.jpg?1730489050",
     "avg_pick": 2.65,
+    "price": 0.47,
     "win_rate": null
   },
   {
@@ -205,6 +230,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/1/e/1eae3165-554d-4759-8f18-794e2a7d8464.jpg?1730489283",
     "avg_pick": 2.71,
+    "price": 0.51,
     "win_rate": 0.5336
   },
   {
@@ -213,6 +239,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/a/d/ad2c01d9-8f54-46c0-9dc9-d4d4764ce1c9.jpg?1731652610",
     "avg_pick": 2.94,
+    "price": 0.32,
     "win_rate": 0.583
   },
   {
@@ -221,6 +248,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/0/7/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48.jpg?1730489269",
     "avg_pick": 3.15,
+    "price": 4.57,
     "win_rate": 0.5826
   },
   {
@@ -229,6 +257,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/5/4/54fe00aa-d284-48f9-b5a2-1bd4c5fa8e58.jpg?1730488913",
     "avg_pick": 3.5,
+    "price": 0.19,
     "win_rate": null
   },
   {
@@ -237,6 +266,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/d/e/dece147f-d71a-4c95-9fe5-f5c862ef14ac.jpg?1730489034",
     "avg_pick": 3.51,
+    "price": 0.27,
     "win_rate": null
   },
   {
@@ -245,6 +275,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/e/3/e38dc3b3-1629-491b-8afd-0e7a9a857713.jpg?1732131144",
     "avg_pick": 3.53,
+    "price": 0.11,
     "win_rate": null
   },
   {
@@ -253,6 +284,7 @@
     "rarity": "mythic",
     "image_url": "https://cards.scryfall.io/large/front/5/1/51710b19-68e3-4853-901f-e618bde61161.jpg?1730489512",
     "avg_pick": 3.59,
+    "price": 1.09,
     "win_rate": null
   },
   {
@@ -261,6 +293,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/9/1/917514c0-9cd5-4b97-85b9-c4f753560ad4.jpg?1730488861",
     "avg_pick": 3.68,
+    "price": 0.31,
     "win_rate": 0.5699
   },
   {
@@ -269,6 +302,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/0/3/03a49535-c5f3-4a6f-b333-7ac7bffdc9ae.jpg?1730489213",
     "avg_pick": 3.72,
+    "price": 0.0,
     "win_rate": null
   },
   {
@@ -277,6 +311,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/5/4/548947dc-a5ca-43b5-9531-bcef20fa4ae5.jpg?1730489293",
     "avg_pick": 3.73,
+    "price": 0.29,
     "win_rate": null
   },
   {
@@ -285,6 +320,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/2/a/2ab0e660-86a3-4b92-82fa-77dcb5db947d.jpg?1730489233",
     "avg_pick": 3.74,
+    "price": 0.18,
     "win_rate": 0.5626
   },
   {
@@ -293,6 +329,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/3/0/30df3e33-2f17-4067-99f1-5db6b0f41fd4.jpg?1730488859",
     "avg_pick": 3.81,
+    "price": 0.1,
     "win_rate": 0.5687
   },
   {
@@ -301,6 +338,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/2/6/2694e3cd-26ed-4a10-ae55-fb84d7800253.jpg?1730488983",
     "avg_pick": 3.85,
+    "price": 0.17,
     "win_rate": 0.5695
   },
   {
@@ -309,6 +347,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/a/e/aec5d380-d354-4750-931a-6c91853e2edc.jpg?1730489309",
     "avg_pick": 3.91,
+    "price": 0.24,
     "win_rate": null
   },
   {
@@ -317,6 +356,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/3/4/341da856-7414-403b-b2e3-4bebd58a5aa4.jpg?1730489413",
     "avg_pick": 3.94,
+    "price": 0.4,
     "win_rate": 0.5397
   },
   {
@@ -325,6 +365,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/8/7/877b6330-2d0b-4f2f-a848-f10b06fb4ef5.jpg?1730488820",
     "avg_pick": 3.97,
+    "price": 0.13,
     "win_rate": 0.5603
   },
   {
@@ -333,6 +374,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/9/6/96948ae3-b15d-4d6d-aa73-9f52084cd903.jpg?1730488984",
     "avg_pick": 4.03,
+    "price": 0.06,
     "win_rate": 0.5741
   },
   {
@@ -341,6 +383,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/8/6859a5ba-1c1c-4631-bba8-f9900b827178.jpg?1730488851",
     "avg_pick": 4.09,
+    "price": 0.19,
     "win_rate": 0.5626
   },
   {
@@ -349,6 +392,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/9/8/988c23f6-59fe-49f9-a9ce-9881dccb7033.jpg?1731652627",
     "avg_pick": 4.12,
+    "price": 1.42,
     "win_rate": null
   },
   {
@@ -357,6 +401,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/b/2/b2496c4a-df03-4583-bd76-f98ed5cb61ee.jpg?1730488789",
     "avg_pick": 4.3,
+    "price": 0.23,
     "win_rate": 0.5615
   },
   {
@@ -365,6 +410,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605",
     "avg_pick": 4.37,
+    "price": 0.31,
     "win_rate": 0.5615
   },
   {
@@ -373,6 +419,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/3/d/3d4d93de-85c6-4653-8ddd-d8bf21516d44.jpg?1730489453",
     "avg_pick": 4.47,
+    "price": 0.12,
     "win_rate": 0.562
   },
   {
@@ -381,6 +428,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/e/2/e24d838b-ab48-410a-9a50-dbfea5da089b.jpg?1730489038",
     "avg_pick": 4.5,
+    "price": 0.18,
     "win_rate": 0.5636
   },
   {
@@ -389,6 +437,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/b/c/bc2b28fd-66b0-457c-80ea-7caed2cc7926.jpg?1730489487",
     "avg_pick": 4.51,
+    "price": 0.26,
     "win_rate": null
   },
   {
@@ -397,6 +446,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/3/4/34ad4fdb-9805-45b3-ba20-e47a15d6ff38.jpg?1730488875",
     "avg_pick": 4.63,
+    "price": 0.69,
     "win_rate": null
   },
   {
@@ -405,6 +455,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/6/4/642553a7-6d0f-483d-a873-3a703786db42.jpg?1730489100",
     "avg_pick": 4.82,
+    "price": 0.7,
     "win_rate": null
   },
   {
@@ -413,6 +464,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1730489240",
     "avg_pick": 4.88,
+    "price": 0.19,
     "win_rate": 0.5632
   },
   {
@@ -421,6 +473,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/e/6/e6af54ea-b57a-4e50-8e46-1747cca14430.jpg?1730489192",
     "avg_pick": 5.04,
+    "price": 0.21,
     "win_rate": null
   },
   {
@@ -429,6 +482,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1730489505",
     "avg_pick": 5.04,
+    "price": 1.35,
     "win_rate": 0.546
   },
   {
@@ -437,6 +491,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/4/e/4e434d74-cad0-45f5-bc8d-f34aa5e1d879.jpg?1730489045",
     "avg_pick": 5.3,
+    "price": 0.25,
     "win_rate": null
   },
   {
@@ -445,6 +500,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/b/d/bd0c12dd-f138-45c0-9614-d83a1d8e8399.jpg?1731652616",
     "avg_pick": 5.37,
+    "price": 0.32,
     "win_rate": 0.5478
   },
   {
@@ -453,6 +509,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/f/8/f8d70b3b-f6f9-4b3c-ad70-0ce369e812b5.jpg?1730489385",
     "avg_pick": 5.41,
+    "price": 0.26,
     "win_rate": 0.5475
   },
   {
@@ -461,6 +518,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/e/a/eabc978a-0666-472d-bdc6-d4b29d29eca4.jpg?1730489527",
     "avg_pick": 5.56,
+    "price": 0.27,
     "win_rate": 0.507
   },
   {
@@ -469,6 +527,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/7/2/72980409-53f0-43c1-965e-06f22e7bb608.jpg?1730489060",
     "avg_pick": 5.61,
+    "price": 0.24,
     "win_rate": null
   },
   {
@@ -477,6 +536,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/5/3/5389663a-fe25-41b9-8c92-1f4d7721ffc2.jpg?1730489447",
     "avg_pick": 5.67,
+    "price": 0.06,
     "win_rate": 0.5682
   },
   {
@@ -485,6 +545,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/a/6/a6e8433d-eb2a-43d1-b59b-7d70ff97c8e7.jpg?1730488975",
     "avg_pick": 5.76,
+    "price": 0.07,
     "win_rate": 0.566
   },
   {
@@ -493,6 +554,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/9/b/9b1d5b76-b07e-45c6-800d-4cfce085164f.jpg?1730488703",
     "avg_pick": 5.78,
+    "price": 0.16,
     "win_rate": null
   },
   {
@@ -501,6 +563,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/9/9/993c1679-e02b-44f2-b34e-12fd6b5142e9.jpg?1730488999",
     "avg_pick": 5.79,
+    "price": 0.07,
     "win_rate": 0.5408
   },
   {
@@ -509,6 +572,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/d/e/de1c8758-ce3d-49cf-8173-c0eb46f5e7bc.jpg?1730489233",
     "avg_pick": 5.87,
+    "price": 0.22,
     "win_rate": 0.5615
   },
   {
@@ -517,6 +581,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/2/d/2da8347d-06a4-46e0-a55e-cc2da4660263.jpg?1731255612",
     "avg_pick": 5.89,
+    "price": 0.1,
     "win_rate": 0.5401
   },
   {
@@ -525,6 +590,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/1/d/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f.jpg?1730489456",
     "avg_pick": 5.97,
+    "price": 0.36,
     "win_rate": 0.5429
   },
   {
@@ -533,6 +599,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/6/c/6cc4c21d-9bdc-4490-9203-17f51db0ddd1.jpg?1730489471",
     "avg_pick": 6.25,
+    "price": 0.28,
     "win_rate": 0.5417
   },
   {
@@ -541,6 +608,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/2/8/28e84b1b-1c05-4e1b-93b8-9cc2ca73509d.jpg?1730489276",
     "avg_pick": 6.29,
+    "price": 0.28,
     "win_rate": 0.5285
   },
   {
@@ -549,6 +617,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/3/a/3a0b9356-5b91-4542-8802-f0f7275238e1.jpg?1730489581",
     "avg_pick": 6.59,
+    "price": 0.29,
     "win_rate": 0.5524
   },
   {
@@ -557,6 +626,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/d/4/d40c73de-7a5f-46f2-a70b-449bc8ecfe24.jpg?1730492338",
     "avg_pick": 6.71,
+    "price": 0.26,
     "win_rate": 0.5619
   },
   {
@@ -565,6 +635,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/7/9/790f9433-7565-4f7f-88e8-8af762ea0296.jpg?1730488814",
     "avg_pick": 6.73,
+    "price": 0.09,
     "win_rate": 0.5576
   },
   {
@@ -573,6 +644,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/b/c/bc359da6-8b7f-45ec-b530-ce159fc35953.jpg?1730488843",
     "avg_pick": 6.81,
+    "price": 0.11,
     "win_rate": 0.5481
   },
   {
@@ -581,6 +653,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/a/c/acb65189-60e4-42e0-9fb1-da6b716b91d7.jpg?1730489000",
     "avg_pick": 6.81,
+    "price": 0.67,
     "win_rate": null
   },
   {
@@ -589,6 +662,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.jpg?1730489550",
     "avg_pick": 6.84,
+    "price": 0.38,
     "win_rate": null
   },
   {
@@ -597,6 +671,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/0/1/01c00d7b-7fac-4f8c-a1ea-de2cf4d06627.jpg?1730489406",
     "avg_pick": 6.85,
+    "price": 0.38,
     "win_rate": 0.5361
   },
   {
@@ -605,6 +680,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/0/3/03ebdb36-55e0-49dd-a514-785fbeb4ae19.jpg?1730489398",
     "avg_pick": 6.9,
+    "price": 0.26,
     "win_rate": 0.5526
   },
   {
@@ -613,6 +689,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/f/e/fe3e7dd2-b66d-4218-9fde-f84bec26b7bf.jpg?1730489519",
     "avg_pick": 6.91,
+    "price": 0.26,
     "win_rate": null
   },
   {
@@ -621,6 +698,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/7/b/7b3587a9-0667-4d53-807b-c437bcb1d7b3.jpg?1730488790",
     "avg_pick": 7.01,
+    "price": 0.09,
     "win_rate": 0.52
   },
   {
@@ -629,6 +707,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/8/3/83ea9b2c-5723-4eff-88ac-6669975939e3.jpg?1730489067",
     "avg_pick": 7.1,
+    "price": 0.19,
     "win_rate": 0.5412
   },
   {
@@ -637,6 +716,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/3/6/36359fb6-fb8c-4382-8555-e348422f116c.jpg?1730489480",
     "avg_pick": 7.15,
+    "price": 0.22,
     "win_rate": 0.5289
   },
   {
@@ -645,6 +725,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/8/8/88e68fa3-159d-49a6-8ac6-afc9bd6f1718.jpg?1730489023",
     "avg_pick": 7.17,
+    "price": 0.22,
     "win_rate": 0.556
   },
   {
@@ -653,6 +734,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/4/8/4805c303-e73b-443b-a09f-49d2c2c88bb5.jpg?1730489415",
     "avg_pick": 7.19,
+    "price": 0.44,
     "win_rate": 0.5211
   },
   {
@@ -661,6 +743,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/a/1/a14c16c0-4053-46b0-8fa6-be8b4a7a1c8a.jpg?1730489076",
     "avg_pick": 7.31,
+    "price": 5.58,
     "win_rate": null
   },
   {
@@ -669,6 +752,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/4/8/485d6a5a-2054-47d5-91b8-71ce308ed4dc.jpg?1731652607",
     "avg_pick": 7.54,
+    "price": 0.17,
     "win_rate": null
   },
   {
@@ -677,6 +761,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/d/c/dc798e6f-13c4-457c-b052-b7b65bc83cfe.jpg?1730489291",
     "avg_pick": 7.59,
+    "price": 0.29,
     "win_rate": 0.5307
   },
   {
@@ -685,6 +770,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/0/1/0102e0be-5783-4825-9489-713b1b1df0b2.jpg?1730488967",
     "avg_pick": 7.64,
+    "price": 0.06,
     "win_rate": 0.5555
   },
   {
@@ -693,6 +779,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/a/3/a3d62d04-0974-4cb5-9a35-5e996c6456e2.jpg?1731255666",
     "avg_pick": 7.65,
+    "price": 0.1,
     "win_rate": 0.5517
   },
   {
@@ -701,6 +788,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/d/2/d291ea1e-36bc-46b3-b3ae-084fa0ba69eb.jpg?1733036771",
     "avg_pick": 7.65,
+    "price": 0.36,
     "win_rate": 0.5296
   },
   {
@@ -709,6 +797,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/4/7/47565d10-96bf-4fb0-820f-f20a44a76b6f.jpg?1730506553",
     "avg_pick": 8.04,
+    "price": 0.1,
     "win_rate": 0.5499
   },
   {
@@ -717,6 +806,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/1/9/1918ea65-ab7f-4d40-97fd-a656c892a2a1.jpg?1730489462",
     "avg_pick": 8.11,
+    "price": 0.29,
     "win_rate": 0.4955
   },
   {
@@ -725,6 +815,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/a/2/a241317d-2277-467e-a8f9-aa71c944e244.jpg?1730489548",
     "avg_pick": 8.12,
+    "price": 0.23,
     "win_rate": 0.5385
   },
   {
@@ -733,6 +824,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/8/9/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a.jpg?1730489407",
     "avg_pick": 8.24,
+    "price": 0.24,
     "win_rate": 0.556
   },
   {
@@ -741,6 +833,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/4/6/4682012c-d7e0-4257-b538-3de497507464.jpg?1730489240",
     "avg_pick": 8.36,
+    "price": 0.08,
     "win_rate": 0.5267
   },
   {
@@ -749,6 +842,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/d/b/dbb0df36-8467-4a41-8e1c-6c3584d4fd10.jpg?1730489576",
     "avg_pick": 8.47,
+    "price": 0.35,
     "win_rate": 0.5544
   },
   {
@@ -757,6 +851,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/2/6/2632a4b2-9ca6-4b67-9a99-14f52ad3dc41.jpg?1730489596",
     "avg_pick": 8.47,
+    "price": 0.29,
     "win_rate": null
   },
   {
@@ -765,6 +860,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/6/5/65ebbff0-fbe6-4310-a33f-e00bb2534979.jpg?1730489535",
     "avg_pick": 8.64,
+    "price": 0.3,
     "win_rate": null
   },
   {
@@ -773,6 +869,7 @@
     "rarity": "rare",
     "image_url": "https://cards.scryfall.io/large/front/d/4/d46f7ddb-f986-4f1f-b096-ae1a02d0bdc8.jpg?1730489421",
     "avg_pick": 8.68,
+    "price": 0.34,
     "win_rate": null
   },
   {
@@ -781,6 +878,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1730489248",
     "avg_pick": 8.74,
+    "price": 0.29,
     "win_rate": 0.5401
   },
   {
@@ -789,6 +887,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/2/9/2903832c-318e-42ab-bf58-c682ec2f7afd.jpg?1730488959",
     "avg_pick": 8.86,
+    "price": 0.12,
     "win_rate": 0.5506
   },
   {
@@ -797,6 +896,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/9/0/909d7778-c7f8-4fa4-89f2-8b32e86e96e4.jpg?1730488806",
     "avg_pick": 8.94,
+    "price": 0.11,
     "win_rate": 0.5476
   },
   {
@@ -805,6 +905,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/2/d/2d076293-3b45-4878-8f67-978927cc1f68.jpg?1730492312",
     "avg_pick": 9.0,
+    "price": 0.0,
     "win_rate": 0.5305
   },
   {
@@ -813,6 +914,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/1/b/1bd8e971-c075-4203-8d83-c28f22d4f9b9.jpg?1730550993",
     "avg_pick": 9.06,
+    "price": 0.05,
     "win_rate": 0.5465
   },
   {
@@ -821,6 +923,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/d/e/deea5690-6eb2-4353-b917-cbbf840e4e71.jpg?1730550969",
     "avg_pick": 9.07,
+    "price": 0.08,
     "win_rate": 0.5788
   },
   {
@@ -829,6 +932,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/8/b/8b90dc92-cb66-41d9-89f9-2b6e3cfc8082.jpg?1730489569",
     "avg_pick": 9.3,
+    "price": 0.28,
     "win_rate": 0.5556
   },
   {
@@ -837,6 +941,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/1/f/1f463c55-39a0-4f2f-aae3-0c5540bde5b7.jpg?1730488836",
     "avg_pick": 9.35,
+    "price": 0.32,
     "win_rate": null
   },
   {
@@ -845,6 +950,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/d/c/dc758e14-d370-45e4-bbc5-938fb4d21127.jpg?1730489583",
     "avg_pick": 9.44,
+    "price": 0.31,
     "win_rate": 0.5586
   },
   {
@@ -853,6 +959,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/4/2/42799f51-0f8c-444b-974e-dae281a5c697.jpg?1730489604",
     "avg_pick": 9.46,
+    "price": 0.26,
     "win_rate": 0.5282
   },
   {
@@ -861,6 +968,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/8/c/8c7c88b5-6d09-453b-b9c1-7dcbba8f1080.jpg?1730492192",
     "avg_pick": 9.5,
+    "price": 0.19,
     "win_rate": 0.5373
   },
   {
@@ -869,6 +977,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/5/1/5128a5be-ffa6-4998-8488-872d80b24cb2.jpg?1730488976",
     "avg_pick": 9.51,
+    "price": 0.21,
     "win_rate": 0.5451
   },
   {
@@ -877,6 +986,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/8/0/80cadee5-6f26-4440-ad31-a8e573a90436.jpg?1730551009",
     "avg_pick": 9.53,
+    "price": 0.22,
     "win_rate": null
   },
   {
@@ -885,6 +995,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/b/1/b1daf5bb-c8e9-4e79-a532-ca92a9a885cd.jpg?1730488838",
     "avg_pick": 9.56,
+    "price": 0.23,
     "win_rate": 0.5416
   },
   {
@@ -893,6 +1004,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/f/3/f3ad3d62-2f24-4562-b3fa-809213dbc4a4.jpg?1730492206",
     "avg_pick": 9.64,
+    "price": 0.17,
     "win_rate": null
   },
   {
@@ -901,6 +1013,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/0/6/067f72c2-ead6-4879-bc9d-696c9f87c0b2.jpg?1730489008",
     "avg_pick": 9.66,
+    "price": 0.27,
     "win_rate": null
   },
   {
@@ -909,6 +1022,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/3/7/37676ed8-588c-4bca-8065-874b74d84807.jpg?1730489573",
     "avg_pick": 9.66,
+    "price": 0.32,
     "win_rate": null
   },
   {
@@ -917,6 +1031,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/f/b/fb88667d-7088-4889-960f-317486ebe856.jpg?1730489604",
     "avg_pick": 9.7,
+    "price": 0.25,
     "win_rate": null
   },
   {
@@ -925,6 +1040,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/b/d/bd0bf74e-14c1-4428-88d8-2181a080b5d0.jpg?1730489430",
     "avg_pick": 9.76,
+    "price": 0.25,
     "win_rate": 0.5418
   },
   {
@@ -933,6 +1049,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/5/f/5f70dafc-c638-4ec0-ab5b-62998f752720.jpg?1730489261",
     "avg_pick": 9.77,
+    "price": 0.33,
     "win_rate": null
   },
   {
@@ -941,6 +1058,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/a/2/a2a424ea-ef32-4ac5-8f8c-3ea1839f01d4.jpg?1730489588",
     "avg_pick": 9.78,
+    "price": 0.41,
     "win_rate": null
   },
   {
@@ -949,6 +1067,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/4/3/43c59814-3167-4b05-bb85-6c736f3956a4.jpg?1730489541",
     "avg_pick": 9.79,
+    "price": 0.11,
     "win_rate": 0.5388
   },
   {
@@ -957,6 +1076,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/4/d/4d1f3c84-89ba-4426-a80b-d524f172c912.jpg?1730489256",
     "avg_pick": 9.87,
+    "price": 0.15,
     "win_rate": 0.5244
   },
   {
@@ -965,6 +1085,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/4/2/42525f8a-aee7-4811-8f05-471b559c2c4a.jpg?1730489438",
     "avg_pick": 10.05,
+    "price": 0.19,
     "win_rate": 0.4976
   },
   {
@@ -973,6 +1094,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/f/d/fd6eaf8e-8881-4d7b-bafc-75e4ca5cbef6.jpg?1730489590",
     "avg_pick": 10.07,
+    "price": 0.21,
     "win_rate": null
   },
   {
@@ -981,6 +1103,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/4/1/41040541-b129-4cf4-9411-09b1d9d32c19.jpg?1730489565",
     "avg_pick": 10.4,
+    "price": 2.57,
     "win_rate": null
   },
   {
@@ -989,6 +1112,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/f/4/f4468fff-cd6f-428c-b7a0-ff89f5bbea2e.jpg?1730489555",
     "avg_pick": 10.63,
+    "price": 0.1,
     "win_rate": null
   },
   {
@@ -997,6 +1121,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/8/680b7b0c-0e1b-46ce-9917-9fc6e05aa148.jpg?1730550979",
     "avg_pick": 10.67,
+    "price": 0.05,
     "win_rate": 0.5267
   },
   {
@@ -1005,6 +1130,7 @@
     "rarity": "uncommon",
     "image_url": "https://cards.scryfall.io/large/front/3/e/3e241642-5172-4437-b694-f6aa159d5cd9.jpg?1730489440",
     "avg_pick": 11.16,
+    "price": 0.45,
     "win_rate": null
   },
   {
@@ -1013,6 +1139,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/1/b/1b49b009-e6f2-494a-9235-f5c25c2d70a9.jpg?1730489543",
     "avg_pick": 11.63,
+    "price": 0.12,
     "win_rate": null
   },
   {
@@ -1021,6 +1148,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/3/b/3b072811-998a-4a71-b59c-6afecc0dc4b6.jpg?1730488805",
     "avg_pick": 11.72,
+    "price": 0.1,
     "win_rate": null
   },
   {
@@ -1029,6 +1157,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/9/69beec98-c89c-4673-953c-8b3ef3d81560.jpg?1730489084",
     "avg_pick": 11.87,
+    "price": 0.15,
     "win_rate": null
   },
   {
@@ -1037,6 +1166,7 @@
     "rarity": "common",
     "image_url": "https://cards.scryfall.io/large/front/6/1/61f9cbeb-cc9c-4562-be65-8a77053faefe.jpg?1730489392",
     "avg_pick": 11.99,
+    "price": 0.27,
     "win_rate": null
   }
 ]

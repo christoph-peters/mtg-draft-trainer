@@ -228,36 +228,31 @@ h1 {
   padding: 0;
 }
 
-/* ── Layout modifier: SPLIT ─────────────────────────────
-   Each card occupies half the viewport height — both
-   cards visible at once, no scrolling, full width. */
-.card-pair--split {
-  flex-direction: column !important;
-  align-items: stretch;
-  height: calc(100svh - 320px); /* subtract header + controls */
-  min-height: 400px;
-}
-
-.card-pair--split .card-wrapper {
-  flex: 1;
-  width: 100%;
-  max-width: none;
-  overflow: hidden;
-  display: flex;
+/* ── Layout modifier: WIDE ──────────────────────────────
+   Side-by-side but with zero gap and absolute VS.
+   Maximizes card size on small screens. */
+.card-pair--wide {
+  flex-direction: row !important;
   align-items: center;
-  justify-content: center;
+  gap: 4px !important;
+  position: relative;
 }
 
-.card-pair--split .card-wrapper img {
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+.card-pair--wide .card-wrapper {
+  flex: 1;
+  max-width: 50%;
 }
 
-.card-pair--split .vs-divider {
-  flex: 0 0 auto;
-  padding: 2px 0;
+.card-pair--wide .vs-divider {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 4px 8px;
+  border-radius: 4px;
   font-size: 14px;
+  pointer-events: none;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }

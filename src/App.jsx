@@ -5,7 +5,7 @@ import './index.css';
 const LAYOUTS = [
   { id: 'stack', label: 'Stack', icon: '☰', desc: 'Cards stacked vertically' },
   { id: 'side',  label: 'Side',  icon: '⧉', desc: 'Cards side-by-side' },
-  { id: 'split', label: 'Split', icon: '⬒', desc: 'Cards split screen' },
+  { id: 'wide',  label: 'Wide',  icon: '↔', desc: 'Side-by-side (max width)' },
 ];
 
 function App() {

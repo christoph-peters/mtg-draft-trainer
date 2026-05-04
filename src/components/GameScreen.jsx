@@ -151,16 +151,17 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
       
       // 2. Color Filter (only apply in draft mode)
       if (gameMode === 'draft') {
-        if (!card.color || card.color === "") return true;
-        if (currentColors.length === 0) return true;
-        for (let i = 0; i < card.color.length; i++) {
-          if (!currentColors.includes(card.color[i])) return false;
+        if (currentColors.length > 0) {
+          if (!card.color || card.color === "") return true; // colorless
+          for (let i = 0; i < card.color.length; i++) {
+            if (!currentColors.includes(card.color[i])) return false;
+          }
         }
       }
       return true;
     });
 
-    // 2. Value Mode Filters (Hide all bulk)
+    // 3. Value Mode Filters (Hide all bulk)
     if (gameMode === 'value') {
       validCards = validCards.filter(card => {
         const price = card.price || 0;
@@ -168,7 +169,10 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
       });
     }
 
+    console.log(`Mode: ${gameMode}, Valid Cards Found: ${validCards.length}`);
+
     if (validCards.length < 2) {
+      console.error("Not enough valid cards for this mode/color combination.");
       setGameState('error');
       return;
     }

@@ -146,24 +146,25 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
 
     // Filter cards to only include on-color and colorless cards for the selected colors
     let validCards = cardData.filter(card => {
-      // 1. Basic Land Filter
-      if (!card.color || card.color === "") return true;
-      if (currentColors.length === 0) return true;
-      for (let i = 0; i < card.color.length; i++) {
-        if (!currentColors.includes(card.color[i])) return false;
+      // 1. Basic Land Filter (always apply)
+      if (BASIC_LANDS.has(card.name)) return false;
+      
+      // 2. Color Filter (only apply in draft mode)
+      if (gameMode === 'draft') {
+        if (!card.color || card.color === "") return true;
+        if (currentColors.length === 0) return true;
+        for (let i = 0; i < card.color.length; i++) {
+          if (!currentColors.includes(card.color[i])) return false;
+        }
       }
       return true;
     });
 
-    // 2. Value Mode Filters (Commons/Uncommons)
+    // 2. Value Mode Filters (Hide all bulk)
     if (gameMode === 'value') {
       validCards = validCards.filter(card => {
-        const rarity = (card.rarity || '').toLowerCase();
         const price = card.price || 0;
-        
-        if (rarity === 'common') return false; // Hide all commons
-        if (rarity === 'uncommon' && price < 1.00) return false; // Hide cheap uncommons
-        return true; // Keep everything else (rares, mythics, etc)
+        return price >= 1.00; // Only show cards worth $1 or more
       });
     }
 
@@ -313,14 +314,18 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
           </select>
         </div>
 
-        <ManaSelector 
-          selectedColors={selectedColors} 
-          onChange={setSelectedColors} 
-        />
-        
-        <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-          Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? [...selectedColors].sort().join('') : currentMode}</strong>
-        </div>
+        {gameMode === 'draft' && (
+          <>
+            <ManaSelector 
+              selectedColors={selectedColors} 
+              onChange={setSelectedColors} 
+            />
+            
+            <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+              Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? [...selectedColors].sort().join('') : currentMode}</strong>
+            </div>
+          </>
+        )}
         {loadWarning && (
           <div style={{ fontSize: '12px', color: '#f59e0b', marginTop: '4px' }}>
             {loadWarning}

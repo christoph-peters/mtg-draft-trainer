@@ -253,7 +253,7 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
         success = false;
         setResultMsg('Incorrect!');
       }
-    } else {
+    } else if (gameMode === 'value') {
       // Value Mode Logic
       const p1 = selectedCard.price || 0;
       const p2 = otherCard.price || 0;

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  // Use a transparent border by default to prevent layout shift
   let borderStyle = '2px solid transparent';
   let filterStyle = 'none';
 
@@ -14,7 +15,8 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
       borderStyle = '2px solid var(--incorrect)';
       filterStyle = 'grayscale(100%) opacity(0.5)';
     }
-  } else if (isHovered && !disabled) {
+  } else if (isHovered && !disabled && window.matchMedia('(hover: hover)').matches) {
+    // Only show hover glow on devices that actually support hovering (desktops)
     borderStyle = '2px solid var(--accent)';
     filterStyle = 'drop-shadow(0 4px 12px rgba(0, 229, 255, 0.3))';
   }

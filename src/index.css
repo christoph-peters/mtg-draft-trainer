@@ -36,7 +36,7 @@ body {
   max-width: 600px; /* Mobile first, capped width on desktop */
   margin: 0 auto;
   width: 100%;
-  padding: 16px;
+  padding: 8px; /* reduced from 16px */
 }
 
 /* Typography */
@@ -62,10 +62,11 @@ h1 {
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--card-radius);
-  padding: 16px 12px; /* tighter on mobile */
+  padding: 12px 6px; /* further reduced for max width */
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
@@ -234,13 +235,15 @@ h1 {
 .card-pair--wide {
   flex-direction: row !important;
   align-items: center;
-  gap: 4px !important;
+  gap: 2px !important; /* tiny gap */
   position: relative;
+  width: 100% !important;
+  margin: 0 !important;
 }
 
 .card-pair--wide .card-wrapper {
   flex: 1;
-  max-width: 50%;
+  max-width: calc(50% - 1px);
 }
 
 .card-pair--wide .vs-divider {

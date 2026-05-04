@@ -33,7 +33,9 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
         alignItems: 'center',
         width: '100%',
         height: '100%',
-        maxHeight: '100%'
+        maxHeight: '100%',
+        outline: 'none',
+        WebkitTapHighlightColor: 'transparent'
       }}
     >
       <img 
@@ -50,7 +52,8 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult }) => {
           transition: 'all 0.3s ease',
           boxShadow: '0 4px 6px rgba(0,0,0,0.3)',
           display: 'block',
-          objectFit: 'contain'
+          objectFit: 'contain',
+          outline: 'none'
         }}
       />
       {showResult && (

@@ -41,144 +41,104 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
   const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   
-  const [cards, setCards] = useState([]);
-  const [currentPair, setCurrentPair] = useState([]);
+  const [masterMetadata, setMasterMetadata] = useState(null);
+  const [masterStats, setMasterStats] = useState(null);
+  
   const [score, setScore] = useState(0);
   const [lives, setLives] = useState(3);
   const [gameState, setGameState] = useState('loading'); // loading, playing, result, gameover
+  const [currentPair, setCurrentPair] = useState([]);
   const [selectedCardIdx, setSelectedCardIdx] = useState(null);
   const [resultMsg, setResultMsg] = useState('');
   const [loadWarning, setLoadWarning] = useState('');
   // Track recently seen card names to avoid immediate repeats
   const recentlySeenRef = React.useRef(new Set());
 
-  // Load data when set or selectedColors (meaning mode) changes
+  // Load data when set changes
   useEffect(() => {
-    setGameState('loading');
-    setLoadWarning('');
-    const mode = getGuildFromColors(selectedColors);
-    const baseUrl = import.meta.env.BASE_URL || '/';
-    const overallFilename = `${activeSet.toLowerCase()}_top_players.json`;
+    const loadSetData = async () => {
+      setGameState('loading');
+      setLoadWarning('');
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const prefix = activeSet.toLowerCase();
 
-    const fetchJson = async (url) => {
-      const res = await fetch(url);
-      if (!res.ok) {
-        throw new Error(`Failed to fetch ${url}: ${res.status}`);
-      }
-      return res.json();
-    };
-
-    const loadOverall = async () => {
-      const overallUrl = `${baseUrl}data/${overallFilename}`;
-      const data = await fetchJson(overallUrl);
-      setLoadWarning(`Using overall ${activeSet} data because set-specific data was unavailable.`);
-      return data;
-    };
-
-    const loadSingleMode = async () => {
-      const filename = mode === 'Overall' ? overallFilename : `${activeSet.toLowerCase()}_top_players_${mode}.json`;
-      const url = `${baseUrl}data/${filename}`;
       try {
-        return await fetchJson(url);
-      } catch (err) {
-        console.warn(`Could not load ${filename}; falling back to overall data.`, err);
-        return await loadOverall();
-      }
-    };
+        const [metaRes, statsRes] = await Promise.all([
+          fetch(`${baseUrl}data/${prefix}_metadata.json`),
+          fetch(`${baseUrl}data/${prefix}_stats.json`)
+        ]);
 
-    const loadMulticolor = async () => {
-      const colorCombos = [];
-      for (let i = 0; i < selectedColors.length; i++) {
-        for (let j = i + 1; j < selectedColors.length; j++) {
-          colorCombos.push(selectedColors[i] + selectedColors[j]);
-        }
-      }
+        if (!metaRes.ok || !statsRes.ok) throw new Error("Missing set files");
 
-      const dataArrays = await Promise.all(
-        colorCombos.map(async (combo) => {
-          const filename = `${activeSet.toLowerCase()}_top_players_${combo}.json`;
-          const url = `${baseUrl}data/${filename}`;
-          try {
-            return await fetchJson(url);
-          } catch (err) {
-            console.warn(`Failed to load ${filename}; skipping`, err);
-            return [];
-          }
-        })
-      );
-
-      const combinedData = [];
-      const seenNames = new Set();
-      dataArrays.flat().forEach((card) => {
-        if (!card || !card.name) return;
-        if (!seenNames.has(card.name)) {
-          seenNames.add(card.name);
-          combinedData.push(card);
-        }
-      });
-
-      if (combinedData.length >= 2) {
-        return combinedData;
-      }
-
-      console.warn('No multi-color archetype files available; falling back to overall data.');
-      return await loadOverall();
-    };
-
-    (async () => {
-      try {
-        const data = selectedColors.length >= 3 ? await loadMulticolor() : await loadSingleMode();
-        setCards(data);
+        const [meta, stats] = await Promise.all([metaRes.json(), statsRes.json()]);
+        
+        setMasterMetadata(meta);
+        setMasterStats(stats);
         setScore(0);
         setLives(3);
-        pickNewPair(data, selectedColors);
         setGameState('playing');
       } catch (err) {
         console.error('Failed to load card data', err);
         setGameState('error');
       }
-    })();
-  }, [activeSet, selectedColors]);
+    };
 
-  const pickNewPair = (cardData, currentColors) => {
-    if (!cardData || cardData.length < 2) {
-      setGameState('error');
-      return;
+    loadSetData();
+  }, [activeSet]);
+
+  // Handle color/mode changes (just pick new pair)
+  useEffect(() => {
+    if (masterMetadata && masterStats) {
+      pickNewPair();
     }
+  }, [selectedColors, gameMode, masterMetadata]);
 
-    // Filter cards to only include on-color and colorless cards for the selected colors
-    let validCards = cardData.filter(card => {
-      // 1. Basic Land Filter (always apply)
+  const pickNewPair = () => {
+    if (!masterMetadata || !masterStats) return;
+
+    const mode = getGuildFromColors(selectedColors);
+    
+    // 1. Get base list of valid cards for this set/mode
+    let validCards = Object.values(masterMetadata).filter(card => {
+      // Basic Land Filter
       if (BASIC_LANDS.has(card.name)) return false;
       
-      // 2. Color Filter (only apply in draft mode)
-      if (gameMode === 'draft') {
-        if (currentColors.length > 0) {
-          if (!card.color || card.color === "") return true; // colorless
+      // Color Filter (only in draft/winrate mode)
+      if (gameMode === 'draft' || gameMode === 'winrate') {
+        if (selectedColors.length > 0) {
+          if (!card.color || card.color === "") return true;
           for (let i = 0; i < card.color.length; i++) {
-            if (!currentColors.includes(card.color[i])) return false;
+            if (!selectedColors.includes(card.color[i])) return false;
           }
         }
       }
+
+      // Value mode specific price filter
+      if (gameMode === 'value' && card.price < 1.00) return false;
+
       return true;
     });
 
-    // 3. Value Mode Filters (Hide all bulk)
-    if (gameMode === 'value') {
-      validCards = validCards.filter(card => {
-        const price = card.price || 0;
-        return price >= 1.00; // Only show cards worth $1 or more
-      });
-    }
-
-    console.log(`Mode: ${gameMode}, Valid Cards Found: ${validCards.length}`);
+    // 2. Attach stats for the selected archetype(s)
+    // For simplicity, we'll use the 'mode' stats, or fallback to 'Overall'
+    validCards = validCards.map(card => {
+      const stats = masterStats[card.name] || {};
+      const archetypeStats = stats[mode] || stats['Overall'] || {};
+      
+      return {
+        ...card,
+        avg_pick: archetypeStats.pick || 15.0,
+        win_rate: archetypeStats.wr || null
+      };
+    }).filter(c => c.avg_pick > 0);
 
     if (validCards.length < 2) {
-      console.warn("Not enough valid cards for this mode/color combination.");
       setGameState('error');
-      setCurrentPair([]); // Clear pair to avoid trying to render undefined
+      setCurrentPair([]);
       return;
     }
+
+    setGameState('playing');
 
     // --- Weighted random selection ---
     // Prefer cards not recently seen, and apply a weight so mid-pack cards
@@ -296,7 +256,7 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
     setTimeout(() => {
       if (success) {
         setScore(s => s + 1);
-        pickNewPair(cards, selectedColors);
+        pickNewPair();
         setGameState(prevState => prevState === 'gameover' ? 'gameover' : 'playing');
       } else {
         const newLives = lives - 1;
@@ -304,7 +264,7 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
         if (newLives <= 0) {
           setGameState('gameover');
         } else {
-          pickNewPair(cards, selectedColors);
+          pickNewPair();
           setGameState('playing');
         }
       }
@@ -314,7 +274,7 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
   const handleRestart = () => {
     setScore(0);
     setLives(3);
-    pickNewPair(cards, selectedColors);
+    pickNewPair();
     setGameState('playing');
   };
 

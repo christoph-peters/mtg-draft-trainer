@@ -364,11 +364,12 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
                 onClick={() => handleCardClick(0)}
                 disabled={gameState !== 'playing'}
                 isCorrect={
+                  (!currentPair[0] || !currentPair[1]) ? false :
                   gameMode === 'draft' 
                     ? (Math.abs(currentPair[0].avg_pick - currentPair[1].avg_pick) <= 0.20 || currentPair[0].avg_pick <= currentPair[1].avg_pick)
                     : gameMode === 'winrate'
                     ? (Math.abs((currentPair[0].win_rate || 0) - (currentPair[1].win_rate || 0)) <= 0.005 || (currentPair[0].win_rate || 0) >= (currentPair[1].win_rate || 0))
-                    : (currentPair[0].price >= 1.0 || currentPair[1].price < 1.0) && (currentPair[0].price >= currentPair[1].price || (currentPair[0].price < 1 && currentPair[1].price < 1))
+                    : (currentPair[0].price >= 1.0 || (currentPair[1].price || 0) < 1.0) && ((currentPair[0].price || 0) >= (currentPair[1].price || 0) || ((currentPair[0].price || 0) < 1 && (currentPair[1].price || 0) < 1))
                 }
                 showResult={gameState === 'result'}
                 resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}
@@ -383,11 +384,12 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
                 onClick={() => handleCardClick(1)}
                 disabled={gameState !== 'playing'}
                 isCorrect={
+                  (!currentPair[0] || !currentPair[1]) ? false :
                   gameMode === 'draft'
                     ? (Math.abs(currentPair[1].avg_pick - currentPair[0].avg_pick) <= 0.20 || currentPair[1].avg_pick <= currentPair[0].avg_pick)
                     : gameMode === 'winrate'
                     ? (Math.abs((currentPair[1].win_rate || 0) - (currentPair[0].win_rate || 0)) <= 0.005 || (currentPair[1].win_rate || 0) >= (currentPair[0].win_rate || 0))
-                    : (currentPair[1].price >= 1.0 || currentPair[0].price < 1.0) && (currentPair[1].price >= currentPair[0].price || (currentPair[1].price < 1 && currentPair[0].price < 1))
+                    : (currentPair[1].price >= 1.0 || (currentPair[0].price || 0) < 1.0) && ((currentPair[1].price || 0) >= (currentPair[0].price || 0) || ((currentPair[1].price || 0) < 1 && (currentPair[0].price || 0) < 1))
                 }
                 showResult={gameState === 'result'}
                 resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}

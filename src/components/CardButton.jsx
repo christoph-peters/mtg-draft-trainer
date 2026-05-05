@@ -3,6 +3,11 @@ import React, { useState } from 'react';
 const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType = 'ata' }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  // Guard against missing card data during transitions
+  if (!card) {
+    return <div style={{ width: '100%', aspectRatio: '2.5/3.5', background: 'rgba(255,255,255,0.05)', borderRadius: '12px' }} />;
+  }
+
   // Use a transparent border by default to prevent layout shift
   let borderStyle = '2px solid transparent';
   let filterStyle = 'none';

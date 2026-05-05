@@ -136,12 +136,13 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
     // For simplicity, we'll use the 'mode' stats, or fallback to 'Overall'
     validCards = validCards.map(card => {
       const stats = masterStats[card.name] || {};
-      const archetypeStats = stats[mode] || stats['Overall'] || {};
+      const specific = stats[mode] || {};
+      const overall = stats['Overall'] || {};
       
       return {
         ...card,
-        avg_pick: archetypeStats.pick || 15.0,
-        win_rate: archetypeStats.wr || null
+        avg_pick: specific.pick ?? overall.pick ?? 15.0,
+        win_rate: specific.wr ?? overall.wr ?? null
       };
     }).filter(c => c.avg_pick > 0);
 

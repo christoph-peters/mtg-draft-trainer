@@ -8,20 +8,23 @@ const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest", 
 
 // Ordered by release date, newest first
 const SETS = [
-  { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
-  { id: 'TMT', name: 'TMNT (2026)' },
-  { id: 'ECL', name: 'Lorwyn Eclipsed (2026)' },
-  { id: 'TLA', name: 'Avatar: The Last Airbender (2025)' },
-  { id: 'SPM', name: "Marvel's Spider-Man (2025)" },
-  { id: 'EOE', name: 'Edge of Eternities (2025)' },
-  { id: 'FIN', name: 'Final Fantasy (2025)' },
-  { id: 'TDM', name: 'Tarkir: Dragonstorm (2025)' },
-  { id: 'DFT', name: 'Aetherdrift (2025)' },
   { id: 'FDN', name: 'Foundations (2024)' },
-  { id: 'DSK', name: 'Duskmourn: House of Horror (2024)' },
+  { id: 'DSK', name: 'Duskmourn (2024)' },
   { id: 'BLB', name: 'Bloomburrow (2024)' },
   { id: 'MH3', name: 'Modern Horizons 3 (2024)' },
-  { id: 'OTJ', name: 'Outlaws of Thunder Junction (2024)' }
+  { id: 'OTJ', name: 'Outlaws of Thunder Junction (2024)' },
+  { id: 'MKM', name: 'Karlov Manor (2024)' },
+  { id: 'LCI', name: 'Lost Caverns of Ixalan (2023)' },
+  { id: 'WOE', name: 'Wilds of Eldraine (2023)' },
+  { id: 'LTR', name: 'Lord of the Rings (2023)' },
+  { id: 'MOM', name: 'March of the Machine (2023)' },
+  { id: 'ONE', name: 'Phyrexia: All Will Be One (2023)' },
+  { id: 'BRO', name: "Brothers' War (2022)" },
+  { id: 'DMU', name: 'Dominaria United (2022)' },
+  { id: 'SNC', name: 'New Capenna (2022)' },
+  { id: 'NEO', name: 'Kamigawa: Neon Dynasty (2022)' },
+  { id: 'VOW', name: 'Crimson Vow (2021)' },
+  { id: 'MID', name: 'Midnight Hunt (2021)' }
 ];
 
 const getGuildFromColors = (colors) => {
@@ -38,7 +41,7 @@ const getGuildFromColors = (colors) => {
 };
 
 const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
-  const [activeSet, setActiveSet] = useState('SOS');
+  const [activeSet, setActiveSet] = useState('MH3');
   const [selectedColors, setSelectedColors] = useState([]);
   
   const [masterMetadata, setMasterMetadata] = useState(null);

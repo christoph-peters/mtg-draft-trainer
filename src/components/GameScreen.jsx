@@ -8,6 +8,15 @@ const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest", 
 
 // Ordered by release date, newest first
 const SETS = [
+  { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
+  { id: 'TMT', name: 'TMNT (2026)' },
+  { id: 'ECL', name: 'Lorwyn Eclipsed (2026)' },
+  { id: 'TLA', name: 'Avatar: The Last Airbender (2025)' },
+  { id: 'SPM', name: "Marvel's Spider-Man (2025)" },
+  { id: 'EOE', name: 'Edge of Eternities (2025)' },
+  { id: 'FIN', name: 'Final Fantasy (2025)' },
+  { id: 'TDM', name: 'Tarkir: Dragonstorm (2025)' },
+  { id: 'DFT', name: 'Aetherdrift (2025)' },
   { id: 'FDN', name: 'Foundations (2024)' },
   { id: 'DSK', name: 'Duskmourn (2024)' },
   { id: 'BLB', name: 'Bloomburrow (2024)' },
@@ -40,7 +49,7 @@ const getGuildFromColors = (colors) => {
 };
 
 const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
-  const [activeSet, setActiveSet] = useState('MH3');
+  const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   
   const [masterMetadata, setMasterMetadata] = useState(null);

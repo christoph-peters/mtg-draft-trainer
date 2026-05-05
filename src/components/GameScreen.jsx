@@ -23,8 +23,7 @@ const SETS = [
   { id: 'DMU', name: 'Dominaria United (2022)' },
   { id: 'SNC', name: 'New Capenna (2022)' },
   { id: 'NEO', name: 'Kamigawa: Neon Dynasty (2022)' },
-  { id: 'VOW', name: 'Crimson Vow (2021)' },
-  { id: 'MID', name: 'Midnight Hunt (2021)' }
+  { id: 'VOW', name: 'Crimson Vow (2021)' }
 ];
 
 const getGuildFromColors = (colors) => {

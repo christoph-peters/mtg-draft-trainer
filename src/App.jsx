@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GameScreen from './components/GameScreen';
+import ErrorBoundary from './components/ErrorBoundary';
 import './index.css';
 
 const LAYOUTS = [
@@ -42,66 +43,68 @@ function App() {
   const currentMode = MODES.find(m => m.id === gameMode) || MODES[0];
 
   return (
-    <div className="app-container">
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', marginBottom: '4px' }}>
-        <button
-          onClick={cycleGameMode}
-          title={`Mode: ${currentMode.label}. Click to switch.`}
-          style={{
-            position: 'absolute',
-            left: 0,
-            background: 'rgba(255,255,255,0.05)',
-            border: '1px solid rgba(255,255,255,0.15)',
-            borderRadius: '8px',
-            color: 'var(--text-main)',
-            cursor: 'pointer',
-            fontSize: '11px',
-            fontWeight: 700,
-            padding: '6px 10px',
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px'
-          }}
-        >
-          <span>{currentMode.icon}</span>
-          <span className="hide-mobile">{currentMode.label}</span>
-        </button>
+    <ErrorBoundary>
+      <div className="app-container">
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', marginBottom: '4px' }}>
+          <button
+            onClick={cycleGameMode}
+            title={`Mode: ${currentMode.label}. Click to switch.`}
+            style={{
+              position: 'absolute',
+              left: 0,
+              background: 'rgba(255,255,255,0.05)',
+              border: '1px solid rgba(255,255,255,0.15)',
+              borderRadius: '8px',
+              color: 'var(--text-main)',
+              cursor: 'pointer',
+              fontSize: '11px',
+              fontWeight: 700,
+              padding: '6px 10px',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            <span>{currentMode.icon}</span>
+            <span className="hide-mobile">{currentMode.label}</span>
+          </button>
 
-        <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
-        <button
-          onClick={cycleLayout}
-          title={`Layout: ${currentLayout?.desc || 'Select layout'}. Click to switch.`}
-          style={{
-            position: 'absolute',
-            right: 0,
-            background: 'transparent',
-            border: '1px solid rgba(255,255,255,0.15)',
-            borderRadius: '8px',
-            color: 'var(--text-muted)',
-            cursor: 'pointer',
-            fontSize: '11px',
-            fontFamily: 'var(--font-main)',
-            fontWeight: 600,
-            padding: '4px 8px',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            lineHeight: 1.2,
-            gap: '1px',
-            transition: 'border-color 0.2s, color 0.2s',
-          }}
-          onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
-        >
-          <span style={{ fontSize: '16px' }}>{currentLayout.icon}</span>
-          <span>{currentLayout.label}</span>
-        </button>
+          <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
+          <button
+            onClick={cycleLayout}
+            title={`Layout: ${currentLayout?.desc || 'Select layout'}. Click to switch.`}
+            style={{
+              position: 'absolute',
+              right: 0,
+              background: 'transparent',
+              border: '1px solid rgba(255,255,255,0.15)',
+              borderRadius: '8px',
+              color: 'var(--text-muted)',
+              cursor: 'pointer',
+              fontSize: '11px',
+              fontFamily: 'var(--font-main)',
+              fontWeight: 600,
+              padding: '4px 8px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              lineHeight: 1.2,
+              gap: '1px',
+              transition: 'border-color 0.2s, color 0.2s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
+            onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
+          >
+            <span style={{ fontSize: '16px' }}>{currentLayout.icon}</span>
+            <span>{currentLayout.label}</span>
+          </button>
+        </div>
+        <p className="subtitle">{currentMode.subtitle}</p>
+        <GameScreen layout={layout} gameMode={gameMode} />
       </div>
-      <p className="subtitle">{currentMode.subtitle}</p>
-      <GameScreen layout={layout} gameMode={gameMode} />
-    </div>
+    </ErrorBoundary>
   );
 }
 

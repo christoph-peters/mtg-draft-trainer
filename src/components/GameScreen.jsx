@@ -82,6 +82,8 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
         setGameState('playing');
       } catch (err) {
         console.error('Failed to load card data', err);
+        setMasterMetadata(null);
+        setMasterStats(null);
         setGameState('error');
       }
     };
@@ -159,9 +161,15 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
       return midBonus;
     });
 
+    if (weights.length === 0) {
+      setGameState('error');
+      return;
+    }
+
     const pickWeighted = (excludeIdx = -1) => {
       const w = weights.map((wt, i) => (i === excludeIdx ? 0 : wt));
       const total = w.reduce((a, b) => a + b, 0);
+      if (total === 0) return 0;
       let rand = Math.random() * total;
       for (let i = 0; i < w.length; i++) {
         rand -= w[i];
@@ -172,6 +180,11 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
 
     const idx1 = pickWeighted();
     const idx2 = pickWeighted(idx1);
+
+    if (!validCards[idx1] || !validCards[idx2]) {
+      setGameState('error');
+      return;
+    }
 
     // Update cooldown set
     recentlySeen.add(validCards[idx1].name);

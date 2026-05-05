@@ -418,6 +418,24 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
           )}
         </>
       )}
+
+      {/* Attribution Footer */}
+      <footer style={{ 
+        marginTop: '48px', 
+        padding: '24px 0 12px', 
+        borderTop: '1px solid rgba(255,255,255,0.05)', 
+        width: '100%',
+        textAlign: 'center'
+      }}>
+        <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '8px' }}>
+          Data provided by <a href="https://scryfall.com" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Scryfall</a> and <a href="https://17lands.com" target="_blank" rel="noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>17Lands</a>.
+        </div>
+        <div style={{ fontSize: '9px', color: 'rgba(255,255,255,0.2)', lineHeight: '1.4', maxWidth: '400px', margin: '0 auto' }}>
+          Portions of Magic: The Gathering are unofficial Fan Content permitted under the Wizards of the Coast Fan Content Policy. 
+          The literal and graphical information presented on this site about Magic: The Gathering, including card images and mana symbols, is copyright Wizards of the Coast, LLC. 
+          This site is not produced by, endorsed by, supported by, or affiliated with Wizards of the Coast.
+        </div>
+      </footer>
     </div>
   );
 };

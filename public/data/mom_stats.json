@@ -1,0 +1,5624 @@
+{
+  "Aerial Boost": {
+    "Overall": {
+      "pick": 8.4,
+      "wr": 0.617
+    },
+    "WU": {
+      "pick": 8.4,
+      "wr": 0.6354
+    },
+    "WG": {
+      "pick": 8.4,
+      "wr": 0.5953
+    },
+    "WB": {
+      "pick": 8.4,
+      "wr": 0.5598
+    },
+    "WR": {
+      "pick": 8.4,
+      "wr": 0.6069
+    }
+  },
+  "Alabaster Host Intercessor": {
+    "Overall": {
+      "pick": 6.17,
+      "wr": 0.5839
+    },
+    "WU": {
+      "pick": 6.17,
+      "wr": 0.6223
+    },
+    "UB": {
+      "pick": 6.17,
+      "wr": 0.5869
+    },
+    "BR": {
+      "pick": 6.17,
+      "wr": null
+    },
+    "RG": {
+      "pick": 6.17,
+      "wr": null
+    },
+    "WG": {
+      "pick": 6.17,
+      "wr": 0.5907
+    },
+    "WB": {
+      "pick": 6.17,
+      "wr": 0.5626
+    },
+    "UR": {
+      "pick": 6.17,
+      "wr": null
+    },
+    "BG": {
+      "pick": 6.17,
+      "wr": 0.5533
+    },
+    "WR": {
+      "pick": 6.17,
+      "wr": 0.5609
+    },
+    "UG": {
+      "pick": 6.17,
+      "wr": null
+    }
+  },
+  "Alabaster Host Sanctifier": {
+    "Overall": {
+      "pick": 7.84,
+      "wr": 0.5859
+    },
+    "WU": {
+      "pick": 7.84,
+      "wr": 0.6065
+    },
+    "WG": {
+      "pick": 7.84,
+      "wr": 0.5887
+    },
+    "WB": {
+      "pick": 7.84,
+      "wr": 0.5677
+    },
+    "WR": {
+      "pick": 7.84,
+      "wr": 0.5801
+    }
+  },
+  "Angelic Intervention": {
+    "Overall": {
+      "pick": 7.26,
+      "wr": 0.6136
+    },
+    "WU": {
+      "pick": 7.26,
+      "wr": 0.6297
+    },
+    "WG": {
+      "pick": 7.26,
+      "wr": 0.6096
+    },
+    "WB": {
+      "pick": 7.26,
+      "wr": 0.5795
+    },
+    "WR": {
+      "pick": 7.26,
+      "wr": 0.6076
+    }
+  },
+  "Archangel Elspeth": {
+    "Overall": {
+      "pick": 1.18,
+      "wr": 0.6001
+    },
+    "WU": {
+      "pick": 1.18,
+      "wr": 0.6376
+    },
+    "UB": {
+      "pick": 1.18,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.18,
+      "wr": 0.586
+    },
+    "WB": {
+      "pick": 1.18,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.18,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.18,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.18,
+      "wr": null
+    }
+  },
+  "Attentive Skywarden": {
+    "Overall": {
+      "pick": 9.4,
+      "wr": 0.5706
+    },
+    "WU": {
+      "pick": 9.4,
+      "wr": 0.5816
+    },
+    "WG": {
+      "pick": 9.4,
+      "wr": 0.5968
+    },
+    "WB": {
+      "pick": 9.4,
+      "wr": 0.5623
+    },
+    "WR": {
+      "pick": 9.4,
+      "wr": 0.5818
+    }
+  },
+  "Bola Slinger": {
+    "Overall": {
+      "pick": 7.81,
+      "wr": 0.6087
+    },
+    "WU": {
+      "pick": 7.81,
+      "wr": 0.6227
+    },
+    "WG": {
+      "pick": 7.81,
+      "wr": 0.6017
+    },
+    "WB": {
+      "pick": 7.81,
+      "wr": 0.5576
+    },
+    "WR": {
+      "pick": 7.81,
+      "wr": 0.6112
+    }
+  },
+  "Boon-Bringer Valkyrie": {
+    "Overall": {
+      "pick": 1.31,
+      "wr": 0.6258
+    },
+    "WU": {
+      "pick": 1.31,
+      "wr": 0.6578
+    },
+    "UB": {
+      "pick": 1.31,
+      "wr": null
+    },
+    "BR": {
+      "pick": 1.31,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.31,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.31,
+      "wr": 0.625
+    },
+    "WB": {
+      "pick": 1.31,
+      "wr": 0.6048
+    },
+    "BG": {
+      "pick": 1.31,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.31,
+      "wr": 0.6254
+    },
+    "UG": {
+      "pick": 1.31,
+      "wr": null
+    }
+  },
+  "Cut Short": {
+    "Overall": {
+      "pick": 7.38,
+      "wr": 0.5955
+    },
+    "WU": {
+      "pick": 7.38,
+      "wr": 0.6145
+    },
+    "UB": {
+      "pick": 7.38,
+      "wr": null
+    },
+    "WG": {
+      "pick": 7.38,
+      "wr": 0.5854
+    },
+    "WB": {
+      "pick": 7.38,
+      "wr": 0.592
+    },
+    "BG": {
+      "pick": 7.38,
+      "wr": null
+    },
+    "WR": {
+      "pick": 7.38,
+      "wr": 0.5638
+    },
+    "UG": {
+      "pick": 7.38,
+      "wr": null
+    }
+  },
+  "Dusk Legion Duelist": {
+    "Overall": {
+      "pick": 2.36,
+      "wr": 0.6046
+    },
+    "WU": {
+      "pick": 2.36,
+      "wr": 0.622
+    },
+    "WG": {
+      "pick": 2.36,
+      "wr": 0.6025
+    },
+    "WB": {
+      "pick": 2.36,
+      "wr": null
+    },
+    "WR": {
+      "pick": 2.36,
+      "wr": 0.6207
+    }
+  },
+  "Elspeth's Smite": {
+    "Overall": {
+      "pick": 5.59,
+      "wr": 0.5973
+    },
+    "WU": {
+      "pick": 5.59,
+      "wr": 0.6214
+    },
+    "WG": {
+      "pick": 5.59,
+      "wr": 0.5947
+    },
+    "WB": {
+      "pick": 5.59,
+      "wr": 0.5684
+    },
+    "WR": {
+      "pick": 5.59,
+      "wr": 0.5972
+    }
+  },
+  "Enduring Bondwarden": {
+    "Overall": {
+      "pick": 9.72,
+      "wr": 0.5921
+    },
+    "WU": {
+      "pick": 9.72,
+      "wr": 0.5979
+    },
+    "WG": {
+      "pick": 9.72,
+      "wr": 0.5894
+    },
+    "WB": {
+      "pick": 9.72,
+      "wr": 0.6108
+    },
+    "WR": {
+      "pick": 9.72,
+      "wr": 0.5899
+    }
+  },
+  "Golden-Scale Aeronaut": {
+    "Overall": {
+      "pick": 10.44,
+      "wr": 0.5873
+    },
+    "WU": {
+      "pick": 10.44,
+      "wr": 0.5987
+    },
+    "WG": {
+      "pick": 10.44,
+      "wr": 0.5944
+    },
+    "WB": {
+      "pick": 10.44,
+      "wr": 0.5334
+    },
+    "WR": {
+      "pick": 10.44,
+      "wr": 0.5932
+    }
+  },
+  "Guardian of Ghirapur": {
+    "Overall": {
+      "pick": 1.82,
+      "wr": 0.6101
+    },
+    "WU": {
+      "pick": 1.82,
+      "wr": 0.6382
+    },
+    "UB": {
+      "pick": 1.82,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.82,
+      "wr": 0.6052
+    },
+    "WB": {
+      "pick": 1.82,
+      "wr": 0.5507
+    },
+    "BG": {
+      "pick": 1.82,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.82,
+      "wr": 0.6246
+    },
+    "UG": {
+      "pick": 1.82,
+      "wr": null
+    }
+  },
+  "Infected Defector": {
+    "Overall": {
+      "pick": 11.44,
+      "wr": 0.572
+    },
+    "WU": {
+      "pick": 11.44,
+      "wr": 0.584
+    },
+    "WG": {
+      "pick": 11.44,
+      "wr": null
+    },
+    "WB": {
+      "pick": 11.44,
+      "wr": 0.5629
+    },
+    "WR": {
+      "pick": 11.44,
+      "wr": null
+    }
+  },
+  "Inspired Charge": {
+    "Overall": {
+      "pick": 12.55,
+      "wr": 0.5937
+    },
+    "WU": {
+      "pick": 12.55,
+      "wr": 0.6084
+    },
+    "WG": {
+      "pick": 12.55,
+      "wr": null
+    },
+    "WB": {
+      "pick": 12.55,
+      "wr": null
+    },
+    "WR": {
+      "pick": 12.55,
+      "wr": null
+    }
+  },
+  "Kithkin Billyrider": {
+    "Overall": {
+      "pick": 9.81,
+      "wr": 0.5877
+    },
+    "WU": {
+      "pick": 9.81,
+      "wr": 0.602
+    },
+    "WG": {
+      "pick": 9.81,
+      "wr": 0.5687
+    },
+    "WB": {
+      "pick": 9.81,
+      "wr": 0.556
+    },
+    "WR": {
+      "pick": 9.81,
+      "wr": 0.578
+    }
+  },
+  "Knight of the New Coalition": {
+    "Overall": {
+      "pick": 7.45,
+      "wr": 0.6123
+    },
+    "WU": {
+      "pick": 7.45,
+      "wr": 0.6295
+    },
+    "WG": {
+      "pick": 7.45,
+      "wr": 0.5806
+    },
+    "WB": {
+      "pick": 7.45,
+      "wr": 0.5635
+    },
+    "WR": {
+      "pick": 7.45,
+      "wr": 0.5945
+    }
+  },
+  "Knight-Errant of Eos": {
+    "Overall": {
+      "pick": 2.03,
+      "wr": 0.5941
+    },
+    "WU": {
+      "pick": 2.03,
+      "wr": 0.6177
+    },
+    "UB": {
+      "pick": 2.03,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.03,
+      "wr": 0.5932
+    },
+    "WB": {
+      "pick": 2.03,
+      "wr": 0.5656
+    },
+    "WR": {
+      "pick": 2.03,
+      "wr": 0.5815
+    }
+  },
+  "Kor Halberd": {
+    "Overall": {
+      "pick": 10.91,
+      "wr": 0.5922
+    },
+    "WU": {
+      "pick": 10.91,
+      "wr": 0.61
+    },
+    "WG": {
+      "pick": 10.91,
+      "wr": 0.5959
+    },
+    "WB": {
+      "pick": 10.91,
+      "wr": 0.5437
+    },
+    "WR": {
+      "pick": 10.91,
+      "wr": 0.5898
+    }
+  },
+  "Monastery Mentor": {
+    "Overall": {
+      "pick": 1.47,
+      "wr": 0.5863
+    },
+    "WU": {
+      "pick": 1.47,
+      "wr": 0.6073
+    },
+    "UB": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "BR": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "UR": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.47,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.47,
+      "wr": null
+    }
+  },
+  "Norn's Inquisitor": {
+    "Overall": {
+      "pick": 2.92,
+      "wr": 0.6244
+    },
+    "WU": {
+      "pick": 2.92,
+      "wr": 0.6531
+    },
+    "UB": {
+      "pick": 2.92,
+      "wr": null
+    },
+    "BR": {
+      "pick": 2.92,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.92,
+      "wr": 0.6128
+    },
+    "WB": {
+      "pick": 2.92,
+      "wr": 0.5913
+    },
+    "BG": {
+      "pick": 2.92,
+      "wr": null
+    },
+    "WR": {
+      "pick": 2.92,
+      "wr": 0.6145
+    },
+    "UG": {
+      "pick": 2.92,
+      "wr": null
+    }
+  },
+  "Phyrexian Awakening": {
+    "Overall": {
+      "pick": 5.23,
+      "wr": 0.5822
+    },
+    "WU": {
+      "pick": 5.23,
+      "wr": 0.6165
+    },
+    "UB": {
+      "pick": 5.23,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.23,
+      "wr": 0.595
+    },
+    "WB": {
+      "pick": 5.23,
+      "wr": 0.5579
+    },
+    "BG": {
+      "pick": 5.23,
+      "wr": null
+    },
+    "WR": {
+      "pick": 5.23,
+      "wr": 0.5709
+    },
+    "UG": {
+      "pick": 5.23,
+      "wr": null
+    }
+  },
+  "Phyrexian Censor": {
+    "Overall": {
+      "pick": 6.93,
+      "wr": 0.5874
+    },
+    "WU": {
+      "pick": 6.93,
+      "wr": 0.6081
+    },
+    "WG": {
+      "pick": 6.93,
+      "wr": 0.6006
+    },
+    "WB": {
+      "pick": 6.93,
+      "wr": 0.5685
+    },
+    "WR": {
+      "pick": 6.93,
+      "wr": 0.6017
+    }
+  },
+  "Progenitor Exarch": {
+    "Overall": {
+      "pick": 1.68,
+      "wr": 0.5977
+    },
+    "WU": {
+      "pick": 1.68,
+      "wr": 0.6407
+    },
+    "UB": {
+      "pick": 1.68,
+      "wr": null
+    },
+    "BR": {
+      "pick": 1.68,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.68,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.68,
+      "wr": 0.6016
+    },
+    "WB": {
+      "pick": 1.68,
+      "wr": 0.5403
+    },
+    "BG": {
+      "pick": 1.68,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.68,
+      "wr": 0.5515
+    },
+    "UG": {
+      "pick": 1.68,
+      "wr": null
+    }
+  },
+  "Realmbreaker's Grasp": {
+    "Overall": {
+      "pick": 4.77,
+      "wr": 0.5954
+    },
+    "WU": {
+      "pick": 4.77,
+      "wr": 0.6226
+    },
+    "UB": {
+      "pick": 4.77,
+      "wr": null
+    },
+    "WG": {
+      "pick": 4.77,
+      "wr": 0.5949
+    },
+    "WB": {
+      "pick": 4.77,
+      "wr": 0.5615
+    },
+    "BG": {
+      "pick": 4.77,
+      "wr": null
+    },
+    "WR": {
+      "pick": 4.77,
+      "wr": 0.6003
+    },
+    "UG": {
+      "pick": 4.77,
+      "wr": null
+    }
+  },
+  "Scrollshift": {
+    "Overall": {
+      "pick": 11.12,
+      "wr": 0.5767
+    },
+    "WU": {
+      "pick": 11.12,
+      "wr": 0.5889
+    },
+    "WG": {
+      "pick": 11.12,
+      "wr": 0.5925
+    },
+    "WB": {
+      "pick": 11.12,
+      "wr": 0.5548
+    },
+    "WR": {
+      "pick": 11.12,
+      "wr": 0.5925
+    }
+  },
+  "Seal from Existence": {
+    "Overall": {
+      "pick": 3.22,
+      "wr": 0.5965
+    },
+    "WU": {
+      "pick": 3.22,
+      "wr": 0.6236
+    },
+    "WG": {
+      "pick": 3.22,
+      "wr": 0.5962
+    },
+    "WB": {
+      "pick": 3.22,
+      "wr": 0.5533
+    },
+    "WR": {
+      "pick": 3.22,
+      "wr": 0.5854
+    }
+  },
+  "Sigiled Sentinel": {
+    "Overall": {
+      "pick": 6.44,
+      "wr": 0.6079
+    },
+    "WU": {
+      "pick": 6.44,
+      "wr": 0.6261
+    },
+    "WG": {
+      "pick": 6.44,
+      "wr": 0.5936
+    },
+    "WB": {
+      "pick": 6.44,
+      "wr": 0.5657
+    },
+    "WR": {
+      "pick": 6.44,
+      "wr": 0.5905
+    }
+  },
+  "Sunder the Gateway": {
+    "Overall": {
+      "pick": 9.14,
+      "wr": 0.5904
+    },
+    "WU": {
+      "pick": 9.14,
+      "wr": 0.6161
+    },
+    "WG": {
+      "pick": 9.14,
+      "wr": 0.5895
+    },
+    "WB": {
+      "pick": 9.14,
+      "wr": 0.5574
+    },
+    "WR": {
+      "pick": 9.14,
+      "wr": 0.5891
+    }
+  },
+  "Sunfall": {
+    "Overall": {
+      "pick": 1.33,
+      "wr": 0.6326
+    },
+    "WU": {
+      "pick": 1.33,
+      "wr": 0.6717
+    },
+    "UB": {
+      "pick": 1.33,
+      "wr": null
+    },
+    "BR": {
+      "pick": 1.33,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.33,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.33,
+      "wr": 0.611
+    },
+    "WB": {
+      "pick": 1.33,
+      "wr": 0.6048
+    },
+    "BG": {
+      "pick": 1.33,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.33,
+      "wr": 0.6289
+    },
+    "UG": {
+      "pick": 1.33,
+      "wr": null
+    }
+  },
+  "Surge of Salvation": {
+    "Overall": {
+      "pick": 10.27,
+      "wr": 0.596
+    },
+    "WU": {
+      "pick": 10.27,
+      "wr": 0.602
+    },
+    "WG": {
+      "pick": 10.27,
+      "wr": 0.6317
+    },
+    "WB": {
+      "pick": 10.27,
+      "wr": null
+    },
+    "WR": {
+      "pick": 10.27,
+      "wr": 0.5799
+    }
+  },
+  "Swordsworn Cavalier": {
+    "Overall": {
+      "pick": 7.26,
+      "wr": 0.6171
+    },
+    "WU": {
+      "pick": 7.26,
+      "wr": 0.6317
+    },
+    "WG": {
+      "pick": 7.26,
+      "wr": 0.5725
+    },
+    "WB": {
+      "pick": 7.26,
+      "wr": 0.5602
+    },
+    "WR": {
+      "pick": 7.26,
+      "wr": 0.5997
+    }
+  },
+  "Tiller of Flesh": {
+    "Overall": {
+      "pick": 7.56,
+      "wr": 0.5709
+    },
+    "WU": {
+      "pick": 7.56,
+      "wr": 0.5919
+    },
+    "WG": {
+      "pick": 7.56,
+      "wr": 0.5524
+    },
+    "WB": {
+      "pick": 7.56,
+      "wr": 0.5625
+    },
+    "WR": {
+      "pick": 7.56,
+      "wr": 0.5727
+    }
+  },
+  "Zhalfirin Lancer": {
+    "Overall": {
+      "pick": 6.05,
+      "wr": 0.6052
+    },
+    "WU": {
+      "pick": 6.05,
+      "wr": 0.6203
+    },
+    "WG": {
+      "pick": 6.05,
+      "wr": 0.5394
+    },
+    "WB": {
+      "pick": 6.05,
+      "wr": 0.5534
+    },
+    "WR": {
+      "pick": 6.05,
+      "wr": 0.5833
+    }
+  },
+  "Artistic Refusal": {
+    "Overall": {
+      "pick": 5.02,
+      "wr": 0.6191
+    },
+    "WU": {
+      "pick": 5.02,
+      "wr": 0.6336
+    },
+    "UB": {
+      "pick": 5.02,
+      "wr": 0.6291
+    },
+    "UR": {
+      "pick": 5.02,
+      "wr": 0.628
+    },
+    "UG": {
+      "pick": 5.02,
+      "wr": 0.5999
+    }
+  },
+  "Assimilate Essence": {
+    "Overall": {
+      "pick": 8.01,
+      "wr": 0.614
+    },
+    "WU": {
+      "pick": 8.01,
+      "wr": 0.6246
+    },
+    "UB": {
+      "pick": 8.01,
+      "wr": 0.6247
+    },
+    "UR": {
+      "pick": 8.01,
+      "wr": 0.6043
+    },
+    "UG": {
+      "pick": 8.01,
+      "wr": 0.5976
+    }
+  },
+  "Astral Wingspan": {
+    "Overall": {
+      "pick": 7.66,
+      "wr": 0.6071
+    },
+    "WU": {
+      "pick": 7.66,
+      "wr": 0.6314
+    },
+    "UB": {
+      "pick": 7.66,
+      "wr": 0.6059
+    },
+    "UR": {
+      "pick": 7.66,
+      "wr": 0.6042
+    },
+    "UG": {
+      "pick": 7.66,
+      "wr": 0.575
+    }
+  },
+  "Change the Equation": {
+    "Overall": {
+      "pick": 11.61,
+      "wr": 0.5813
+    },
+    "WU": {
+      "pick": 11.61,
+      "wr": null
+    },
+    "UB": {
+      "pick": 11.61,
+      "wr": null
+    },
+    "UR": {
+      "pick": 11.61,
+      "wr": null
+    },
+    "UG": {
+      "pick": 11.61,
+      "wr": null
+    }
+  },
+  "Chrome Host Seedshark": {
+    "Overall": {
+      "pick": 1.4,
+      "wr": 0.6289
+    },
+    "WU": {
+      "pick": 1.4,
+      "wr": 0.6413
+    },
+    "UB": {
+      "pick": 1.4,
+      "wr": 0.6544
+    },
+    "BR": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "UR": {
+      "pick": 1.4,
+      "wr": 0.6301
+    },
+    "BG": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.4,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.4,
+      "wr": 0.6193
+    }
+  },
+  "Complete the Circuit": {
+    "Overall": {
+      "pick": 9.1,
+      "wr": null
+    },
+    "UB": {
+      "pick": 9.1,
+      "wr": null
+    },
+    "UR": {
+      "pick": 9.1,
+      "wr": null
+    }
+  },
+  "Corruption of Towashi": {
+    "Overall": {
+      "pick": 5.58,
+      "wr": 0.5854
+    },
+    "WU": {
+      "pick": 5.58,
+      "wr": 0.594
+    },
+    "UB": {
+      "pick": 5.58,
+      "wr": 0.5992
+    },
+    "BR": {
+      "pick": 5.58,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.58,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.58,
+      "wr": null
+    },
+    "WB": {
+      "pick": 5.58,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.58,
+      "wr": 0.5946
+    },
+    "BG": {
+      "pick": 5.58,
+      "wr": 0.5235
+    },
+    "UG": {
+      "pick": 5.58,
+      "wr": 0.5843
+    }
+  },
+  "Disturbing Conversion": {
+    "Overall": {
+      "pick": 11.29,
+      "wr": 0.5939
+    },
+    "WU": {
+      "pick": 11.29,
+      "wr": 0.6061
+    },
+    "UB": {
+      "pick": 11.29,
+      "wr": 0.6045
+    },
+    "UR": {
+      "pick": 11.29,
+      "wr": 0.5762
+    },
+    "UG": {
+      "pick": 11.29,
+      "wr": 0.5693
+    }
+  },
+  "Ephara's Dispersal": {
+    "Overall": {
+      "pick": 5.15,
+      "wr": 0.6217
+    },
+    "WU": {
+      "pick": 5.15,
+      "wr": 0.6441
+    },
+    "UB": {
+      "pick": 5.15,
+      "wr": 0.6319
+    },
+    "BR": {
+      "pick": 5.15,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.15,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.15,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.15,
+      "wr": 0.6168
+    },
+    "BG": {
+      "pick": 5.15,
+      "wr": null
+    },
+    "UG": {
+      "pick": 5.15,
+      "wr": 0.6013
+    }
+  },
+  "Expedition Lookout": {
+    "Overall": {
+      "pick": 10.63,
+      "wr": 0.595
+    },
+    "WU": {
+      "pick": 10.63,
+      "wr": 0.6053
+    },
+    "UB": {
+      "pick": 10.63,
+      "wr": 0.6088
+    },
+    "UR": {
+      "pick": 10.63,
+      "wr": 0.5769
+    },
+    "UG": {
+      "pick": 10.63,
+      "wr": 0.5632
+    }
+  },
+  "Eyes of Gitaxias": {
+    "Overall": {
+      "pick": 6.63,
+      "wr": 0.6135
+    },
+    "WU": {
+      "pick": 6.63,
+      "wr": 0.6314
+    },
+    "UB": {
+      "pick": 6.63,
+      "wr": 0.6269
+    },
+    "UR": {
+      "pick": 6.63,
+      "wr": 0.6078
+    },
+    "BG": {
+      "pick": 6.63,
+      "wr": null
+    },
+    "UG": {
+      "pick": 6.63,
+      "wr": 0.5938
+    }
+  },
+  "Faerie Mastermind": {
+    "Overall": {
+      "pick": 1.87,
+      "wr": 0.6268
+    },
+    "WU": {
+      "pick": 1.87,
+      "wr": 0.6445
+    },
+    "UB": {
+      "pick": 1.87,
+      "wr": 0.6443
+    },
+    "UR": {
+      "pick": 1.87,
+      "wr": 0.6234
+    },
+    "BG": {
+      "pick": 1.87,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.87,
+      "wr": 0.604
+    }
+  },
+  "Furtive Analyst": {
+    "Overall": {
+      "pick": 12.34,
+      "wr": 0.5593
+    },
+    "WU": {
+      "pick": 12.34,
+      "wr": null
+    },
+    "UB": {
+      "pick": 12.34,
+      "wr": 0.5814
+    },
+    "UR": {
+      "pick": 12.34,
+      "wr": 0.5084
+    },
+    "UG": {
+      "pick": 12.34,
+      "wr": null
+    }
+  },
+  "Halo-Charged Skaab": {
+    "Overall": {
+      "pick": 10.44,
+      "wr": 0.594
+    },
+    "WU": {
+      "pick": 10.44,
+      "wr": 0.6009
+    },
+    "UB": {
+      "pick": 10.44,
+      "wr": 0.6036
+    },
+    "UR": {
+      "pick": 10.44,
+      "wr": 0.5926
+    },
+    "BG": {
+      "pick": 10.44,
+      "wr": null
+    },
+    "UG": {
+      "pick": 10.44,
+      "wr": 0.5621
+    }
+  },
+  "Meeting of Minds": {
+    "Overall": {
+      "pick": 6.73,
+      "wr": 0.6098
+    },
+    "WU": {
+      "pick": 6.73,
+      "wr": 0.6161
+    },
+    "UB": {
+      "pick": 6.73,
+      "wr": 0.6164
+    },
+    "BR": {
+      "pick": 6.73,
+      "wr": null
+    },
+    "UR": {
+      "pick": 6.73,
+      "wr": 0.6202
+    },
+    "BG": {
+      "pick": 6.73,
+      "wr": null
+    },
+    "UG": {
+      "pick": 6.73,
+      "wr": 0.5945
+    }
+  },
+  "Moment of Truth": {
+    "Overall": {
+      "pick": 11.39,
+      "wr": 0.5928
+    },
+    "WU": {
+      "pick": 11.39,
+      "wr": 0.6
+    },
+    "UB": {
+      "pick": 11.39,
+      "wr": 0.6033
+    },
+    "UR": {
+      "pick": 11.39,
+      "wr": 0.5953
+    },
+    "UG": {
+      "pick": 11.39,
+      "wr": 0.6063
+    }
+  },
+  "Negate": {
+    "Overall": {
+      "pick": 12.28,
+      "wr": 0.583
+    },
+    "WU": {
+      "pick": 12.28,
+      "wr": 0.6223
+    },
+    "UB": {
+      "pick": 12.28,
+      "wr": 0.5868
+    },
+    "UR": {
+      "pick": 12.28,
+      "wr": 0.5856
+    },
+    "UG": {
+      "pick": 12.28,
+      "wr": null
+    }
+  },
+  "Oculus Whelp": {
+    "Overall": {
+      "pick": 11.2,
+      "wr": 0.5696
+    },
+    "WU": {
+      "pick": 11.2,
+      "wr": 0.5723
+    },
+    "UB": {
+      "pick": 11.2,
+      "wr": 0.5801
+    },
+    "UR": {
+      "pick": 11.2,
+      "wr": 0.5883
+    },
+    "UG": {
+      "pick": 11.2,
+      "wr": 0.577
+    }
+  },
+  "Omen Hawker": {
+    "Overall": {
+      "pick": 7.97,
+      "wr": 0.6025
+    },
+    "WU": {
+      "pick": 7.97,
+      "wr": 0.6162
+    },
+    "UB": {
+      "pick": 7.97,
+      "wr": 0.6151
+    },
+    "UR": {
+      "pick": 7.97,
+      "wr": 0.6094
+    },
+    "UG": {
+      "pick": 7.97,
+      "wr": 0.5849
+    }
+  },
+  "Oracle of Tragedy": {
+    "Overall": {
+      "pick": 6.83,
+      "wr": 0.5998
+    },
+    "WU": {
+      "pick": 6.83,
+      "wr": 0.6044
+    },
+    "UB": {
+      "pick": 6.83,
+      "wr": 0.6144
+    },
+    "UR": {
+      "pick": 6.83,
+      "wr": 0.6
+    },
+    "UG": {
+      "pick": 6.83,
+      "wr": 0.5717
+    }
+  },
+  "Preening Champion": {
+    "Overall": {
+      "pick": 3.29,
+      "wr": 0.6272
+    },
+    "WU": {
+      "pick": 3.29,
+      "wr": 0.643
+    },
+    "UB": {
+      "pick": 3.29,
+      "wr": 0.6427
+    },
+    "BR": {
+      "pick": 3.29,
+      "wr": null
+    },
+    "RG": {
+      "pick": 3.29,
+      "wr": null
+    },
+    "WG": {
+      "pick": 3.29,
+      "wr": null
+    },
+    "UR": {
+      "pick": 3.29,
+      "wr": 0.6221
+    },
+    "BG": {
+      "pick": 3.29,
+      "wr": null
+    },
+    "UG": {
+      "pick": 3.29,
+      "wr": 0.6077
+    }
+  },
+  "Protocol Knight": {
+    "Overall": {
+      "pick": 9.07,
+      "wr": 0.6223
+    },
+    "WU": {
+      "pick": 9.07,
+      "wr": 0.6282
+    },
+    "UB": {
+      "pick": 9.07,
+      "wr": 0.6143
+    },
+    "UR": {
+      "pick": 9.07,
+      "wr": 0.5928
+    },
+    "UG": {
+      "pick": 9.07,
+      "wr": 0.6157
+    }
+  },
+  "Saiba Cryptomancer": {
+    "Overall": {
+      "pick": 7.53,
+      "wr": 0.6135
+    },
+    "WU": {
+      "pick": 7.53,
+      "wr": 0.6271
+    },
+    "UB": {
+      "pick": 7.53,
+      "wr": 0.6234
+    },
+    "UR": {
+      "pick": 7.53,
+      "wr": 0.6101
+    },
+    "UG": {
+      "pick": 7.53,
+      "wr": 0.5965
+    }
+  },
+  "See Double": {
+    "Overall": {
+      "pick": 2.35,
+      "wr": 0.6014
+    },
+    "WU": {
+      "pick": 2.35,
+      "wr": 0.6177
+    },
+    "UB": {
+      "pick": 2.35,
+      "wr": 0.6097
+    },
+    "UR": {
+      "pick": 2.35,
+      "wr": 0.6145
+    },
+    "UG": {
+      "pick": 2.35,
+      "wr": 0.5806
+    }
+  },
+  "Stasis Field": {
+    "Overall": {
+      "pick": 9.35,
+      "wr": 0.5864
+    },
+    "WU": {
+      "pick": 9.35,
+      "wr": 0.5924
+    },
+    "UB": {
+      "pick": 9.35,
+      "wr": 0.5996
+    },
+    "UR": {
+      "pick": 9.35,
+      "wr": 0.5825
+    },
+    "UG": {
+      "pick": 9.35,
+      "wr": 0.5783
+    }
+  },
+  "Temporal Cleansing": {
+    "Overall": {
+      "pick": 6.99,
+      "wr": 0.6145
+    },
+    "WU": {
+      "pick": 6.99,
+      "wr": 0.635
+    },
+    "UB": {
+      "pick": 6.99,
+      "wr": 0.6224
+    },
+    "UR": {
+      "pick": 6.99,
+      "wr": 0.6132
+    },
+    "BG": {
+      "pick": 6.99,
+      "wr": null
+    },
+    "UG": {
+      "pick": 6.99,
+      "wr": 0.5866
+    }
+  },
+  "Thunderhead Squadron": {
+    "Overall": {
+      "pick": 10.37,
+      "wr": 0.585
+    },
+    "WU": {
+      "pick": 10.37,
+      "wr": 0.5959
+    },
+    "UB": {
+      "pick": 10.37,
+      "wr": 0.5801
+    },
+    "UR": {
+      "pick": 10.37,
+      "wr": 0.5801
+    },
+    "UG": {
+      "pick": 10.37,
+      "wr": 0.5806
+    }
+  },
+  "Tidal Terror": {
+    "Overall": {
+      "pick": 8.88,
+      "wr": 0.5918
+    },
+    "WU": {
+      "pick": 8.88,
+      "wr": 0.6094
+    },
+    "UB": {
+      "pick": 8.88,
+      "wr": 0.6075
+    },
+    "UR": {
+      "pick": 8.88,
+      "wr": 0.5838
+    },
+    "BG": {
+      "pick": 8.88,
+      "wr": null
+    },
+    "UG": {
+      "pick": 8.88,
+      "wr": 0.5877
+    }
+  },
+  "Transcendent Message": {
+    "Overall": {
+      "pick": 4.48,
+      "wr": 0.6068
+    },
+    "WU": {
+      "pick": 4.48,
+      "wr": 0.6293
+    },
+    "UB": {
+      "pick": 4.48,
+      "wr": 0.6108
+    },
+    "UR": {
+      "pick": 4.48,
+      "wr": 0.5907
+    },
+    "UG": {
+      "pick": 4.48,
+      "wr": 0.6009
+    }
+  },
+  "Wicked Slumber": {
+    "Overall": {
+      "pick": 8.12,
+      "wr": 0.6132
+    },
+    "WU": {
+      "pick": 8.12,
+      "wr": 0.6327
+    },
+    "UB": {
+      "pick": 8.12,
+      "wr": 0.605
+    },
+    "UR": {
+      "pick": 8.12,
+      "wr": 0.6068
+    },
+    "UG": {
+      "pick": 8.12,
+      "wr": 0.593
+    }
+  },
+  "Xerex Strobe-Knight": {
+    "Overall": {
+      "pick": 3.4,
+      "wr": 0.611
+    },
+    "WU": {
+      "pick": 3.4,
+      "wr": 0.625
+    },
+    "UB": {
+      "pick": 3.4,
+      "wr": 0.6207
+    },
+    "UR": {
+      "pick": 3.4,
+      "wr": 0.607
+    },
+    "UG": {
+      "pick": 3.4,
+      "wr": 0.5991
+    }
+  },
+  "Zephyr Singer": {
+    "Overall": {
+      "pick": 1.71,
+      "wr": 0.6367
+    },
+    "WU": {
+      "pick": 1.71,
+      "wr": 0.6523
+    },
+    "UB": {
+      "pick": 1.71,
+      "wr": 0.6422
+    },
+    "UR": {
+      "pick": 1.71,
+      "wr": 0.6364
+    },
+    "UG": {
+      "pick": 1.71,
+      "wr": 0.6097
+    }
+  },
+  "Zhalfirin Shapecraft": {
+    "Overall": {
+      "pick": 10.61,
+      "wr": 0.6028
+    },
+    "WU": {
+      "pick": 10.61,
+      "wr": 0.6061
+    },
+    "UB": {
+      "pick": 10.61,
+      "wr": 0.6146
+    },
+    "UR": {
+      "pick": 10.61,
+      "wr": 0.5976
+    },
+    "UG": {
+      "pick": 10.61,
+      "wr": 0.5765
+    }
+  },
+  "Archpriest of Shadows": {
+    "Overall": {
+      "pick": 1.47,
+      "wr": 0.5867
+    },
+    "UB": {
+      "pick": 1.47,
+      "wr": 0.615
+    },
+    "BR": {
+      "pick": 1.47,
+      "wr": 0.5774
+    },
+    "WB": {
+      "pick": 1.47,
+      "wr": 0.5273
+    },
+    "BG": {
+      "pick": 1.47,
+      "wr": 0.5736
+    },
+    "UG": {
+      "pick": 1.47,
+      "wr": null
+    }
+  },
+  "Bladed Battle-Fan": {
+    "Overall": {
+      "pick": 11.24,
+      "wr": 0.5778
+    },
+    "UB": {
+      "pick": 11.24,
+      "wr": 0.5924
+    },
+    "BR": {
+      "pick": 11.24,
+      "wr": 0.5821
+    },
+    "WB": {
+      "pick": 11.24,
+      "wr": 0.5729
+    },
+    "BG": {
+      "pick": 11.24,
+      "wr": 0.5735
+    }
+  },
+  "Bloated Processor": {
+    "Overall": {
+      "pick": 2.03,
+      "wr": 0.5953
+    },
+    "UB": {
+      "pick": 2.03,
+      "wr": 0.618
+    },
+    "BR": {
+      "pick": 2.03,
+      "wr": 0.5855
+    },
+    "WB": {
+      "pick": 2.03,
+      "wr": 0.5547
+    },
+    "BG": {
+      "pick": 2.03,
+      "wr": 0.5936
+    }
+  },
+  "Breach the Multiverse": {
+    "Overall": {
+      "pick": 1.75,
+      "wr": 0.6174
+    },
+    "WU": {
+      "pick": 1.75,
+      "wr": null
+    },
+    "UB": {
+      "pick": 1.75,
+      "wr": 0.6463
+    },
+    "BR": {
+      "pick": 1.75,
+      "wr": 0.5988
+    },
+    "WG": {
+      "pick": 1.75,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.75,
+      "wr": 0.5903
+    },
+    "UR": {
+      "pick": 1.75,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.75,
+      "wr": 0.6094
+    },
+    "UG": {
+      "pick": 1.75,
+      "wr": null
+    }
+  },
+  "Collective Nightmare": {
+    "Overall": {
+      "pick": 3.07,
+      "wr": 0.596
+    },
+    "WU": {
+      "pick": 3.07,
+      "wr": null
+    },
+    "UB": {
+      "pick": 3.07,
+      "wr": 0.6248
+    },
+    "BR": {
+      "pick": 3.07,
+      "wr": 0.5768
+    },
+    "WG": {
+      "pick": 3.07,
+      "wr": null
+    },
+    "WB": {
+      "pick": 3.07,
+      "wr": 0.571
+    },
+    "UR": {
+      "pick": 3.07,
+      "wr": null
+    },
+    "BG": {
+      "pick": 3.07,
+      "wr": 0.5863
+    },
+    "UG": {
+      "pick": 3.07,
+      "wr": null
+    }
+  },
+  "Compleated Huntmaster": {
+    "Overall": {
+      "pick": 5.54,
+      "wr": 0.5742
+    },
+    "UB": {
+      "pick": 5.54,
+      "wr": 0.6029
+    },
+    "BR": {
+      "pick": 5.54,
+      "wr": 0.5717
+    },
+    "WB": {
+      "pick": 5.54,
+      "wr": 0.5591
+    },
+    "BG": {
+      "pick": 5.54,
+      "wr": 0.5635
+    }
+  },
+  "Consuming Aetherborn": {
+    "Overall": {
+      "pick": 11.02,
+      "wr": 0.5759
+    },
+    "UB": {
+      "pick": 11.02,
+      "wr": 0.6058
+    },
+    "BR": {
+      "pick": 11.02,
+      "wr": 0.5622
+    },
+    "WB": {
+      "pick": 11.02,
+      "wr": 0.5484
+    },
+    "BG": {
+      "pick": 11.02,
+      "wr": 0.5748
+    }
+  },
+  "Corrupted Conviction": {
+    "Overall": {
+      "pick": 10.79,
+      "wr": 0.5829
+    },
+    "UB": {
+      "pick": 10.79,
+      "wr": 0.5916
+    },
+    "BR": {
+      "pick": 10.79,
+      "wr": 0.5898
+    },
+    "WB": {
+      "pick": 10.79,
+      "wr": 0.5658
+    },
+    "BG": {
+      "pick": 10.79,
+      "wr": 0.5765
+    }
+  },
+  "Deadly Derision": {
+    "Overall": {
+      "pick": 2.97,
+      "wr": 0.6049
+    },
+    "UB": {
+      "pick": 2.97,
+      "wr": 0.6292
+    },
+    "BR": {
+      "pick": 2.97,
+      "wr": 0.5919
+    },
+    "WB": {
+      "pick": 2.97,
+      "wr": 0.5878
+    },
+    "BG": {
+      "pick": 2.97,
+      "wr": 0.5929
+    },
+    "UG": {
+      "pick": 2.97,
+      "wr": null
+    }
+  },
+  "Dreg Recycler": {
+    "Overall": {
+      "pick": 9.23,
+      "wr": 0.5793
+    },
+    "UB": {
+      "pick": 9.23,
+      "wr": 0.6035
+    },
+    "BR": {
+      "pick": 9.23,
+      "wr": 0.5846
+    },
+    "WB": {
+      "pick": 9.23,
+      "wr": 0.5467
+    },
+    "BG": {
+      "pick": 9.23,
+      "wr": 0.5512
+    }
+  },
+  "Etched Familiar": {
+    "Overall": {
+      "pick": 9.21,
+      "wr": 0.5673
+    },
+    "UB": {
+      "pick": 9.21,
+      "wr": 0.5891
+    },
+    "BR": {
+      "pick": 9.21,
+      "wr": 0.5563
+    },
+    "WB": {
+      "pick": 9.21,
+      "wr": 0.5522
+    },
+    "BG": {
+      "pick": 9.21,
+      "wr": 0.5641
+    }
+  },
+  "Etched Host Doombringer": {
+    "Overall": {
+      "pick": 11.35,
+      "wr": 0.5706
+    },
+    "UB": {
+      "pick": 11.35,
+      "wr": 0.5941
+    },
+    "BR": {
+      "pick": 11.35,
+      "wr": 0.5663
+    },
+    "WB": {
+      "pick": 11.35,
+      "wr": 0.5321
+    },
+    "BG": {
+      "pick": 11.35,
+      "wr": 0.5583
+    }
+  },
+  "Failed Conversion": {
+    "Overall": {
+      "pick": 9.97,
+      "wr": 0.5593
+    },
+    "UB": {
+      "pick": 9.97,
+      "wr": 0.5847
+    },
+    "BR": {
+      "pick": 9.97,
+      "wr": 0.5267
+    },
+    "WB": {
+      "pick": 9.97,
+      "wr": 0.5305
+    },
+    "BG": {
+      "pick": 9.97,
+      "wr": 0.5695
+    }
+  },
+  "Final Flourish": {
+    "Overall": {
+      "pick": 4.05,
+      "wr": 0.6
+    },
+    "WU": {
+      "pick": 4.05,
+      "wr": null
+    },
+    "UB": {
+      "pick": 4.05,
+      "wr": 0.6263
+    },
+    "BR": {
+      "pick": 4.05,
+      "wr": 0.5906
+    },
+    "RG": {
+      "pick": 4.05,
+      "wr": null
+    },
+    "WG": {
+      "pick": 4.05,
+      "wr": null
+    },
+    "WB": {
+      "pick": 4.05,
+      "wr": 0.571
+    },
+    "UR": {
+      "pick": 4.05,
+      "wr": null
+    },
+    "BG": {
+      "pick": 4.05,
+      "wr": 0.5885
+    },
+    "UG": {
+      "pick": 4.05,
+      "wr": null
+    }
+  },
+  "Flitting Guerrilla": {
+    "Overall": {
+      "pick": 10.21,
+      "wr": 0.5656
+    },
+    "UB": {
+      "pick": 10.21,
+      "wr": 0.5798
+    },
+    "BR": {
+      "pick": 10.21,
+      "wr": 0.564
+    },
+    "WB": {
+      "pick": 10.21,
+      "wr": 0.5617
+    },
+    "BG": {
+      "pick": 10.21,
+      "wr": 0.5554
+    }
+  },
+  "Gift of Compleation": {
+    "Overall": {
+      "pick": 6.03,
+      "wr": 0.5755
+    },
+    "UB": {
+      "pick": 6.03,
+      "wr": 0.5945
+    },
+    "BR": {
+      "pick": 6.03,
+      "wr": 0.5588
+    },
+    "WB": {
+      "pick": 6.03,
+      "wr": 0.5697
+    },
+    "BG": {
+      "pick": 6.03,
+      "wr": 0.5923
+    }
+  },
+  "Glistening Deluge": {
+    "Overall": {
+      "pick": 11.38,
+      "wr": 0.5826
+    },
+    "UB": {
+      "pick": 11.38,
+      "wr": 0.5971
+    },
+    "BR": {
+      "pick": 11.38,
+      "wr": null
+    },
+    "BG": {
+      "pick": 11.38,
+      "wr": null
+    }
+  },
+  "Gloomfang Mauler": {
+    "Overall": {
+      "pick": 8.14,
+      "wr": 0.5788
+    },
+    "WU": {
+      "pick": 8.14,
+      "wr": null
+    },
+    "UB": {
+      "pick": 8.14,
+      "wr": 0.5987
+    },
+    "BR": {
+      "pick": 8.14,
+      "wr": 0.5674
+    },
+    "WB": {
+      "pick": 8.14,
+      "wr": 0.5602
+    },
+    "BG": {
+      "pick": 8.14,
+      "wr": 0.5678
+    },
+    "UG": {
+      "pick": 8.14,
+      "wr": null
+    }
+  },
+  "Grafted Butcher": {
+    "Overall": {
+      "pick": 1.98,
+      "wr": 0.5996
+    },
+    "UB": {
+      "pick": 1.98,
+      "wr": 0.6206
+    },
+    "BR": {
+      "pick": 1.98,
+      "wr": 0.5927
+    },
+    "WB": {
+      "pick": 1.98,
+      "wr": 0.595
+    },
+    "BG": {
+      "pick": 1.98,
+      "wr": 0.6006
+    }
+  },
+  "Hoarding Broodlord": {
+    "Overall": {
+      "pick": 1.61,
+      "wr": 0.6016
+    },
+    "UB": {
+      "pick": 1.61,
+      "wr": 0.6297
+    },
+    "BR": {
+      "pick": 1.61,
+      "wr": 0.5806
+    },
+    "WB": {
+      "pick": 1.61,
+      "wr": 0.5894
+    },
+    "BG": {
+      "pick": 1.61,
+      "wr": 0.5833
+    }
+  },
+  "Ichor Drinker": {
+    "Overall": {
+      "pick": 7.26,
+      "wr": 0.6037
+    },
+    "UB": {
+      "pick": 7.26,
+      "wr": 0.623
+    },
+    "BR": {
+      "pick": 7.26,
+      "wr": 0.5968
+    },
+    "WB": {
+      "pick": 7.26,
+      "wr": 0.5807
+    },
+    "BG": {
+      "pick": 7.26,
+      "wr": 0.587
+    }
+  },
+  "Ichor Shade": {
+    "Overall": {
+      "pick": 10.83,
+      "wr": 0.5525
+    },
+    "UB": {
+      "pick": 10.83,
+      "wr": 0.5572
+    },
+    "BR": {
+      "pick": 10.83,
+      "wr": 0.5577
+    },
+    "WB": {
+      "pick": 10.83,
+      "wr": 0.5543
+    },
+    "BG": {
+      "pick": 10.83,
+      "wr": 0.5593
+    }
+  },
+  "Merciless Repurposing": {
+    "Overall": {
+      "pick": 4.38,
+      "wr": 0.5921
+    },
+    "UB": {
+      "pick": 4.38,
+      "wr": 0.6184
+    },
+    "BR": {
+      "pick": 4.38,
+      "wr": 0.5874
+    },
+    "WB": {
+      "pick": 4.38,
+      "wr": 0.5541
+    },
+    "BG": {
+      "pick": 4.38,
+      "wr": 0.573
+    },
+    "UG": {
+      "pick": 4.38,
+      "wr": null
+    }
+  },
+  "Mirrodin Avenged": {
+    "Overall": {
+      "pick": 11.96,
+      "wr": 0.5686
+    },
+    "UB": {
+      "pick": 11.96,
+      "wr": 0.5968
+    },
+    "BR": {
+      "pick": 11.96,
+      "wr": 0.5496
+    },
+    "WB": {
+      "pick": 11.96,
+      "wr": 0.581
+    },
+    "BG": {
+      "pick": 11.96,
+      "wr": null
+    }
+  },
+  "Nezumi Informant": {
+    "Overall": {
+      "pick": 5.99,
+      "wr": 0.601
+    },
+    "UB": {
+      "pick": 5.99,
+      "wr": 0.6242
+    },
+    "BR": {
+      "pick": 5.99,
+      "wr": 0.5843
+    },
+    "WB": {
+      "pick": 5.99,
+      "wr": 0.5735
+    },
+    "BG": {
+      "pick": 5.99,
+      "wr": 0.5916
+    }
+  },
+  "Phyrexian Gargantua": {
+    "Overall": {
+      "pick": 5.99,
+      "wr": 0.5784
+    },
+    "UB": {
+      "pick": 5.99,
+      "wr": 0.602
+    },
+    "BR": {
+      "pick": 5.99,
+      "wr": 0.5695
+    },
+    "WB": {
+      "pick": 5.99,
+      "wr": 0.5585
+    },
+    "BG": {
+      "pick": 5.99,
+      "wr": 0.5811
+    }
+  },
+  "Pile On": {
+    "Overall": {
+      "pick": 1.53,
+      "wr": 0.6155
+    },
+    "WU": {
+      "pick": 1.53,
+      "wr": null
+    },
+    "UB": {
+      "pick": 1.53,
+      "wr": 0.6367
+    },
+    "BR": {
+      "pick": 1.53,
+      "wr": 0.6043
+    },
+    "WB": {
+      "pick": 1.53,
+      "wr": 0.6134
+    },
+    "UR": {
+      "pick": 1.53,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.53,
+      "wr": 0.6063
+    },
+    "UG": {
+      "pick": 1.53,
+      "wr": null
+    }
+  },
+  "Render Inert": {
+    "Overall": {
+      "pick": 8.01,
+      "wr": 0.5864
+    },
+    "UB": {
+      "pick": 8.01,
+      "wr": 0.6128
+    },
+    "BR": {
+      "pick": 8.01,
+      "wr": 0.5946
+    },
+    "WB": {
+      "pick": 8.01,
+      "wr": 0.5345
+    },
+    "BG": {
+      "pick": 8.01,
+      "wr": 0.5593
+    },
+    "UG": {
+      "pick": 8.01,
+      "wr": null
+    }
+  },
+  "Scorn-Blade Berserker": {
+    "Overall": {
+      "pick": 5.34,
+      "wr": 0.6091
+    },
+    "UB": {
+      "pick": 5.34,
+      "wr": 0.6315
+    },
+    "BR": {
+      "pick": 5.34,
+      "wr": 0.6043
+    },
+    "WB": {
+      "pick": 5.34,
+      "wr": 0.573
+    },
+    "BG": {
+      "pick": 5.34,
+      "wr": 0.5937
+    }
+  },
+  "Tenured Oilcaster": {
+    "Overall": {
+      "pick": 12.16,
+      "wr": 0.5572
+    },
+    "UB": {
+      "pick": 12.16,
+      "wr": 0.5881
+    },
+    "BR": {
+      "pick": 12.16,
+      "wr": null
+    },
+    "WB": {
+      "pick": 12.16,
+      "wr": null
+    },
+    "BG": {
+      "pick": 12.16,
+      "wr": null
+    }
+  },
+  "Traumatic Revelation": {
+    "Overall": {
+      "pick": 9.13,
+      "wr": 0.5809
+    },
+    "UB": {
+      "pick": 9.13,
+      "wr": 0.5995
+    },
+    "BR": {
+      "pick": 9.13,
+      "wr": 0.5664
+    },
+    "WB": {
+      "pick": 9.13,
+      "wr": 0.5558
+    },
+    "BG": {
+      "pick": 9.13,
+      "wr": 0.5773
+    }
+  },
+  "Unseal the Necropolis": {
+    "Overall": {
+      "pick": 8.0,
+      "wr": 0.5988
+    },
+    "WU": {
+      "pick": 8.0,
+      "wr": null
+    },
+    "UB": {
+      "pick": 8.0,
+      "wr": 0.6218
+    },
+    "BR": {
+      "pick": 8.0,
+      "wr": 0.5808
+    },
+    "RG": {
+      "pick": 8.0,
+      "wr": null
+    },
+    "WG": {
+      "pick": 8.0,
+      "wr": null
+    },
+    "WB": {
+      "pick": 8.0,
+      "wr": 0.5883
+    },
+    "UR": {
+      "pick": 8.0,
+      "wr": null
+    },
+    "BG": {
+      "pick": 8.0,
+      "wr": 0.5887
+    },
+    "UG": {
+      "pick": 8.0,
+      "wr": 0.5631
+    }
+  },
+  "Vanquish the Weak": {
+    "Overall": {
+      "pick": 5.46,
+      "wr": 0.5901
+    },
+    "UB": {
+      "pick": 5.46,
+      "wr": 0.6159
+    },
+    "BR": {
+      "pick": 5.46,
+      "wr": 0.5764
+    },
+    "WB": {
+      "pick": 5.46,
+      "wr": 0.5666
+    },
+    "BG": {
+      "pick": 5.46,
+      "wr": 0.5806
+    },
+    "UG": {
+      "pick": 5.46,
+      "wr": null
+    }
+  },
+  "Akki Scrapchomper": {
+    "Overall": {
+      "pick": 12.08,
+      "wr": 0.5895
+    },
+    "BR": {
+      "pick": 12.08,
+      "wr": 0.5878
+    },
+    "RG": {
+      "pick": 12.08,
+      "wr": null
+    },
+    "UR": {
+      "pick": 12.08,
+      "wr": 0.6042
+    },
+    "WR": {
+      "pick": 12.08,
+      "wr": 0.5709
+    }
+  },
+  "Beamtown Beatstick": {
+    "Overall": {
+      "pick": 9.33,
+      "wr": 0.5797
+    },
+    "BR": {
+      "pick": 9.33,
+      "wr": 0.5771
+    },
+    "RG": {
+      "pick": 9.33,
+      "wr": 0.5604
+    },
+    "UR": {
+      "pick": 9.33,
+      "wr": 0.5874
+    },
+    "WR": {
+      "pick": 9.33,
+      "wr": 0.5994
+    }
+  },
+  "Bloodfeather Phoenix": {
+    "Overall": {
+      "pick": 3.88,
+      "wr": 0.5832
+    },
+    "BR": {
+      "pick": 3.88,
+      "wr": 0.5714
+    },
+    "RG": {
+      "pick": 3.88,
+      "wr": null
+    },
+    "UR": {
+      "pick": 3.88,
+      "wr": 0.5897
+    },
+    "WR": {
+      "pick": 3.88,
+      "wr": 0.6038
+    }
+  },
+  "Burning Sun's Fury": {
+    "Overall": {
+      "pick": 13.52,
+      "wr": 0.5699
+    },
+    "BR": {
+      "pick": 13.52,
+      "wr": null
+    },
+    "UR": {
+      "pick": 13.52,
+      "wr": null
+    },
+    "WR": {
+      "pick": 13.52,
+      "wr": null
+    }
+  },
+  "Chandra, Hope's Beacon": {
+    "Overall": {
+      "pick": 1.34,
+      "wr": 0.6291
+    },
+    "UB": {
+      "pick": 1.34,
+      "wr": null
+    },
+    "BR": {
+      "pick": 1.34,
+      "wr": 0.6484
+    },
+    "RG": {
+      "pick": 1.34,
+      "wr": null
+    },
+    "UR": {
+      "pick": 1.34,
+      "wr": 0.6335
+    },
+    "BG": {
+      "pick": 1.34,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.34,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.34,
+      "wr": null
+    }
+  },
+  "City on Fire": {
+    "Overall": {
+      "pick": 5.09,
+      "wr": 0.5713
+    },
+    "BR": {
+      "pick": 5.09,
+      "wr": 0.5785
+    },
+    "RG": {
+      "pick": 5.09,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.09,
+      "wr": 0.5854
+    },
+    "WR": {
+      "pick": 5.09,
+      "wr": null
+    }
+  },
+  "Coming In Hot": {
+    "Overall": {
+      "pick": 13.02,
+      "wr": 0.5779
+    },
+    "BR": {
+      "pick": 13.02,
+      "wr": null
+    },
+    "RG": {
+      "pick": 13.02,
+      "wr": null
+    },
+    "UR": {
+      "pick": 13.02,
+      "wr": null
+    },
+    "WR": {
+      "pick": 13.02,
+      "wr": 0.6069
+    }
+  },
+  "Fearless Skald": {
+    "Overall": {
+      "pick": 6.12,
+      "wr": 0.5954
+    },
+    "UB": {
+      "pick": 6.12,
+      "wr": null
+    },
+    "BR": {
+      "pick": 6.12,
+      "wr": 0.586
+    },
+    "RG": {
+      "pick": 6.12,
+      "wr": 0.5816
+    },
+    "WG": {
+      "pick": 6.12,
+      "wr": null
+    },
+    "UR": {
+      "pick": 6.12,
+      "wr": 0.6054
+    },
+    "BG": {
+      "pick": 6.12,
+      "wr": null
+    },
+    "WR": {
+      "pick": 6.12,
+      "wr": 0.6179
+    },
+    "UG": {
+      "pick": 6.12,
+      "wr": null
+    }
+  },
+  "Furnace Gremlin": {
+    "Overall": {
+      "pick": 7.57,
+      "wr": 0.5708
+    },
+    "BR": {
+      "pick": 7.57,
+      "wr": 0.5721
+    },
+    "RG": {
+      "pick": 7.57,
+      "wr": 0.5543
+    },
+    "UR": {
+      "pick": 7.57,
+      "wr": 0.5785
+    },
+    "WR": {
+      "pick": 7.57,
+      "wr": 0.5745
+    }
+  },
+  "Furnace Host Charger": {
+    "Overall": {
+      "pick": 10.1,
+      "wr": 0.5635
+    },
+    "WU": {
+      "pick": 10.1,
+      "wr": null
+    },
+    "UB": {
+      "pick": 10.1,
+      "wr": null
+    },
+    "BR": {
+      "pick": 10.1,
+      "wr": 0.5666
+    },
+    "RG": {
+      "pick": 10.1,
+      "wr": 0.5769
+    },
+    "WB": {
+      "pick": 10.1,
+      "wr": null
+    },
+    "UR": {
+      "pick": 10.1,
+      "wr": 0.5669
+    },
+    "BG": {
+      "pick": 10.1,
+      "wr": null
+    },
+    "WR": {
+      "pick": 10.1,
+      "wr": 0.5647
+    },
+    "UG": {
+      "pick": 10.1,
+      "wr": null
+    }
+  },
+  "Furnace Reins": {
+    "Overall": {
+      "pick": 7.66,
+      "wr": 0.5973
+    },
+    "UB": {
+      "pick": 7.66,
+      "wr": null
+    },
+    "BR": {
+      "pick": 7.66,
+      "wr": 0.6053
+    },
+    "RG": {
+      "pick": 7.66,
+      "wr": null
+    },
+    "UR": {
+      "pick": 7.66,
+      "wr": null
+    },
+    "BG": {
+      "pick": 7.66,
+      "wr": null
+    },
+    "WR": {
+      "pick": 7.66,
+      "wr": null
+    }
+  },
+  "Hangar Scrounger": {
+    "Overall": {
+      "pick": 9.99,
+      "wr": 0.5857
+    },
+    "BR": {
+      "pick": 9.99,
+      "wr": 0.578
+    },
+    "RG": {
+      "pick": 9.99,
+      "wr": 0.5682
+    },
+    "UR": {
+      "pick": 9.99,
+      "wr": 0.595
+    },
+    "WR": {
+      "pick": 9.99,
+      "wr": 0.6039
+    }
+  },
+  "Into the Fire": {
+    "Overall": {
+      "pick": 4.97,
+      "wr": 0.5532
+    },
+    "BR": {
+      "pick": 4.97,
+      "wr": null
+    },
+    "RG": {
+      "pick": 4.97,
+      "wr": null
+    },
+    "UR": {
+      "pick": 4.97,
+      "wr": null
+    },
+    "WR": {
+      "pick": 4.97,
+      "wr": null
+    }
+  },
+  "Karsus Depthguard": {
+    "Overall": {
+      "pick": 12.34,
+      "wr": 0.5681
+    },
+    "BR": {
+      "pick": 12.34,
+      "wr": 0.5881
+    },
+    "RG": {
+      "pick": 12.34,
+      "wr": 0.539
+    },
+    "UR": {
+      "pick": 12.34,
+      "wr": null
+    },
+    "WR": {
+      "pick": 12.34,
+      "wr": 0.5754
+    }
+  },
+  "Lithomantic Barrage": {
+    "Overall": {
+      "pick": 9.98,
+      "wr": 0.5952
+    },
+    "BR": {
+      "pick": 9.98,
+      "wr": 0.5728
+    },
+    "RG": {
+      "pick": 9.98,
+      "wr": 0.5902
+    },
+    "UR": {
+      "pick": 9.98,
+      "wr": 0.6271
+    },
+    "WR": {
+      "pick": 9.98,
+      "wr": 0.5876
+    }
+  },
+  "Marauding Dreadship": {
+    "Overall": {
+      "pick": 9.26,
+      "wr": 0.5919
+    },
+    "BR": {
+      "pick": 9.26,
+      "wr": 0.5903
+    },
+    "RG": {
+      "pick": 9.26,
+      "wr": 0.5866
+    },
+    "UR": {
+      "pick": 9.26,
+      "wr": 0.604
+    },
+    "WR": {
+      "pick": 9.26,
+      "wr": 0.5973
+    }
+  },
+  "Mirran Banesplitter": {
+    "Overall": {
+      "pick": 12.75,
+      "wr": 0.5847
+    },
+    "BR": {
+      "pick": 12.75,
+      "wr": 0.5851
+    },
+    "RG": {
+      "pick": 12.75,
+      "wr": null
+    },
+    "UR": {
+      "pick": 12.75,
+      "wr": 0.5915
+    },
+    "WR": {
+      "pick": 12.75,
+      "wr": 0.5907
+    }
+  },
+  "Nahiri's Warcrafting": {
+    "Overall": {
+      "pick": 2.33,
+      "wr": 0.5936
+    },
+    "BR": {
+      "pick": 2.33,
+      "wr": 0.578
+    },
+    "RG": {
+      "pick": 2.33,
+      "wr": 0.6007
+    },
+    "UR": {
+      "pick": 2.33,
+      "wr": 0.6224
+    },
+    "WR": {
+      "pick": 2.33,
+      "wr": 0.5919
+    }
+  },
+  "Onakke Javelineer": {
+    "Overall": {
+      "pick": 11.62,
+      "wr": 0.5662
+    },
+    "BR": {
+      "pick": 11.62,
+      "wr": 0.5662
+    },
+    "RG": {
+      "pick": 11.62,
+      "wr": 0.574
+    },
+    "UR": {
+      "pick": 11.62,
+      "wr": 0.5743
+    },
+    "WR": {
+      "pick": 11.62,
+      "wr": 0.5622
+    }
+  },
+  "Ral's Reinforcements": {
+    "Overall": {
+      "pick": 7.44,
+      "wr": 0.6034
+    },
+    "BR": {
+      "pick": 7.44,
+      "wr": 0.5884
+    },
+    "RG": {
+      "pick": 7.44,
+      "wr": 0.5865
+    },
+    "UR": {
+      "pick": 7.44,
+      "wr": 0.6199
+    },
+    "WR": {
+      "pick": 7.44,
+      "wr": 0.598
+    }
+  },
+  "Ramosian Greatsword": {
+    "Overall": {
+      "pick": 9.97,
+      "wr": 0.5819
+    },
+    "BR": {
+      "pick": 9.97,
+      "wr": 0.5873
+    },
+    "RG": {
+      "pick": 9.97,
+      "wr": null
+    },
+    "UR": {
+      "pick": 9.97,
+      "wr": 0.5826
+    },
+    "WR": {
+      "pick": 9.97,
+      "wr": 0.5979
+    }
+  },
+  "Rampaging Raptor": {
+    "Overall": {
+      "pick": 1.8,
+      "wr": 0.5926
+    },
+    "BR": {
+      "pick": 1.8,
+      "wr": 0.5913
+    },
+    "RG": {
+      "pick": 1.8,
+      "wr": 0.5729
+    },
+    "UR": {
+      "pick": 1.8,
+      "wr": 0.6117
+    },
+    "WR": {
+      "pick": 1.8,
+      "wr": 0.5977
+    }
+  },
+  "Redcap Heelslasher": {
+    "Overall": {
+      "pick": 11.45,
+      "wr": 0.5716
+    },
+    "BR": {
+      "pick": 11.45,
+      "wr": 0.5473
+    },
+    "RG": {
+      "pick": 11.45,
+      "wr": 0.5602
+    },
+    "UR": {
+      "pick": 11.45,
+      "wr": 0.5735
+    },
+    "WR": {
+      "pick": 11.45,
+      "wr": 0.5951
+    }
+  },
+  "Scrappy Bruiser": {
+    "Overall": {
+      "pick": 11.35,
+      "wr": 0.5651
+    },
+    "BR": {
+      "pick": 11.35,
+      "wr": 0.5702
+    },
+    "RG": {
+      "pick": 11.35,
+      "wr": null
+    },
+    "UR": {
+      "pick": 11.35,
+      "wr": null
+    },
+    "WR": {
+      "pick": 11.35,
+      "wr": null
+    }
+  },
+  "Searing Barb": {
+    "Overall": {
+      "pick": 11.17,
+      "wr": 0.5676
+    },
+    "BR": {
+      "pick": 11.17,
+      "wr": 0.5667
+    },
+    "RG": {
+      "pick": 11.17,
+      "wr": 0.5712
+    },
+    "UR": {
+      "pick": 11.17,
+      "wr": 0.5811
+    },
+    "WR": {
+      "pick": 11.17,
+      "wr": 0.544
+    }
+  },
+  "Shatter the Source": {
+    "Overall": {
+      "pick": 8.96,
+      "wr": 0.5797
+    },
+    "WU": {
+      "pick": 8.96,
+      "wr": null
+    },
+    "UB": {
+      "pick": 8.96,
+      "wr": null
+    },
+    "BR": {
+      "pick": 8.96,
+      "wr": 0.5765
+    },
+    "RG": {
+      "pick": 8.96,
+      "wr": 0.5771
+    },
+    "UR": {
+      "pick": 8.96,
+      "wr": 0.5927
+    },
+    "BG": {
+      "pick": 8.96,
+      "wr": null
+    },
+    "WR": {
+      "pick": 8.96,
+      "wr": 0.5896
+    },
+    "UG": {
+      "pick": 8.96,
+      "wr": null
+    }
+  },
+  "Shivan Branch-Burner": {
+    "Overall": {
+      "pick": 7.46,
+      "wr": 0.5785
+    },
+    "BR": {
+      "pick": 7.46,
+      "wr": 0.5628
+    },
+    "RG": {
+      "pick": 7.46,
+      "wr": 0.5846
+    },
+    "UR": {
+      "pick": 7.46,
+      "wr": 0.5897
+    },
+    "WR": {
+      "pick": 7.46,
+      "wr": 0.5813
+    }
+  },
+  "Stoke the Flames": {
+    "Overall": {
+      "pick": 3.45,
+      "wr": 0.5917
+    },
+    "BR": {
+      "pick": 3.45,
+      "wr": 0.5866
+    },
+    "RG": {
+      "pick": 3.45,
+      "wr": 0.5729
+    },
+    "UR": {
+      "pick": 3.45,
+      "wr": 0.6101
+    },
+    "WR": {
+      "pick": 3.45,
+      "wr": 0.5951
+    }
+  },
+  "Thrashing Frontliner": {
+    "Overall": {
+      "pick": 10.43,
+      "wr": 0.5729
+    },
+    "BR": {
+      "pick": 10.43,
+      "wr": 0.5814
+    },
+    "RG": {
+      "pick": 10.43,
+      "wr": 0.5666
+    },
+    "UR": {
+      "pick": 10.43,
+      "wr": 0.5896
+    },
+    "WR": {
+      "pick": 10.43,
+      "wr": 0.5604
+    }
+  },
+  "Trailblazing Historian": {
+    "Overall": {
+      "pick": 12.11,
+      "wr": 0.5621
+    },
+    "BR": {
+      "pick": 12.11,
+      "wr": 0.5583
+    },
+    "RG": {
+      "pick": 12.11,
+      "wr": 0.5591
+    },
+    "UR": {
+      "pick": 12.11,
+      "wr": 0.5736
+    },
+    "WR": {
+      "pick": 12.11,
+      "wr": 0.5637
+    }
+  },
+  "Volcanic Spite": {
+    "Overall": {
+      "pick": 3.81,
+      "wr": 0.6009
+    },
+    "WU": {
+      "pick": 3.81,
+      "wr": null
+    },
+    "UB": {
+      "pick": 3.81,
+      "wr": 0.6083
+    },
+    "BR": {
+      "pick": 3.81,
+      "wr": 0.6024
+    },
+    "RG": {
+      "pick": 3.81,
+      "wr": 0.5911
+    },
+    "WG": {
+      "pick": 3.81,
+      "wr": null
+    },
+    "WB": {
+      "pick": 3.81,
+      "wr": null
+    },
+    "UR": {
+      "pick": 3.81,
+      "wr": 0.6234
+    },
+    "BG": {
+      "pick": 3.81,
+      "wr": null
+    },
+    "WR": {
+      "pick": 3.81,
+      "wr": 0.5955
+    },
+    "UG": {
+      "pick": 3.81,
+      "wr": 0.5515
+    }
+  },
+  "Voldaren Thrillseeker": {
+    "Overall": {
+      "pick": 2.18,
+      "wr": 0.6111
+    },
+    "UB": {
+      "pick": 2.18,
+      "wr": null
+    },
+    "BR": {
+      "pick": 2.18,
+      "wr": 0.6043
+    },
+    "RG": {
+      "pick": 2.18,
+      "wr": 0.6347
+    },
+    "UR": {
+      "pick": 2.18,
+      "wr": 0.6297
+    },
+    "BG": {
+      "pick": 2.18,
+      "wr": null
+    },
+    "WR": {
+      "pick": 2.18,
+      "wr": 0.6177
+    }
+  },
+  "War-Trained Slasher": {
+    "Overall": {
+      "pick": 11.7,
+      "wr": 0.5524
+    },
+    "BR": {
+      "pick": 11.7,
+      "wr": 0.5697
+    },
+    "RG": {
+      "pick": 11.7,
+      "wr": 0.5493
+    },
+    "UR": {
+      "pick": 11.7,
+      "wr": 0.5406
+    },
+    "WR": {
+      "pick": 11.7,
+      "wr": 0.5674
+    }
+  },
+  "Wrenn's Resolve": {
+    "Overall": {
+      "pick": 11.68,
+      "wr": 0.5685
+    },
+    "BR": {
+      "pick": 11.68,
+      "wr": 0.5593
+    },
+    "RG": {
+      "pick": 11.68,
+      "wr": 0.5642
+    },
+    "UR": {
+      "pick": 11.68,
+      "wr": 0.5789
+    },
+    "WR": {
+      "pick": 11.68,
+      "wr": 0.5725
+    }
+  },
+  "Ancient Imperiosaur": {
+    "Overall": {
+      "pick": 1.59,
+      "wr": 0.6056
+    },
+    "RG": {
+      "pick": 1.59,
+      "wr": 0.5964
+    },
+    "WG": {
+      "pick": 1.59,
+      "wr": 0.6255
+    },
+    "BG": {
+      "pick": 1.59,
+      "wr": 0.5949
+    },
+    "UG": {
+      "pick": 1.59,
+      "wr": 0.618
+    }
+  },
+  "Arachnoid Adaptation": {
+    "Overall": {
+      "pick": 10.95,
+      "wr": 0.5933
+    },
+    "RG": {
+      "pick": 10.95,
+      "wr": 0.5916
+    },
+    "WG": {
+      "pick": 10.95,
+      "wr": 0.6107
+    },
+    "BG": {
+      "pick": 10.95,
+      "wr": 0.5906
+    },
+    "UG": {
+      "pick": 10.95,
+      "wr": 0.5963
+    }
+  },
+  "Atraxa's Fall": {
+    "Overall": {
+      "pick": 12.21,
+      "wr": 0.5494
+    },
+    "RG": {
+      "pick": 12.21,
+      "wr": null
+    },
+    "WG": {
+      "pick": 12.21,
+      "wr": null
+    },
+    "BG": {
+      "pick": 12.21,
+      "wr": 0.5883
+    },
+    "UG": {
+      "pick": 12.21,
+      "wr": 0.5693
+    }
+  },
+  "Blighted Burgeoning": {
+    "Overall": {
+      "pick": 6.74,
+      "wr": 0.5831
+    },
+    "RG": {
+      "pick": 6.74,
+      "wr": 0.5864
+    },
+    "WG": {
+      "pick": 6.74,
+      "wr": 0.615
+    },
+    "BG": {
+      "pick": 6.74,
+      "wr": 0.5824
+    },
+    "UG": {
+      "pick": 6.74,
+      "wr": 0.5861
+    }
+  },
+  "Chomping Kavu": {
+    "Overall": {
+      "pick": 9.02,
+      "wr": 0.5767
+    },
+    "RG": {
+      "pick": 9.02,
+      "wr": 0.5731
+    },
+    "WG": {
+      "pick": 9.02,
+      "wr": 0.598
+    },
+    "BG": {
+      "pick": 9.02,
+      "wr": 0.5691
+    },
+    "UG": {
+      "pick": 9.02,
+      "wr": 0.589
+    }
+  },
+  "Converter Beast": {
+    "Overall": {
+      "pick": 8.23,
+      "wr": 0.5856
+    },
+    "UB": {
+      "pick": 8.23,
+      "wr": null
+    },
+    "RG": {
+      "pick": 8.23,
+      "wr": 0.5739
+    },
+    "WG": {
+      "pick": 8.23,
+      "wr": 0.6061
+    },
+    "BG": {
+      "pick": 8.23,
+      "wr": 0.5892
+    },
+    "UG": {
+      "pick": 8.23,
+      "wr": 0.5918
+    }
+  },
+  "Copper Host Crusher": {
+    "Overall": {
+      "pick": 10.75,
+      "wr": 0.5481
+    },
+    "RG": {
+      "pick": 10.75,
+      "wr": null
+    },
+    "WG": {
+      "pick": 10.75,
+      "wr": null
+    },
+    "BG": {
+      "pick": 10.75,
+      "wr": 0.5435
+    },
+    "UG": {
+      "pick": 10.75,
+      "wr": 0.5348
+    }
+  },
+  "Cosmic Hunger": {
+    "Overall": {
+      "pick": 5.65,
+      "wr": 0.5841
+    },
+    "UB": {
+      "pick": 5.65,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.65,
+      "wr": 0.5946
+    },
+    "WG": {
+      "pick": 5.65,
+      "wr": 0.5916
+    },
+    "BG": {
+      "pick": 5.65,
+      "wr": 0.5827
+    },
+    "UG": {
+      "pick": 5.65,
+      "wr": 0.5952
+    }
+  },
+  "Crystal Carapace": {
+    "Overall": {
+      "pick": 13.54,
+      "wr": null
+    },
+    "RG": {
+      "pick": 13.54,
+      "wr": null
+    },
+    "UG": {
+      "pick": 13.54,
+      "wr": null
+    }
+  },
+  "Deeproot Wayfinder": {
+    "Overall": {
+      "pick": 2.37,
+      "wr": 0.5898
+    },
+    "RG": {
+      "pick": 2.37,
+      "wr": 0.5878
+    },
+    "WG": {
+      "pick": 2.37,
+      "wr": 0.6142
+    },
+    "BG": {
+      "pick": 2.37,
+      "wr": 0.582
+    },
+    "UG": {
+      "pick": 2.37,
+      "wr": 0.5839
+    }
+  },
+  "Doomskar Warrior": {
+    "Overall": {
+      "pick": 1.69,
+      "wr": 0.5978
+    },
+    "RG": {
+      "pick": 1.69,
+      "wr": 0.6194
+    },
+    "WG": {
+      "pick": 1.69,
+      "wr": 0.6131
+    },
+    "BG": {
+      "pick": 1.69,
+      "wr": 0.5815
+    },
+    "UG": {
+      "pick": 1.69,
+      "wr": 0.6064
+    }
+  },
+  "Fertilid's Favor": {
+    "Overall": {
+      "pick": 10.49,
+      "wr": 0.5671
+    },
+    "RG": {
+      "pick": 10.49,
+      "wr": 0.5616
+    },
+    "WG": {
+      "pick": 10.49,
+      "wr": 0.5638
+    },
+    "BG": {
+      "pick": 10.49,
+      "wr": 0.5735
+    },
+    "UG": {
+      "pick": 10.49,
+      "wr": 0.5826
+    }
+  },
+  "Glistening Dawn": {
+    "Overall": {
+      "pick": 1.73,
+      "wr": 0.6022
+    },
+    "UB": {
+      "pick": 1.73,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.73,
+      "wr": 0.5766
+    },
+    "WG": {
+      "pick": 1.73,
+      "wr": 0.6038
+    },
+    "BG": {
+      "pick": 1.73,
+      "wr": 0.5995
+    },
+    "UG": {
+      "pick": 1.73,
+      "wr": 0.6249
+    }
+  },
+  "Iridescent Blademaster": {
+    "Overall": {
+      "pick": 10.51,
+      "wr": 0.5662
+    },
+    "RG": {
+      "pick": 10.51,
+      "wr": 0.5542
+    },
+    "WG": {
+      "pick": 10.51,
+      "wr": 0.5665
+    },
+    "BG": {
+      "pick": 10.51,
+      "wr": 0.5839
+    },
+    "UG": {
+      "pick": 10.51,
+      "wr": 0.5745
+    }
+  },
+  "Kami of Whispered Hopes": {
+    "Overall": {
+      "pick": 4.25,
+      "wr": 0.5772
+    },
+    "RG": {
+      "pick": 4.25,
+      "wr": 0.5608
+    },
+    "WG": {
+      "pick": 4.25,
+      "wr": 0.5947
+    },
+    "BG": {
+      "pick": 4.25,
+      "wr": 0.5786
+    },
+    "UG": {
+      "pick": 4.25,
+      "wr": 0.5842
+    }
+  },
+  "Overgrown Pest": {
+    "Overall": {
+      "pick": 5.76,
+      "wr": 0.5875
+    },
+    "RG": {
+      "pick": 5.76,
+      "wr": 0.5909
+    },
+    "WG": {
+      "pick": 5.76,
+      "wr": 0.6005
+    },
+    "BG": {
+      "pick": 5.76,
+      "wr": 0.5836
+    },
+    "UG": {
+      "pick": 5.76,
+      "wr": 0.5919
+    }
+  },
+  "Ozolith, the Shattered Spire": {
+    "Overall": {
+      "pick": 1.74,
+      "wr": 0.5952
+    },
+    "UB": {
+      "pick": 1.74,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.74,
+      "wr": 0.5888
+    },
+    "WG": {
+      "pick": 1.74,
+      "wr": 0.6321
+    },
+    "WB": {
+      "pick": 1.74,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.74,
+      "wr": 0.5834
+    },
+    "UG": {
+      "pick": 1.74,
+      "wr": 0.6189
+    }
+  },
+  "Placid Rottentail": {
+    "Overall": {
+      "pick": 12.0,
+      "wr": 0.5784
+    },
+    "RG": {
+      "pick": 12.0,
+      "wr": 0.58
+    },
+    "WG": {
+      "pick": 12.0,
+      "wr": 0.5782
+    },
+    "BG": {
+      "pick": 12.0,
+      "wr": 0.572
+    },
+    "UG": {
+      "pick": 12.0,
+      "wr": 0.6031
+    }
+  },
+  "Portent Tracker": {
+    "Overall": {
+      "pick": 6.47,
+      "wr": 0.5817
+    },
+    "RG": {
+      "pick": 6.47,
+      "wr": 0.5871
+    },
+    "WG": {
+      "pick": 6.47,
+      "wr": 0.5984
+    },
+    "BG": {
+      "pick": 6.47,
+      "wr": 0.58
+    },
+    "UG": {
+      "pick": 6.47,
+      "wr": 0.5871
+    }
+  },
+  "Ravenous Sailback": {
+    "Overall": {
+      "pick": 8.42,
+      "wr": 0.5673
+    },
+    "RG": {
+      "pick": 8.42,
+      "wr": 0.5716
+    },
+    "WG": {
+      "pick": 8.42,
+      "wr": 0.6016
+    },
+    "BG": {
+      "pick": 8.42,
+      "wr": 0.5778
+    },
+    "UG": {
+      "pick": 8.42,
+      "wr": 0.5784
+    }
+  },
+  "Sandstalker Moloch": {
+    "Overall": {
+      "pick": 6.31,
+      "wr": 0.5892
+    },
+    "RG": {
+      "pick": 6.31,
+      "wr": 0.5915
+    },
+    "WG": {
+      "pick": 6.31,
+      "wr": 0.6038
+    },
+    "BG": {
+      "pick": 6.31,
+      "wr": 0.5873
+    },
+    "UG": {
+      "pick": 6.31,
+      "wr": 0.5961
+    }
+  },
+  "Seed of Hope": {
+    "Overall": {
+      "pick": 11.48,
+      "wr": 0.5873
+    },
+    "RG": {
+      "pick": 11.48,
+      "wr": 0.5961
+    },
+    "WG": {
+      "pick": 11.48,
+      "wr": 0.5999
+    },
+    "BG": {
+      "pick": 11.48,
+      "wr": 0.5872
+    },
+    "UG": {
+      "pick": 11.48,
+      "wr": 0.5888
+    }
+  },
+  "Serpent-Blade Assailant": {
+    "Overall": {
+      "pick": 8.88,
+      "wr": 0.5785
+    },
+    "RG": {
+      "pick": 8.88,
+      "wr": 0.5744
+    },
+    "WG": {
+      "pick": 8.88,
+      "wr": 0.5997
+    },
+    "BG": {
+      "pick": 8.88,
+      "wr": 0.5777
+    },
+    "UG": {
+      "pick": 8.88,
+      "wr": 0.5696
+    }
+  },
+  "Storm the Seedcore": {
+    "Overall": {
+      "pick": 7.46,
+      "wr": 0.5957
+    },
+    "RG": {
+      "pick": 7.46,
+      "wr": 0.6041
+    },
+    "WG": {
+      "pick": 7.46,
+      "wr": 0.6016
+    },
+    "BG": {
+      "pick": 7.46,
+      "wr": 0.5972
+    },
+    "UG": {
+      "pick": 7.46,
+      "wr": 0.5973
+    }
+  },
+  "Streetwise Negotiator": {
+    "Overall": {
+      "pick": 4.56,
+      "wr": 0.5901
+    },
+    "RG": {
+      "pick": 4.56,
+      "wr": 0.5867
+    },
+    "WG": {
+      "pick": 4.56,
+      "wr": 0.6045
+    },
+    "BG": {
+      "pick": 4.56,
+      "wr": 0.5834
+    },
+    "UG": {
+      "pick": 4.56,
+      "wr": 0.6081
+    }
+  },
+  "Tandem Takedown": {
+    "Overall": {
+      "pick": 4.22,
+      "wr": 0.5959
+    },
+    "RG": {
+      "pick": 4.22,
+      "wr": 0.5769
+    },
+    "WG": {
+      "pick": 4.22,
+      "wr": 0.6057
+    },
+    "BG": {
+      "pick": 4.22,
+      "wr": 0.6005
+    },
+    "UG": {
+      "pick": 4.22,
+      "wr": 0.6033
+    }
+  },
+  "Tangled Skyline": {
+    "Overall": {
+      "pick": 5.6,
+      "wr": 0.5849
+    },
+    "UB": {
+      "pick": 5.6,
+      "wr": 0.6018
+    },
+    "RG": {
+      "pick": 5.6,
+      "wr": 0.5816
+    },
+    "WG": {
+      "pick": 5.6,
+      "wr": 0.593
+    },
+    "WB": {
+      "pick": 5.6,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.6,
+      "wr": null
+    },
+    "BG": {
+      "pick": 5.6,
+      "wr": 0.5916
+    },
+    "UG": {
+      "pick": 5.6,
+      "wr": 0.5889
+    }
+  },
+  "Timberland Ancient": {
+    "Overall": {
+      "pick": 8.53,
+      "wr": 0.5753
+    },
+    "UB": {
+      "pick": 8.53,
+      "wr": null
+    },
+    "RG": {
+      "pick": 8.53,
+      "wr": 0.5866
+    },
+    "WG": {
+      "pick": 8.53,
+      "wr": 0.5819
+    },
+    "BG": {
+      "pick": 8.53,
+      "wr": 0.5733
+    },
+    "UG": {
+      "pick": 8.53,
+      "wr": 0.5837
+    }
+  },
+  "Tribute to the World Tree": {
+    "Overall": {
+      "pick": 3.21,
+      "wr": 0.5422
+    },
+    "RG": {
+      "pick": 3.21,
+      "wr": null
+    },
+    "WG": {
+      "pick": 3.21,
+      "wr": null
+    },
+    "BG": {
+      "pick": 3.21,
+      "wr": 0.5456
+    },
+    "UG": {
+      "pick": 3.21,
+      "wr": 0.5566
+    }
+  },
+  "Vengeant Earth": {
+    "Overall": {
+      "pick": 13.52,
+      "wr": 0.5143
+    },
+    "RG": {
+      "pick": 13.52,
+      "wr": null
+    },
+    "WG": {
+      "pick": 13.52,
+      "wr": null
+    },
+    "BG": {
+      "pick": 13.52,
+      "wr": null
+    },
+    "UG": {
+      "pick": 13.52,
+      "wr": null
+    }
+  },
+  "War Historian": {
+    "Overall": {
+      "pick": 9.38,
+      "wr": 0.5772
+    },
+    "RG": {
+      "pick": 9.38,
+      "wr": 0.5841
+    },
+    "WG": {
+      "pick": 9.38,
+      "wr": 0.5805
+    },
+    "BG": {
+      "pick": 9.38,
+      "wr": 0.586
+    },
+    "UG": {
+      "pick": 9.38,
+      "wr": 0.5831
+    }
+  },
+  "Wary Thespian": {
+    "Overall": {
+      "pick": 7.58,
+      "wr": 0.588
+    },
+    "RG": {
+      "pick": 7.58,
+      "wr": 0.5791
+    },
+    "WG": {
+      "pick": 7.58,
+      "wr": 0.5971
+    },
+    "BG": {
+      "pick": 7.58,
+      "wr": 0.5902
+    },
+    "UG": {
+      "pick": 7.58,
+      "wr": 0.5939
+    }
+  },
+  "Wildwood Escort": {
+    "Overall": {
+      "pick": 10.06,
+      "wr": 0.5656
+    },
+    "UB": {
+      "pick": 10.06,
+      "wr": null
+    },
+    "RG": {
+      "pick": 10.06,
+      "wr": 0.5563
+    },
+    "WG": {
+      "pick": 10.06,
+      "wr": 0.5818
+    },
+    "BG": {
+      "pick": 10.06,
+      "wr": 0.5774
+    },
+    "UG": {
+      "pick": 10.06,
+      "wr": 0.5734
+    }
+  },
+  "Wrenn and Realmbreaker": {
+    "Overall": {
+      "pick": 1.42,
+      "wr": 0.5835
+    },
+    "RG": {
+      "pick": 1.42,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.42,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.42,
+      "wr": 0.5845
+    },
+    "UG": {
+      "pick": 1.42,
+      "wr": 0.5829
+    }
+  },
+  "Baral and Kari Zev": {
+    "Overall": {
+      "pick": 3.64,
+      "wr": 0.585
+    },
+    "WU": {
+      "pick": 3.64,
+      "wr": null
+    },
+    "UB": {
+      "pick": 3.64,
+      "wr": null
+    },
+    "BR": {
+      "pick": 3.64,
+      "wr": null
+    },
+    "UR": {
+      "pick": 3.64,
+      "wr": 0.603
+    },
+    "UG": {
+      "pick": 3.64,
+      "wr": null
+    }
+  },
+  "Borborygmos and Fblthp": {
+    "Overall": {
+      "pick": 2.53,
+      "wr": 0.6004
+    },
+    "UB": {
+      "pick": 2.53,
+      "wr": null
+    },
+    "RG": {
+      "pick": 2.53,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.53,
+      "wr": null
+    },
+    "UR": {
+      "pick": 2.53,
+      "wr": 0.623
+    },
+    "BG": {
+      "pick": 2.53,
+      "wr": null
+    },
+    "UG": {
+      "pick": 2.53,
+      "wr": 0.5918
+    }
+  },
+  "Botanical Brawler": {
+    "Overall": {
+      "pick": 5.79,
+      "wr": 0.596
+    },
+    "WG": {
+      "pick": 5.79,
+      "wr": 0.6062
+    },
+    "BG": {
+      "pick": 5.79,
+      "wr": null
+    },
+    "UG": {
+      "pick": 5.79,
+      "wr": null
+    }
+  },
+  "Djeru and Hazoret": {
+    "Overall": {
+      "pick": 5.02,
+      "wr": 0.551
+    },
+    "BR": {
+      "pick": 5.02,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.02,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.02,
+      "wr": null
+    },
+    "WR": {
+      "pick": 5.02,
+      "wr": 0.5573
+    }
+  },
+  "Drana and Linvala": {
+    "Overall": {
+      "pick": 3.67,
+      "wr": 0.5582
+    },
+    "WU": {
+      "pick": 3.67,
+      "wr": null
+    },
+    "WG": {
+      "pick": 3.67,
+      "wr": null
+    },
+    "WB": {
+      "pick": 3.67,
+      "wr": 0.5683
+    }
+  },
+  "Elvish Vatkeeper": {
+    "Overall": {
+      "pick": 5.17,
+      "wr": 0.5931
+    },
+    "UB": {
+      "pick": 5.17,
+      "wr": 0.5821
+    },
+    "BR": {
+      "pick": 5.17,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.17,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.17,
+      "wr": null
+    },
+    "WB": {
+      "pick": 5.17,
+      "wr": null
+    },
+    "BG": {
+      "pick": 5.17,
+      "wr": 0.6036
+    },
+    "UG": {
+      "pick": 5.17,
+      "wr": 0.5646
+    }
+  },
+  "Errant and Giada": {
+    "Overall": {
+      "pick": 4.07,
+      "wr": 0.616
+    },
+    "WU": {
+      "pick": 4.07,
+      "wr": 0.6283
+    },
+    "UB": {
+      "pick": 4.07,
+      "wr": null
+    },
+    "UG": {
+      "pick": 4.07,
+      "wr": null
+    }
+  },
+  "Ghalta and Mavren": {
+    "Overall": {
+      "pick": 2.26,
+      "wr": 0.5741
+    },
+    "RG": {
+      "pick": 2.26,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.26,
+      "wr": 0.5906
+    },
+    "BG": {
+      "pick": 2.26,
+      "wr": null
+    },
+    "UG": {
+      "pick": 2.26,
+      "wr": null
+    }
+  },
+  "Glissa, Herald of Predation": {
+    "Overall": {
+      "pick": 1.43,
+      "wr": 0.611
+    },
+    "UB": {
+      "pick": 1.43,
+      "wr": 0.6176
+    },
+    "BR": {
+      "pick": 1.43,
+      "wr": 0.6169
+    },
+    "RG": {
+      "pick": 1.43,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.43,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.43,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.43,
+      "wr": 0.628
+    },
+    "UG": {
+      "pick": 1.43,
+      "wr": 0.6047
+    }
+  },
+  "Halo Forager": {
+    "Overall": {
+      "pick": 4.45,
+      "wr": 0.6182
+    },
+    "WU": {
+      "pick": 4.45,
+      "wr": 0.5673
+    },
+    "UB": {
+      "pick": 4.45,
+      "wr": 0.6357
+    },
+    "BR": {
+      "pick": 4.45,
+      "wr": 0.5708
+    },
+    "WB": {
+      "pick": 4.45,
+      "wr": null
+    },
+    "UR": {
+      "pick": 4.45,
+      "wr": 0.6249
+    },
+    "BG": {
+      "pick": 4.45,
+      "wr": 0.5971
+    },
+    "UG": {
+      "pick": 4.45,
+      "wr": 0.6078
+    }
+  },
+  "Hidetsugu and Kairi": {
+    "Overall": {
+      "pick": 2.08,
+      "wr": 0.6246
+    },
+    "WU": {
+      "pick": 2.08,
+      "wr": 0.6079
+    },
+    "UB": {
+      "pick": 2.08,
+      "wr": 0.6495
+    },
+    "BR": {
+      "pick": 2.08,
+      "wr": null
+    },
+    "UR": {
+      "pick": 2.08,
+      "wr": 0.6107
+    },
+    "BG": {
+      "pick": 2.08,
+      "wr": null
+    },
+    "UG": {
+      "pick": 2.08,
+      "wr": 0.6177
+    }
+  },
+  "Inga and Esika": {
+    "Overall": {
+      "pick": 3.16,
+      "wr": 0.5773
+    },
+    "UB": {
+      "pick": 3.16,
+      "wr": null
+    },
+    "RG": {
+      "pick": 3.16,
+      "wr": null
+    },
+    "WG": {
+      "pick": 3.16,
+      "wr": null
+    },
+    "UR": {
+      "pick": 3.16,
+      "wr": null
+    },
+    "BG": {
+      "pick": 3.16,
+      "wr": null
+    },
+    "UG": {
+      "pick": 3.16,
+      "wr": 0.5963
+    }
+  },
+  "Joyful Stormsculptor": {
+    "Overall": {
+      "pick": 8.43,
+      "wr": 0.5945
+    },
+    "UB": {
+      "pick": 8.43,
+      "wr": null
+    },
+    "UR": {
+      "pick": 8.43,
+      "wr": 0.6023
+    },
+    "UG": {
+      "pick": 8.43,
+      "wr": null
+    }
+  },
+  "Kogla and Yidaro": {
+    "Overall": {
+      "pick": 2.41,
+      "wr": 0.5715
+    },
+    "RG": {
+      "pick": 2.41,
+      "wr": 0.586
+    },
+    "WG": {
+      "pick": 2.41,
+      "wr": null
+    },
+    "UR": {
+      "pick": 2.41,
+      "wr": null
+    },
+    "BG": {
+      "pick": 2.41,
+      "wr": null
+    },
+    "UG": {
+      "pick": 2.41,
+      "wr": null
+    }
+  },
+  "Kroxa and Kunoros": {
+    "Overall": {
+      "pick": 2.26,
+      "wr": 0.5576
+    },
+    "BR": {
+      "pick": 2.26,
+      "wr": 0.5303
+    },
+    "WB": {
+      "pick": 2.26,
+      "wr": null
+    },
+    "BG": {
+      "pick": 2.26,
+      "wr": null
+    },
+    "WR": {
+      "pick": 2.26,
+      "wr": null
+    }
+  },
+  "Marshal of Zhalfir": {
+    "Overall": {
+      "pick": 4.72,
+      "wr": 0.6425
+    },
+    "WU": {
+      "pick": 4.72,
+      "wr": 0.6474
+    }
+  },
+  "Mirror-Shield Hoplite": {
+    "Overall": {
+      "pick": 8.38,
+      "wr": 0.5956
+    },
+    "WR": {
+      "pick": 8.38,
+      "wr": 0.5986
+    }
+  },
+  "Mutagen Connoisseur": {
+    "Overall": {
+      "pick": 9.57,
+      "wr": 0.5679
+    },
+    "UB": {
+      "pick": 9.57,
+      "wr": null
+    },
+    "BG": {
+      "pick": 9.57,
+      "wr": null
+    },
+    "UG": {
+      "pick": 9.57,
+      "wr": 0.5834
+    }
+  },
+  "Omnath, Locus of All": {
+    "Overall": {
+      "pick": 5.71,
+      "wr": 0.5441
+    },
+    "RG": {
+      "pick": 5.71,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.71,
+      "wr": null
+    },
+    "BG": {
+      "pick": 5.71,
+      "wr": null
+    },
+    "UG": {
+      "pick": 5.71,
+      "wr": null
+    }
+  },
+  "Quintorius, Loremaster": {
+    "Overall": {
+      "pick": 2.81,
+      "wr": 0.59
+    },
+    "WU": {
+      "pick": 2.81,
+      "wr": null
+    },
+    "BR": {
+      "pick": 2.81,
+      "wr": 0.5714
+    },
+    "RG": {
+      "pick": 2.81,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.81,
+      "wr": null
+    },
+    "WB": {
+      "pick": 2.81,
+      "wr": null
+    },
+    "UR": {
+      "pick": 2.81,
+      "wr": 0.6231
+    },
+    "BG": {
+      "pick": 2.81,
+      "wr": null
+    },
+    "WR": {
+      "pick": 2.81,
+      "wr": 0.5891
+    },
+    "UG": {
+      "pick": 2.81,
+      "wr": null
+    }
+  },
+  "Rampaging Geoderm": {
+    "Overall": {
+      "pick": 8.21,
+      "wr": 0.5609
+    },
+    "BR": {
+      "pick": 8.21,
+      "wr": null
+    },
+    "RG": {
+      "pick": 8.21,
+      "wr": 0.5755
+    },
+    "WG": {
+      "pick": 8.21,
+      "wr": null
+    },
+    "BG": {
+      "pick": 8.21,
+      "wr": null
+    },
+    "UG": {
+      "pick": 8.21,
+      "wr": null
+    }
+  },
+  "Rankle and Torbran": {
+    "Overall": {
+      "pick": 3.54,
+      "wr": 0.5734
+    },
+    "BR": {
+      "pick": 3.54,
+      "wr": 0.5791
+    },
+    "BG": {
+      "pick": 3.54,
+      "wr": null
+    }
+  },
+  "Sculpted Perfection": {
+    "Overall": {
+      "pick": 7.02,
+      "wr": 0.5571
+    },
+    "WU": {
+      "pick": 7.02,
+      "wr": null
+    },
+    "UB": {
+      "pick": 7.02,
+      "wr": null
+    },
+    "BR": {
+      "pick": 7.02,
+      "wr": null
+    },
+    "WG": {
+      "pick": 7.02,
+      "wr": null
+    },
+    "WB": {
+      "pick": 7.02,
+      "wr": 0.5688
+    },
+    "BG": {
+      "pick": 7.02,
+      "wr": null
+    }
+  },
+  "Stormclaw Rager": {
+    "Overall": {
+      "pick": 7.14,
+      "wr": 0.5706
+    },
+    "UB": {
+      "pick": 7.14,
+      "wr": null
+    },
+    "BR": {
+      "pick": 7.14,
+      "wr": 0.5777
+    },
+    "UR": {
+      "pick": 7.14,
+      "wr": null
+    },
+    "BG": {
+      "pick": 7.14,
+      "wr": null
+    }
+  },
+  "Thalia and The Gitrog Monster": {
+    "Overall": {
+      "pick": 1.91,
+      "wr": 0.572
+    },
+    "WG": {
+      "pick": 1.91,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.91,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.91,
+      "wr": 0.5594
+    },
+    "UG": {
+      "pick": 1.91,
+      "wr": null
+    }
+  },
+  "Yargle and Multani": {
+    "Overall": {
+      "pick": 7.82,
+      "wr": 0.5397
+    },
+    "BG": {
+      "pick": 7.82,
+      "wr": 0.5344
+    }
+  },
+  "Zimone and Dina": {
+    "Overall": {
+      "pick": 3.33,
+      "wr": 0.5802
+    },
+    "UB": {
+      "pick": 3.33,
+      "wr": null
+    },
+    "BG": {
+      "pick": 3.33,
+      "wr": null
+    },
+    "UG": {
+      "pick": 3.33,
+      "wr": null
+    }
+  },
+  "Zurgo and Ojutai": {
+    "Overall": {
+      "pick": 2.27,
+      "wr": 0.5955
+    },
+    "WU": {
+      "pick": 2.27,
+      "wr": 0.6027
+    },
+    "UB": {
+      "pick": 2.27,
+      "wr": null
+    },
+    "WG": {
+      "pick": 2.27,
+      "wr": null
+    },
+    "UR": {
+      "pick": 2.27,
+      "wr": 0.6113
+    },
+    "WR": {
+      "pick": 2.27,
+      "wr": null
+    },
+    "UG": {
+      "pick": 2.27,
+      "wr": null
+    }
+  },
+  "Flywheel Racer": {
+    "Overall": {
+      "pick": 10.46,
+      "wr": 0.5795
+    },
+    "WU": {
+      "pick": 10.46,
+      "wr": 0.605
+    },
+    "UB": {
+      "pick": 10.46,
+      "wr": 0.6005
+    },
+    "BR": {
+      "pick": 10.46,
+      "wr": 0.5791
+    },
+    "RG": {
+      "pick": 10.46,
+      "wr": 0.6106
+    },
+    "WG": {
+      "pick": 10.46,
+      "wr": 0.5629
+    },
+    "WB": {
+      "pick": 10.46,
+      "wr": 0.5856
+    },
+    "UR": {
+      "pick": 10.46,
+      "wr": 0.5866
+    },
+    "BG": {
+      "pick": 10.46,
+      "wr": 0.5671
+    },
+    "WR": {
+      "pick": 10.46,
+      "wr": 0.5957
+    },
+    "UG": {
+      "pick": 10.46,
+      "wr": 0.5661
+    }
+  },
+  "Halo Hopper": {
+    "Overall": {
+      "pick": 11.19,
+      "wr": 0.5993
+    },
+    "WU": {
+      "pick": 11.19,
+      "wr": 0.6224
+    },
+    "UB": {
+      "pick": 11.19,
+      "wr": 0.6039
+    },
+    "BR": {
+      "pick": 11.19,
+      "wr": 0.5751
+    },
+    "RG": {
+      "pick": 11.19,
+      "wr": null
+    },
+    "WG": {
+      "pick": 11.19,
+      "wr": 0.6157
+    },
+    "WB": {
+      "pick": 11.19,
+      "wr": null
+    },
+    "UR": {
+      "pick": 11.19,
+      "wr": 0.6059
+    },
+    "BG": {
+      "pick": 11.19,
+      "wr": null
+    },
+    "WR": {
+      "pick": 11.19,
+      "wr": 0.5963
+    },
+    "UG": {
+      "pick": 11.19,
+      "wr": null
+    }
+  },
+  "Kitesail": {
+    "Overall": {
+      "pick": 11.9,
+      "wr": 0.5622
+    },
+    "WU": {
+      "pick": 11.9,
+      "wr": 0.5896
+    },
+    "UB": {
+      "pick": 11.9,
+      "wr": null
+    },
+    "BR": {
+      "pick": 11.9,
+      "wr": null
+    },
+    "RG": {
+      "pick": 11.9,
+      "wr": 0.5329
+    },
+    "WG": {
+      "pick": 11.9,
+      "wr": 0.5919
+    },
+    "WB": {
+      "pick": 11.9,
+      "wr": null
+    },
+    "UR": {
+      "pick": 11.9,
+      "wr": null
+    },
+    "BG": {
+      "pick": 11.9,
+      "wr": 0.5548
+    },
+    "WR": {
+      "pick": 11.9,
+      "wr": 0.578
+    },
+    "UG": {
+      "pick": 11.9,
+      "wr": null
+    }
+  },
+  "Phyrexian Archivist": {
+    "Overall": {
+      "pick": 13.39,
+      "wr": 0.5597
+    },
+    "WU": {
+      "pick": 13.39,
+      "wr": null
+    },
+    "UB": {
+      "pick": 13.39,
+      "wr": 0.5809
+    },
+    "WB": {
+      "pick": 13.39,
+      "wr": null
+    },
+    "BG": {
+      "pick": 13.39,
+      "wr": null
+    },
+    "UG": {
+      "pick": 13.39,
+      "wr": null
+    }
+  },
+  "Realmbreaker, the Invasion Tree": {
+    "Overall": {
+      "pick": 5.3,
+      "wr": 0.552
+    },
+    "WU": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "UB": {
+      "pick": 5.3,
+      "wr": 0.583
+    },
+    "BR": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "RG": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "WG": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "WB": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "UR": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "BG": {
+      "pick": 5.3,
+      "wr": null
+    },
+    "UG": {
+      "pick": 5.3,
+      "wr": null
+    }
+  },
+  "Skittering Surveyor": {
+    "Overall": {
+      "pick": 5.84,
+      "wr": 0.5818
+    },
+    "WU": {
+      "pick": 5.84,
+      "wr": 0.579
+    },
+    "UB": {
+      "pick": 5.84,
+      "wr": 0.6084
+    },
+    "BR": {
+      "pick": 5.84,
+      "wr": 0.5693
+    },
+    "RG": {
+      "pick": 5.84,
+      "wr": 0.5759
+    },
+    "WG": {
+      "pick": 5.84,
+      "wr": 0.561
+    },
+    "WB": {
+      "pick": 5.84,
+      "wr": 0.559
+    },
+    "UR": {
+      "pick": 5.84,
+      "wr": 0.6068
+    },
+    "BG": {
+      "pick": 5.84,
+      "wr": 0.5844
+    },
+    "WR": {
+      "pick": 5.84,
+      "wr": null
+    },
+    "UG": {
+      "pick": 5.84,
+      "wr": 0.5857
+    }
+  },
+  "Sword of Once and Future": {
+    "Overall": {
+      "pick": 1.2,
+      "wr": 0.6235
+    },
+    "WU": {
+      "pick": 1.2,
+      "wr": 0.6335
+    },
+    "UB": {
+      "pick": 1.2,
+      "wr": 0.6351
+    },
+    "BR": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "RG": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "WG": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "WB": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "UR": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "BG": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "WR": {
+      "pick": 1.2,
+      "wr": null
+    },
+    "UG": {
+      "pick": 1.2,
+      "wr": null
+    }
+  },
+  "Urn of Godfire": {
+    "Overall": {
+      "pick": 11.66,
+      "wr": 0.5534
+    },
+    "WU": {
+      "pick": 11.66,
+      "wr": null
+    },
+    "UB": {
+      "pick": 11.66,
+      "wr": 0.5847
+    },
+    "BR": {
+      "pick": 11.66,
+      "wr": null
+    },
+    "RG": {
+      "pick": 11.66,
+      "wr": null
+    },
+    "WG": {
+      "pick": 11.66,
+      "wr": null
+    },
+    "WB": {
+      "pick": 11.66,
+      "wr": null
+    },
+    "UR": {
+      "pick": 11.66,
+      "wr": 0.563
+    },
+    "BG": {
+      "pick": 11.66,
+      "wr": 0.5472
+    },
+    "UG": {
+      "pick": 11.66,
+      "wr": 0.529
+    }
+  },
+  "Bloodfell Caves": {
+    "Overall": {
+      "pick": 8.45,
+      "wr": 0.5767
+    },
+    "UB": {
+      "pick": 8.45,
+      "wr": 0.5922
+    },
+    "BR": {
+      "pick": 8.45,
+      "wr": 0.5824
+    },
+    "RG": {
+      "pick": 8.45,
+      "wr": 0.5296
+    },
+    "WB": {
+      "pick": 8.45,
+      "wr": null
+    },
+    "UR": {
+      "pick": 8.45,
+      "wr": 0.6142
+    },
+    "BG": {
+      "pick": 8.45,
+      "wr": 0.5726
+    },
+    "WR": {
+      "pick": 8.45,
+      "wr": null
+    },
+    "UG": {
+      "pick": 8.45,
+      "wr": null
+    }
+  },
+  "Blossoming Sands": {
+    "Overall": {
+      "pick": 8.53,
+      "wr": 0.5755
+    },
+    "WU": {
+      "pick": 8.53,
+      "wr": null
+    },
+    "UB": {
+      "pick": 8.53,
+      "wr": null
+    },
+    "RG": {
+      "pick": 8.53,
+      "wr": 0.5455
+    },
+    "WG": {
+      "pick": 8.53,
+      "wr": 0.6041
+    },
+    "WB": {
+      "pick": 8.53,
+      "wr": 0.5544
+    },
+    "BG": {
+      "pick": 8.53,
+      "wr": 0.5849
+    },
+    "UG": {
+      "pick": 8.53,
+      "wr": 0.5771
+    }
+  },
+  "Dismal Backwater": {
+    "Overall": {
+      "pick": 7.39,
+      "wr": 0.5976
+    },
+    "WU": {
+      "pick": 7.39,
+      "wr": 0.5723
+    },
+    "UB": {
+      "pick": 7.39,
+      "wr": 0.6229
+    },
+    "BR": {
+      "pick": 7.39,
+      "wr": 0.5629
+    },
+    "RG": {
+      "pick": 7.39,
+      "wr": null
+    },
+    "WB": {
+      "pick": 7.39,
+      "wr": 0.5609
+    },
+    "UR": {
+      "pick": 7.39,
+      "wr": 0.5987
+    },
+    "BG": {
+      "pick": 7.39,
+      "wr": 0.5822
+    },
+    "UG": {
+      "pick": 7.39,
+      "wr": 0.5931
+    }
+  },
+  "Jungle Hollow": {
+    "Overall": {
+      "pick": 7.5,
+      "wr": 0.5779
+    },
+    "UB": {
+      "pick": 7.5,
+      "wr": 0.5993
+    },
+    "BR": {
+      "pick": 7.5,
+      "wr": null
+    },
+    "RG": {
+      "pick": 7.5,
+      "wr": null
+    },
+    "WG": {
+      "pick": 7.5,
+      "wr": 0.5786
+    },
+    "WB": {
+      "pick": 7.5,
+      "wr": null
+    },
+    "BG": {
+      "pick": 7.5,
+      "wr": 0.5888
+    },
+    "UG": {
+      "pick": 7.5,
+      "wr": 0.5903
+    }
+  },
+  "Rugged Highlands": {
+    "Overall": {
+      "pick": 9.18,
+      "wr": 0.5749
+    },
+    "UB": {
+      "pick": 9.18,
+      "wr": null
+    },
+    "BR": {
+      "pick": 9.18,
+      "wr": null
+    },
+    "RG": {
+      "pick": 9.18,
+      "wr": 0.5839
+    },
+    "WG": {
+      "pick": 9.18,
+      "wr": null
+    },
+    "UR": {
+      "pick": 9.18,
+      "wr": 0.6204
+    },
+    "BG": {
+      "pick": 9.18,
+      "wr": 0.5739
+    },
+    "WR": {
+      "pick": 9.18,
+      "wr": null
+    },
+    "UG": {
+      "pick": 9.18,
+      "wr": 0.5897
+    }
+  },
+  "Scoured Barrens": {
+    "Overall": {
+      "pick": 7.98,
+      "wr": 0.572
+    },
+    "WU": {
+      "pick": 7.98,
+      "wr": 0.6003
+    },
+    "UB": {
+      "pick": 7.98,
+      "wr": 0.604
+    },
+    "BR": {
+      "pick": 7.98,
+      "wr": 0.5424
+    },
+    "WG": {
+      "pick": 7.98,
+      "wr": 0.5604
+    },
+    "WB": {
+      "pick": 7.98,
+      "wr": 0.5666
+    },
+    "UR": {
+      "pick": 7.98,
+      "wr": null
+    },
+    "BG": {
+      "pick": 7.98,
+      "wr": 0.5753
+    },
+    "WR": {
+      "pick": 7.98,
+      "wr": null
+    },
+    "UG": {
+      "pick": 7.98,
+      "wr": null
+    }
+  },
+  "Swiftwater Cliffs": {
+    "Overall": {
+      "pick": 8.64,
+      "wr": 0.5883
+    },
+    "WU": {
+      "pick": 8.64,
+      "wr": 0.582
+    },
+    "UB": {
+      "pick": 8.64,
+      "wr": 0.5976
+    },
+    "BR": {
+      "pick": 8.64,
+      "wr": 0.5779
+    },
+    "RG": {
+      "pick": 8.64,
+      "wr": 0.5939
+    },
+    "WG": {
+      "pick": 8.64,
+      "wr": null
+    },
+    "UR": {
+      "pick": 8.64,
+      "wr": 0.611
+    },
+    "BG": {
+      "pick": 8.64,
+      "wr": null
+    },
+    "WR": {
+      "pick": 8.64,
+      "wr": null
+    },
+    "UG": {
+      "pick": 8.64,
+      "wr": 0.5444
+    }
+  },
+  "Thornwood Falls": {
+    "Overall": {
+      "pick": 8.09,
+      "wr": 0.5793
+    },
+    "WU": {
+      "pick": 8.09,
+      "wr": null
+    },
+    "UB": {
+      "pick": 8.09,
+      "wr": 0.5866
+    },
+    "RG": {
+      "pick": 8.09,
+      "wr": 0.5643
+    },
+    "WG": {
+      "pick": 8.09,
+      "wr": 0.5911
+    },
+    "UR": {
+      "pick": 8.09,
+      "wr": 0.578
+    },
+    "BG": {
+      "pick": 8.09,
+      "wr": 0.5759
+    },
+    "UG": {
+      "pick": 8.09,
+      "wr": 0.5955
+    }
+  },
+  "Tranquil Cove": {
+    "Overall": {
+      "pick": 8.11,
+      "wr": 0.5935
+    },
+    "WU": {
+      "pick": 8.11,
+      "wr": 0.6264
+    },
+    "UB": {
+      "pick": 8.11,
+      "wr": 0.5995
+    },
+    "RG": {
+      "pick": 8.11,
+      "wr": null
+    },
+    "WG": {
+      "pick": 8.11,
+      "wr": null
+    },
+    "WB": {
+      "pick": 8.11,
+      "wr": 0.5433
+    },
+    "UR": {
+      "pick": 8.11,
+      "wr": 0.6034
+    },
+    "BG": {
+      "pick": 8.11,
+      "wr": null
+    },
+    "WR": {
+      "pick": 8.11,
+      "wr": null
+    },
+    "UG": {
+      "pick": 8.11,
+      "wr": 0.5753
+    }
+  },
+  "Wind-Scarred Crag": {
+    "Overall": {
+      "pick": 8.99,
+      "wr": 0.5737
+    },
+    "WU": {
+      "pick": 8.99,
+      "wr": 0.6095
+    },
+    "UB": {
+      "pick": 8.99,
+      "wr": null
+    },
+    "BR": {
+      "pick": 8.99,
+      "wr": 0.5568
+    },
+    "RG": {
+      "pick": 8.99,
+      "wr": 0.5438
+    },
+    "WG": {
+      "pick": 8.99,
+      "wr": null
+    },
+    "WB": {
+      "pick": 8.99,
+      "wr": null
+    },
+    "UR": {
+      "pick": 8.99,
+      "wr": 0.5993
+    },
+    "BG": {
+      "pick": 8.99,
+      "wr": null
+    },
+    "WR": {
+      "pick": 8.99,
+      "wr": 0.5953
+    },
+    "UG": {
+      "pick": 8.99,
+      "wr": null
+    }
+  }
+}

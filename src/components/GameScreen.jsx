@@ -2,109 +2,34 @@ import React, { useState, useEffect } from 'react';
 import CardButton from './CardButton';
 import LivesCounter from './LivesCounter';
 import GameOverScreen from './GameOverScreen';
-import ManaSelector from './ManaSelector';
+import { BASIC_LANDS, getGuildFromColors } from '../utils';
 
-const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest", "Snow-Covered Plains", "Snow-Covered Island", "Snow-Covered Swamp", "Snow-Covered Mountain", "Snow-Covered Forest", "Wastes"]);
-
-// Ordered by release date, newest first
-const SETS = [
-  { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
-  { id: 'TMT', name: 'TMNT (2026)' },
-  { id: 'ECL', name: 'Lorwyn Eclipsed (2026)' },
-  { id: 'TLA', name: 'Avatar: The Last Airbender (2025)' },
-  { id: 'SPM', name: "Marvel's Spider-Man (2025)" },
-  { id: 'EOE', name: 'Edge of Eternities (2025)' },
-  { id: 'FIN', name: 'Final Fantasy (2025)' },
-  { id: 'TDM', name: 'Tarkir: Dragonstorm (2025)' },
-  { id: 'DFT', name: 'Aetherdrift (2025)' },
-  { id: 'FDN', name: 'Foundations (2024)' },
-  { id: 'DSK', name: 'Duskmourn (2024)' },
-  { id: 'BLB', name: 'Bloomburrow (2024)' },
-  { id: 'MH3', name: 'Modern Horizons 3 (2024)' },
-  { id: 'OTJ', name: 'Outlaws of Thunder Junction (2024)' },
-  { id: 'MKM', name: 'Karlov Manor (2024)' },
-  { id: 'LCI', name: 'Lost Caverns of Ixalan (2023)' },
-  { id: 'WOE', name: 'Wilds of Eldraine (2023)' },
-  { id: 'LTR', name: 'Lord of the Rings (2023)' },
-  { id: 'MOM', name: 'March of the Machine (2023)' },
-  { id: 'ONE', name: 'Phyrexia: All Will Be One (2023)' },
-  { id: 'BRO', name: "Brothers' War (2022)" },
-  { id: 'DMU', name: 'Dominaria United (2022)' },
-  { id: 'SNC', name: 'New Capenna (2022)' },
-  { id: 'NEO', name: 'Kamigawa: Neon Dynasty (2022)' },
-  { id: 'VOW', name: 'Crimson Vow (2021)' }
-];
-
-const getGuildFromColors = (colors) => {
-  if (colors.length !== 2) return 'Overall';
-  
-  const guilds = ['WU', 'UB', 'BR', 'RG', 'WG', 'WB', 'UR', 'BG', 'WR', 'UG'];
-  const str1 = colors[0] + colors[1];
-  const str2 = colors[1] + colors[0];
-  
-  if (guilds.includes(str1)) return str1;
-  if (guilds.includes(str2)) return str2;
-  
-  return 'Overall';
-};
-
-const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
-  const [activeSet, setActiveSet] = useState('SOS');
-  const [selectedColors, setSelectedColors] = useState([]);
-  
-  const [masterMetadata, setMasterMetadata] = useState(null);
-  const [masterStats, setMasterStats] = useState(null);
-  
+const GameScreen = ({ 
+  layout = 'stack', 
+  gameMode = 'draft',
+  activeSet,
+  selectedColors,
+  masterMetadata,
+  masterStats,
+  dataState
+}) => {
   const [score, setScore] = useState(0);
   const [lives, setLives] = useState(3);
-  const [gameState, setGameState] = useState('loading'); // loading, playing, result, gameover
+  const [gameState, setGameState] = useState('playing'); // playing, result, gameover, error
   const [currentPair, setCurrentPair] = useState([]);
   const [selectedCardIdx, setSelectedCardIdx] = useState(null);
   const [resultMsg, setResultMsg] = useState('');
-  const [loadWarning, setLoadWarning] = useState('');
   // Track recently seen card names to avoid immediate repeats
   const recentlySeenRef = React.useRef(new Set());
 
-  // Load data when set changes
-  useEffect(() => {
-    const loadSetData = async () => {
-      setGameState('loading');
-      setLoadWarning('');
-      const baseUrl = import.meta.env.BASE_URL || '/';
-      const prefix = activeSet.toLowerCase();
-
-      try {
-        const [metaRes, statsRes] = await Promise.all([
-          fetch(`${baseUrl}data/${prefix}_metadata.json`),
-          fetch(`${baseUrl}data/${prefix}_stats.json`)
-        ]);
-
-        if (!metaRes.ok || !statsRes.ok) throw new Error("Missing set files");
-
-        const [meta, stats] = await Promise.all([metaRes.json(), statsRes.json()]);
-        
-        setMasterMetadata(meta);
-        setMasterStats(stats);
-        setScore(0);
-        setLives(3);
-        setGameState('playing');
-      } catch (err) {
-        console.error('Failed to load card data', err);
-        setMasterMetadata(null);
-        setMasterStats(null);
-        setGameState('error');
-      }
-    };
-
-    loadSetData();
-  }, [activeSet]);
-
   // Handle color/mode changes (just pick new pair)
   useEffect(() => {
-    if (masterMetadata && masterStats) {
+    if (dataState === 'ready' && masterMetadata && masterStats) {
+      setScore(0);
+      setLives(3);
       pickNewPair();
     }
-  }, [selectedColors, gameMode, masterMetadata]);
+  }, [selectedColors, gameMode, masterMetadata, masterStats, dataState]);
 
   const pickNewPair = () => {
     if (!masterMetadata || !masterStats) return;
@@ -303,47 +228,16 @@ const GameScreen = ({ layout = 'stack', gameMode = 'draft' }) => {
     setGameState('playing');
   };
 
-  const currentMode = getGuildFromColors(selectedColors);
+  if (dataState === 'loading') {
+    return <div className="glass-panel fade-in" style={{ textAlign: 'center', padding: '40px' }}>Loading...</div>;
+  }
+
+  if (dataState === 'error') {
+    return <div className="glass-panel fade-in" style={{ textAlign: 'center', padding: '40px' }}>Error loading data.</div>;
+  }
 
   return (
     <div className="glass-panel fade-in">
-      <div style={{ width: '100%', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center', padding: '0 12px' }}>
-        
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-          <label htmlFor="set-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>SET</label>
-          <select 
-            id="set-select"
-            className="mode-selector"
-            value={activeSet} 
-            onChange={(e) => setActiveSet(e.target.value)}
-            disabled={gameState === 'loading'}
-          >
-            {SETS.map(s => (
-              <option key={s.id} value={s.id}>{s.name}</option>
-            ))}
-          </select>
-        </div>
-
-        {(gameMode === 'draft' || gameMode === 'winrate') && (
-          <>
-            <ManaSelector 
-              selectedColors={selectedColors} 
-              onChange={setSelectedColors} 
-            />
-            
-            <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
-              Data Source: <strong>{currentMode === 'Overall' && selectedColors.length > 2 ? [...selectedColors].sort().join('') : currentMode}</strong>
-            </div>
-          </>
-        )}
-        {loadWarning && (
-          <div style={{ fontSize: '12px', color: '#f59e0b', marginTop: '4px' }}>
-            {loadWarning}
-          </div>
-        )}
-
-      </div>
-
       {gameState === 'error' && (
         <div style={{ textAlign: 'center', padding: '40px 20px' }}>
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>🔍</div>

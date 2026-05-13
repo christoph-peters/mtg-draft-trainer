@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import GameScreen from './components/GameScreen';
+import LearningScreen from './components/LearningScreen';
 import ErrorBoundary from './components/ErrorBoundary';
+import ManaSelector from './components/ManaSelector';
+import { SETS, getGuildFromColors } from './utils';
 import './index.css';
 
 const LAYOUTS = [
@@ -9,6 +12,7 @@ const LAYOUTS = [
 ];
 
 const MODES = [
+  { id: 'learn', label: 'Learn', icon: '📖', subtitle: 'Swipe through top cards to build your mental map' },
   { id: 'draft', label: 'Draft', icon: '🏆', subtitle: 'Pick the card drafted earlier by Top Players' },
   { id: 'value', label: 'Value', icon: '💰', subtitle: 'Pick the card with higher market value (>$1)' },
   { id: 'winrate', label: 'Win Rate', icon: '📈', subtitle: 'Pick the card with higher Games-In-Hand Win Rate' },
@@ -25,6 +29,13 @@ function App() {
     () => localStorage.getItem('mtg_game_mode') || 'draft'
   );
 
+  const [activeSet, setActiveSet] = useState('SOS');
+  const [selectedColors, setSelectedColors] = useState([]);
+  const [masterMetadata, setMasterMetadata] = useState(null);
+  const [masterStats, setMasterStats] = useState(null);
+  const [dataState, setDataState] = useState('loading'); // loading, ready, error
+  const [loadWarning, setLoadWarning] = useState('');
+
   const cycleLayout = () => {
     const idx = LAYOUTS.findIndex(l => l.id === layout);
     const next = LAYOUTS[(idx + 1) % LAYOUTS.length];
@@ -39,8 +50,40 @@ function App() {
     localStorage.setItem('mtg_game_mode', next.id);
   };
 
+  useEffect(() => {
+    const loadSetData = async () => {
+      setDataState('loading');
+      setLoadWarning('');
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const prefix = activeSet.toLowerCase();
+
+      try {
+        const [metaRes, statsRes] = await Promise.all([
+          fetch(`${baseUrl}data/${prefix}_metadata.json`),
+          fetch(`${baseUrl}data/${prefix}_stats.json`)
+        ]);
+
+        if (!metaRes.ok || !statsRes.ok) throw new Error("Missing set files");
+
+        const [meta, stats] = await Promise.all([metaRes.json(), statsRes.json()]);
+        
+        setMasterMetadata(meta);
+        setMasterStats(stats);
+        setDataState('ready');
+      } catch (err) {
+        console.error('Failed to load card data', err);
+        setMasterMetadata(null);
+        setMasterStats(null);
+        setDataState('error');
+      }
+    };
+
+    loadSetData();
+  }, [activeSet]);
+
   const currentLayout = LAYOUTS.find(l => l.id === layout) || LAYOUTS[0];
   const currentMode = MODES.find(m => m.id === gameMode) || MODES[0];
+  const currentGuild = getGuildFromColors(selectedColors);
 
   return (
     <ErrorBoundary>
@@ -102,7 +145,64 @@ function App() {
           </button>
         </div>
         <p className="subtitle">{currentMode.subtitle}</p>
-        <GameScreen layout={layout} gameMode={gameMode} />
+
+        {/* Global Controls for Set and Colors */}
+        <div style={{ width: '100%', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center', padding: '0 12px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+            <label htmlFor="set-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>SET</label>
+            <select 
+              id="set-select"
+              className="mode-selector"
+              value={activeSet} 
+              onChange={(e) => setActiveSet(e.target.value)}
+              disabled={dataState === 'loading'}
+            >
+              {SETS.map(s => (
+                <option key={s.id} value={s.id}>{s.name}</option>
+              ))}
+            </select>
+          </div>
+
+          {(gameMode === 'draft' || gameMode === 'winrate' || gameMode === 'learn') && (
+            <>
+              <ManaSelector 
+                selectedColors={selectedColors} 
+                onChange={setSelectedColors} 
+              />
+              
+              <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+                Data Source: <strong>{currentGuild === 'Overall' && selectedColors.length > 2 ? [...selectedColors].sort().join('') : currentGuild}</strong>
+              </div>
+            </>
+          )}
+          {loadWarning && (
+            <div style={{ fontSize: '12px', color: '#f59e0b', marginTop: '4px' }}>
+              {loadWarning}
+            </div>
+          )}
+        </div>
+
+        {gameMode === 'learn' ? (
+          <LearningScreen 
+            gameMode={gameMode}
+            activeSet={activeSet}
+            selectedColors={selectedColors}
+            masterMetadata={masterMetadata}
+            masterStats={masterStats}
+            dataState={dataState}
+            loadWarning={loadWarning}
+          />
+        ) : (
+          <GameScreen 
+            layout={layout} 
+            gameMode={gameMode}
+            activeSet={activeSet}
+            selectedColors={selectedColors}
+            masterMetadata={masterMetadata}
+            masterStats={masterStats}
+            dataState={dataState}
+          />
+        )}
       </div>
     </ErrorBoundary>
   );

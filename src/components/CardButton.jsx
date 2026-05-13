@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType = 'ata' }) => {
+const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType = 'ata', market = 'usd' }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   // Guard against missing card data during transitions
@@ -49,15 +49,18 @@ const CardButton = ({ card, onClick, disabled, isCorrect, showResult, resultType
     } else {
       const price = card.price || 0;
       const isBulk = price < 1.00;
+      const currencySymbol = market === 'eur' ? '€' : '$';
+      const label = market === 'eur' ? 'EUR:' : 'USD:';
+      
       return (
         <>
-          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>USD:</span>
+          <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>{label}</span>
           <span style={{ fontWeight: 'bold', marginLeft: '4px', color: isCorrect ? 'var(--correct)' : 'var(--text-main)', fontSize: '14px' }}>
-            {isBulk ? 'Bulk' : `$${price.toFixed(2)}`}
+            {isBulk ? 'Bulk' : `${currencySymbol}${price.toFixed(2)}`}
           </span>
           {!isBulk && price > 0 && (
             <div style={{ fontSize: '9px', color: 'var(--text-muted)', marginTop: '-2px' }}>
-              ${price.toFixed(2)}
+              {currencySymbol}{price.toFixed(2)}
             </div>
           )}
         </>

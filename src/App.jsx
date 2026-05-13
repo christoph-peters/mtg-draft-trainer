@@ -31,6 +31,9 @@ function App() {
 
   const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
+  const [market, setMarket] = useState(
+    () => localStorage.getItem('mtg_market') || 'usd'
+  );
   const [masterMetadata, setMasterMetadata] = useState(null);
   const [masterStats, setMasterStats] = useState(null);
   const [dataState, setDataState] = useState('loading'); // loading, ready, error
@@ -163,6 +166,22 @@ function App() {
             </select>
           </div>
 
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+            <label htmlFor="market-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>MARKET</label>
+            <select 
+              id="market-select"
+              className="mode-selector"
+              value={market} 
+              onChange={(e) => {
+                setMarket(e.target.value);
+                localStorage.setItem('mtg_market', e.target.value);
+              }}
+            >
+              <option value="usd">TCGPlayer (USD)</option>
+              <option value="eur">Cardmarket (EUR)</option>
+            </select>
+          </div>
+
           {(gameMode === 'draft' || gameMode === 'winrate' || gameMode === 'learn') && (
             <>
               <ManaSelector 
@@ -187,6 +206,7 @@ function App() {
             gameMode={gameMode}
             activeSet={activeSet}
             selectedColors={selectedColors}
+            market={market}
             masterMetadata={masterMetadata}
             masterStats={masterStats}
             dataState={dataState}
@@ -198,6 +218,7 @@ function App() {
             gameMode={gameMode}
             activeSet={activeSet}
             selectedColors={selectedColors}
+            market={market}
             masterMetadata={masterMetadata}
             masterStats={masterStats}
             dataState={dataState}

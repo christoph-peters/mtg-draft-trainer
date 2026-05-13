@@ -9,6 +9,7 @@ const GameScreen = ({
   gameMode = 'draft',
   activeSet,
   selectedColors,
+  market,
   masterMetadata,
   masterStats,
   dataState
@@ -29,7 +30,7 @@ const GameScreen = ({
       setLives(3);
       pickNewPair();
     }
-  }, [selectedColors, gameMode, masterMetadata, masterStats, dataState]);
+  }, [selectedColors, gameMode, market, masterMetadata, masterStats, dataState]);
 
   const pickNewPair = () => {
     if (!masterMetadata || !masterStats) return;
@@ -52,7 +53,8 @@ const GameScreen = ({
       }
 
       // Value mode specific price filter
-      if (gameMode === 'value' && card.price < 1.00) return false;
+      const currentPrice = market === 'usd' ? card.price : card.price_eur;
+      if (gameMode === 'value' && currentPrice < 1.00) return false;
 
       return true;
     });
@@ -66,6 +68,7 @@ const GameScreen = ({
       
       return {
         ...card,
+        price: market === 'usd' ? card.price : card.price_eur,
         avg_pick: specific.pick ?? overall.pick ?? 15.0,
         win_rate: specific.wr ?? overall.wr ?? null
       };
@@ -277,6 +280,7 @@ const GameScreen = ({
                 }
                 showResult={gameState === 'result'}
                 resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}
+                market={market}
               />
             </div>
             
@@ -297,6 +301,7 @@ const GameScreen = ({
                 }
                 showResult={gameState === 'result'}
                 resultType={gameMode === 'draft' ? 'ata' : gameMode === 'winrate' ? 'winrate' : 'price'}
+                market={market}
               />
             </div>
           </div>

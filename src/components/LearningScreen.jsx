@@ -11,6 +11,7 @@ const LearningScreen = ({
   gameMode, 
   activeSet, 
   selectedColors, 
+  market,
   masterMetadata, 
   masterStats, 
   dataState, 
@@ -47,6 +48,7 @@ const LearningScreen = ({
       
       return {
         ...card,
+        price: market === 'usd' ? card.price : card.price_eur,
         avg_pick: specific.pick ?? overall.pick ?? 15.0,
         win_rate: specific.wr ?? overall.wr ?? null
       };
@@ -63,7 +65,7 @@ const LearningScreen = ({
     }
 
     return validCards.slice(0, 20); // Top 20 cards
-  }, [masterMetadata, masterStats, selectedColors, sortBy, dataState]);
+  }, [masterMetadata, masterStats, selectedColors, sortBy, dataState, market]);
 
   // Reset index when deck changes
   useEffect(() => {
@@ -174,7 +176,7 @@ const LearningScreen = ({
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Market Value</span>
               <span style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                ${card.price?.toFixed(2) || '0.00'}
+                {market === 'eur' ? '€' : '$'}{card.price?.toFixed(2) || '0.00'}
               </span>
             </div>
           </div>

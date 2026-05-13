@@ -32,8 +32,9 @@ function App() {
   const [activeSet, setActiveSet] = useState('SOS');
   const [selectedColors, setSelectedColors] = useState([]);
   const [market, setMarket] = useState(
-    () => localStorage.getItem('mtg_market') || 'usd'
+    () => localStorage.getItem('mtg_market') || 'eur'
   );
+  const [showSettings, setShowSettings] = useState(false);
   const [masterMetadata, setMasterMetadata] = useState(null);
   const [masterStats, setMasterStats] = useState(null);
   const [dataState, setDataState] = useState('loading'); // loading, ready, error
@@ -118,36 +119,77 @@ function App() {
           </button>
 
           <h1 style={{ margin: 0, fontSize: '20px' }}>MTG Trainer</h1>
-          <button
-            onClick={cycleLayout}
-            title={`Layout: ${currentLayout?.desc || 'Select layout'}. Click to switch.`}
-            style={{
-              position: 'absolute',
-              right: 0,
-              background: 'transparent',
-              border: '1px solid rgba(255,255,255,0.15)',
-              borderRadius: '8px',
-              color: 'var(--text-muted)',
-              cursor: 'pointer',
-              fontSize: '11px',
-              fontFamily: 'var(--font-main)',
-              fontWeight: 600,
-              padding: '4px 8px',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              lineHeight: 1.2,
-              gap: '1px',
-              transition: 'border-color 0.2s, color 0.2s',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
-            onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
-          >
-            <span style={{ fontSize: '16px' }}>{currentLayout.icon}</span>
-            <span>{currentLayout.label}</span>
-          </button>
+          <div style={{ position: 'absolute', right: 0, display: 'flex', gap: '8px' }}>
+            <button
+              onClick={() => setShowSettings(!showSettings)}
+              title="Settings"
+              style={{
+                background: showSettings ? 'rgba(255,255,255,0.1)' : 'transparent',
+                border: '1px solid rgba(255,255,255,0.15)',
+                borderRadius: '8px',
+                color: 'var(--text-muted)',
+                cursor: 'pointer',
+                padding: '4px 8px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all 0.2s',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
+            >
+              <span style={{ fontSize: '16px' }}>⚙️</span>
+            </button>
+            <button
+              onClick={cycleLayout}
+              title={`Layout: ${currentLayout?.desc || 'Select layout'}. Click to switch.`}
+              style={{
+                background: 'transparent',
+                border: '1px solid rgba(255,255,255,0.15)',
+                borderRadius: '8px',
+                color: 'var(--text-muted)',
+                cursor: 'pointer',
+                fontSize: '11px',
+                fontFamily: 'var(--font-main)',
+                fontWeight: 600,
+                padding: '4px 8px',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                lineHeight: 1.2,
+                gap: '1px',
+                transition: 'border-color 0.2s, color 0.2s',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
+            >
+              <span style={{ fontSize: '16px' }}>{currentLayout.icon}</span>
+              <span>{currentLayout.label}</span>
+            </button>
+          </div>
         </div>
         <p className="subtitle">{currentMode.subtitle}</p>
+
+        {showSettings && (
+          <div className="glass-panel fade-in" style={{ padding: '16px', marginBottom: '24px', width: '100%' }}>
+            <h3 style={{ marginTop: 0, marginBottom: '16px', fontSize: '14px', color: 'var(--text-main)', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '8px' }}>Settings</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+              <label htmlFor="market-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>MARKET DATA SOURCE</label>
+              <select 
+                id="market-select"
+                className="mode-selector"
+                value={market} 
+                onChange={(e) => {
+                  setMarket(e.target.value);
+                  localStorage.setItem('mtg_market', e.target.value);
+                }}
+              >
+                <option value="eur">Cardmarket (EUR)</option>
+                <option value="usd">TCGPlayer (USD)</option>
+              </select>
+            </div>
+          </div>
+        )}
 
         {/* Global Controls for Set and Colors */}
         <div style={{ width: '100%', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center', padding: '0 12px' }}>
@@ -166,21 +208,7 @@ function App() {
             </select>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-            <label htmlFor="market-select" style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '8px', fontWeight: 'bold' }}>MARKET</label>
-            <select 
-              id="market-select"
-              className="mode-selector"
-              value={market} 
-              onChange={(e) => {
-                setMarket(e.target.value);
-                localStorage.setItem('mtg_market', e.target.value);
-              }}
-            >
-              <option value="usd">TCGPlayer (USD)</option>
-              <option value="eur">Cardmarket (EUR)</option>
-            </select>
-          </div>
+
 
           {(gameMode === 'draft' || gameMode === 'winrate' || gameMode === 'learn') && (
             <>

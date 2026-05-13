@@ -81,18 +81,7 @@ const LearningScreen = ({
     return <div className="glass-panel fade-in" style={{ textAlign: 'center', padding: '40px' }}>Error loading data.</div>;
   }
 
-  if (deck.length === 0) {
-    return (
-      <div className="glass-panel fade-in" style={{ textAlign: 'center', padding: '40px 20px' }}>
-        <h2 style={{ fontSize: '18px', marginBottom: '12px' }}>No Cards Found</h2>
-        <p style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: '1.6' }}>
-          Try a different set or sort option.
-        </p>
-      </div>
-    );
-  }
-
-  const card = deck[currentIndex];
+  const card = deck.length > 0 ? deck[currentIndex] : null;
 
   const handleNext = () => {
     if (currentIndex < deck.length - 1) {
@@ -108,31 +97,91 @@ const LearningScreen = ({
     }
   };
 
+  const currencySymbol = market === 'eur' ? '€' : '$';
+
+  // Build the overlay stats in order of relevance to the current sort
+  const buildOverlayStats = () => {
+    if (!card) return null;
+    
+    const wrRow = (size = '16px') => (
+      <div key="wr" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Win Rate</span>
+        <span style={{ fontSize: size, fontWeight: 'bold', color: card.win_rate >= 0.58 ? (card.win_rate >= 0.62 ? 'gold' : 'var(--correct)') : '#fff' }}>
+          {card.win_rate ? (card.win_rate * 100).toFixed(1) + '%' : 'N/A'}
+        </span>
+      </div>
+    );
+    const ataRow = (size = '16px') => (
+      <div key="ata" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Avg Pick</span>
+        <span style={{ fontSize: size, fontWeight: 'bold' }}>
+          {card.avg_pick?.toFixed(2)}
+        </span>
+      </div>
+    );
+    const priceRow = (size = '16px') => (
+      <div key="price" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Market Value</span>
+        <span style={{ fontSize: size, fontWeight: 'bold' }}>
+          {currencySymbol}{card.price?.toFixed(2) || '0.00'}
+        </span>
+      </div>
+    );
+
+    if (sortBy === 'value') {
+      return [priceRow('20px'), wrRow(), ataRow()];
+    } else if (sortBy === 'hidden_gems') {
+      return [wrRow('20px'), ataRow('18px'), priceRow()];
+    } else {
+      // winrate (default)
+      return [wrRow('20px'), ataRow(), priceRow()];
+    }
+  };
+
+  // Render sort buttons (shared between empty state and main view)
+  const sortButtons = (
+    <div style={{ display: 'flex', gap: '8px', marginBottom: '24px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px' }}>
+      {SortOptions.map(opt => (
+        <button
+          key={opt.id}
+          onClick={() => setSortBy(opt.id)}
+          style={{
+            padding: '6px 12px',
+            borderRadius: '6px',
+            border: 'none',
+            background: sortBy === opt.id ? 'var(--accent)' : 'transparent',
+            color: sortBy === opt.id ? '#fff' : 'var(--text-muted)',
+            fontSize: '12px',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          {opt.label}
+        </button>
+      ))}
+    </div>
+  );
+
+  if (deck.length === 0) {
+    return (
+      <div className="glass-panel fade-in" style={{ textAlign: 'center', padding: '40px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {sortButtons}
+        <h2 style={{ fontSize: '18px', marginBottom: '12px' }}>No Cards Found</h2>
+        <p style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: '1.6' }}>
+          {sortBy === 'hidden_gems' 
+            ? 'No hidden gems found for this archetype. Try selecting different colors or a different set.'
+            : 'Try a different set or sort option.'}
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="glass-panel fade-in" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       
       {/* Sort Options Segmented Control */}
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '24px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px' }}>
-        {SortOptions.map(opt => (
-          <button
-            key={opt.id}
-            onClick={() => setSortBy(opt.id)}
-            style={{
-              padding: '6px 12px',
-              borderRadius: '6px',
-              border: 'none',
-              background: sortBy === opt.id ? 'var(--accent)' : 'transparent',
-              color: sortBy === opt.id ? '#fff' : 'var(--text-muted)',
-              fontSize: '12px',
-              fontWeight: 'bold',
-              cursor: 'pointer',
-              transition: 'all 0.2s'
-            }}
-          >
-            {opt.label}
-          </button>
-        ))}
-      </div>
+      {sortButtons}
 
       {/* Flashcard Area */}
       <div style={{ position: 'relative', width: '100%', maxWidth: '340px', aspectRatio: '2.5/3.5', cursor: 'pointer' }} onClick={() => setIsRevealed(!isRevealed)}>
@@ -161,24 +210,7 @@ const LearningScreen = ({
             <div style={{ fontSize: '14px', fontWeight: 'bold', color: 'var(--accent)' }}>
               #{currentIndex + 1} {SortOptions.find(o => o.id === sortBy)?.label}
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Win Rate</span>
-              <span style={{ fontSize: '18px', fontWeight: 'bold', color: card.win_rate >= 0.62 ? 'gold' : card.win_rate >= 0.58 ? 'var(--correct)' : '#fff' }}>
-                {card.win_rate ? (card.win_rate * 100).toFixed(1) + '%' : 'N/A'}
-              </span>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Avg Pick</span>
-              <span style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                {card.avg_pick?.toFixed(2)}
-              </span>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Market Value</span>
-              <span style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                {market === 'eur' ? '€' : '$'}{card.price?.toFixed(2) || '0.00'}
-              </span>
-            </div>
+            {buildOverlayStats()}
           </div>
         )}
       </div>

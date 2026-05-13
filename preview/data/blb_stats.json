@@ -1,0 +1,1568 @@
+{
+  "Banishing Light": {
+    "Overall": {
+      "pick": 3.97,
+      "wr": 0.5518
+    }
+  },
+  "Beza, the Bounding Spring": {
+    "Overall": {
+      "pick": 1.43,
+      "wr": 0.5712
+    }
+  },
+  "Brave-Kin Duo": {
+    "Overall": {
+      "pick": 8.55,
+      "wr": 0.537
+    }
+  },
+  "Brightblade Stoat": {
+    "Overall": {
+      "pick": 3.31,
+      "wr": 0.5585
+    }
+  },
+  "Builder's Talent": {
+    "Overall": {
+      "pick": 6.83,
+      "wr": 0.5483
+    }
+  },
+  "Caretaker's Talent": {
+    "Overall": {
+      "pick": 2.66,
+      "wr": 0.5587
+    }
+  },
+  "Carrot Cake": {
+    "Overall": {
+      "pick": 5.23,
+      "wr": 0.5664
+    }
+  },
+  "Crumb and Get It": {
+    "Overall": {
+      "pick": 6.85,
+      "wr": 0.5521
+    }
+  },
+  "Dawn's Truce": {
+    "Overall": {
+      "pick": 6.84,
+      "wr": 0.5013
+    }
+  },
+  "Dewdrop Cure": {
+    "Overall": {
+      "pick": 8.99,
+      "wr": 0.527
+    }
+  },
+  "Driftgloom Coyote": {
+    "Overall": {
+      "pick": 3.5,
+      "wr": 0.5552
+    }
+  },
+  "Essence Channeler": {
+    "Overall": {
+      "pick": 2.35,
+      "wr": 0.5458
+    }
+  },
+  "Feather of Flight": {
+    "Overall": {
+      "pick": 6.15,
+      "wr": 0.5588
+    }
+  },
+  "Flowerfoot Swordmaster": {
+    "Overall": {
+      "pick": 5.83,
+      "wr": 0.5471
+    }
+  },
+  "Harvestrite Host": {
+    "Overall": {
+      "pick": 3.87,
+      "wr": 0.5709
+    }
+  },
+  "Hop to It": {
+    "Overall": {
+      "pick": 4.1,
+      "wr": 0.5678
+    }
+  },
+  "Intrepid Rabbit": {
+    "Overall": {
+      "pick": 4.45,
+      "wr": 0.5639
+    }
+  },
+  "Jackdaw Savior": {
+    "Overall": {
+      "pick": 2.23,
+      "wr": 0.5502
+    }
+  },
+  "Jolly Gerbils": {
+    "Overall": {
+      "pick": 6.25,
+      "wr": 0.5491
+    }
+  },
+  "Lifecreed Duo": {
+    "Overall": {
+      "pick": 6.13,
+      "wr": 0.5469
+    }
+  },
+  "Mabel's Mettle": {
+    "Overall": {
+      "pick": 6.18,
+      "wr": 0.5385
+    }
+  },
+  "Mouse Trapper": {
+    "Overall": {
+      "pick": 6.65,
+      "wr": 0.5351
+    }
+  },
+  "Nettle Guard": {
+    "Overall": {
+      "pick": 7.0,
+      "wr": 0.5507
+    }
+  },
+  "Parting Gust": {
+    "Overall": {
+      "pick": 5.38,
+      "wr": 0.5343
+    }
+  },
+  "Pileated Provisioner": {
+    "Overall": {
+      "pick": 9.25,
+      "wr": 0.5342
+    }
+  },
+  "Rabbit Response": {
+    "Overall": {
+      "pick": 8.6,
+      "wr": 0.5508
+    }
+  },
+  "Repel Calamity": {
+    "Overall": {
+      "pick": 4.75,
+      "wr": 0.5544
+    }
+  },
+  "Salvation Swan": {
+    "Overall": {
+      "pick": 2.0,
+      "wr": 0.5485
+    }
+  },
+  "Season of the Burrow": {
+    "Overall": {
+      "pick": 1.5,
+      "wr": 0.5674
+    }
+  },
+  "Seasoned Warrenguard": {
+    "Overall": {
+      "pick": 6.81,
+      "wr": 0.5632
+    }
+  },
+  "Shrike Force": {
+    "Overall": {
+      "pick": 4.86,
+      "wr": 0.5499
+    }
+  },
+  "Sonar Strike": {
+    "Overall": {
+      "pick": 6.2,
+      "wr": 0.5489
+    }
+  },
+  "Star Charter": {
+    "Overall": {
+      "pick": 5.4,
+      "wr": 0.5409
+    }
+  },
+  "Starfall Invocation": {
+    "Overall": {
+      "pick": 2.11,
+      "wr": 0.5444
+    }
+  },
+  "Thistledown Players": {
+    "Overall": {
+      "pick": 8.72,
+      "wr": 0.5343
+    }
+  },
+  "Valley Questcaller": {
+    "Overall": {
+      "pick": 1.59,
+      "wr": 0.5813
+    }
+  },
+  "Warren Elder": {
+    "Overall": {
+      "pick": 5.9,
+      "wr": 0.5563
+    }
+  },
+  "Warren Warleader": {
+    "Overall": {
+      "pick": 1.35,
+      "wr": 0.5731
+    }
+  },
+  "Wax-Wane Witness": {
+    "Overall": {
+      "pick": 8.84,
+      "wr": 0.5383
+    }
+  },
+  "Whiskervale Forerunner": {
+    "Overall": {
+      "pick": 1.95,
+      "wr": 0.5473
+    }
+  },
+  "Azure Beastbinder": {
+    "Overall": {
+      "pick": 3.22,
+      "wr": 0.5486
+    }
+  },
+  "Bellowing Crier": {
+    "Overall": {
+      "pick": 9.59,
+      "wr": 0.5249
+    }
+  },
+  "Calamitous Tide": {
+    "Overall": {
+      "pick": 8.3,
+      "wr": 0.5327
+    }
+  },
+  "Daring Waverider": {
+    "Overall": {
+      "pick": 7.08,
+      "wr": 0.5436
+    }
+  },
+  "Dazzling Denial": {
+    "Overall": {
+      "pick": 9.3,
+      "wr": 0.5307
+    }
+  },
+  "Dire Downdraft": {
+    "Overall": {
+      "pick": 8.84,
+      "wr": 0.5423
+    }
+  },
+  "Dour Port-Mage": {
+    "Overall": {
+      "pick": 2.92,
+      "wr": 0.5471
+    }
+  },
+  "Eddymurk Crab": {
+    "Overall": {
+      "pick": 6.57,
+      "wr": 0.5348
+    }
+  },
+  "Eluge, the Shoreless Sea": {
+    "Overall": {
+      "pick": 4.54,
+      "wr": 0.5102
+    }
+  },
+  "Finch Formation": {
+    "Overall": {
+      "pick": 10.31,
+      "wr": 0.5038
+    }
+  },
+  "Gossip's Talent": {
+    "Overall": {
+      "pick": 8.7,
+      "wr": 0.4983
+    }
+  },
+  "Into the Flood Maw": {
+    "Overall": {
+      "pick": 7.99,
+      "wr": 0.5381
+    }
+  },
+  "Kitnap": {
+    "Overall": {
+      "pick": 3.11,
+      "wr": 0.5439
+    }
+  },
+  "Kitsa, Otterball Elite": {
+    "Overall": {
+      "pick": 2.66,
+      "wr": 0.545
+    }
+  },
+  "Knightfisher": {
+    "Overall": {
+      "pick": 7.37,
+      "wr": 0.5201
+    }
+  },
+  "Lightshell Duo": {
+    "Overall": {
+      "pick": 9.82,
+      "wr": 0.5321
+    }
+  },
+  "Long River Lurker": {
+    "Overall": {
+      "pick": 5.55,
+      "wr": 0.5441
+    }
+  },
+  "Long River's Pull": {
+    "Overall": {
+      "pick": 8.91,
+      "wr": 0.5202
+    }
+  },
+  "Mind Spiral": {
+    "Overall": {
+      "pick": 10.46,
+      "wr": 0.524
+    }
+  },
+  "Mindwhisker": {
+    "Overall": {
+      "pick": 6.09,
+      "wr": 0.5449
+    }
+  },
+  "Mockingbird": {
+    "Overall": {
+      "pick": 2.97,
+      "wr": 0.5377
+    }
+  },
+  "Nightwhorl Hermit": {
+    "Overall": {
+      "pick": 11.22,
+      "wr": 0.4944
+    }
+  },
+  "Otterball Antics": {
+    "Overall": {
+      "pick": 8.24,
+      "wr": 0.5222
+    }
+  },
+  "Pearl of Wisdom": {
+    "Overall": {
+      "pick": 9.62,
+      "wr": 0.5337
+    }
+  },
+  "Plumecreed Escort": {
+    "Overall": {
+      "pick": 5.8,
+      "wr": 0.5399
+    }
+  },
+  "Portent of Calamity": {
+    "Overall": {
+      "pick": 7.78,
+      "wr": 0.5132
+    }
+  },
+  "Run Away Together": {
+    "Overall": {
+      "pick": 9.86,
+      "wr": 0.524
+    }
+  },
+  "Season of Weaving": {
+    "Overall": {
+      "pick": 2.13,
+      "wr": 0.5556
+    }
+  },
+  "Shore Up": {
+    "Overall": {
+      "pick": 9.44,
+      "wr": 0.5241
+    }
+  },
+  "Shoreline Looter": {
+    "Overall": {
+      "pick": 4.49,
+      "wr": 0.5603
+    }
+  },
+  "Skyskipper Duo": {
+    "Overall": {
+      "pick": 9.59,
+      "wr": 0.5282
+    }
+  },
+  "Spellgyre": {
+    "Overall": {
+      "pick": 8.19,
+      "wr": 0.5335
+    }
+  },
+  "Splash Lasher": {
+    "Overall": {
+      "pick": 5.27,
+      "wr": 0.5446
+    }
+  },
+  "Splash Portal": {
+    "Overall": {
+      "pick": 7.69,
+      "wr": 0.533
+    }
+  },
+  "Stormchaser's Talent": {
+    "Overall": {
+      "pick": 3.84,
+      "wr": 0.5502
+    }
+  },
+  "Sugar Coat": {
+    "Overall": {
+      "pick": 6.57,
+      "wr": 0.5316
+    }
+  },
+  "Thought Shucker": {
+    "Overall": {
+      "pick": 10.86,
+      "wr": 0.5128
+    }
+  },
+  "Thundertrap Trainer": {
+    "Overall": {
+      "pick": 4.07,
+      "wr": 0.5452
+    }
+  },
+  "Valley Floodcaller": {
+    "Overall": {
+      "pick": 3.32,
+      "wr": 0.529
+    }
+  },
+  "Waterspout Warden": {
+    "Overall": {
+      "pick": 10.77,
+      "wr": 0.518
+    }
+  },
+  "Wishing Well": {
+    "Overall": {
+      "pick": 8.52,
+      "wr": 0.538
+    }
+  },
+  "Agate-Blade Assassin": {
+    "Overall": {
+      "pick": 7.92,
+      "wr": 0.5465
+    }
+  },
+  "Bandit's Talent": {
+    "Overall": {
+      "pick": 6.82,
+      "wr": 0.5246
+    }
+  },
+  "Bonebind Orator": {
+    "Overall": {
+      "pick": 7.19,
+      "wr": 0.5519
+    }
+  },
+  "Bonecache Overseer": {
+    "Overall": {
+      "pick": 6.99,
+      "wr": 0.5518
+    }
+  },
+  "Coiling Rebirth": {
+    "Overall": {
+      "pick": 4.35,
+      "wr": 0.5291
+    }
+  },
+  "Consumed by Greed": {
+    "Overall": {
+      "pick": 3.7,
+      "wr": 0.5623
+    }
+  },
+  "Cruelclaw's Heist": {
+    "Overall": {
+      "pick": 4.4,
+      "wr": 0.5223
+    }
+  },
+  "Daggerfang Duo": {
+    "Overall": {
+      "pick": 7.16,
+      "wr": 0.5444
+    }
+  },
+  "Darkstar Augur": {
+    "Overall": {
+      "pick": 2.17,
+      "wr": 0.5675
+    }
+  },
+  "Diresight": {
+    "Overall": {
+      "pick": 9.75,
+      "wr": 0.5368
+    }
+  },
+  "Downwind Ambusher": {
+    "Overall": {
+      "pick": 4.16,
+      "wr": 0.5683
+    }
+  },
+  "Early Winter": {
+    "Overall": {
+      "pick": 8.52,
+      "wr": 0.5273
+    }
+  },
+  "Feed the Cycle": {
+    "Overall": {
+      "pick": 3.03,
+      "wr": 0.5584
+    }
+  },
+  "Fell": {
+    "Overall": {
+      "pick": 2.59,
+      "wr": 0.5617
+    }
+  },
+  "Glidedive Duo": {
+    "Overall": {
+      "pick": 7.19,
+      "wr": 0.5548
+    }
+  },
+  "Hazel's Nocturne": {
+    "Overall": {
+      "pick": 6.32,
+      "wr": 0.55
+    }
+  },
+  "Huskburster Swarm": {
+    "Overall": {
+      "pick": 6.2,
+      "wr": 0.5307
+    }
+  },
+  "Iridescent Vinelasher": {
+    "Overall": {
+      "pick": 2.18,
+      "wr": 0.5547
+    }
+  },
+  "Maha, Its Feathers Night": {
+    "Overall": {
+      "pick": 1.33,
+      "wr": 0.5773
+    }
+  },
+  "Moonstone Harbinger": {
+    "Overall": {
+      "pick": 5.25,
+      "wr": 0.5467
+    }
+  },
+  "Nocturnal Hunger": {
+    "Overall": {
+      "pick": 4.25,
+      "wr": 0.5528
+    }
+  },
+  "Osteomancer Adept": {
+    "Overall": {
+      "pick": 2.16,
+      "wr": 0.5638
+    }
+  },
+  "Persistent Marshstalker": {
+    "Overall": {
+      "pick": 6.24,
+      "wr": 0.5481
+    }
+  },
+  "Psychic Whorl": {
+    "Overall": {
+      "pick": 10.84,
+      "wr": 0.5127
+    }
+  },
+  "Ravine Raider": {
+    "Overall": {
+      "pick": 9.26,
+      "wr": 0.5528
+    }
+  },
+  "Rottenmouth Viper": {
+    "Overall": {
+      "pick": 1.37,
+      "wr": 0.5542
+    }
+  },
+  "Ruthless Negotiation": {
+    "Overall": {
+      "pick": 7.68,
+      "wr": 0.5634
+    }
+  },
+  "Savor": {
+    "Overall": {
+      "pick": 4.37,
+      "wr": 0.5645
+    }
+  },
+  "Scales of Shale": {
+    "Overall": {
+      "pick": 8.26,
+      "wr": 0.558
+    }
+  },
+  "Scavenger's Talent": {
+    "Overall": {
+      "pick": 3.47,
+      "wr": 0.5422
+    }
+  },
+  "Season of Loss": {
+    "Overall": {
+      "pick": 1.57,
+      "wr": 0.5809
+    }
+  },
+  "Sinister Monolith": {
+    "Overall": {
+      "pick": 7.37,
+      "wr": 0.5197
+    }
+  },
+  "Stargaze": {
+    "Overall": {
+      "pick": 9.04,
+      "wr": 0.5365
+    }
+  },
+  "Starlit Soothsayer": {
+    "Overall": {
+      "pick": 9.41,
+      "wr": 0.523
+    }
+  },
+  "Starscape Cleric": {
+    "Overall": {
+      "pick": 4.97,
+      "wr": 0.5522
+    }
+  },
+  "Thornplate Intimidator": {
+    "Overall": {
+      "pick": 8.8,
+      "wr": 0.534
+    }
+  },
+  "Thought-Stalker Warlock": {
+    "Overall": {
+      "pick": 3.16,
+      "wr": 0.5726
+    }
+  },
+  "Valley Rotcaller": {
+    "Overall": {
+      "pick": 2.08,
+      "wr": 0.5576
+    }
+  },
+  "Wick, the Whorled Mind": {
+    "Overall": {
+      "pick": 3.75,
+      "wr": 0.5247
+    }
+  },
+  "Wick's Patrol": {
+    "Overall": {
+      "pick": 3.71,
+      "wr": 0.5668
+    }
+  },
+  "Agate Assault": {
+    "Overall": {
+      "pick": 6.16,
+      "wr": 0.5393
+    }
+  },
+  "Alania's Pathmaker": {
+    "Overall": {
+      "pick": 8.9,
+      "wr": 0.5389
+    }
+  },
+  "Artist's Talent": {
+    "Overall": {
+      "pick": 7.54,
+      "wr": 0.4721
+    }
+  },
+  "Blacksmith's Talent": {
+    "Overall": {
+      "pick": 5.77,
+      "wr": 0.5459
+    }
+  },
+  "Blooming Blast": {
+    "Overall": {
+      "pick": 5.54,
+      "wr": 0.5368
+    }
+  },
+  "Brambleguard Captain": {
+    "Overall": {
+      "pick": 5.49,
+      "wr": 0.5405
+    }
+  },
+  "Brazen Collector": {
+    "Overall": {
+      "pick": 5.0,
+      "wr": 0.5476
+    }
+  },
+  "Byway Barterer": {
+    "Overall": {
+      "pick": 2.76,
+      "wr": 0.5508
+    }
+  },
+  "Coruscation Mage": {
+    "Overall": {
+      "pick": 6.06,
+      "wr": 0.5333
+    }
+  },
+  "Conduct Electricity": {
+    "Overall": {
+      "pick": 9.97,
+      "wr": 0.5176
+    }
+  },
+  "Emberheart Challenger": {
+    "Overall": {
+      "pick": 2.31,
+      "wr": 0.554
+    }
+  },
+  "Festival of Embers": {
+    "Overall": {
+      "pick": 8.59,
+      "wr": 0.4848
+    }
+  },
+  "Flamecache Gecko": {
+    "Overall": {
+      "pick": 6.0,
+      "wr": 0.5583
+    }
+  },
+  "Dragonhawk, Fate's Tempest": {
+    "Overall": {
+      "pick": 1.48,
+      "wr": 0.5631
+    }
+  },
+  "Frilled Sparkshooter": {
+    "Overall": {
+      "pick": 9.84,
+      "wr": 0.5338
+    }
+  },
+  "Harnesser of Storms": {
+    "Overall": {
+      "pick": 8.35,
+      "wr": 0.5064
+    }
+  },
+  "Heartfire Hero": {
+    "Overall": {
+      "pick": 4.64,
+      "wr": 0.5532
+    }
+  },
+  "Hearthborn Battler": {
+    "Overall": {
+      "pick": 2.96,
+      "wr": 0.537
+    }
+  },
+  "Hired Claw": {
+    "Overall": {
+      "pick": 2.57,
+      "wr": 0.5675
+    }
+  },
+  "Hoarder's Overflow": {
+    "Overall": {
+      "pick": 10.62,
+      "wr": 0.4931
+    }
+  },
+  "Kindlespark Duo": {
+    "Overall": {
+      "pick": 9.59,
+      "wr": 0.5053
+    }
+  },
+  "Manifold Mouse": {
+    "Overall": {
+      "pick": 2.35,
+      "wr": 0.5714
+    }
+  },
+  "Might of the Meek": {
+    "Overall": {
+      "pick": 9.43,
+      "wr": 0.5345
+    }
+  },
+  "Playful Shove": {
+    "Overall": {
+      "pick": 7.22,
+      "wr": 0.5368
+    }
+  },
+  "Quaketusk Boar": {
+    "Overall": {
+      "pick": 4.52,
+      "wr": 0.5448
+    }
+  },
+  "Rabid Gnaw": {
+    "Overall": {
+      "pick": 3.88,
+      "wr": 0.5575
+    }
+  },
+  "Raccoon Rallier": {
+    "Overall": {
+      "pick": 8.93,
+      "wr": 0.5351
+    }
+  },
+  "Reptilian Recruiter": {
+    "Overall": {
+      "pick": 8.03,
+      "wr": 0.5373
+    }
+  },
+  "Roughshod Duo": {
+    "Overall": {
+      "pick": 8.29,
+      "wr": 0.5422
+    }
+  },
+  "Sazacap's Brew": {
+    "Overall": {
+      "pick": 10.25,
+      "wr": 0.5224
+    }
+  },
+  "Season of the Bold": {
+    "Overall": {
+      "pick": 2.59,
+      "wr": 0.5309
+    }
+  },
+  "Steampath Charger": {
+    "Overall": {
+      "pick": 8.77,
+      "wr": 0.5386
+    }
+  },
+  "Stormsplitter": {
+    "Overall": {
+      "pick": 5.51,
+      "wr": 0.4713
+    }
+  },
+  "Sunspine Lynx": {
+    "Overall": {
+      "pick": 4.17,
+      "wr": 0.5262
+    }
+  },
+  "Take Out the Trash": {
+    "Overall": {
+      "pick": 4.89,
+      "wr": 0.5527
+    }
+  },
+  "Teapot Slinger": {
+    "Overall": {
+      "pick": 6.17,
+      "wr": 0.5352
+    }
+  },
+  "Valley Flamecaller": {
+    "Overall": {
+      "pick": 2.34,
+      "wr": 0.5522
+    }
+  },
+  "War Squeak": {
+    "Overall": {
+      "pick": 10.96,
+      "wr": 0.509
+    }
+  },
+  "Whiskerquill Scribe": {
+    "Overall": {
+      "pick": 9.62,
+      "wr": 0.538
+    }
+  },
+  "Wildfire Howl": {
+    "Overall": {
+      "pick": 8.58,
+      "wr": 0.5198
+    }
+  },
+  "Bakersbane Duo": {
+    "Overall": {
+      "pick": 4.97,
+      "wr": 0.557
+    }
+  },
+  "Valley Rally": {
+    "Overall": {
+      "pick": 9.06,
+      "wr": 0.5275
+    }
+  },
+  "Bark-Knuckle Boxer": {
+    "Overall": {
+      "pick": 5.18,
+      "wr": 0.5532
+    }
+  },
+  "Brambleguard Veteran": {
+    "Overall": {
+      "pick": 5.01,
+      "wr": 0.549
+    }
+  },
+  "Bushy Bodyguard": {
+    "Overall": {
+      "pick": 4.6,
+      "wr": 0.5507
+    }
+  },
+  "Cache Grab": {
+    "Overall": {
+      "pick": 6.97,
+      "wr": 0.5567
+    }
+  },
+  "Clifftop Lookout": {
+    "Overall": {
+      "pick": 5.48,
+      "wr": 0.5313
+    }
+  },
+  "Curious Forager": {
+    "Overall": {
+      "pick": 4.93,
+      "wr": 0.5509
+    }
+  },
+  "Druid of the Spade": {
+    "Overall": {
+      "pick": 8.91,
+      "wr": 0.5453
+    }
+  },
+  "Fecund Greenshell": {
+    "Overall": {
+      "pick": 1.59,
+      "wr": 0.5742
+    }
+  },
+  "For the Common Good": {
+    "Overall": {
+      "pick": 7.58,
+      "wr": 0.4822
+    }
+  },
+  "Galewind Moose": {
+    "Overall": {
+      "pick": 3.22,
+      "wr": 0.5523
+    }
+  },
+  "Hazardroot Herbalist": {
+    "Overall": {
+      "pick": 7.53,
+      "wr": 0.529
+    }
+  },
+  "Heaped Harvest": {
+    "Overall": {
+      "pick": 7.67,
+      "wr": 0.5225
+    }
+  },
+  "High Stride": {
+    "Overall": {
+      "pick": 10.01,
+      "wr": 0.5375
+    }
+  },
+  "Hivespine Wolverine": {
+    "Overall": {
+      "pick": 3.76,
+      "wr": 0.5558
+    }
+  },
+  "Honored Dreyleader": {
+    "Overall": {
+      "pick": 6.05,
+      "wr": 0.5438
+    }
+  },
+  "Hunter's Talent": {
+    "Overall": {
+      "pick": 2.23,
+      "wr": 0.5706
+    }
+  },
+  "Innkeeper's Talent": {
+    "Overall": {
+      "pick": 1.4,
+      "wr": 0.5693
+    }
+  },
+  "Keen-Eyed Curator": {
+    "Overall": {
+      "pick": 2.0,
+      "wr": 0.5569
+    }
+  },
+  "Longstalk Brawl": {
+    "Overall": {
+      "pick": 5.14,
+      "wr": 0.5482
+    }
+  },
+  "Lumra, Bellow of the Woods": {
+    "Overall": {
+      "pick": 1.48,
+      "wr": 0.5536
+    }
+  },
+  "Mistbreath Elder": {
+    "Overall": {
+      "pick": 2.54,
+      "wr": 0.5497
+    }
+  },
+  "Overprotect": {
+    "Overall": {
+      "pick": 4.32,
+      "wr": 0.557
+    }
+  },
+  "Pawpatch Formation": {
+    "Overall": {
+      "pick": 6.74,
+      "wr": 0.5432
+    }
+  },
+  "Pawpatch Recruit": {
+    "Overall": {
+      "pick": 1.76,
+      "wr": 0.5601
+    }
+  },
+  "Peerless Recycling": {
+    "Overall": {
+      "pick": 8.56,
+      "wr": 0.52
+    }
+  },
+  "Polliwallop": {
+    "Overall": {
+      "pick": 5.43,
+      "wr": 0.5509
+    }
+  },
+  "Rust-Shield Rampager": {
+    "Overall": {
+      "pick": 7.99,
+      "wr": 0.5398
+    }
+  },
+  "Scrapshooter": {
+    "Overall": {
+      "pick": 2.07,
+      "wr": 0.5536
+    }
+  },
+  "Season of Gathering": {
+    "Overall": {
+      "pick": 1.58,
+      "wr": 0.5566
+    }
+  },
+  "Stickytongue Sentinel": {
+    "Overall": {
+      "pick": 6.69,
+      "wr": 0.5496
+    }
+  },
+  "Stocking the Pantry": {
+    "Overall": {
+      "pick": 9.57,
+      "wr": 0.5117
+    }
+  },
+  "Sunshower Druid": {
+    "Overall": {
+      "pick": 8.0,
+      "wr": 0.5418
+    }
+  },
+  "Tender Wildguide": {
+    "Overall": {
+      "pick": 1.65,
+      "wr": 0.5635
+    }
+  },
+  "Thornvault Forager": {
+    "Overall": {
+      "pick": 2.08,
+      "wr": 0.5589
+    }
+  },
+  "Three Tree Rootweaver": {
+    "Overall": {
+      "pick": 6.0,
+      "wr": 0.5419
+    }
+  },
+  "Three Tree Scribe": {
+    "Overall": {
+      "pick": 5.12,
+      "wr": 0.5472
+    }
+  },
+  "Treeguard Duo": {
+    "Overall": {
+      "pick": 5.52,
+      "wr": 0.5534
+    }
+  },
+  "Treetop Sentries": {
+    "Overall": {
+      "pick": 8.03,
+      "wr": 0.5457
+    }
+  },
+  "Valley Mightcaller": {
+    "Overall": {
+      "pick": 1.81,
+      "wr": 0.5644
+    }
+  },
+  "Wear Down": {
+    "Overall": {
+      "pick": 10.95,
+      "wr": 0.4743
+    }
+  },
+  "Alania, Divergent Storm": {
+    "Overall": {
+      "pick": 5.67,
+      "wr": 0.4932
+    }
+  },
+  "Baylen, the Haymaker": {
+    "Overall": {
+      "pick": 5.59,
+      "wr": 0.5164
+    }
+  },
+  "Burrowguard Mentor": {
+    "Overall": {
+      "pick": 4.46,
+      "wr": 0.5719
+    }
+  },
+  "Camellia, the Seedmiser": {
+    "Overall": {
+      "pick": 2.6,
+      "wr": 0.5636
+    }
+  },
+  "Cindering Cutthroat": {
+    "Overall": {
+      "pick": 8.28,
+      "wr": 0.5441
+    }
+  },
+  "Clement, the Worrywort": {
+    "Overall": {
+      "pick": 3.36,
+      "wr": 0.5446
+    }
+  },
+  "Corpseberry Cultivator": {
+    "Overall": {
+      "pick": 7.45,
+      "wr": 0.5388
+    }
+  },
+  "Dreamdew Entrancer": {
+    "Overall": {
+      "pick": 2.79,
+      "wr": 0.5779
+    }
+  },
+  "Finneas, Ace Archer": {
+    "Overall": {
+      "pick": 2.62,
+      "wr": 0.5612
+    }
+  },
+  "Fireglass Mentor": {
+    "Overall": {
+      "pick": 6.11,
+      "wr": 0.5676
+    }
+  },
+  "Gev, Scaled Scorch": {
+    "Overall": {
+      "pick": 2.98,
+      "wr": 0.5736
+    }
+  },
+  "Glarb, Calamity's Augur": {
+    "Overall": {
+      "pick": 2.87,
+      "wr": 0.5525
+    }
+  },
+  "Head of the Homestead": {
+    "Overall": {
+      "pick": 5.89,
+      "wr": 0.5523
+    }
+  },
+  "Helga, Skittish Seer": {
+    "Overall": {
+      "pick": 4.38,
+      "wr": 0.5089
+    }
+  },
+  "Hugs, Grisly Guardian": {
+    "Overall": {
+      "pick": 2.81,
+      "wr": 0.541
+    }
+  },
+  "The Infamous Cruelclaw": {
+    "Overall": {
+      "pick": 2.25,
+      "wr": 0.5388
+    }
+  },
+  "Junkblade Bruiser": {
+    "Overall": {
+      "pick": 9.01,
+      "wr": 0.5245
+    }
+  },
+  "Kastral, the Windcrested": {
+    "Overall": {
+      "pick": 3.02,
+      "wr": 0.5304
+    }
+  },
+  "Lilysplash Mentor": {
+    "Overall": {
+      "pick": 5.05,
+      "wr": 0.5508
+    }
+  },
+  "Lunar Convocation": {
+    "Overall": {
+      "pick": 4.09,
+      "wr": 0.5372
+    }
+  },
+  "Mabel, Heir to Cragflame": {
+    "Overall": {
+      "pick": 2.37,
+      "wr": 0.5694
+    }
+  },
+  "Mind Drill Assailant": {
+    "Overall": {
+      "pick": 10.04,
+      "wr": 0.5114
+    }
+  },
+  "Moonrise Cleric": {
+    "Overall": {
+      "pick": 6.73,
+      "wr": 0.5483
+    }
+  },
+  "Muerra, Trash Tactician": {
+    "Overall": {
+      "pick": 3.6,
+      "wr": 0.5424
+    }
+  },
+  "Plumecreed Mentor": {
+    "Overall": {
+      "pick": 7.61,
+      "wr": 0.5296
+    }
+  },
+  "Pond Prophet": {
+    "Overall": {
+      "pick": 6.05,
+      "wr": 0.5517
+    }
+  },
+  "Ral, Crackling Wit": {
+    "Overall": {
+      "pick": 2.17,
+      "wr": 0.5365
+    }
+  },
+  "Seedglaive Mentor": {
+    "Overall": {
+      "pick": 5.74,
+      "wr": 0.5411
+    }
+  },
+  "Seedpod Squire": {
+    "Overall": {
+      "pick": 8.96,
+      "wr": 0.5237
+    }
+  },
+  "Starseer Mentor": {
+    "Overall": {
+      "pick": 5.44,
+      "wr": 0.5474
+    }
+  },
+  "Stormcatch Mentor": {
+    "Overall": {
+      "pick": 8.76,
+      "wr": 0.5148
+    }
+  },
+  "Tempest Angler": {
+    "Overall": {
+      "pick": 9.59,
+      "wr": 0.5089
+    }
+  },
+  "Tidecaller Mentor": {
+    "Overall": {
+      "pick": 8.12,
+      "wr": 0.5368
+    }
+  },
+  "Veteran Guardmouse": {
+    "Overall": {
+      "pick": 9.22,
+      "wr": 0.532
+    }
+  },
+  "Vinereap Mentor": {
+    "Overall": {
+      "pick": 4.69,
+      "wr": 0.5721
+    }
+  },
+  "Vren, the Relentless": {
+    "Overall": {
+      "pick": 2.65,
+      "wr": 0.5467
+    }
+  },
+  "Wandertale Mentor": {
+    "Overall": {
+      "pick": 5.95,
+      "wr": 0.5525
+    }
+  },
+  "Ygra, Eater of All": {
+    "Overall": {
+      "pick": 1.56,
+      "wr": 0.567
+    }
+  },
+  "Zoraline, Cosmos Caller": {
+    "Overall": {
+      "pick": 2.19,
+      "wr": 0.5696
+    }
+  },
+  "Barkform Harvester": {
+    "Overall": {
+      "pick": 10.53,
+      "wr": 0.5242
+    }
+  },
+  "Bumbleflower's Sharepot": {
+    "Overall": {
+      "pick": 9.62,
+      "wr": 0.5234
+    }
+  },
+  "Fountainport Bell": {
+    "Overall": {
+      "pick": 8.71,
+      "wr": 0.5388
+    }
+  },
+  "Heirloom Epic": {
+    "Overall": {
+      "pick": 9.71,
+      "wr": 0.5448
+    }
+  },
+  "Patchwork Banner": {
+    "Overall": {
+      "pick": 3.68,
+      "wr": 0.5643
+    }
+  },
+  "Short Bow": {
+    "Overall": {
+      "pick": 7.25,
+      "wr": 0.5304
+    }
+  },
+  "Starforged Sword": {
+    "Overall": {
+      "pick": 9.91,
+      "wr": 0.5084
+    }
+  },
+  "Tangle Tumbler": {
+    "Overall": {
+      "pick": 9.2,
+      "wr": 0.5428
+    }
+  },
+  "Three Tree Mascot": {
+    "Overall": {
+      "pick": 9.56,
+      "wr": 0.5244
+    }
+  },
+  "Fabled Passage": {
+    "Overall": {
+      "pick": 3.75,
+      "wr": 0.5519
+    }
+  },
+  "Fountainport": {
+    "Overall": {
+      "pick": 3.84,
+      "wr": 0.5473
+    }
+  },
+  "Hidden Grotto": {
+    "Overall": {
+      "pick": 8.56,
+      "wr": 0.5415
+    }
+  },
+  "Lilypad Village": {
+    "Overall": {
+      "pick": 9.9,
+      "wr": 0.5295
+    }
+  },
+  "Lupinflower Village": {
+    "Overall": {
+      "pick": 8.33,
+      "wr": 0.5626
+    }
+  },
+  "Mudflat Village": {
+    "Overall": {
+      "pick": 7.75,
+      "wr": 0.5616
+    }
+  },
+  "Oakhollow Village": {
+    "Overall": {
+      "pick": 7.22,
+      "wr": 0.547
+    }
+  },
+  "Rockface Village": {
+    "Overall": {
+      "pick": 8.28,
+      "wr": 0.548
+    }
+  },
+  "Three Tree City": {
+    "Overall": {
+      "pick": 6.88,
+      "wr": 0.514
+    }
+  },
+  "Uncharted Haven": {
+    "Overall": {
+      "pick": 7.66,
+      "wr": 0.5453
+    }
+  }
+}

@@ -1,0 +1,55 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Main
+        if: github.ref == 'refs/heads/main'
+        run: npm run build
+        env:
+          VITE_BASE_PATH: '/mtg-draft-trainer/'
+
+      - name: Build Preview (Develop)
+        if: github.ref == 'refs/heads/develop'
+        run: npm run build
+        env:
+          VITE_BASE_PATH: '/mtg-draft-trainer/preview/'
+
+      - name: Deploy Main
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          keep_files: true
+
+      - name: Deploy Preview
+        if: github.ref == 'refs/heads/develop'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          keep_files: true
+          destination_dir: preview

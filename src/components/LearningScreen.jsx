@@ -19,7 +19,6 @@ const LearningScreen = ({
 }) => {
   const [sortBy, setSortBy] = useState('winrate');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isRevealed, setIsRevealed] = useState(false);
 
   // Generate Deck
   const deck = useMemo(() => {
@@ -49,18 +48,20 @@ const LearningScreen = ({
       return {
         ...card,
         price: market === 'usd' ? card.price : card.price_eur,
-        avg_pick: specific.pick ?? overall.pick ?? 15.0,
+        avg_pick: specific.pick ?? overall.pick ?? null,
         win_rate: specific.wr ?? overall.wr ?? null
       };
-    }).filter(c => c.avg_pick > 0);
+    });
 
     // Sort based on selected option
     if (sortBy === 'winrate') {
+      // Only show cards that actually have win rate data
+      validCards = validCards.filter(c => c.win_rate !== null && c.avg_pick !== null);
       validCards.sort((a, b) => (b.win_rate || 0) - (a.win_rate || 0));
     } else if (sortBy === 'value') {
       validCards.sort((a, b) => (b.price || 0) - (a.price || 0));
     } else if (sortBy === 'hidden_gems') {
-      validCards = validCards.filter(c => c.avg_pick >= 5.0 && (c.win_rate || 0) >= 0.58);
+      validCards = validCards.filter(c => c.avg_pick !== null && c.avg_pick >= 5.0 && (c.win_rate || 0) >= 0.55);
       validCards.sort((a, b) => (b.win_rate || 0) - (a.win_rate || 0));
     }
 
@@ -70,7 +71,6 @@ const LearningScreen = ({
   // Reset index when deck changes
   useEffect(() => {
     setCurrentIndex(0);
-    setIsRevealed(false);
   }, [deck]);
 
   if (dataState === 'loading') {
@@ -86,40 +86,38 @@ const LearningScreen = ({
   const handleNext = () => {
     if (currentIndex < deck.length - 1) {
       setCurrentIndex(c => c + 1);
-      setIsRevealed(false);
     }
   };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex(c => c - 1);
-      setIsRevealed(false);
     }
   };
 
   const currencySymbol = market === 'eur' ? '€' : '$';
 
-  // Build the overlay stats in order of relevance to the current sort
-  const buildOverlayStats = () => {
+  // Build the stats in order of relevance to the current sort
+  const buildStats = () => {
     if (!card) return null;
     
-    const wrRow = (size = '16px') => (
+    const wrRow = (size = '14px', highlight = false) => (
       <div key="wr" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Win Rate</span>
-        <span style={{ fontSize: size, fontWeight: 'bold', color: card.win_rate >= 0.58 ? (card.win_rate >= 0.62 ? 'gold' : 'var(--correct)') : '#fff' }}>
+        <span style={{ fontSize: size, fontWeight: 'bold', color: highlight ? (card.win_rate >= 0.58 ? (card.win_rate >= 0.62 ? 'gold' : 'var(--correct)') : '#fff') : '#fff' }}>
           {card.win_rate ? (card.win_rate * 100).toFixed(1) + '%' : 'N/A'}
         </span>
       </div>
     );
-    const ataRow = (size = '16px') => (
+    const ataRow = (size = '14px') => (
       <div key="ata" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Avg Pick</span>
         <span style={{ fontSize: size, fontWeight: 'bold' }}>
-          {card.avg_pick?.toFixed(2)}
+          {card.avg_pick ? card.avg_pick.toFixed(2) : 'N/A'}
         </span>
       </div>
     );
-    const priceRow = (size = '16px') => (
+    const priceRow = (size = '14px') => (
       <div key="price" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Market Value</span>
         <span style={{ fontSize: size, fontWeight: 'bold' }}>
@@ -129,18 +127,18 @@ const LearningScreen = ({
     );
 
     if (sortBy === 'value') {
-      return [priceRow('20px'), wrRow(), ataRow()];
+      return [priceRow('18px'), wrRow(), ataRow()];
     } else if (sortBy === 'hidden_gems') {
-      return [wrRow('20px'), ataRow('18px'), priceRow()];
+      return [wrRow('18px', true), ataRow('16px'), priceRow()];
     } else {
       // winrate (default)
-      return [wrRow('20px'), ataRow(), priceRow()];
+      return [wrRow('18px', true), ataRow(), priceRow()];
     }
   };
 
   // Render sort buttons (shared between empty state and main view)
   const sortButtons = (
-    <div style={{ display: 'flex', gap: '8px', marginBottom: '24px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px' }}>
+    <div style={{ display: 'flex', gap: '8px', marginBottom: '20px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px' }}>
       {SortOptions.map(opt => (
         <button
           key={opt.id}
@@ -171,6 +169,8 @@ const LearningScreen = ({
         <p style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: '1.6' }}>
           {sortBy === 'hidden_gems' 
             ? 'No hidden gems found for this archetype. Try selecting different colors or a different set.'
+            : sortBy === 'winrate'
+            ? 'No win rate data available for this set yet. Try a different set or use "Top Value" instead.'
             : 'Try a different set or sort option.'}
         </p>
       </div>
@@ -183,44 +183,37 @@ const LearningScreen = ({
       {/* Sort Options Segmented Control */}
       {sortButtons}
 
-      {/* Flashcard Area */}
-      <div style={{ position: 'relative', width: '100%', maxWidth: '340px', aspectRatio: '2.5/3.5', cursor: 'pointer' }} onClick={() => setIsRevealed(!isRevealed)}>
+      {/* Card Image */}
+      <div style={{ width: '100%', maxWidth: '340px' }}>
         <img 
           src={card.image_url} 
           alt={card.name} 
-          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '4.75% / 3.5%', boxShadow: '0 10px 20px rgba(0,0,0,0.5)' }} 
+          style={{ width: '100%', borderRadius: '4.75% / 3.5%', boxShadow: '0 10px 20px rgba(0,0,0,0.5)', display: 'block' }} 
         />
-        
-        {/* Data Overlay */}
-        {isRevealed && (
-          <div className="fade-in" style={{
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
-            background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 70%, transparent 100%)',
-            padding: '40px 20px 20px',
-            borderBottomLeftRadius: '4.75% / 3.5%',
-            borderBottomRightRadius: '4.75% / 3.5%',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '8px',
-            color: '#fff'
-          }}>
-            <div style={{ fontSize: '14px', fontWeight: 'bold', color: 'var(--accent)' }}>
-              #{currentIndex + 1} {SortOptions.find(o => o.id === sortBy)?.label}
-            </div>
-            {buildOverlayStats()}
-          </div>
-        )}
       </div>
 
-      <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '12px', fontStyle: 'italic' }}>
-        {isRevealed ? 'Tap card to hide stats' : 'Tap card to reveal stats'}
+      {/* Stats Panel — always visible */}
+      <div style={{
+        width: '100%',
+        maxWidth: '340px',
+        marginTop: '12px',
+        background: 'rgba(0,0,0,0.4)',
+        border: '1px solid rgba(255,255,255,0.08)',
+        borderRadius: '10px',
+        padding: '12px 16px',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '6px',
+        color: '#fff'
+      }}>
+        <div style={{ fontSize: '13px', fontWeight: 'bold', color: 'var(--accent)', marginBottom: '2px' }}>
+          #{currentIndex + 1} {SortOptions.find(o => o.id === sortBy)?.label}
+        </div>
+        {buildStats()}
       </div>
 
       {/* Navigation */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', maxWidth: '340px', marginTop: '24px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', maxWidth: '340px', marginTop: '20px' }}>
         <button 
           onClick={handlePrev}
           disabled={currentIndex === 0}

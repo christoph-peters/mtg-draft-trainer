@@ -1,1 +1,1556 @@
-{}
+{
+  "Ancestral Katana": {
+    "Overall": {
+      "pick": 11.04,
+      "wr": 0.5111
+    }
+  },
+  "Ao, the Dawn Sky": {
+    "Overall": {
+      "pick": 1.17,
+      "wr": 0.5735
+    }
+  },
+  "Banishing Slash": {
+    "Overall": {
+      "pick": 3.49,
+      "wr": 0.5659
+    }
+  },
+  "Blade-Blizzard Kitsune": {
+    "Overall": {
+      "pick": 5.53,
+      "wr": 0.5402
+    }
+  },
+  "Born to Drive": {
+    "Overall": {
+      "pick": 7.35,
+      "wr": 0.5372
+    }
+  },
+  "Brilliant Restoration": {
+    "Overall": {
+      "pick": 4.05,
+      "wr": 0.5473
+    }
+  },
+  "Cloudsteel Kirin": {
+    "Overall": {
+      "pick": 1.69,
+      "wr": 0.5484
+    }
+  },
+  "Dragonfly Suit": {
+    "Overall": {
+      "pick": 10.85,
+      "wr": 0.5211
+    }
+  },
+  "Eiganjo Exemplar": {
+    "Overall": {
+      "pick": 7.98,
+      "wr": 0.5294
+    }
+  },
+  "Farewell": {
+    "Overall": {
+      "pick": 1.69,
+      "wr": 0.5953
+    }
+  },
+  "Go-Shintai of Shared Purpose": {
+    "Overall": {
+      "pick": 3.68,
+      "wr": 0.5436
+    }
+  },
+  "Golden-Tail Disciple": {
+    "Overall": {
+      "pick": 7.83,
+      "wr": 0.5563
+    }
+  },
+  "Hotshot Mechanic": {
+    "Overall": {
+      "pick": 8.39,
+      "wr": 0.5427
+    }
+  },
+  "Imperial Oath": {
+    "Overall": {
+      "pick": 5.98,
+      "wr": 0.571
+    }
+  },
+  "Imperial Recovery Unit": {
+    "Overall": {
+      "pick": 6.41,
+      "wr": 0.5355
+    }
+  },
+  "Imperial Subduer": {
+    "Overall": {
+      "pick": 9.87,
+      "wr": 0.5175
+    }
+  },
+  "Intercessor's Arrest": {
+    "Overall": {
+      "pick": 4.52,
+      "wr": 0.5499
+    }
+  },
+  "Invoke Justice": {
+    "Overall": {
+      "pick": 3.17,
+      "wr": 0.5437
+    }
+  },
+  "Kitsune Ace": {
+    "Overall": {
+      "pick": 11.11,
+      "wr": 0.5185
+    }
+  },
+  "Kyodai, Soul of Kamigawa": {
+    "Overall": {
+      "pick": 1.45,
+      "wr": 0.5648
+    }
+  },
+  "Light the Way": {
+    "Overall": {
+      "pick": 12.2,
+      "wr": 0.5268
+    }
+  },
+  "Light-Paws, Emperor's Voice": {
+    "Overall": {
+      "pick": 5.73,
+      "wr": 0.5156
+    }
+  },
+  "Lion Sash": {
+    "Overall": {
+      "pick": 1.57,
+      "wr": 0.5583
+    }
+  },
+  "Lucky Offering": {
+    "Overall": {
+      "pick": 12.5,
+      "wr": 0.5225
+    }
+  },
+  "March of Otherworldly Light": {
+    "Overall": {
+      "pick": 2.05,
+      "wr": 0.5554
+    }
+  },
+  "Mothrider Patrol": {
+    "Overall": {
+      "pick": 8.63,
+      "wr": 0.542
+    }
+  },
+  "Norika Yamazaki, the Poet": {
+    "Overall": {
+      "pick": 4.69,
+      "wr": 0.5388
+    }
+  },
+  "Regent's Authority": {
+    "Overall": {
+      "pick": 11.82,
+      "wr": 0.538
+    }
+  },
+  "Repel the Vile": {
+    "Overall": {
+      "pick": 8.07,
+      "wr": 0.5475
+    }
+  },
+  "Selfless Samurai": {
+    "Overall": {
+      "pick": 4.17,
+      "wr": 0.5552
+    }
+  },
+  "Seven-Tail Mentor": {
+    "Overall": {
+      "pick": 9.93,
+      "wr": 0.5191
+    }
+  },
+  "Sky-Blessed Samurai": {
+    "Overall": {
+      "pick": 5.04,
+      "wr": 0.544
+    }
+  },
+  "Spirited Companion": {
+    "Overall": {
+      "pick": 4.57,
+      "wr": 0.5728
+    }
+  },
+  "Sunblade Samurai": {
+    "Overall": {
+      "pick": 6.53,
+      "wr": 0.5478
+    }
+  },
+  "Touch the Spirit Realm": {
+    "Overall": {
+      "pick": 2.77,
+      "wr": 0.5662
+    }
+  },
+  "Wanderer's Intervention": {
+    "Overall": {
+      "pick": 7.21,
+      "wr": 0.5429
+    }
+  },
+  "The Wandering Emperor": {
+    "Overall": {
+      "pick": 1.12,
+      "wr": 0.589
+    }
+  },
+  "When We Were Young": {
+    "Overall": {
+      "pick": 10.52,
+      "wr": 0.5265
+    }
+  },
+  "Acquisition Octopus": {
+    "Overall": {
+      "pick": 5.34,
+      "wr": 0.5287
+    }
+  },
+  "Anchor to Reality": {
+    "Overall": {
+      "pick": 11.63,
+      "wr": 0.4835
+    }
+  },
+  "Armguard Familiar": {
+    "Overall": {
+      "pick": 8.96,
+      "wr": 0.5414
+    }
+  },
+  "Awakened Awareness": {
+    "Overall": {
+      "pick": 11.01,
+      "wr": 0.4858
+    }
+  },
+  "Covert Technician": {
+    "Overall": {
+      "pick": 6.92,
+      "wr": 0.5402
+    }
+  },
+  "Discover the Impossible": {
+    "Overall": {
+      "pick": 12.0,
+      "wr": 0.5004
+    }
+  },
+  "Disruption Protocol": {
+    "Overall": {
+      "pick": 11.57,
+      "wr": 0.5406
+    }
+  },
+  "Essence Capture": {
+    "Overall": {
+      "pick": 9.92,
+      "wr": 0.5316
+    }
+  },
+  "Futurist Operative": {
+    "Overall": {
+      "pick": 9.51,
+      "wr": 0.5224
+    }
+  },
+  "Futurist Sentinel": {
+    "Overall": {
+      "pick": 12.26,
+      "wr": 0.4925
+    }
+  },
+  "Go-Shintai of Lost Wisdom": {
+    "Overall": {
+      "pick": 7.56,
+      "wr": 0.5304
+    }
+  },
+  "Guardians of Oboro": {
+    "Overall": {
+      "pick": 12.19,
+      "wr": 0.5145
+    }
+  },
+  "Invoke the Winds": {
+    "Overall": {
+      "pick": 2.92,
+      "wr": 0.5571
+    }
+  },
+  "Jin-Gitaxias, Progress Tyrant": {
+    "Overall": {
+      "pick": 1.33,
+      "wr": 0.5395
+    }
+  },
+  "Kairi, the Swirling Sky": {
+    "Overall": {
+      "pick": 1.28,
+      "wr": 0.569
+    }
+  },
+  "March of Swirling Mist": {
+    "Overall": {
+      "pick": 5.61,
+      "wr": 0.539
+    }
+  },
+  "Mindlink Mech": {
+    "Overall": {
+      "pick": 2.07,
+      "wr": 0.5649
+    }
+  },
+  "Mirrorshell Crab": {
+    "Overall": {
+      "pick": 8.87,
+      "wr": 0.5391
+    }
+  },
+  "Mnemonic Sphere": {
+    "Overall": {
+      "pick": 10.16,
+      "wr": 0.5336
+    }
+  },
+  "Mobilizer Mech": {
+    "Overall": {
+      "pick": 8.11,
+      "wr": 0.5157
+    }
+  },
+  "Moon-Circuit Hacker": {
+    "Overall": {
+      "pick": 5.42,
+      "wr": 0.5781
+    }
+  },
+  "Moonfolk Puzzlemaker": {
+    "Overall": {
+      "pick": 8.38,
+      "wr": 0.5479
+    }
+  },
+  "Moonsnare Prototype": {
+    "Overall": {
+      "pick": 11.84,
+      "wr": 0.5251
+    }
+  },
+  "Moonsnare Specialist": {
+    "Overall": {
+      "pick": 5.55,
+      "wr": 0.5707
+    }
+  },
+  "Network Disruptor": {
+    "Overall": {
+      "pick": 6.22,
+      "wr": 0.5755
+    }
+  },
+  "Planar Incision": {
+    "Overall": {
+      "pick": 11.77,
+      "wr": 0.55
+    }
+  },
+  "Prosperous Thief": {
+    "Overall": {
+      "pick": 4.42,
+      "wr": 0.5663
+    }
+  },
+  "The Reality Chip": {
+    "Overall": {
+      "pick": 1.68,
+      "wr": 0.5744
+    }
+  },
+  "Reality Heist": {
+    "Overall": {
+      "pick": 11.06,
+      "wr": 0.5057
+    }
+  },
+  "Replication Specialist": {
+    "Overall": {
+      "pick": 4.27,
+      "wr": 0.5353
+    }
+  },
+  "Saiba Trespassers": {
+    "Overall": {
+      "pick": 11.36,
+      "wr": 0.5313
+    }
+  },
+  "Short Circuit": {
+    "Overall": {
+      "pick": 12.55,
+      "wr": 0.5256
+    }
+  },
+  "Skyswimmer Koi": {
+    "Overall": {
+      "pick": 8.19,
+      "wr": 0.5464
+    }
+  },
+  "Spell Pierce": {
+    "Overall": {
+      "pick": 12.81,
+      "wr": 0.5271
+    }
+  },
+  "Suit Up": {
+    "Overall": {
+      "pick": 9.54,
+      "wr": 0.5788
+    }
+  },
+  "Tameshi, Reality Architect": {
+    "Overall": {
+      "pick": 1.91,
+      "wr": 0.573
+    }
+  },
+  "Tamiyo's Compleation": {
+    "Overall": {
+      "pick": 6.17,
+      "wr": 0.5555
+    }
+  },
+  "Tezzeret, Betrayer of Flesh": {
+    "Overall": {
+      "pick": 1.38,
+      "wr": 0.545
+    }
+  },
+  "Thirst for Knowledge": {
+    "Overall": {
+      "pick": 7.19,
+      "wr": 0.5387
+    }
+  },
+  "Thousand-Faced Shadow": {
+    "Overall": {
+      "pick": 2.32,
+      "wr": 0.5562
+    }
+  },
+  "Assassin's Ink": {
+    "Overall": {
+      "pick": 2.69,
+      "wr": 0.5651
+    }
+  },
+  "Biting-Palm Ninja": {
+    "Overall": {
+      "pick": 1.59,
+      "wr": 0.5829
+    }
+  },
+  "Blade of the Oni": {
+    "Overall": {
+      "pick": 1.35,
+      "wr": 0.5716
+    }
+  },
+  "Chainflail Centipede": {
+    "Overall": {
+      "pick": 9.23,
+      "wr": 0.5411
+    }
+  },
+  "Clawing Torment": {
+    "Overall": {
+      "pick": 8.84,
+      "wr": 0.5787
+    }
+  },
+  "Debt to the Kami": {
+    "Overall": {
+      "pick": 11.0,
+      "wr": 0.5377
+    }
+  },
+  "Dockside Chef": {
+    "Overall": {
+      "pick": 4.9,
+      "wr": 0.5735
+    }
+  },
+  "Dokuchi Shadow-Walker": {
+    "Overall": {
+      "pick": 8.72,
+      "wr": 0.5663
+    }
+  },
+  "Dokuchi Silencer": {
+    "Overall": {
+      "pick": 5.34,
+      "wr": 0.5481
+    }
+  },
+  "Enormous Energy Blade": {
+    "Overall": {
+      "pick": 11.47,
+      "wr": 0.5022
+    }
+  },
+  "Go-Shintai of Hidden Cruelty": {
+    "Overall": {
+      "pick": 5.02,
+      "wr": 0.5341
+    }
+  },
+  "Gravelighter": {
+    "Overall": {
+      "pick": 4.25,
+      "wr": 0.5733
+    }
+  },
+  "Hidetsugu, Devouring Chaos": {
+    "Overall": {
+      "pick": 1.67,
+      "wr": 0.5505
+    }
+  },
+  "Inkrise Infiltrator": {
+    "Overall": {
+      "pick": 8.03,
+      "wr": 0.5667
+    }
+  },
+  "Invoke Despair": {
+    "Overall": {
+      "pick": 2.83,
+      "wr": 0.5643
+    }
+  },
+  "Junji, the Midnight Sky": {
+    "Overall": {
+      "pick": 1.17,
+      "wr": 0.5809
+    }
+  },
+  "Kaito's Pursuit": {
+    "Overall": {
+      "pick": 12.07,
+      "wr": 0.5468
+    }
+  },
+  "Kami of Restless Shadows": {
+    "Overall": {
+      "pick": 11.15,
+      "wr": 0.5501
+    }
+  },
+  "Kami of Terrible Secrets": {
+    "Overall": {
+      "pick": 7.83,
+      "wr": 0.5687
+    }
+  },
+  "Leech Gauntlet": {
+    "Overall": {
+      "pick": 4.52,
+      "wr": 0.5611
+    }
+  },
+  "Lethal Exploit": {
+    "Overall": {
+      "pick": 6.44,
+      "wr": 0.5654
+    }
+  },
+  "Malicious Malfunction": {
+    "Overall": {
+      "pick": 9.08,
+      "wr": 0.5165
+    }
+  },
+  "March of Wretched Sorrow": {
+    "Overall": {
+      "pick": 1.87,
+      "wr": 0.5634
+    }
+  },
+  "Mukotai Ambusher": {
+    "Overall": {
+      "pick": 6.76,
+      "wr": 0.5706
+    }
+  },
+  "Mukotai Soulripper": {
+    "Overall": {
+      "pick": 2.76,
+      "wr": 0.5585
+    }
+  },
+  "Nashi, Moon Sage's Scion": {
+    "Overall": {
+      "pick": 1.48,
+      "wr": 0.5466
+    }
+  },
+  "Nezumi Bladeblesser": {
+    "Overall": {
+      "pick": 8.89,
+      "wr": 0.5569
+    }
+  },
+  "Nezumi Prowler": {
+    "Overall": {
+      "pick": 4.09,
+      "wr": 0.5714
+    }
+  },
+  "Okiba Salvage": {
+    "Overall": {
+      "pick": 9.49,
+      "wr": 0.5224
+    }
+  },
+  "Reckoner Shakedown": {
+    "Overall": {
+      "pick": 12.87,
+      "wr": 0.4759
+    }
+  },
+  "Reckoner's Bargain": {
+    "Overall": {
+      "pick": 11.54,
+      "wr": 0.542
+    }
+  },
+  "Return to Action": {
+    "Overall": {
+      "pick": 11.05,
+      "wr": 0.5587
+    }
+  },
+  "Soul Transfer": {
+    "Overall": {
+      "pick": 1.7,
+      "wr": 0.5705
+    }
+  },
+  "Tatsunari, Toad Rider": {
+    "Overall": {
+      "pick": 1.42,
+      "wr": 0.5868
+    }
+  },
+  "Twisted Embrace": {
+    "Overall": {
+      "pick": 3.46,
+      "wr": 0.5712
+    }
+  },
+  "Undercity Scrounger": {
+    "Overall": {
+      "pick": 9.33,
+      "wr": 0.5317
+    }
+  },
+  "Unforgiving One": {
+    "Overall": {
+      "pick": 8.34,
+      "wr": 0.5406
+    }
+  },
+  "Virus Beetle": {
+    "Overall": {
+      "pick": 4.96,
+      "wr": 0.5785
+    }
+  },
+  "You Are Already Dead": {
+    "Overall": {
+      "pick": 10.16,
+      "wr": 0.5546
+    }
+  },
+  "Akki Ember-Keeper": {
+    "Overall": {
+      "pick": 10.59,
+      "wr": 0.552
+    }
+  },
+  "Akki Ronin": {
+    "Overall": {
+      "pick": 11.95,
+      "wr": 0.5221
+    }
+  },
+  "Akki War Paint": {
+    "Overall": {
+      "pick": 13.29,
+      "wr": 0.5106
+    }
+  },
+  "Ambitious Assault": {
+    "Overall": {
+      "pick": 12.42,
+      "wr": 0.5487
+    }
+  },
+  "Atsushi, the Blazing Sky": {
+    "Overall": {
+      "pick": 1.39,
+      "wr": 0.5612
+    }
+  },
+  "Bronzeplate Boar": {
+    "Overall": {
+      "pick": 5.84,
+      "wr": 0.5502
+    }
+  },
+  "Crackling Emergence": {
+    "Overall": {
+      "pick": 12.73,
+      "wr": 0.533
+    }
+  },
+  "Dragonspark Reactor": {
+    "Overall": {
+      "pick": 6.46,
+      "wr": 0.5301
+    }
+  },
+  "Experimental Synthesizer": {
+    "Overall": {
+      "pick": 7.72,
+      "wr": 0.5752
+    }
+  },
+  "Explosive Entry": {
+    "Overall": {
+      "pick": 11.95,
+      "wr": 0.532
+    }
+  },
+  "Explosive Singularity": {
+    "Overall": {
+      "pick": 3.06,
+      "wr": 0.5295
+    }
+  },
+  "Flame Discharge": {
+    "Overall": {
+      "pick": 4.6,
+      "wr": 0.5457
+    }
+  },
+  "Gift of Wrath": {
+    "Overall": {
+      "pick": 12.33,
+      "wr": 0.546
+    }
+  },
+  "Go-Shintai of Ancient Wars": {
+    "Overall": {
+      "pick": 5.82,
+      "wr": 0.523
+    }
+  },
+  "Goro-Goro, Disciple of Ryusei": {
+    "Overall": {
+      "pick": 1.79,
+      "wr": 0.5559
+    }
+  },
+  "Heiko Yamazaki, the General": {
+    "Overall": {
+      "pick": 5.9,
+      "wr": 0.5302
+    }
+  },
+  "Invoke Calamity": {
+    "Overall": {
+      "pick": 7.99,
+      "wr": 0.491
+    }
+  },
+  "Ironhoof Boar": {
+    "Overall": {
+      "pick": 8.71,
+      "wr": 0.5552
+    }
+  },
+  "Kami of Industry": {
+    "Overall": {
+      "pick": 11.99,
+      "wr": 0.5342
+    }
+  },
+  "Kami's Flare": {
+    "Overall": {
+      "pick": 4.87,
+      "wr": 0.5659
+    }
+  },
+  "Kindled Fury": {
+    "Overall": {
+      "pick": 13.07,
+      "wr": 0.5228
+    }
+  },
+  "Lizard Blades": {
+    "Overall": {
+      "pick": 1.84,
+      "wr": 0.5532
+    }
+  },
+  "March of Reckless Joy": {
+    "Overall": {
+      "pick": 6.97,
+      "wr": 0.5283
+    }
+  },
+  "Ogre-Head Helm": {
+    "Overall": {
+      "pick": 2.2,
+      "wr": 0.5534
+    }
+  },
+  "Peerless Samurai": {
+    "Overall": {
+      "pick": 11.09,
+      "wr": 0.522
+    }
+  },
+  "Rabbit Battery": {
+    "Overall": {
+      "pick": 4.58,
+      "wr": 0.5664
+    }
+  },
+  "Reinforced Ronin": {
+    "Overall": {
+      "pick": 5.98,
+      "wr": 0.5464
+    }
+  },
+  "Scrap Welder": {
+    "Overall": {
+      "pick": 4.86,
+      "wr": 0.5461
+    }
+  },
+  "Scrapyard Steelbreaker": {
+    "Overall": {
+      "pick": 10.52,
+      "wr": 0.5362
+    }
+  },
+  "Seismic Wave": {
+    "Overall": {
+      "pick": 5.47,
+      "wr": 0.5583
+    }
+  },
+  "Simian Sling": {
+    "Overall": {
+      "pick": 8.15,
+      "wr": 0.5651
+    }
+  },
+  "Sokenzan Smelter": {
+    "Overall": {
+      "pick": 5.56,
+      "wr": 0.5735
+    }
+  },
+  "Tempered in Solitude": {
+    "Overall": {
+      "pick": 8.49,
+      "wr": 0.5308
+    }
+  },
+  "Thundering Raiju": {
+    "Overall": {
+      "pick": 1.67,
+      "wr": 0.5656
+    }
+  },
+  "Towashi Songshaper": {
+    "Overall": {
+      "pick": 8.71,
+      "wr": 0.5685
+    }
+  },
+  "Twinshot Sniper": {
+    "Overall": {
+      "pick": 2.92,
+      "wr": 0.5711
+    }
+  },
+  "Unstoppable Ogre": {
+    "Overall": {
+      "pick": 9.91,
+      "wr": 0.5617
+    }
+  },
+  "Upriser Renegade": {
+    "Overall": {
+      "pick": 8.46,
+      "wr": 0.5445
+    }
+  },
+  "Voltage Surge": {
+    "Overall": {
+      "pick": 6.12,
+      "wr": 0.5668
+    }
+  },
+  "Bamboo Grove Archer": {
+    "Overall": {
+      "pick": 7.54,
+      "wr": 0.5595
+    }
+  },
+  "Bearer of Memory": {
+    "Overall": {
+      "pick": 9.31,
+      "wr": 0.5546
+    }
+  },
+  "Blossom Prancer": {
+    "Overall": {
+      "pick": 2.75,
+      "wr": 0.5817
+    }
+  },
+  "Boon of Boseiju": {
+    "Overall": {
+      "pick": 10.02,
+      "wr": 0.5349
+    }
+  },
+  "Careful Cultivation": {
+    "Overall": {
+      "pick": 8.76,
+      "wr": 0.5484
+    }
+  },
+  "Coiling Stalker": {
+    "Overall": {
+      "pick": 9.54,
+      "wr": 0.5308
+    }
+  },
+  "Commune with Spirits": {
+    "Overall": {
+      "pick": 9.76,
+      "wr": 0.564
+    }
+  },
+  "Fade into Antiquity": {
+    "Overall": {
+      "pick": 7.06,
+      "wr": 0.5581
+    }
+  },
+  "Fang of Shigeki": {
+    "Overall": {
+      "pick": 6.07,
+      "wr": 0.564
+    }
+  },
+  "Favor of Jukai": {
+    "Overall": {
+      "pick": 11.45,
+      "wr": 0.5451
+    }
+  },
+  "Generous Visitor": {
+    "Overall": {
+      "pick": 3.19,
+      "wr": 0.5702
+    }
+  },
+  "Geothermal Kami": {
+    "Overall": {
+      "pick": 7.29,
+      "wr": 0.5555
+    }
+  },
+  "Go-Shintai of Boundless Vigor": {
+    "Overall": {
+      "pick": 3.79,
+      "wr": 0.542
+    }
+  },
+  "Grafted Growth": {
+    "Overall": {
+      "pick": 9.2,
+      "wr": 0.5429
+    }
+  },
+  "Greater Tanuki": {
+    "Overall": {
+      "pick": 5.79,
+      "wr": 0.5479
+    }
+  },
+  "Harmonious Emergence": {
+    "Overall": {
+      "pick": 9.3,
+      "wr": 0.5588
+    }
+  },
+  "Heir of the Ancient Fang": {
+    "Overall": {
+      "pick": 11.4,
+      "wr": 0.5161
+    }
+  },
+  "Historian's Wisdom": {
+    "Overall": {
+      "pick": 9.22,
+      "wr": 0.5421
+    }
+  },
+  "Invoke the Ancients": {
+    "Overall": {
+      "pick": 2.08,
+      "wr": 0.5771
+    }
+  },
+  "Jukai Preserver": {
+    "Overall": {
+      "pick": 6.34,
+      "wr": 0.5622
+    }
+  },
+  "Jukai Trainee": {
+    "Overall": {
+      "pick": 9.21,
+      "wr": 0.5506
+    }
+  },
+  "Kami of Transience": {
+    "Overall": {
+      "pick": 1.64,
+      "wr": 0.5787
+    }
+  },
+  "Kappa Tech-Wrecker": {
+    "Overall": {
+      "pick": 2.79,
+      "wr": 0.5848
+    }
+  },
+  "Kodama of the West Tree": {
+    "Overall": {
+      "pick": 1.55,
+      "wr": 0.5448
+    }
+  },
+  "Kura, the Boundless Sky": {
+    "Overall": {
+      "pick": 1.27,
+      "wr": 0.5727
+    }
+  },
+  "March of Burgeoning Life": {
+    "Overall": {
+      "pick": 8.89,
+      "wr": 0.4648
+    }
+  },
+  "Master's Rebuke": {
+    "Overall": {
+      "pick": 5.84,
+      "wr": 0.5639
+    }
+  },
+  "Orochi Merge-Keeper": {
+    "Overall": {
+      "pick": 6.58,
+      "wr": 0.5285
+    }
+  },
+  "Roaring Earth": {
+    "Overall": {
+      "pick": 4.65,
+      "wr": 0.529
+    }
+  },
+  "Season of Renewal": {
+    "Overall": {
+      "pick": 8.0,
+      "wr": 0.5592
+    }
+  },
+  "Shigeki, Jukai Visionary": {
+    "Overall": {
+      "pick": 1.87,
+      "wr": 0.5728
+    }
+  },
+  "Spinning Wheel Kick": {
+    "Overall": {
+      "pick": 4.79,
+      "wr": 0.5633
+    }
+  },
+  "Spring-Leaf Avenger": {
+    "Overall": {
+      "pick": 1.54,
+      "wr": 0.5619
+    }
+  },
+  "Storyweave": {
+    "Overall": {
+      "pick": 9.99,
+      "wr": 0.5277
+    }
+  },
+  "Tamiyo's Safekeeping": {
+    "Overall": {
+      "pick": 9.83,
+      "wr": 0.5651
+    }
+  },
+  "Weaver of Harmony": {
+    "Overall": {
+      "pick": 1.74,
+      "wr": 0.5637
+    }
+  },
+  "Webspinner Cuff": {
+    "Overall": {
+      "pick": 7.26,
+      "wr": 0.541
+    }
+  },
+  "Asari Captain": {
+    "Overall": {
+      "pick": 8.65,
+      "wr": 0.5134
+    }
+  },
+  "Colossal Skyturtle": {
+    "Overall": {
+      "pick": 4.34,
+      "wr": 0.5565
+    }
+  },
+  "Eiganjo Uprising": {
+    "Overall": {
+      "pick": 7.2,
+      "wr": 0.4935
+    }
+  },
+  "Enthusiastic Mechanaut": {
+    "Overall": {
+      "pick": 7.25,
+      "wr": 0.56
+    }
+  },
+  "Gloomshrieker": {
+    "Overall": {
+      "pick": 4.22,
+      "wr": 0.5574
+    }
+  },
+  "Greasefang, Okiba Boss": {
+    "Overall": {
+      "pick": 3.78,
+      "wr": 0.5314
+    }
+  },
+  "Hinata, Dawn-Crowned": {
+    "Overall": {
+      "pick": 4.78,
+      "wr": 0.5213
+    }
+  },
+  "Invigorating Hot Spring": {
+    "Overall": {
+      "pick": 7.89,
+      "wr": 0.5241
+    }
+  },
+  "Isshin, Two Heavens as One": {
+    "Overall": {
+      "pick": 5.96,
+      "wr": 0.4713
+    }
+  },
+  "Jukai Naturalist": {
+    "Overall": {
+      "pick": 4.62,
+      "wr": 0.5707
+    }
+  },
+  "Kaito Shizuki": {
+    "Overall": {
+      "pick": 1.33,
+      "wr": 0.5752
+    }
+  },
+  "Kotose, the Silent Spider": {
+    "Overall": {
+      "pick": 2.4,
+      "wr": 0.557
+    }
+  },
+  "Naomi, Pillar of Order": {
+    "Overall": {
+      "pick": 5.56,
+      "wr": 0.5405
+    }
+  },
+  "Oni-Cult Anvil": {
+    "Overall": {
+      "pick": 4.98,
+      "wr": 0.5822
+    }
+  },
+  "Prodigy's Prototype": {
+    "Overall": {
+      "pick": 6.93,
+      "wr": 0.5507
+    }
+  },
+  "Raiyuu, Storm's Edge": {
+    "Overall": {
+      "pick": 3.14,
+      "wr": 0.5388
+    }
+  },
+  "Risona, Asari Commander": {
+    "Overall": {
+      "pick": 4.33,
+      "wr": 0.5256
+    }
+  },
+  "Satoru Umezawa": {
+    "Overall": {
+      "pick": 2.6,
+      "wr": 0.5612
+    }
+  },
+  "Satsuki, the Living Lore": {
+    "Overall": {
+      "pick": 4.76,
+      "wr": 0.5288
+    }
+  },
+  "Silver-Fur Master": {
+    "Overall": {
+      "pick": 4.96,
+      "wr": 0.5854
+    }
+  },
+  "Spirit-Sister's Call": {
+    "Overall": {
+      "pick": 3.11,
+      "wr": 0.5311
+    }
+  },
+  "Tamiyo, Compleated Sage": {
+    "Overall": {
+      "pick": 1.3,
+      "wr": 0.5368
+    }
+  },
+  "Automated Artificer": {
+    "Overall": {
+      "pick": 11.33,
+      "wr": 0.5168
+    }
+  },
+  "Bronze Cudgels": {
+    "Overall": {
+      "pick": 11.94,
+      "wr": 0.4893
+    }
+  },
+  "Brute Suit": {
+    "Overall": {
+      "pick": 10.03,
+      "wr": 0.5541
+    }
+  },
+  "Circuit Mender": {
+    "Overall": {
+      "pick": 2.81,
+      "wr": 0.5793
+    }
+  },
+  "Containment Construct": {
+    "Overall": {
+      "pick": 5.73,
+      "wr": 0.5487
+    }
+  },
+  "Dramatist's Puppet": {
+    "Overall": {
+      "pick": 12.76,
+      "wr": 0.4872
+    }
+  },
+  "Eater of Virtue": {
+    "Overall": {
+      "pick": 1.42,
+      "wr": 0.5518
+    }
+  },
+  "Ecologist's Terrarium": {
+    "Overall": {
+      "pick": 7.31,
+      "wr": 0.5393
+    }
+  },
+  "High-Speed Hoverbike": {
+    "Overall": {
+      "pick": 4.47,
+      "wr": 0.5693
+    }
+  },
+  "Iron Apprentice": {
+    "Overall": {
+      "pick": 8.06,
+      "wr": 0.5636
+    }
+  },
+  "Mechtitan Core": {
+    "Overall": {
+      "pick": 3.0,
+      "wr": 0.5159
+    }
+  },
+  "Mirror Box": {
+    "Overall": {
+      "pick": 8.36,
+      "wr": 0.4619
+    }
+  },
+  "Network Terminal": {
+    "Overall": {
+      "pick": 8.63,
+      "wr": 0.5422
+    }
+  },
+  "Ninja's Kunai": {
+    "Overall": {
+      "pick": 8.02,
+      "wr": 0.5574
+    }
+  },
+  "Papercraft Decoy": {
+    "Overall": {
+      "pick": 8.94,
+      "wr": 0.5537
+    }
+  },
+  "Patchwork Automaton": {
+    "Overall": {
+      "pick": 3.61,
+      "wr": 0.5683
+    }
+  },
+  "Reckoner Bankbuster": {
+    "Overall": {
+      "pick": 1.19,
+      "wr": 0.584
+    }
+  },
+  "Reito Sentinel": {
+    "Overall": {
+      "pick": 10.86,
+      "wr": 0.5168
+    }
+  },
+  "Runaway Trash-Bot": {
+    "Overall": {
+      "pick": 6.9,
+      "wr": 0.5282
+    }
+  },
+  "Searchlight Companion": {
+    "Overall": {
+      "pick": 7.1,
+      "wr": 0.5724
+    }
+  },
+  "Shrine Steward": {
+    "Overall": {
+      "pick": 9.96,
+      "wr": 0.551
+    }
+  },
+  "Surgehacker Mech": {
+    "Overall": {
+      "pick": 1.67,
+      "wr": 0.5748
+    }
+  },
+  "Thundersteel Colossus": {
+    "Overall": {
+      "pick": 11.27,
+      "wr": 0.4992
+    }
+  },
+  "Towashi Guide-Bot": {
+    "Overall": {
+      "pick": 4.63,
+      "wr": 0.5435
+    }
+  },
+  "Walking Skyscraper": {
+    "Overall": {
+      "pick": 7.38,
+      "wr": 0.5217
+    }
+  },
+  "Bloodfell Caves": {
+    "Overall": {
+      "pick": 9.08,
+      "wr": 0.5567
+    }
+  },
+  "Blossoming Sands": {
+    "Overall": {
+      "pick": 8.21,
+      "wr": 0.5599
+    }
+  },
+  "Boseiju, Who Endures": {
+    "Overall": {
+      "pick": 2.32,
+      "wr": 0.5554
+    }
+  },
+  "Dismal Backwater": {
+    "Overall": {
+      "pick": 8.07,
+      "wr": 0.5618
+    }
+  },
+  "Eiganjo, Seat of the Empire": {
+    "Overall": {
+      "pick": 2.4,
+      "wr": 0.5539
+    }
+  },
+  "Jungle Hollow": {
+    "Overall": {
+      "pick": 8.32,
+      "wr": 0.5559
+    }
+  },
+  "Mech Hangar": {
+    "Overall": {
+      "pick": 11.44,
+      "wr": 0.5021
+    }
+  },
+  "Otawara, Soaring City": {
+    "Overall": {
+      "pick": 3.19,
+      "wr": 0.5565
+    }
+  },
+  "Roadside Reliquary": {
+    "Overall": {
+      "pick": 7.3,
+      "wr": 0.5724
+    }
+  },
+  "Rugged Highlands": {
+    "Overall": {
+      "pick": 10.1,
+      "wr": 0.5352
+    }
+  },
+  "Scoured Barrens": {
+    "Overall": {
+      "pick": 8.34,
+      "wr": 0.5514
+    }
+  },
+  "Secluded Courtyard": {
+    "Overall": {
+      "pick": 11.42,
+      "wr": 0.5009
+    }
+  },
+  "Sokenzan, Crucible of Defiance": {
+    "Overall": {
+      "pick": 4.4,
+      "wr": 0.5583
+    }
+  },
+  "Swiftwater Cliffs": {
+    "Overall": {
+      "pick": 9.77,
+      "wr": 0.5431
+    }
+  },
+  "Takenuma, Abandoned Mire": {
+    "Overall": {
+      "pick": 3.49,
+      "wr": 0.5616
+    }
+  },
+  "Thornwood Falls": {
+    "Overall": {
+      "pick": 8.55,
+      "wr": 0.5558
+    }
+  },
+  "Tranquil Cove": {
+    "Overall": {
+      "pick": 8.61,
+      "wr": 0.5572
+    }
+  },
+  "Uncharted Haven": {
+    "Overall": {
+      "pick": 6.89,
+      "wr": 0.5556
+    }
+  },
+  "Wind-Scarred Crag": {
+    "Overall": {
+      "pick": 9.63,
+      "wr": 0.5348
+    }
+  }
+}

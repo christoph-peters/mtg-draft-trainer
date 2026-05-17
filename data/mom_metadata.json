@@ -1,0 +1,2330 @@
+{
+  "Aerial Boost": {
+    "name": "Aerial Boost",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/7/f7017afb-4c7c-4c8d-9c9d-3f056a55561e.jpg?1682202442",
+    "price": 0.1,
+    "price_eur": 0.07
+  },
+  "Aetherblade Agent // Gitaxian Mindstinger": {
+    "name": "Aetherblade Agent // Gitaxian Mindstinger",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/d/a/dad34ae5-56b4-4394-be02-e043dc1cc23d.jpg?1739658148",
+    "price": 0.06,
+    "price_eur": 0.04
+  },
+  "Akki Scrapchomper": {
+    "name": "Akki Scrapchomper",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/0/b0e02737-0193-46e4-a506-cec86a44dc99.jpg?1682204049",
+    "price": 0.2,
+    "price_eur": 0.11
+  },
+  "Alabaster Host Intercessor": {
+    "name": "Alabaster Host Intercessor",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/6/165357cc-ec74-490f-aec3-7048bb43c8f9.jpg?1687243716",
+    "price": 0.07,
+    "price_eur": 0.12
+  },
+  "Alabaster Host Sanctifier": {
+    "name": "Alabaster Host Sanctifier",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/f/efbd934a-39c4-4ce7-af2a-34ca226d7f23.jpg?1682202464",
+    "price": 0.16,
+    "price_eur": 0.04
+  },
+  "Ancient Imperiosaur": {
+    "name": "Ancient Imperiosaur",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/8/687d3261-dfbf-4c49-986f-20117b7ab5e7.jpg?1682204614",
+    "price": 0.39,
+    "price_eur": 0.27
+  },
+  "Angelic Intervention": {
+    "name": "Angelic Intervention",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/9/09fb5876-5b47-4a05-be57-7ad3890c8953.jpg?1682202475",
+    "price": 0.23,
+    "price_eur": 0.13
+  },
+  "Arachnoid Adaptation": {
+    "name": "Arachnoid Adaptation",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/2/8278069a-bd92-40ee-b7d5-e740dddb00fa.jpg?1682204624",
+    "price": 0.19,
+    "price_eur": 0.07
+  },
+  "Archangel Elspeth": {
+    "name": "Archangel Elspeth",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/3/5/35ed6263-bdd7-4013-ac8c-9b652d71a0db.jpg?1682202486",
+    "price": 3.73,
+    "price_eur": 2.63
+  },
+  "Archpriest of Shadows": {
+    "name": "Archpriest of Shadows",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/5/f5931746-a55c-4528-9e4a-ee15edab3489.jpg?1682203557",
+    "price": 1.46,
+    "price_eur": 0.69
+  },
+  "Artistic Refusal": {
+    "name": "Artistic Refusal",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/b/2bd05f97-ef8b-4cbe-a44b-6501aa5895b0.jpg?1682202981",
+    "price": 0.15,
+    "price_eur": 0.13
+  },
+  "Assimilate Essence": {
+    "name": "Assimilate Essence",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/6/f6ee12ba-0e6c-485a-a1ff-61726ed72fea.jpg?1682202991",
+    "price": 0.15,
+    "price_eur": 0.04
+  },
+  "Astral Wingspan": {
+    "name": "Astral Wingspan",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/e/be2ef728-a2c7-45ee-8594-372ed135b482.jpg?1682203000",
+    "price": 0.17,
+    "price_eur": 0.07
+  },
+  "Atraxa's Fall": {
+    "name": "Atraxa's Fall",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/0/e08ed414-77bf-402a-82a8-9d4e1bd627a1.jpg?1682204635",
+    "price": 0.27,
+    "price_eur": 0.12
+  },
+  "Attentive Skywarden": {
+    "name": "Attentive Skywarden",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/3/83d89bd5-95cc-41fc-aea2-2dde52231919.jpg?1682202495",
+    "price": 0.13,
+    "price_eur": 0.14
+  },
+  "Axgard Artisan": {
+    "name": "Axgard Artisan",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/f/af130b37-d3e0-4839-8193-5c62a91f0218.jpg?1682206548",
+    "price": 0.34,
+    "price_eur": 0.43
+  },
+  "Ayara, Widow of the Realm // Ayara, Furnace Queen": {
+    "name": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/2/a21b1734-a773-4107-95c1-b44d5ccdfd82.jpg?1682203576",
+    "price": 0.31,
+    "price_eur": 0.34
+  },
+  "Baral and Kari Zev": {
+    "name": "Baral and Kari Zev",
+    "color": "RU",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/c/cc43a788-ab06-4d28-b45a-aa47801d6ace.jpg?1682205186",
+    "price": 0.22,
+    "price_eur": 0.3
+  },
+  "Beamtown Beatstick": {
+    "name": "Beamtown Beatstick",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/4/2443cb94-b27e-4a96-93cb-ac7880149bcc.jpg?1682204059",
+    "price": 0.57,
+    "price_eur": 0.27
+  },
+  "Bladed Battle-Fan": {
+    "name": "Bladed Battle-Fan",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/2/a28f5de4-2af6-44ff-9bb8-d874f8ae7dd1.jpg?1682203586",
+    "price": 0.2,
+    "price_eur": 0.06
+  },
+  "Blighted Burgeoning": {
+    "name": "Blighted Burgeoning",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/007324b3-b8a9-4a32-a5a1-ad78f3a07bc3.jpg?1682204648",
+    "price": 0.09,
+    "price_eur": 0.13
+  },
+  "Blightreaper Thallid // Blightsower Thallid": {
+    "name": "Blightreaper Thallid // Blightsower Thallid",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/1/f1150ea9-02b5-4767-a529-6149d758830e.jpg?1682203603",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Bloated Processor": {
+    "name": "Bloated Processor",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/66ddcca8-5720-4341-acce-c6694ddc97f8.jpg?1682203612",
+    "price": 0.26,
+    "price_eur": 0.16
+  },
+  "Bloodfeather Phoenix": {
+    "name": "Bloodfeather Phoenix",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/d/ed97bf6f-726c-40aa-bc1c-14fa801da96a.jpg?1682204070",
+    "price": 0.29,
+    "price_eur": 0.21
+  },
+  "Bloodfell Caves": {
+    "name": "Bloodfell Caves",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/5/85930f68-6f53-4921-9556-2887ac3abfd2.jpg?1682205829",
+    "price": 0.14,
+    "price_eur": 0.05
+  },
+  "Blossoming Sands": {
+    "name": "Blossoming Sands",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/3/e34684d6-2935-4776-9a86-b603ad8cf624.jpg?1682205840",
+    "price": 0.1,
+    "price_eur": 0.07
+  },
+  "Bola Slinger": {
+    "name": "Bola Slinger",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/9/896043a7-c7a2-4542-8739-7b4f09c6e1f1.jpg?1682202505",
+    "price": 0.05,
+    "price_eur": 0.07
+  },
+  "Bonded Herdbeast // Plated Kilnbeast": {
+    "name": "Bonded Herdbeast // Plated Kilnbeast",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/1/61972ddb-3421-4f22-a47a-89cea944dd02.jpg?1682204670",
+    "price": 0.1,
+    "price_eur": 0.04
+  },
+  "Boon-Bringer Valkyrie": {
+    "name": "Boon-Bringer Valkyrie",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/4/84e1cc7d-e645-4b0e-b117-63f93528ed12.jpg?1682202516",
+    "price": 0.6,
+    "price_eur": 0.31
+  },
+  "Borborygmos and Fblthp": {
+    "name": "Borborygmos and Fblthp",
+    "color": "GRU",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/3/4/34bbf1c1-2868-4c9e-b5c4-1aae86faed6c.jpg?1682205196",
+    "price": 0.32,
+    "price_eur": 0.3
+  },
+  "Botanical Brawler": {
+    "name": "Botanical Brawler",
+    "color": "GW",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/7/977c15c9-2aad-4d1d-86a6-1f9d78ad7af6.jpg?1682205206",
+    "price": 0.31,
+    "price_eur": 0.17
+  },
+  "Breach the Multiverse": {
+    "name": "Breach the Multiverse",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/a/daf51a76-7a57-4462-ae18-a19e817e49e5.jpg?1682203621",
+    "price": 10.17,
+    "price_eur": 6.17
+  },
+  "Burning Sun's Fury": {
+    "name": "Burning Sun's Fury",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/7/2731e181-f59c-446c-bb86-8f93bfbb10e9.jpg?1682204080",
+    "price": 0.08,
+    "price_eur": 0.08
+  },
+  "Captive Weird // Compleated Conjurer": {
+    "name": "Captive Weird // Compleated Conjurer",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/70668650-0fb1-4486-a4e6-ab9a12be5626.jpg?1682203019",
+    "price": 0.14,
+    "price_eur": 0.03
+  },
+  "Chandra, Hope's Beacon": {
+    "name": "Chandra, Hope's Beacon",
+    "color": "R",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/a/1/a146ea07-ec1c-448d-b67a-dd9f9e27c2e0.jpg?1682204090",
+    "price": 2.49,
+    "price_eur": 1.76
+  },
+  "Change the Equation": {
+    "name": "Change the Equation",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e98db9ed-b43f-4bc1-b7a9-ce03a534d992.jpg?1682203029",
+    "price": 0.2,
+    "price_eur": 0.16
+  },
+  "Chomping Kavu": {
+    "name": "Chomping Kavu",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/1/31c249d9-37c0-451d-866b-e834c4c57214.jpg?1682204680",
+    "price": 0.06,
+    "price_eur": 0.03
+  },
+  "Chrome Host Seedshark": {
+    "name": "Chrome Host Seedshark",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/e/febaaeae-5c0d-45fa-8169-b27b4996f18e.jpg?1682203038",
+    "price": 0.33,
+    "price_eur": 0.41
+  },
+  "City on Fire": {
+    "name": "City on Fire",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/f/6f455cc1-a822-44ef-ba7c-bfcff69bd45e.jpg?1682204100",
+    "price": 11.69,
+    "price_eur": 5.94
+  },
+  "Collective Nightmare": {
+    "name": "Collective Nightmare",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/5/05864d3a-d8bb-4ddf-b721-883632050cb1.jpg?1682203630",
+    "price": 0.13,
+    "price_eur": 0.03
+  },
+  "Coming In Hot": {
+    "name": "Coming In Hot",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4f6eb966-67af-4b18-8899-4a99a5179aa3.jpg?1682204111",
+    "price": 0.12,
+    "price_eur": 0.07
+  },
+  "Compleated Huntmaster": {
+    "name": "Compleated Huntmaster",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4fc23af5-18dd-45f9-8d82-76b48aaf6d4d.jpg?1682203640",
+    "price": 0.16,
+    "price_eur": 0.04
+  },
+  "Complete the Circuit": {
+    "name": "Complete the Circuit",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/d/cdf5de96-9418-48f1-a18e-01a0108c4f97.jpg?1682203048",
+    "price": 0.32,
+    "price_eur": 0.24
+  },
+  "Consuming Aetherborn": {
+    "name": "Consuming Aetherborn",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/7311ade8-eb75-40f8-b018-668762aa3b77.jpg?1682203649",
+    "price": 0.06,
+    "price_eur": 0.03
+  },
+  "Converter Beast": {
+    "name": "Converter Beast",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/b/1bdd3ecb-8c11-4a4c-a503-bc29f79a9dcb.jpg?1682204691",
+    "price": 0.08,
+    "price_eur": 0.07
+  },
+  "Copper Host Crusher": {
+    "name": "Copper Host Crusher",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/f/af527344-9d88-4641-8f6d-0263a6797df3.jpg?1682204702",
+    "price": 0.25,
+    "price_eur": 0.08
+  },
+  "Corrupted Conviction": {
+    "name": "Corrupted Conviction",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/e/ce133ad5-8748-4a3d-ae8c-7b2a5938927d.jpg?1682203658",
+    "price": 1.35,
+    "price_eur": 0.38
+  },
+  "Corruption of Towashi": {
+    "name": "Corruption of Towashi",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0e896a87-2a93-488c-a0c9-0bed8404da44.jpg?1682203056",
+    "price": 0.06,
+    "price_eur": 0.04
+  },
+  "Cosmic Hunger": {
+    "name": "Cosmic Hunger",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/8/b8eef541-6851-4312-ad2b-74f45c7ede6c.jpg?1682204714",
+    "price": 0.32,
+    "price_eur": 0.22
+  },
+  "Cragsmasher Yeti": {
+    "name": "Cragsmasher Yeti",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/e/ee7a4ccb-c0c9-491f-9475-e78895fa9d03.jpg?1779014242",
+    "price": 0.2,
+    "price_eur": 0.06
+  },
+  "Crystal Carapace": {
+    "name": "Crystal Carapace",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/1/e1888c61-dc2d-4a33-9ba4-439d97f490be.jpg?1682204725",
+    "price": 0.09,
+    "price_eur": 0.1
+  },
+  "Cut Short": {
+    "name": "Cut Short",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/0/b0a45d4d-d16a-43c6-843c-916d4629aae1.jpg?1682202526",
+    "price": 0.07,
+    "price_eur": 0.07
+  },
+  "Deadly Derision": {
+    "name": "Deadly Derision",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/e/1ec1a02f-128c-44aa-b708-6fcda34b40c0.jpg?1682203667",
+    "price": 0.18,
+    "price_eur": 0.07
+  },
+  "Deeproot Wayfinder": {
+    "name": "Deeproot Wayfinder",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/4/b4066d41-0eb5-4dfd-93ec-2f242c3a27a4.jpg?1682204737",
+    "price": 0.25,
+    "price_eur": 0.27
+  },
+  "Dismal Backwater": {
+    "name": "Dismal Backwater",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/3/33cd4f63-3484-4cee-8603-1f89cabee6c3.jpg?1682205851",
+    "price": 0.15,
+    "price_eur": 0.08
+  },
+  "Disturbing Conversion": {
+    "name": "Disturbing Conversion",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/a/4a63d530-27c3-4cd7-ac37-c62b5a1afbc1.jpg?1682203066",
+    "price": 0.07,
+    "price_eur": 0.07
+  },
+  "Djeru and Hazoret": {
+    "name": "Djeru and Hazoret",
+    "color": "RW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/d/1db1ae7b-ed48-409f-8d50-07c7e8c6c128.jpg?1682205217",
+    "price": 0.38,
+    "price_eur": 0.24
+  },
+  "Doomskar Warrior": {
+    "name": "Doomskar Warrior",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/a/aa1db4e3-e98c-49af-8682-3b7aa20bc31e.jpg?1682204748",
+    "price": 0.25,
+    "price_eur": 0.11
+  },
+  "Drana and Linvala": {
+    "name": "Drana and Linvala",
+    "color": "BW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/b/bbda000f-3cf7-48b6-96ff-c23a3a64eab5.jpg?1682205227",
+    "price": 6.23,
+    "price_eur": 3.27
+  },
+  "Dreg Recycler": {
+    "name": "Dreg Recycler",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/e/4ef82b33-82ba-4521-846b-e651764ef46d.jpg?1682203676",
+    "price": 0.07,
+    "price_eur": 0.07
+  },
+  "Dusk Legion Duelist": {
+    "name": "Dusk Legion Duelist",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/7305a8d3-5403-4483-92af-863dc91c6084.jpg?1682202535",
+    "price": 2.07,
+    "price_eur": 1.03
+  },
+  "Elesh Norn // The Argent Etchings": {
+    "name": "Elesh Norn // The Argent Etchings",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/d/8/d8999135-ddb1-4e4c-b885-e25f23dac3d3.jpg?1689246844",
+    "price": 7.55,
+    "price_eur": 5.61
+  },
+  "Elspeth's Smite": {
+    "name": "Elspeth's Smite",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/0/f03a480f-de67-4611-9db7-c0c3d020f597.jpg?1682202566",
+    "price": 0.28,
+    "price_eur": 0.19
+  },
+  "Elvish Vatkeeper": {
+    "name": "Elvish Vatkeeper",
+    "color": "BG",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b3227c07-9ef2-46a6-9b4f-bbd6ef12f4a5.jpg?1682205237",
+    "price": 0.2,
+    "price_eur": 0.07
+  },
+  "Enduring Bondwarden": {
+    "name": "Enduring Bondwarden",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/eb0680eb-ceca-44d9-9654-78ea2ccfce17.jpg?1682202576",
+    "price": 0.06,
+    "price_eur": 0.09
+  },
+  "Ephara's Dispersal": {
+    "name": "Ephara's Dispersal",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/0/b0bcc71f-72ec-4a76-9393-ed3ea61eeeb6.jpg?1682203075",
+    "price": 0.13,
+    "price_eur": 0.14
+  },
+  "Errant and Giada": {
+    "name": "Errant and Giada",
+    "color": "UW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/4/54aa2d03-7713-44d4-8fca-45c6f77b174b.jpg?1682205248",
+    "price": 0.37,
+    "price_eur": 0.36
+  },
+  "Essence of Orthodoxy": {
+    "name": "Essence of Orthodoxy",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/0/604233dc-0520-47d0-8d3d-816f45c9f087.jpg?1682206465",
+    "price": 0.39,
+    "price_eur": 0.38
+  },
+  "Etali, Primal Conqueror // Etali, Primal Sickness": {
+    "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/5/95c14c4d-6c16-4826-8d93-d89ad04aee09.jpg?1739657577",
+    "price": 36.63,
+    "price_eur": 18.27
+  },
+  "Etched Familiar": {
+    "name": "Etched Familiar",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/6/4616a548-269b-4530-97e8-c690ccc138f3.jpg?1682203685",
+    "price": 0.07,
+    "price_eur": 0.08
+  },
+  "Etched Host Doombringer": {
+    "name": "Etched Host Doombringer",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/2/b2f1afa2-ca71-49cf-953b-d5dfc60c178f.jpg?1682203695",
+    "price": 0.11,
+    "price_eur": 0.05
+  },
+  "Expedition Lookout": {
+    "name": "Expedition Lookout",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/e/7e14dfd2-5805-46ef-bd19-dab7ac23fbce.jpg?1682203084",
+    "price": 0.06,
+    "price_eur": 0.07
+  },
+  "Eyes of Gitaxias": {
+    "name": "Eyes of Gitaxias",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/4/c4303347-3fbd-4bbd-ab3f-e7ddbe0e0a9d.jpg?1682203095",
+    "price": 0.07,
+    "price_eur": 0.07
+  },
+  "Faerie Mastermind": {
+    "name": "Faerie Mastermind",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/2/52d3005f-a1c7-4ef5-911f-ccc0752f4181.jpg?1682203104",
+    "price": 15.87,
+    "price_eur": 11.11
+  },
+  "Failed Conversion": {
+    "name": "Failed Conversion",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/5/358c18b7-5321-4793-b54a-e48e39548b9c.jpg?1682203704",
+    "price": 0.05,
+    "price_eur": 0.03
+  },
+  "Fairgrounds Trumpeter": {
+    "name": "Fairgrounds Trumpeter",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/2/f2c6408b-9e24-4bf5-b0d0-a4cda3069b1c.jpg?1682206574",
+    "price": 0.15,
+    "price_eur": 0.24
+  },
+  "Fearless Skald": {
+    "name": "Fearless Skald",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/e/4e317d1d-3f20-4f0d-8b1e-31df351e8f83.jpg?1682204141",
+    "price": 0.14,
+    "price_eur": 0.04
+  },
+  "Fertilid's Favor": {
+    "name": "Fertilid's Favor",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/0/e0bbfb58-8b22-4e8d-991c-855c29964d94.jpg?1682204759",
+    "price": 0.19,
+    "price_eur": 0.06
+  },
+  "Final Flourish": {
+    "name": "Final Flourish",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/9/09a4dcdb-6939-4d9f-8921-549e0ddc9f63.jpg?1682203713",
+    "price": 0.09,
+    "price_eur": 0.07
+  },
+  "Flitting Guerrilla": {
+    "name": "Flitting Guerrilla",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/1/9184bc57-0a16-4abf-a13a-6a03a175c28a.jpg?1682203722",
+    "price": 0.09,
+    "price_eur": 0.02
+  },
+  "Flywheel Racer": {
+    "name": "Flywheel Racer",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/6/c694485d-a753-4e55-929c-d8e4a53c7d08.jpg?1682205744",
+    "price": 0.1,
+    "price_eur": 0.1
+  },
+  "Furnace Gremlin": {
+    "name": "Furnace Gremlin",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/4/445b3315-6587-4d57-ab7e-faab1eec0241.jpg?1682204151",
+    "price": 0.06,
+    "price_eur": 0.04
+  },
+  "Furnace Host Charger": {
+    "name": "Furnace Host Charger",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/d/2d142ded-a2df-41b0-9c02-056b5f34abab.jpg?1682204161",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Furnace Reins": {
+    "name": "Furnace Reins",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/9/e91bfea6-0e80-4239-bede-7cb971e64c1a.jpg?1682204171",
+    "price": 0.28,
+    "price_eur": 0.17
+  },
+  "Furtive Analyst": {
+    "name": "Furtive Analyst",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/8/98c55aff-baed-4fb5-a490-abd59b8df5e7.jpg?1682203113",
+    "price": 0.05,
+    "price_eur": 0.05
+  },
+  "Ghalta and Mavren": {
+    "name": "Ghalta and Mavren",
+    "color": "GW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/9/a9ec900f-1e31-4440-a75a-20b256734d5b.jpg?1682205257",
+    "price": 5.2,
+    "price_eur": 1.71
+  },
+  "Gift of Compleation": {
+    "name": "Gift of Compleation",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/7/97e08244-bbdb-402a-8dde-93e17d989467.jpg?1682203731",
+    "price": 0.25,
+    "price_eur": 0.09
+  },
+  "Glissa, Herald of Predation": {
+    "name": "Glissa, Herald of Predation",
+    "color": "BG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/c/6c299066-dfdd-47a3-85e6-225508ba95fe.jpg?1682205268",
+    "price": 0.33,
+    "price_eur": 0.19
+  },
+  "Glistening Dawn": {
+    "name": "Glistening Dawn",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/4/5443f4f6-a549-4912-a919-69e3570a9933.jpg?1682204771",
+    "price": 0.12,
+    "price_eur": 0.16
+  },
+  "Glistening Deluge": {
+    "name": "Glistening Deluge",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/3/83ca46ac-0698-4651-940d-3fd20c266b74.jpg?1682203740",
+    "price": 0.23,
+    "price_eur": 0.1
+  },
+  "Gloomfang Mauler": {
+    "name": "Gloomfang Mauler",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/2/025a5338-133f-486d-9f73-0896226685c0.jpg?1682203749",
+    "price": 0.16,
+    "price_eur": 0.08
+  },
+  "Gnottvold Hermit // Chrome Host Hulk": {
+    "name": "Gnottvold Hermit // Chrome Host Hulk",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/70b2cdc5-35b9-443d-b499-c8b75c0d0a64.jpg?1739655535",
+    "price": 0.04,
+    "price_eur": 0.05
+  },
+  "Golden-Scale Aeronaut": {
+    "name": "Golden-Scale Aeronaut",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/b/8b2f3c52-8d6a-411a-aa62-cbb08a144351.jpg?1682202586",
+    "price": 0.07,
+    "price_eur": 0.02
+  },
+  "Grafted Butcher": {
+    "name": "Grafted Butcher",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/e/2/e22f11a1-0cbd-4b36-8dbd-37ba29ad4608.jpg?1682203758",
+    "price": 0.67,
+    "price_eur": 0.23
+  },
+  "Guardian of Ghirapur": {
+    "name": "Guardian of Ghirapur",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/5/9503a1e6-f0bf-44d0-a28b-56fbfcff1ff2.jpg?1683017194",
+    "price": 0.41,
+    "price_eur": 0.27
+  },
+  "Halo-Charged Skaab": {
+    "name": "Halo-Charged Skaab",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/c/5c6bdac3-6762-41a4-821f-ab7034a823d9.jpg?1682203122",
+    "price": 0.11,
+    "price_eur": 0.06
+  },
+  "Halo Forager": {
+    "name": "Halo Forager",
+    "color": "BU",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/d/edb5f0cc-c826-4e7b-882c-63f6e51fa932.jpg?1682205278",
+    "price": 0.26,
+    "price_eur": 0.18
+  },
+  "Halo Hopper": {
+    "name": "Halo Hopper",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/0/e07baeb1-c873-42c2-8f1e-757f13572079.jpg?1682205755",
+    "price": 0.3,
+    "price_eur": 0.11
+  },
+  "Hangar Scrounger": {
+    "name": "Hangar Scrounger",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/2/c2551b01-4d88-47f3-b54d-96ec03e093f8.jpg?1682204182",
+    "price": 0.14,
+    "price_eur": 0.09
+  },
+  "Harried Artisan // Phyrexian Skyflayer": {
+    "name": "Harried Artisan // Phyrexian Skyflayer",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/73e92389-4bd2-492e-b4d6-d7cb6baedc41.jpg?1682204203",
+    "price": 0.03,
+    "price_eur": 0.03
+  },
+  "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse": {
+    "name": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1689853622",
+    "price": 2.82,
+    "price_eur": 0.89
+  },
+  "Herbology Instructor // Malady Invoker": {
+    "name": "Herbology Instructor // Malady Invoker",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/0/40ab763d-05ee-408d-aeba-eaf18c4f2e21.jpg?1739662325",
+    "price": 0.08,
+    "price_eur": 0.09
+  },
+  "Hidetsugu and Kairi": {
+    "name": "Hidetsugu and Kairi",
+    "color": "BU",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/1/81039daf-0d54-4474-a833-fa287ec10cf9.jpg?1682205289",
+    "price": 0.36,
+    "price_eur": 0.2
+  },
+  "Hoarding Broodlord": {
+    "name": "Hoarding Broodlord",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/8/386ce3c9-869d-461c-a3de-c8add3786f73.jpg?1682203767",
+    "price": 5.08,
+    "price_eur": 2.79
+  },
+  "Ichor Drinker": {
+    "name": "Ichor Drinker",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/1/91fd7350-cc97-4c35-a072-2c826984293c.jpg?1682203776",
+    "price": 0.18,
+    "price_eur": 0.05
+  },
+  "Ichor Shade": {
+    "name": "Ichor Shade",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/f/0fd86fbf-eac2-456b-b4bb-437ff9be9b58.jpg?1682203786",
+    "price": 0.07,
+    "price_eur": 0.05
+  },
+  "Infected Defector": {
+    "name": "Infected Defector",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/7/2777f8b5-2f8e-4cb8-9206-8a4978488657.jpg?1682202626",
+    "price": 0.11,
+    "price_eur": 0.08
+  },
+  "Inga and Esika": {
+    "name": "Inga and Esika",
+    "color": "GU",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/a/0aa97506-b943-4443-96b1-1b49f57d80aa.jpg?1682205299",
+    "price": 2.6,
+    "price_eur": 0.66
+  },
+  "Injector Crocodile": {
+    "name": "Injector Crocodile",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/7/974ddcab-bbe0-4bae-9c99-1fd5a5554d2e.jpg?1682206521",
+    "price": 0.15,
+    "price_eur": 0.12
+  },
+  "Inspired Charge": {
+    "name": "Inspired Charge",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/f/9f17e624-219a-4e76-bfe0-f49c9ddd4a6d.jpg?1682202637",
+    "price": 0.09,
+    "price_eur": 0.03
+  },
+  "Interdisciplinary Mascot": {
+    "name": "Interdisciplinary Mascot",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0eecdd9a-6c3f-43ee-8d9c-e3466bd7bf5e.jpg?1682206493",
+    "price": 0.29,
+    "price_eur": 0.31
+  },
+  "Into the Fire": {
+    "name": "Into the Fire",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/8/0/80f649bb-b163-44ae-801f-8884143c407f.jpg?1682204213",
+    "price": 0.34,
+    "price_eur": 0.24
+  },
+  "Invasion of Alara // Awaken the Maelstrom": {
+    "name": "Invasion of Alara // Awaken the Maelstrom",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/1/318c363b-61cc-4e2f-8f86-a4287539ea07.jpg?1739660585",
+    "price": 0.32,
+    "price_eur": 0.28
+  },
+  "Invasion of Amonkhet // Lazotep Convert": {
+    "name": "Invasion of Amonkhet // Lazotep Convert",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/8/981f091a-17f8-412e-9752-69070ebed4ea.jpg?1739663369",
+    "price": 0.26,
+    "price_eur": 0.09
+  },
+  "Invasion of Arcavios // Invocation of the Founders": {
+    "name": "Invasion of Arcavios // Invocation of the Founders",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/c/1c3f661d-b9f7-48e7-afe3-3eaea1022bc1.jpg?1682715201",
+    "price": 0.32,
+    "price_eur": 0.26
+  },
+  "Invasion of Azgol // Ashen Reaper": {
+    "name": "Invasion of Azgol // Ashen Reaper",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/e/ae2e1244-f05b-45f9-8afc-59f190524798.jpg?1739651051",
+    "price": 0.21,
+    "price_eur": 0.08
+  },
+  "Invasion of Belenon // Belenon War Anthem": {
+    "name": "Invasion of Belenon // Belenon War Anthem",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4fb0eb2d-9cb7-4e72-a970-5009b046df2a.jpg?1682796205",
+    "price": 0.22,
+    "price_eur": 0.14
+  },
+  "Invasion of Dominaria // Serra Faithkeeper": {
+    "name": "Invasion of Dominaria // Serra Faithkeeper",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/e/7e784d3d-0c6d-4ce5-beb5-edd2adb32385.jpg?1682715224",
+    "price": 0.09,
+    "price_eur": 0.12
+  },
+  "Invasion of Eldraine // Prickle Faeries": {
+    "name": "Invasion of Eldraine // Prickle Faeries",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/2/92f5b177-b0c6-4573-b860-f75dad1941bd.jpg?1739655031",
+    "price": 0.08,
+    "price_eur": 0.05
+  },
+  "Invasion of Ergamon // Truga Cliffcharger": {
+    "name": "Invasion of Ergamon // Truga Cliffcharger",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b3e0fc49-f765-4bd1-a2b9-23e703388b50.jpg?1739663416",
+    "price": 0.17,
+    "price_eur": 0.08
+  },
+  "Invasion of Fiora // Marchesa, Resolute Monarch": {
+    "name": "Invasion of Fiora // Marchesa, Resolute Monarch",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b3af679b-6ee6-4a1d-8ec3-b659bdd90b4a.jpg?1739657237",
+    "price": 0.58,
+    "price_eur": 0.39
+  },
+  "Invasion of Gobakhan // Lightshield Array": {
+    "name": "Invasion of Gobakhan // Lightshield Array",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/1/11798730-6788-4e0b-a828-b46cab1a4fa7.jpg?1739658423",
+    "price": 0.37,
+    "price_eur": 0.96
+  },
+  "Invasion of Ikoria // Zilortha, Apex of Ikoria": {
+    "name": "Invasion of Ikoria // Zilortha, Apex of Ikoria",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/5/d/5d59c8f2-f6af-40a6-8dfe-8cc45bf231ce.jpg?1682715265",
+    "price": 10.48,
+    "price_eur": 7.11
+  },
+  "Invasion of Innistrad // Deluge of the Dead": {
+    "name": "Invasion of Innistrad // Deluge of the Dead",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/77720d2e-2b7b-492b-852c-eea5061eb31b.jpg?1682715272",
+    "price": 0.39,
+    "price_eur": 0.45
+  },
+  "Invasion of Ixalan // Belligerent Regisaur": {
+    "name": "Invasion of Ixalan // Belligerent Regisaur",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/a/fa20fc16-e106-4953-ace4-5ac9c7fec97b.jpg?1739654229",
+    "price": 0.38,
+    "price_eur": 0.34
+  },
+  "Invasion of Kaladesh // Aetherwing, Golden-Scale Flagship": {
+    "name": "Invasion of Kaladesh // Aetherwing, Golden-Scale Flagship",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/f/4f7231f6-8adc-4a68-9984-e56b974c087b.jpg?1739662269",
+    "price": 0.1,
+    "price_eur": 0.13
+  },
+  "Invasion of Kaldheim // Pyre of the World Tree": {
+    "name": "Invasion of Kaldheim // Pyre of the World Tree",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/7/f7cedd62-efc8-464d-8387-220bb55e07e9.jpg?1739656812",
+    "price": 0.37,
+    "price_eur": 0.18
+  },
+  "Invasion of Kamigawa // Rooftop Saboteurs": {
+    "name": "Invasion of Kamigawa // Rooftop Saboteurs",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/1/3140320d-b932-441f-bff3-9bdf4419b88a.jpg?1739655980",
+    "price": 0.11,
+    "price_eur": 0.07
+  },
+  "Invasion of Karsus // Refraction Elemental": {
+    "name": "Invasion of Karsus // Refraction Elemental",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/776b8951-cf15-47ff-b36f-f47706eddb6f.jpg?1739654435",
+    "price": 0.29,
+    "price_eur": 0.17
+  },
+  "Invasion of Kylem // Valor's Reach Tag Team": {
+    "name": "Invasion of Kylem // Valor's Reach Tag Team",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/7/a7ac3a39-b6a6-4647-bb6e-e82057704f8b.jpg?1739663447",
+    "price": 0.07,
+    "price_eur": 0.04
+  },
+  "Invasion of Lorwyn // Winnowing Forces": {
+    "name": "Invasion of Lorwyn // Winnowing Forces",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/3/93f623da-616e-4067-9ea8-5dfbeef8ce0b.jpg?1739662609",
+    "price": 0.09,
+    "price_eur": 0.1
+  },
+  "Invasion of Mercadia // Kyren Flamewright": {
+    "name": "Invasion of Mercadia // Kyren Flamewright",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/0/407d6723-bf58-403e-b2ac-ba52c51d356f.jpg?1682715363",
+    "price": 0.18,
+    "price_eur": 0.08
+  },
+  "Invasion of Moag // Bloomwielder Dryads": {
+    "name": "Invasion of Moag // Bloomwielder Dryads",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/4/e454bf31-5aa0-4109-a3f5-c3f9cc838682.jpg?1682715370",
+    "price": 0.08,
+    "price_eur": 0.1
+  },
+  "Invasion of Muraganda // Primordial Plasm": {
+    "name": "Invasion of Muraganda // Primordial Plasm",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/3/93345804-dda4-42a2-84d4-8fcd376dd2d4.jpg?1682715376",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Invasion of New Capenna // Holy Frazzle-Cannon": {
+    "name": "Invasion of New Capenna // Holy Frazzle-Cannon",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/5/f5926c8e-8049-418e-9a84-f8558e5ba9d1.jpg?1682715382",
+    "price": 0.17,
+    "price_eur": 0.17
+  },
+  "Invasion of New Phyrexia // Teferi Akosa of Zhalfir": {
+    "name": "Invasion of New Phyrexia // Teferi Akosa of Zhalfir",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/1/b/1b83af86-e1a9-4be1-83dc-0c1ab81b129e.jpg?1692183624",
+    "price": 1.55,
+    "price_eur": 1.05
+  },
+  "Invasion of Pyrulea // Gargantuan Slabhorn": {
+    "name": "Invasion of Pyrulea // Gargantuan Slabhorn",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/50180fda-6d67-41e9-8b2b-2e7c5876b8ab.jpg?1682715555",
+    "price": 0.1,
+    "price_eur": 0.04
+  },
+  "Invasion of Ravnica // Guildpact Paragon": {
+    "name": "Invasion of Ravnica // Guildpact Paragon",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/3/73f8fc4f-2f36-4932-8d04-3c2651c116dc.jpg?1682704897",
+    "price": 0.37,
+    "price_eur": 0.57
+  },
+  "Invasion of Regatha // Disciples of the Inferno": {
+    "name": "Invasion of Regatha // Disciples of the Inferno",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/d/ada79e04-bb69-4c92-a829-014f02b1e06a.jpg?1682715619",
+    "price": 0.18,
+    "price_eur": 0.11
+  },
+  "Invasion of Segovia // Caetus, Sea Tyrant of Segovia": {
+    "name": "Invasion of Segovia // Caetus, Sea Tyrant of Segovia",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1682715625",
+    "price": 0.99,
+    "price_eur": 0.6
+  },
+  "Invasion of Shandalar // Leyline Surge": {
+    "name": "Invasion of Shandalar // Leyline Surge",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/5/f/5f80764e-8fa2-44e2-84c6-3b55f1c40ee7.jpg?1682715633",
+    "price": 1.34,
+    "price_eur": 1.03
+  },
+  "Invasion of Tarkir // Defiant Thundermaw": {
+    "name": "Invasion of Tarkir // Defiant Thundermaw",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/a/9/a98f71a0-7c99-4cee-8f70-877e698cca84.jpg?1682715641",
+    "price": 1.96,
+    "price_eur": 2.63
+  },
+  "Invasion of Theros // Ephara, Ever-Sheltering": {
+    "name": "Invasion of Theros // Ephara, Ever-Sheltering",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/4/3/433e9f1c-9d6c-4c7e-89d0-79595b4331f2.jpg?1739662121",
+    "price": 0.64,
+    "price_eur": 0.41
+  },
+  "Invasion of Tolvada // The Broken Sky": {
+    "name": "Invasion of Tolvada // The Broken Sky",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/00255899-aaaf-46c6-8037-bd0e3c06250c.jpg?1682715701",
+    "price": 0.36,
+    "price_eur": 0.26
+  },
+  "Invasion of Ulgrotha // Grandmother Ravi Sengir": {
+    "name": "Invasion of Ulgrotha // Grandmother Ravi Sengir",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/49ec5e00-22f4-486e-8e99-e950725f6fbc.jpg?1739663170",
+    "price": 0.09,
+    "price_eur": 0.08
+  },
+  "Invasion of Vryn // Overloaded Mage-Ring": {
+    "name": "Invasion of Vryn // Overloaded Mage-Ring",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/0/c0ef6737-8e85-42ca-8ee6-6a34f9462de3.jpg?1739657380",
+    "price": 0.19,
+    "price_eur": 0.1
+  },
+  "Invasion of Xerex // Vertex Paladin": {
+    "name": "Invasion of Xerex // Vertex Paladin",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/c/6c8c9c33-569c-4b67-a18d-4cd0f18d01f4.jpg?1739660251",
+    "price": 0.11,
+    "price_eur": 0.11
+  },
+  "Invasion of Zendikar // Awakened Skyclave": {
+    "name": "Invasion of Zendikar // Awakened Skyclave",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/8/f/8fed056f-a8f5-41ec-a7d2-a80a238872d1.jpg?1739656250",
+    "price": 0.3,
+    "price_eur": 0.21
+  },
+  "Iridescent Blademaster": {
+    "name": "Iridescent Blademaster",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/f/3fee189f-539f-48fa-b217-4b2599375364.jpg?1682204928",
+    "price": 0.07,
+    "price_eur": 0.03
+  },
+  "Jin-Gitaxias // The Great Synthesis": {
+    "name": "Jin-Gitaxias // The Great Synthesis",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1689246857",
+    "price": 10.28,
+    "price_eur": 8.17
+  },
+  "Joyful Stormsculptor": {
+    "name": "Joyful Stormsculptor",
+    "color": "RU",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/4/c4dabe69-a88f-4e61-a5fb-c4b9ef1c7569.jpg?1682205582",
+    "price": 0.09,
+    "price_eur": 0.07
+  },
+  "Jungle Hollow": {
+    "name": "Jungle Hollow",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/6/b6ed20a4-bc8a-44b1-b9b7-c82518c287b8.jpg?1682205862",
+    "price": 0.18,
+    "price_eur": 0.06
+  },
+  "Kami of Whispered Hopes": {
+    "name": "Kami of Whispered Hopes",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/c/5c644650-3861-4a78-9e39-a413b073ddac.jpg?1682204938",
+    "price": 3.63,
+    "price_eur": 2.12
+  },
+  "Karsus Depthguard": {
+    "name": "Karsus Depthguard",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/a/0ac76be5-3a2c-499e-830a-bd02eec517ce.jpg?1682204325",
+    "price": 0.03,
+    "price_eur": 0.03
+  },
+  "Khenra Spellspear // Gitaxian Spellstalker": {
+    "name": "Khenra Spellspear // Gitaxian Spellstalker",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/c/dc1454ce-bb49-4b4f-bbca-d77387fa4966.jpg?1682204346",
+    "price": 0.18,
+    "price_eur": 0.06
+  },
+  "Kitesail": {
+    "name": "Kitesail",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/d/fdc3bf6e-e011-4334-a142-c09941c6f213.jpg?1682205766",
+    "price": 0.05,
+    "price_eur": 0.02
+  },
+  "Kithkin Billyrider": {
+    "name": "Kithkin Billyrider",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/5/0535b69f-247d-49c9-97e1-d988700578ab.jpg?1682202730",
+    "price": 0.08,
+    "price_eur": 0.12
+  },
+  "Knight-Errant of Eos": {
+    "name": "Knight-Errant of Eos",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/b/ab2ad652-2406-491a-9f22-23e974f943d7.jpg?1682202751",
+    "price": 0.32,
+    "price_eur": 0.44
+  },
+  "Knight of the New Coalition": {
+    "name": "Knight of the New Coalition",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/6/56a3108b-c33d-47c5-984b-01fa257fbd79.jpg?1682202741",
+    "price": 0.09,
+    "price_eur": 0.05
+  },
+  "Kogla and Yidaro": {
+    "name": "Kogla and Yidaro",
+    "color": "GR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/b/7/b760ebdf-bea6-4c43-a187-4a02ebf95ebf.jpg?1682205592",
+    "price": 2.57,
+    "price_eur": 0.98
+  },
+  "Kor Halberd": {
+    "name": "Kor Halberd",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/4/a4705327-ada6-4575-82fc-351e183d060e.jpg?1682202761",
+    "price": 0.19,
+    "price_eur": 0.1
+  },
+  "Kroxa and Kunoros": {
+    "name": "Kroxa and Kunoros",
+    "color": "BRW",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/1/3/13e4a233-e40b-4e6a-9863-4d0fc052484c.jpg?1682205601",
+    "price": 0.34,
+    "price_eur": 0.46
+  },
+  "Lithomantic Barrage": {
+    "name": "Lithomantic Barrage",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/4/c45a5f4a-2174-4885-aa5a-c4c24cc732f0.jpg?1682204356",
+    "price": 0.25,
+    "price_eur": 0.21
+  },
+  "Marauding Dreadship": {
+    "name": "Marauding Dreadship",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/5/15625d6a-3844-4d23-ab35-ee3c3508db8d.jpg?1682291743",
+    "price": 0.06,
+    "price_eur": 0.04
+  },
+  "Marshal of Zhalfir": {
+    "name": "Marshal of Zhalfir",
+    "color": "UW",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/2/c2418f5c-a85f-4249-8a53-c94b011b9714.jpg?1682205612",
+    "price": 0.26,
+    "price_eur": 0.21
+  },
+  "Meeting of Minds": {
+    "name": "Meeting of Minds",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/0/508b8650-c283-4e54-abdc-32ec2fb1ee34.jpg?1682203285",
+    "price": 0.32,
+    "price_eur": 0.35
+  },
+  "Merciless Repurposing": {
+    "name": "Merciless Repurposing",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/0/70edec35-1770-47f0-9ad2-32e597ee0327.jpg?1682203870",
+    "price": 0.06,
+    "price_eur": 0.07
+  },
+  "Mirran Banesplitter": {
+    "name": "Mirran Banesplitter",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/e/ee4d00b8-1373-47b2-9be5-2199e0b12540.jpg?1682204377",
+    "price": 0.1,
+    "price_eur": 0.14
+  },
+  "Mirrodin Avenged": {
+    "name": "Mirrodin Avenged",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/5/750b2090-7fd4-4048-a148-9a5fc7b6f265.jpg?1682203878",
+    "price": 0.12,
+    "price_eur": 0.06
+  },
+  "Mirror-Shield Hoplite": {
+    "name": "Mirror-Shield Hoplite",
+    "color": "RW",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/49a5e7de-43cc-488b-99a4-7d173b42d5dc.jpg?1682205622",
+    "price": 0.09,
+    "price_eur": 0.05
+  },
+  "Moment of Truth": {
+    "name": "Moment of Truth",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0e758594-a48c-4508-b400-9028aec07f63.jpg?1682203294",
+    "price": 0.25,
+    "price_eur": 0.18
+  },
+  "Monastery Mentor": {
+    "name": "Monastery Mentor",
+    "color": "W",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/5/75665c2f-a100-4e3f-be8e-b5cc3c9a090b.jpg?1682202772",
+    "price": 1.63,
+    "price_eur": 1.17
+  },
+  "Mutagen Connoisseur": {
+    "name": "Mutagen Connoisseur",
+    "color": "GU",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/a/4a84b6d7-3944-4223-ac16-aa5e59ac84cb.jpg?1682205632",
+    "price": 0.05,
+    "price_eur": 0.04
+  },
+  "Nahiri's Warcrafting": {
+    "name": "Nahiri's Warcrafting",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/0/a0453fea-3c88-4eb1-818a-9efa01986852.jpg?1682204387",
+    "price": 0.17,
+    "price_eur": 0.18
+  },
+  "Negate": {
+    "name": "Negate",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/1/81752db1-374e-4723-b695-a2f4a634dfc6.jpg?1682203304",
+    "price": 0.36,
+    "price_eur": 0.1
+  },
+  "Nezumi Freewheeler // Hideous Fleshwheeler": {
+    "name": "Nezumi Freewheeler // Hideous Fleshwheeler",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/6/76b5e289-6bc4-48ee-8d5b-6989bab9f901.jpg?1682203898",
+    "price": 0.07,
+    "price_eur": 0.03
+  },
+  "Nezumi Informant": {
+    "name": "Nezumi Informant",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/3/e36fbff8-471e-4cf8-8946-e1e5cdf598af.jpg?1682203908",
+    "price": 0.39,
+    "price_eur": 0.21
+  },
+  "Norn's Inquisitor": {
+    "name": "Norn's Inquisitor",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/3/d387b608-ba4e-49c8-bd81-37594290a352.jpg?1682202784",
+    "price": 0.28,
+    "price_eur": 0.11
+  },
+  "Oculus Whelp": {
+    "name": "Oculus Whelp",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/8/58b35399-79af-49fa-989e-867a85320cc2.jpg?1682203313",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Omen Hawker": {
+    "name": "Omen Hawker",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/d/0/d0749c3c-e3f7-4c96-8c5b-4fd2401544c4.jpg?1682203323",
+    "price": 0.2,
+    "price_eur": 0.12
+  },
+  "Omnath, Locus of All": {
+    "name": "Omnath, Locus of All",
+    "color": "BGRUW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/3/33d94ecf-758b-4f68-a7be-6bf3ff1047f4.jpg?1709720836",
+    "price": 0.43,
+    "price_eur": 0.24
+  },
+  "Onakke Javelineer": {
+    "name": "Onakke Javelineer",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/5/e5446057-7330-40b9-a5d9-bad4876337cd.jpg?1682204396",
+    "price": 0.05,
+    "price_eur": 0.04
+  },
+  "Oracle of Tragedy": {
+    "name": "Oracle of Tragedy",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/1/e1d2aa39-b876-4136-8e16-5272a8083235.jpg?1682203333",
+    "price": 0.1,
+    "price_eur": 0.08
+  },
+  "Order of the Mirror // Order of the Alabaster Host": {
+    "name": "Order of the Mirror // Order of the Alabaster Host",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/0/103295ed-5ddc-4528-8848-4fd2cfec4b88.jpg?1739662954",
+    "price": 0.09,
+    "price_eur": 0.03
+  },
+  "Orthion, Hero of Lavabrink": {
+    "name": "Orthion, Hero of Lavabrink",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/1/71dadbb3-7b8a-4656-973f-65a3284afe07.jpg?1682206565",
+    "price": 6.32,
+    "price_eur": 4.36
+  },
+  "Overgrown Pest": {
+    "name": "Overgrown Pest",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/1/a1e04eed-9a6c-491b-8f1f-1c76ac40452d.jpg?1682204948",
+    "price": 0.06,
+    "price_eur": 0.09
+  },
+  "Ozolith, the Shattered Spire": {
+    "name": "Ozolith, the Shattered Spire",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/9/c9eee658-29e8-4ab5-8a0e-31f2f28a9a92.jpg?1682204958",
+    "price": 9.18,
+    "price_eur": 6.04
+  },
+  "Phyrexian Archivist": {
+    "name": "Phyrexian Archivist",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/3/93960b5e-b13c-4f7d-a826-8aad6bd210b4.jpg?1682451460",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Phyrexian Awakening": {
+    "name": "Phyrexian Awakening",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/b/6b9ed068-b6bb-4c9e-a8c9-56aa9b62037a.jpg?1682202794",
+    "price": 0.32,
+    "price_eur": 0.18
+  },
+  "Phyrexian Censor": {
+    "name": "Phyrexian Censor",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/5/150e17b1-b9fd-4ec4-b305-19596fed14d1.jpg?1682202804",
+    "price": 0.33,
+    "price_eur": 0.21
+  },
+  "Phyrexian Gargantua": {
+    "name": "Phyrexian Gargantua",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/2/a2be7576-bea6-4c20-b594-a058115f7acf.jpg?1682203919",
+    "price": 0.14,
+    "price_eur": 0.04
+  },
+  "Phyrexian Pegasus": {
+    "name": "Phyrexian Pegasus",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/a/aa1200a1-8671-464f-ab3b-bfc1fb0d6ed8.jpg?1682206474",
+    "price": 0.16,
+    "price_eur": 0.21
+  },
+  "Pile On": {
+    "name": "Pile On",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/492e9369-0ca3-4c31-b747-75d615daf6e4.jpg?1682203929",
+    "price": 0.37,
+    "price_eur": 0.35
+  },
+  "Placid Rottentail": {
+    "name": "Placid Rottentail",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/a/7a87c5d2-3ebc-442b-8618-963cfc63855f.jpg?1682204968",
+    "price": 0.18,
+    "price_eur": 0.12
+  },
+  "Polukranos Reborn // Polukranos, Engine of Ruin": {
+    "name": "Polukranos Reborn // Polukranos, Engine of Ruin",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/4/7/47f7d313-8333-41fe-8bfa-c96774dac228.jpg?1682204987",
+    "price": 0.32,
+    "price_eur": 0.43
+  },
+  "Portent Tracker": {
+    "name": "Portent Tracker",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/b/c/bc6104d4-d0af-40da-8227-14243d778e96.jpg?1682204997",
+    "price": 0.16,
+    "price_eur": 0.08
+  },
+  "Preening Champion": {
+    "name": "Preening Champion",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/4/4/44178ece-af31-4a94-88bc-c9ce43bb4573.jpg?1682203361",
+    "price": 0.1,
+    "price_eur": 0.1
+  },
+  "Progenitor Exarch": {
+    "name": "Progenitor Exarch",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/8/f86f7d03-ce71-498d-9dc5-2bd853ac0eae.jpg?1682202814",
+    "price": 0.24,
+    "price_eur": 0.26
+  },
+  "Protocol Knight": {
+    "name": "Protocol Knight",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/f/af6cb380-0b4d-4870-abef-928eb63e1702.jpg?1682203370",
+    "price": 0.07,
+    "price_eur": 0.07
+  },
+  "Pyretic Prankster // Glistening Goremonger": {
+    "name": "Pyretic Prankster // Glistening Goremonger",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0ee40c4b-2ca3-4cda-bc9e-451455c17adc.jpg?1739663272",
+    "price": 0.09,
+    "price_eur": 0.05
+  },
+  "Quintorius, Loremaster": {
+    "name": "Quintorius, Loremaster",
+    "color": "RW",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/a/1/a19b152c-8376-42f9-9daf-e139dc29c9ca.jpg?1682205653",
+    "price": 0.3,
+    "price_eur": 0.17
+  },
+  "Ral's Reinforcements": {
+    "name": "Ral's Reinforcements",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/4/74d0bb76-075c-49d7-9afb-e5bcf5b654f7.jpg?1682204429",
+    "price": 0.34,
+    "price_eur": 0.11
+  },
+  "Ramosian Greatsword": {
+    "name": "Ramosian Greatsword",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/f/efd6f04e-e83d-4580-ae3f-583ada848868.jpg?1682204440",
+    "price": 0.1,
+    "price_eur": 0.05
+  },
+  "Rampaging Geoderm": {
+    "name": "Rampaging Geoderm",
+    "color": "GR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/9/a973e70f-9e3e-47a3-94b9-7bb8a198a438.jpg?1682205662",
+    "price": 0.04,
+    "price_eur": 0.04
+  },
+  "Rampaging Raptor": {
+    "name": "Rampaging Raptor",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/6/4/64b80ddb-ce55-4ebc-b587-77843abc8bad.jpg?1682204450",
+    "price": 0.31,
+    "price_eur": 0.26
+  },
+  "Rankle and Torbran": {
+    "name": "Rankle and Torbran",
+    "color": "BR",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/d/9/d92c191e-329c-41f5-ae4f-1bb91fc001a0.jpg?1682205673",
+    "price": 0.21,
+    "price_eur": 0.19
+  },
+  "Ravenous Sailback": {
+    "name": "Ravenous Sailback",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/2/a225cb30-9f3e-4cfa-bdd6-a7c73c95ea2b.jpg?1682205007",
+    "price": 0.18,
+    "price_eur": 0.11
+  },
+  "Realmbreaker's Grasp": {
+    "name": "Realmbreaker's Grasp",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/7/67a41675-47dd-40ca-a30c-0fd0faa32b76.jpg?1682202825",
+    "price": 0.09,
+    "price_eur": 0.16
+  },
+  "Realmbreaker, the Invasion Tree": {
+    "name": "Realmbreaker, the Invasion Tree",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/7/b/7b608134-cfc3-48bf-92d8-35d732fcde54.jpg?1682205787",
+    "price": 0.59,
+    "price_eur": 0.46
+  },
+  "Redcap Heelslasher": {
+    "name": "Redcap Heelslasher",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/c/3c7ca435-aa84-4d35-80db-d1c74b878b12.jpg?1682204460",
+    "price": 0.04,
+    "price_eur": 0.06
+  },
+  "Referee Squad": {
+    "name": "Referee Squad",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/3/434515bf-de57-4c00-b0b4-c9579cc1b84c.jpg?1682206502",
+    "price": 0.15,
+    "price_eur": 0.25
+  },
+  "Render Inert": {
+    "name": "Render Inert",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/3/b3b66ef5-9b93-4042-a618-c1ade83d0004.jpg?1682203939",
+    "price": 0.13,
+    "price_eur": 0.06
+  },
+  "Rona, Herald of Invasion // Rona, Tolarian Obliterator": {
+    "name": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+    "color": "",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/f/4/f487b582-e73f-4325-939f-95fc5a9aba49.jpg?1739662888",
+    "price": 1.76,
+    "price_eur": 1.45
+  },
+  "Rugged Highlands": {
+    "name": "Rugged Highlands",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/a/3aeef1b1-a351-47ce-a686-a0eb0a35a894.jpg?1682205872",
+    "price": 0.09,
+    "price_eur": 0.07
+  },
+  "Ruins Recluse": {
+    "name": "Ruins Recluse",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/0/c0c0fdf5-2f56-4480-9ccb-84471b3e5331.jpg?1682206584",
+    "price": 3.34,
+    "price_eur": 1.99
+  },
+  "Saiba Cryptomancer": {
+    "name": "Saiba Cryptomancer",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/9/3934d535-740d-471a-bbf1-c3b26b1cd596.jpg?1682203400",
+    "price": 0.22,
+    "price_eur": 0.16
+  },
+  "Sandstalker Moloch": {
+    "name": "Sandstalker Moloch",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/b/eb17b083-413b-4a09-a935-ac27594e3bd6.jpg?1682205018",
+    "price": 0.08,
+    "price_eur": 0.04
+  },
+  "Scorn-Blade Berserker": {
+    "name": "Scorn-Blade Berserker",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/7/9/792e7386-4c2d-4fa9-b499-fa3681f2a50e.jpg?1682211227",
+    "price": 0.08,
+    "price_eur": 0.12
+  },
+  "Scoured Barrens": {
+    "name": "Scoured Barrens",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/6/66aefbfc-3f67-443d-8ec4-cc9beafb64ee.jpg?1682205882",
+    "price": 0.18,
+    "price_eur": 0.1
+  },
+  "Scrappy Bruiser": {
+    "name": "Scrappy Bruiser",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/a/b/ab6c877a-25f7-4ee7-8cf0-33728ef085fc.jpg?1682204470",
+    "price": 0.22,
+    "price_eur": 0.09
+  },
+  "Scrollshift": {
+    "name": "Scrollshift",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/f/6fc278d1-2ea4-4fbc-95cd-a9cd48c3c630.jpg?1682202834",
+    "price": 0.36,
+    "price_eur": 0.19
+  },
+  "Sculpted Perfection": {
+    "name": "Sculpted Perfection",
+    "color": "BW",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/5/9/594aefa2-7a5b-4ec1-841b-a6ef4f5aa2b1.jpg?1682205682",
+    "price": 0.22,
+    "price_eur": 0.07
+  },
+  "Seal from Existence": {
+    "name": "Seal from Existence",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/c/2ccc29cc-025d-402e-9fe3-75998eb290c9.jpg?1682202845",
+    "price": 0.11,
+    "price_eur": 0.14
+  },
+  "Searing Barb": {
+    "name": "Searing Barb",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/9/69f156b6-68c2-4787-b3f0-6d1079bb576f.jpg?1682204482",
+    "price": 0.14,
+    "price_eur": 0.02
+  },
+  "Seed of Hope": {
+    "name": "Seed of Hope",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/8/084a8b94-0c5d-41e0-88e4-fe91ab92c09d.jpg?1682205028",
+    "price": 0.25,
+    "price_eur": 0.26
+  },
+  "See Double": {
+    "name": "See Double",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/4/1/41634103-7b58-4feb-84b7-90a07a7b474f.jpg?1682203410",
+    "price": 0.86,
+    "price_eur": 0.58
+  },
+  "Seedpod Caretaker": {
+    "name": "Seedpod Caretaker",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/8/0861bda4-d014-4908-aed5-3f3bf78704cf.jpg?1682206484",
+    "price": 0.16,
+    "price_eur": 0.27
+  },
+  "Seer of Stolen Sight": {
+    "name": "Seer of Stolen Sight",
+    "color": "B",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/9/d/9d0b3232-44ee-481d-81d9-46432f853a7d.jpg?1682206530",
+    "price": 0.19,
+    "price_eur": 0.4
+  },
+  "Seraph of New Capenna // Seraph of New Phyrexia": {
+    "name": "Seraph of New Capenna // Seraph of New Phyrexia",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/f/b/fbd9ed1d-1972-4db8-bc43-b05b94956aa0.jpg?1739650168",
+    "price": 0.09,
+    "price_eur": 0.05
+  },
+  "Serpent-Blade Assailant": {
+    "name": "Serpent-Blade Assailant",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/f/6fabc49f-b665-4c56-b06e-03220f7918bb.jpg?1682205039",
+    "price": 0.17,
+    "price_eur": 0.06
+  },
+  "Shatter the Source": {
+    "name": "Shatter the Source",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/3/032720a1-410b-4638-9294-35fd8e27375f.jpg?1682204493",
+    "price": 0.09,
+    "price_eur": 0.15
+  },
+  "Sheoldred // The True Scriptures": {
+    "name": "Sheoldred // The True Scriptures",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/b/f/bf2249e6-af74-4b88-8eb7-144ce8fa7f6b.jpg?1682203978",
+    "price": 17.66,
+    "price_eur": 14.91
+  },
+  "Shivan Branch-Burner": {
+    "name": "Shivan Branch-Burner",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/5/e585631c-bd41-4b48-aac4-4b6f5636ecd5.jpg?1682204503",
+    "price": 0.15,
+    "price_eur": 0.08
+  },
+  "Sigiled Sentinel": {
+    "name": "Sigiled Sentinel",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/f/7f65b178-51d6-4dcb-a1cc-4b4dcb2237cd.jpg?1682202875",
+    "price": 0.04,
+    "price_eur": 0.04
+  },
+  "Skittering Surveyor": {
+    "name": "Skittering Surveyor",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/b/8bae9f1d-e96d-444c-a0fd-5608243ee6c8.jpg?1682205797",
+    "price": 0.04,
+    "price_eur": 0.08
+  },
+  "Skyclave Aerialist // Skyclave Invader": {
+    "name": "Skyclave Aerialist // Skyclave Invader",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/c/d/cd1c8e1a-bd38-47a2-a55a-682ebaede960.jpg?1682203429",
+    "price": 0.06,
+    "price_eur": 0.06
+  },
+  "Stasis Field": {
+    "name": "Stasis Field",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/8/38211d78-ebac-4150-ac11-7613a0e9e1bc.jpg?1682203438",
+    "price": 0.06,
+    "price_eur": 0.1
+  },
+  "Stoke the Flames": {
+    "name": "Stoke the Flames",
+    "color": "R",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/4/04113b3c-cc8f-4b15-9091-f82ea3df2e7c.jpg?1682204515",
+    "price": 0.19,
+    "price_eur": 0.18
+  },
+  "Stormclaw Rager": {
+    "name": "Stormclaw Rager",
+    "color": "BR",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/3/b/3b00c6e1-dfda-4c47-b1d8-4c114a921477.jpg?1682205692",
+    "price": 0.27,
+    "price_eur": 0.08
+  },
+  "Storm the Seedcore": {
+    "name": "Storm the Seedcore",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/b/f/bf989a4d-3209-4071-b6e9-d2b99372ec10.jpg?1682205050",
+    "price": 0.07,
+    "price_eur": 0.06
+  },
+  "Streetwise Negotiator": {
+    "name": "Streetwise Negotiator",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/8/e83f9565-4c04-449d-b337-0eff3fd0c295.jpg?1682205060",
+    "price": 0.11,
+    "price_eur": 0.03
+  },
+  "Sun-Blessed Guardian // Furnace-Blessed Conqueror": {
+    "name": "Sun-Blessed Guardian // Furnace-Blessed Conqueror",
+    "color": "",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/6/3/630ce82b-0d09-4a12-8cba-0b0ed8415128.jpg?1739650863",
+    "price": 0.06,
+    "price_eur": 0.04
+  },
+  "Sunder the Gateway": {
+    "name": "Sunder the Gateway",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/9/194ad785-21bb-4ce6-8776-31c67259fb99.jpg?1682202905",
+    "price": 0.13,
+    "price_eur": 0.1
+  },
+  "Sunfall": {
+    "name": "Sunfall",
+    "color": "W",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/2/32e29c7d-ed4b-4eff-b3c2-d99e5b63ef8d.jpg?1682202915",
+    "price": 0.68,
+    "price_eur": 0.97
+  },
+  "Surge of Salvation": {
+    "name": "Surge of Salvation",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/1/41d25ee5-0348-4206-bb6a-ccb0a599ac87.jpg?1682202925",
+    "price": 0.58,
+    "price_eur": 0.5
+  },
+  "Surrak and Goreclaw": {
+    "name": "Surrak and Goreclaw",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/c/9c10934d-9016-43c4-a7ab-56cc7d8f671f.jpg?1682206592",
+    "price": 11.62,
+    "price_eur": 7.04
+  },
+  "Swiftwater Cliffs": {
+    "name": "Swiftwater Cliffs",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/5/957efc4e-c2a9-46a2-b9e3-20dc419ffd05.jpg?1682205892",
+    "price": 0.14,
+    "price_eur": 0.08
+  },
+  "Sword of Once and Future": {
+    "name": "Sword of Once and Future",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/1/6/1670393d-86f0-46fb-b577-f73a1da2a3ed.jpg?1682205808",
+    "price": 4.28,
+    "price_eur": 2.54
+  },
+  "Swordsworn Cavalier": {
+    "name": "Swordsworn Cavalier",
+    "color": "W",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/a/aa0461fc-4298-45b9-90a0-939093cf2544.jpg?1682202934",
+    "price": 0.03,
+    "price_eur": 0.08
+  },
+  "Tandem Takedown": {
+    "name": "Tandem Takedown",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/0/e/0eb51be0-6a2e-464a-86d1-aa36179c8c18.jpg?1682205070",
+    "price": 0.06,
+    "price_eur": 0.08
+  },
+  "Tangled Skyline": {
+    "name": "Tangled Skyline",
+    "color": "G",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/0/e08e0ef1-a8e0-4c0a-a996-3eee89e37fee.jpg?1682205081",
+    "price": 0.15,
+    "price_eur": 0.09
+  },
+  "Tarkir Duneshaper // Burnished Dunestomper": {
+    "name": "Tarkir Duneshaper // Burnished Dunestomper",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/d/fdc37acc-05ba-4457-8a03-d635497bfb1b.jpg?1682202953",
+    "price": 0.09,
+    "price_eur": 0.05
+  },
+  "Temporal Cleansing": {
+    "name": "Temporal Cleansing",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/e/6e67031a-8216-4c66-b6fb-6628bd02d279.jpg?1682203448",
+    "price": 0.11,
+    "price_eur": 0.09
+  },
+  "Tenured Oilcaster": {
+    "name": "Tenured Oilcaster",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/5/65721bc1-87fa-45b9-8b45-ee77c1aab6ac.jpg?1682203989",
+    "price": 0.11,
+    "price_eur": 0.06
+  },
+  "Terror of Towashi": {
+    "name": "Terror of Towashi",
+    "color": "B",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/a/9a759d44-5496-437e-a714-acc398988b84.jpg?1682206539",
+    "price": 0.24,
+    "price_eur": 0.24
+  },
+  "Thalia and The Gitrog Monster": {
+    "name": "Thalia and The Gitrog Monster",
+    "color": "BGW",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/8/d/8d7ff937-de92-445f-976c-726fef5c91cc.jpg?1682205702",
+    "price": 5.52,
+    "price_eur": 2.92
+  },
+  "Thornwood Falls": {
+    "name": "Thornwood Falls",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/1/f1b753e2-6e53-4ed1-9be4-66f8eb005a11.jpg?1682205902",
+    "price": 0.12,
+    "price_eur": 0.08
+  },
+  "Thrashing Frontliner": {
+    "name": "Thrashing Frontliner",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/7/77fd9ccb-2cb0-4fe1-9eb0-ba929bb527be.jpg?1682204526",
+    "price": 0.05,
+    "price_eur": 0.04
+  },
+  "Thunderhead Squadron": {
+    "name": "Thunderhead Squadron",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/8/e/8eaa0946-591f-4136-9d8a-e56934151383.jpg?1682203457",
+    "price": 0.03,
+    "price_eur": 0.04
+  },
+  "Tidal Terror": {
+    "name": "Tidal Terror",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/2/e/2e943948-2326-4446-9a16-64d6040b8856.jpg?1682203466",
+    "price": 0.14,
+    "price_eur": 0.1
+  },
+  "Tiller of Flesh": {
+    "name": "Tiller of Flesh",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/4/9/49e206f2-1647-4456-8f2f-b67d053413e2.jpg?1682202963",
+    "price": 0.18,
+    "price_eur": 0.12
+  },
+  "Timberland Ancient": {
+    "name": "Timberland Ancient",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/f/5f73cd60-cd89-4c7a-85a6-e0ae34ca101b.jpg?1682205092",
+    "price": 0.14,
+    "price_eur": 0.1
+  },
+  "Trailblazing Historian": {
+    "name": "Trailblazing Historian",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/5/a53088da-25b5-4c7e-9a11-456fbc814dfc.jpg?1682204537",
+    "price": 0.15,
+    "price_eur": 0.07
+  },
+  "Tranquil Cove": {
+    "name": "Tranquil Cove",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/3/7/3799dcb2-7cd7-4d28-b9af-249e3ebe3d3b.jpg?1682205913",
+    "price": 0.09,
+    "price_eur": 0.06
+  },
+  "Transcendent Message": {
+    "name": "Transcendent Message",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/3/2/3261c7e6-45be-44d1-8855-026359ba0ae7.jpg?1682203476",
+    "price": 0.37,
+    "price_eur": 0.22
+  },
+  "Traumatic Revelation": {
+    "name": "Traumatic Revelation",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/5/9/59d40511-c9ff-466c-8eb9-cc7afc5c2eab.jpg?1682204020",
+    "price": 0.16,
+    "price_eur": 0.11
+  },
+  "Tribute to the World Tree": {
+    "name": "Tribute to the World Tree",
+    "color": "G",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/c/0/c0cdeaba-fc21-44e6-bf99-aa1ff379401b.jpg?1682205102",
+    "price": 13.23,
+    "price_eur": 9.57
+  },
+  "Unseal the Necropolis": {
+    "name": "Unseal the Necropolis",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/f/9f9825ac-c186-4a10-b9e3-e73b10f75ed9.jpg?1682204028",
+    "price": 0.1,
+    "price_eur": 0.07
+  },
+  "Urabrask // The Great Work": {
+    "name": "Urabrask // The Great Work",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/7/1/712fb9e5-bd67-4173-a2d4-061aeb6253b5.jpg?1682204559",
+    "price": 16.65,
+    "price_eur": 12.98
+  },
+  "Urn of Godfire": {
+    "name": "Urn of Godfire",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/f/f/ff5f302e-d884-4995-ba3c-8c22f9045318.jpg?1682205818",
+    "price": 0.11,
+    "price_eur": 0.08
+  },
+  "Vanquish the Weak": {
+    "name": "Vanquish the Weak",
+    "color": "B",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/3/935cb9a2-11ba-45d9-ab38-dea23cecf521.jpg?1682204039",
+    "price": 0.08,
+    "price_eur": 0.05
+  },
+  "Vengeant Earth": {
+    "name": "Vengeant Earth",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/6/16e20076-5d24-4c59-b707-6d20e121032f.jpg?1682205112",
+    "price": 0.17,
+    "price_eur": 0.05
+  },
+  "Volcanic Spite": {
+    "name": "Volcanic Spite",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/9/69490262-afc2-4692-8fac-b771a972c8f8.jpg?1682204570",
+    "price": 0.25,
+    "price_eur": 0.13
+  },
+  "Voldaren Thrillseeker": {
+    "name": "Voldaren Thrillseeker",
+    "color": "R",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/1/d/1dbcd466-fb99-4388-a118-4534b85544f0.jpg?1682204582",
+    "price": 0.17,
+    "price_eur": 0.36
+  },
+  "Vorinclex // The Grand Evolution": {
+    "name": "Vorinclex // The Grand Evolution",
+    "color": "",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/e/2/e24b5289-d3b5-4b4d-bb37-69bf2c3b48bc.jpg?1689246885",
+    "price": 6.35,
+    "price_eur": 6.48
+  },
+  "War Historian": {
+    "name": "War Historian",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/0/0/0007efdf-417d-48a7-b119-3a2fda3e1158.jpg?1682205143",
+    "price": 0.04,
+    "price_eur": 0.04
+  },
+  "War-Trained Slasher": {
+    "name": "War-Trained Slasher",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/c/2/c2a87c5d-5efc-4ceb-b165-27f807117f71.jpg?1682204592",
+    "price": 0.06,
+    "price_eur": 0.06
+  },
+  "Wary Thespian": {
+    "name": "Wary Thespian",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/6/7/675b29bf-0b64-410f-9a92-c88e5615c27f.jpg?1682205154",
+    "price": 0.04,
+    "price_eur": 0.07
+  },
+  "Wicked Slumber": {
+    "name": "Wicked Slumber",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/1/4/140cd8bd-b74d-4cb1-b78f-8de3cbd878ff.jpg?1682203484",
+    "price": 0.09,
+    "price_eur": 0.04
+  },
+  "Wildwood Escort": {
+    "name": "Wildwood Escort",
+    "color": "G",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/a/8/a8c6fc26-df6e-44de-96e6-a6e34086edc2.jpg?1682205164",
+    "price": 0.13,
+    "price_eur": 0.03
+  },
+  "Wind-Scarred Crag": {
+    "name": "Wind-Scarred Crag",
+    "color": "",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/7/f/7f2642cd-e3cc-4aab-8c00-4987284509b3.jpg?1682205924",
+    "price": 0.09,
+    "price_eur": 0.1
+  },
+  "Wrenn and Realmbreaker": {
+    "name": "Wrenn and Realmbreaker",
+    "color": "G",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/6/f/6f807d91-b157-44e8-a431-49782184f876.jpg?1682205174",
+    "price": 5.98,
+    "price_eur": 3.37
+  },
+  "Wrenn's Resolve": {
+    "name": "Wrenn's Resolve",
+    "color": "R",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/9/a/9a47999c-12d5-4e1a-a9c1-40a1757007f1.jpg?1682204603",
+    "price": 2.51,
+    "price_eur": 1.53
+  },
+  "Xerex Strobe-Knight": {
+    "name": "Xerex Strobe-Knight",
+    "color": "U",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/e/3/e38a32bc-133d-43d1-a6e3-80d39fe53d32.jpg?1682203494",
+    "price": 0.09,
+    "price_eur": 0.11
+  },
+  "Yargle and Multani": {
+    "name": "Yargle and Multani",
+    "color": "BG",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/c/9c15e244-14cc-46a5-abd4-66a58d1c0dd0.jpg?1682205711",
+    "price": 2.72,
+    "price_eur": 0.71
+  },
+  "Zephyr Singer": {
+    "name": "Zephyr Singer",
+    "color": "U",
+    "rarity": "rare",
+    "image_url": "https://cards.scryfall.io/large/front/9/6/9678966b-65f1-405c-b8db-5f2d4f434933.jpg?1682203503",
+    "price": 0.26,
+    "price_eur": 0.19
+  },
+  "Zephyr Winder": {
+    "name": "Zephyr Winder",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/1/4/14456a8e-016c-4407-8410-c490db3f5ea9.jpg?1682206512",
+    "price": 0.22,
+    "price_eur": 0.2
+  },
+  "Zhalfirin Lancer": {
+    "name": "Zhalfirin Lancer",
+    "color": "W",
+    "rarity": "uncommon",
+    "image_url": "https://cards.scryfall.io/large/front/2/7/277e5b49-c53f-4bf7-aac0-950d8708b957.jpg?1682202972",
+    "price": 0.08,
+    "price_eur": 0.03
+  },
+  "Zhalfirin Shapecraft": {
+    "name": "Zhalfirin Shapecraft",
+    "color": "U",
+    "rarity": "common",
+    "image_url": "https://cards.scryfall.io/large/front/e/4/e446a380-0316-46f7-8ac9-22bce773b35f.jpg?1682203512",
+    "price": 0.08,
+    "price_eur": 0.22
+  },
+  "Zimone and Dina": {
+    "name": "Zimone and Dina",
+    "color": "BGU",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/b/f/bf2af874-1052-4cad-90ed-d80e49d4c68c.jpg?1682205722",
+    "price": 0.46,
+    "price_eur": 0.53
+  },
+  "Zurgo and Ojutai": {
+    "name": "Zurgo and Ojutai",
+    "color": "RUW",
+    "rarity": "mythic",
+    "image_url": "https://cards.scryfall.io/large/front/e/a/eacbcd82-36e6-424c-bd4e-ec3a584836c5.jpg?1682205733",
+    "price": 1.68,
+    "price_eur": 1.2
+  }
+}

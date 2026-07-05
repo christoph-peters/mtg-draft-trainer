@@ -10,7 +10,8 @@ const SortOptions = [
 const LearningScreen = ({ 
   gameMode, 
   activeSet, 
-  selectedColors, 
+  selectedColors,
+  includeMulticolor = false,
   market,
   masterMetadata, 
   masterStats, 
@@ -31,10 +32,30 @@ const LearningScreen = ({
       
       // Color Filter
       if (selectedColors.length > 0) {
-        if (!card.color || card.color === "") return true;
-        for (let i = 0; i < card.color.length; i++) {
-          if (!selectedColors.includes(card.color[i])) return false;
+        const wantsColorless = selectedColors.includes('C');
+        const nonColorlessSelected = selectedColors.filter(c => c !== 'C');
+        const cardColor = card.color || '';
+        const isColorless = cardColor === '' || cardColor.length === 0;
+        const isMonoColor = cardColor.length === 1;
+
+        if (wantsColorless && nonColorlessSelected.length === 0) {
+          return isColorless;
         }
+
+        if (wantsColorless && isColorless) return true;
+
+        if (isColorless) return false;
+
+        if (isMonoColor) {
+          return nonColorlessSelected.includes(cardColor[0]);
+        }
+
+        // Multi-color card
+        if (!includeMulticolor) return false;
+        for (let i = 0; i < cardColor.length; i++) {
+          if (!nonColorlessSelected.includes(cardColor[i])) return false;
+        }
+        return true;
       }
 
       return true;
@@ -66,7 +87,7 @@ const LearningScreen = ({
     }
 
     return validCards.slice(0, 20); // Top 20 cards
-  }, [masterMetadata, masterStats, selectedColors, sortBy, dataState, market]);
+  }, [masterMetadata, masterStats, selectedColors, includeMulticolor, sortBy, dataState, market]);
 
   // Reset index when deck changes
   useEffect(() => {

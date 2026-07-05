@@ -9,6 +9,7 @@ const GameScreen = ({
   gameMode = 'draft',
   activeSet,
   selectedColors,
+  includeMulticolor = false,
   market,
   masterMetadata,
   masterStats,
@@ -45,10 +46,33 @@ const GameScreen = ({
       // Color Filter (only in draft/winrate mode)
       if (gameMode === 'draft' || gameMode === 'winrate') {
         if (selectedColors.length > 0) {
-          if (!card.color || card.color === "") return true;
-          for (let i = 0; i < card.color.length; i++) {
-            if (!selectedColors.includes(card.color[i])) return false;
+          const wantsColorless = selectedColors.includes('C');
+          const nonColorlessSelected = selectedColors.filter(c => c !== 'C');
+          const cardColor = card.color || '';
+          const isColorless = cardColor === '' || cardColor.length === 0;
+          const isMonoColor = cardColor.length === 1;
+
+          if (wantsColorless && nonColorlessSelected.length === 0) {
+            // Only colorless selected: show only colorless cards
+            return isColorless;
           }
+
+          if (wantsColorless && isColorless) return true;
+
+          if (isColorless) return false; // colors selected but card is colorless
+
+          if (isMonoColor) {
+            // Mono card: include only if its color is in the (non-colorless) selection
+            return nonColorlessSelected.includes(cardColor[0]);
+          }
+
+          // Multi-color card
+          if (!includeMulticolor) return false;
+          // Include multicolor if ALL its colors are within the selected set
+          for (let i = 0; i < cardColor.length; i++) {
+            if (!nonColorlessSelected.includes(cardColor[i])) return false;
+          }
+          return true;
         }
       }
 

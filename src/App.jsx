@@ -29,8 +29,11 @@ function App() {
     () => localStorage.getItem('mtg_game_mode') || 'draft'
   );
 
-  const [activeSet, setActiveSet] = useState('SOS');
+  const [activeSet, setActiveSet] = useState(SETS[0].id);
   const [selectedColors, setSelectedColors] = useState([]);
+  const [includeMulticolor, setIncludeMulticolor] = useState(
+    () => localStorage.getItem('mtg_include_multicolor') === 'true'
+  );
   const [market, setMarket] = useState(
     () => localStorage.getItem('mtg_market') || 'eur'
   );
@@ -214,7 +217,12 @@ function App() {
             <>
               <ManaSelector 
                 selectedColors={selectedColors} 
-                onChange={setSelectedColors} 
+                onChange={setSelectedColors}
+                includeMulticolor={includeMulticolor}
+                onMulticolorChange={(val) => {
+                  setIncludeMulticolor(val);
+                  localStorage.setItem('mtg_include_multicolor', val);
+                }}
               />
               
               <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
@@ -234,6 +242,7 @@ function App() {
             gameMode={gameMode}
             activeSet={activeSet}
             selectedColors={selectedColors}
+            includeMulticolor={includeMulticolor}
             market={market}
             masterMetadata={masterMetadata}
             masterStats={masterStats}
@@ -246,6 +255,7 @@ function App() {
             gameMode={gameMode}
             activeSet={activeSet}
             selectedColors={selectedColors}
+            includeMulticolor={includeMulticolor}
             market={market}
             masterMetadata={masterMetadata}
             masterStats={masterStats}

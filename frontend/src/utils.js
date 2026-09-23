@@ -2,10 +2,11 @@ export const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Fo
 
 // Ordered by release date, newest first
 export const SETS = [
-  { id: 'MSH', name: 'Marvel Super Heroes' },
+  { id: 'MSH', name: 'Marvel Super Heroes (2026)' },
   { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
   { id: 'TMT', name: 'TMNT (2026)' },
   { id: 'ECL', name: 'Lorwyn Eclipsed (2026)' },
+  { id: 'HOB', name: 'The Hobbit (2025)' },
   { id: 'TLA', name: 'Avatar: The Last Airbender (2025)' },
   { id: 'SPM', name: "Marvel's Spider-Man (2025)" },
   { id: 'EOE', name: 'Edge of Eternities (2025)' },

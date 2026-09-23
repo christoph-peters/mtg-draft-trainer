@@ -46,7 +46,7 @@ jobs:
           else
             # Default: update the 6 most recent sets (stats accumulate fast for new sets,
             # old sets are essentially frozen). Edit this list when a new set is added.
-            echo "sets=MSH SOS TMT ECL TLA SPM" >> $GITHUB_OUTPUT
+            echo "sets=MSH SOS TMT ECL HOB TLA" >> $GITHUB_OUTPUT
           fi
 
       - name: Fetch card data for each set

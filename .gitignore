@@ -7,6 +7,10 @@ frontend/*.local
 # Backend virtualenv
 backend/.venv
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Logs
 *.log
 npm-debug.log*

@@ -2,6 +2,7 @@ export const BASIC_LANDS = new Set(["Plains", "Island", "Swamp", "Mountain", "Fo
 
 // Ordered by release date, newest first
 export const SETS = [
+  { id: 'FRA', name: 'Reality Fracture (2026)' },
   { id: 'HOB', name: 'The Hobbit (2026)' },
   { id: 'MSH', name: 'Marvel Super Heroes (2026)' },
   { id: 'SOS', name: 'Secrets of Strixhaven (2026)' },
